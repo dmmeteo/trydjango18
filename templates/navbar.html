@@ -1,0 +1,70 @@
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'home' %}">RSS agregator</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                {% if request.user.is_superuser %}
+                    <li><a href="{% url 'admin:index' %}">Admin</a></li>
+                {% endif %}
+            </ul>
+            {% if request.user.is_authenticated %}
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>{{ request.user }}</b> <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'account_logout' %}">Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            {% endif %}
+            {% if not request.user.is_authenticated and not '/accounts/login/' in request.get_full_path and not '/accounts/signup/' in request.get_full_path %}
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <span
+                                class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Sign in via:</p>
+                                        <div class="social-buttons">
+                                            <a href="/accounts/facebook/login/?process=login" class="btn btn-fb">Facebook</a>
+                                            <a href="/accounts/google/login/?process=login"
+                                               class="btn btn-gg">Google</a>
+                                        </div>
+                                        <p align="center">or</p>
+                                        <form class="form" role="form" method="post" action="{% url 'account_login' %}"
+                                              accept-charset="UTF-8" id="login-nav">
+                                            {% csrf_token %}
+                                            <div class="form-group">
+                                                <label class="sr-only" for="user">User name</label>
+                                                <input type="text" class="form-control" name="login" id="user"
+                                                       placeholder="User name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="pass">Password</label>
+                                                <input type="password" class="form-control" name="password" id="pass"
+                                                       placeholder="Password" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary btn-block"><span
+                                                        class="glyphicon glyphicon-log-in"></span> Sign in
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="bottom text-center">
+                                        Not registered? <a href="{% url 'account_signup' %}"><b>Sign up</b></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+</nav>
