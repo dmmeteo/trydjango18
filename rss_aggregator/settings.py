@@ -147,3 +147,13 @@ ACCOUNT_EMAIL_REQUIRED = True
 
 # User will be able to authenticate by means email and user name.
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+
+
+# CouchDB settings
+COUCHDB = {
+    'db': {
+        'server': 'http://127.0.0.1:5984',
+        'database': 'rss_aggregator',
+        'default': True
+    }
+}
