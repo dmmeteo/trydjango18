@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block head_title %}Couch{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post">
+                {% csrf_token %}
+                <button class="btn btn-primary btn-block">Send</button>
+            </form>
+            <pre>
+
+            </pre>
+        </div>
+    </div>
+{% endblock %}
