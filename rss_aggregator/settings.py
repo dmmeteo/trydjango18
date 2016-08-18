@@ -46,7 +46,8 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
     # my apps
-    'aggregator'
+    'aggregator',
+    'couch'
 )
 
 MIDDLEWARE_CLASSES = (
