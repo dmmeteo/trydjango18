@@ -2,12 +2,11 @@ from django.shortcuts import render
 from .forms import CouchForm
 import django_couch
 from django.shortcuts import redirect
-from django.utils import timezone
+import datetime
 
 
 # Create your views here.
 def home(request):
-
     # Added our form.
     form = CouchForm(request.POST or None)
 
@@ -20,14 +19,15 @@ def home(request):
 
     # Fetching a data from couchdb.
     query = db.view('sub/sub').rows
-    print query
+
     # Checking a form
     if form.is_valid():
         title = form.cleaned_data.get('title')
         link = form.cleaned_data.get('link')
 
         # Sending our data to the couchdb
-        data = {"date": str(timezone.now()), "title": title, "link": link, "type": "subscriptions"}
+        data = {"date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "title": title, "link": link,
+                "type": "subscriptions"}
 
         # Create our document in couchdb
         db.create(data)
@@ -36,7 +36,7 @@ def home(request):
     # Define our context, that we'll send.
     context = {
         'form': form,
-        'query': sorted(query, key=query[0].key, reverse=True)
+        'query': sorted(query, reverse=True)
     }
 
     return render(request, 'couch/home.html', context)
