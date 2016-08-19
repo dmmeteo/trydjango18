@@ -7,9 +7,13 @@ import datetime
 # Declare our couch database source
 db = django_couch.db('db')
 
-
+# Simple view, that list whole specter rss source.
 def home(request):
-    return render(request, 'aggregator/home.html', {})
+    # Get our view from couchdb, set it to response variable and represent it likes rows
+    response = db.view('subscriptions/source').rows
+
+    # Return our rendered template with reverse sorting a couch view
+    return render(request, 'aggregator/home.html', {'response': sorted(response, reverse=True)})
 
 
 # The view that check our form and create a new document each time, when we sent post data by means the form

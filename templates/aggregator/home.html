@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block head_title %}List of RSS sources{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <table class="table table-responsive table-hover">
+                <thead>
+                <th class="lead">#</th>
+                <th class="lead">Title</th>
+                <th class="lead">Link</th>
+                </thead>
+                {% for foo in response %}
+                    <tbody>
+                    <th>{{ forloop.counter }}</th>
+                    {% for item in foo.value %}
+                        <th>{{ item }}</th>
+                    {% endfor %}
+                    </tbody>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+{% endblock %}
