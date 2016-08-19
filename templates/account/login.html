@@ -26,9 +26,9 @@
                href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
             <p class="lead text-align-center">or</p>
             <hr>
-            <p class="text-align-center"><a href="/accounts/facebook/login/?process=login" class="btn btn-social-icon btn-facebook"><span
+            <p class="text-align-center"><a href="{% provider_login_url 'facebook' method='oauth2' %}" class="btn btn-social-icon btn-facebook"><span
                     class="fa fa-facebook"></span></a> <a
-                    href="/accounts/google/login/?process=login" class="btn btn-social-icon btn-google"><span class="fa fa-google"></span></a></p>
+                    href="{% provider_login_url 'google' method='oauth2' %}" class="btn btn-social-icon btn-google"><span class="fa fa-google"></span></a></p>
         </div>
     </div>
 {% endblock %}
