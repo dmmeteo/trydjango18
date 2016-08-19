@@ -15,14 +15,17 @@
             <br>
             <table class="table table-hover table-responsive">
                 <thead>
-                <th>Link</th>
+                <th>ID</th>
                 <th>Title</th>
+                <th>Link</th>
                 </thead>
+                {% for foo in query %}
                 <tbody>
-                {% for key in query %}
-                <th>{{ key.value }}</th>
-                {% endfor %}
+                <th>{{ foo.id }}</th>
+                <th>{{ foo.key }}</th>
+                <th>{{ foo.value }}</th>
                 </tbody>
+                {% endfor %}
             </table>
         </div>
     </div>
