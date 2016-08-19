@@ -1,3 +1,4 @@
+{% load socialaccount %}
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <div class="navbar-header">
@@ -8,6 +9,7 @@
                 {% if request.user.is_superuser %}
                     <li><a href="{% url 'admin:index' %}">Admin</a></li>
                 {% endif %}
+                <li><a href="{% url 'couch:home' %}">Couch</a></li>
             </ul>
             {% if request.user.is_authenticated %}
                 <ul class="nav navbar-nav navbar-right">
@@ -31,8 +33,9 @@
                                     <div class="col-md-12">
                                         <p>Sign in via:</p>
                                         <div class="social-buttons">
-                                            <a href="/accounts/facebook/login/?process=login" class="btn btn-fb">Facebook</a>
-                                            <a href="/accounts/google/login/?process=login"
+                                            <a href="{% provider_login_url 'facebook' method='oauth2' %}"
+                                               class="btn btn-fb">Facebook</a>
+                                            <a href="{% provider_login_url 'google' method='oauth2' %}"
                                                class="btn btn-gg">Google</a>
                                         </div>
                                         <p align="center">or</p>
