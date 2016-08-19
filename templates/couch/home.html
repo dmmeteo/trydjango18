@@ -16,6 +16,7 @@
             <table class="table table-hover table-responsive">
                 <thead>
                 <th>ID</th>
+                <th>Date</th>
                 <th>Title</th>
                 <th>Link</th>
                 </thead>
@@ -23,7 +24,9 @@
                 <tbody>
                 <th>{{ foo.id }}</th>
                 <th>{{ foo.key }}</th>
-                <th>{{ foo.value }}</th>
+                {% for val in foo.value %}
+                <th>{{ val }}</th>
+                {% endfor %}
                 </tbody>
                 {% endfor %}
             </table>
