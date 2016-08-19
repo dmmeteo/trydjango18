@@ -36,7 +36,6 @@ def home(request):
     # Define our context, that we'll send.
     context = {
         'form': form,
-        # 'result': result,
         'query': query
     }
 
