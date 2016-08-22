@@ -30,6 +30,7 @@ def add(request):
 
         # Data that must to be send by means form in chouchdb
         data = {"date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "title": title, "link": link,
+                "user": str(request.user),
                 "type": "source"}
         db.create(data)
 
@@ -40,11 +41,20 @@ def add(request):
     return render(request, 'aggregator/add.html', {'form': form})
 
 
+# Edit view deletes unneeded sources and show all available sources for certain user
 def edit(request):
     # Get our view from couchdb, set it to response variable and represent it likes rows
     response = db.view('subscriptions/source').rows
 
-    # Check our post data
+    # Define our empty list for values from couchdb
+    items = []
+
+    # Pass all keys though loop
+    for key in response:
+        if str(request.user) == key.value[2]:
+                items.append(key)
+
+    # Check our post data, when everyting is okay, delete checked source
     if 'delete' in request.POST:
         db.delete(db[request.POST['delete']])
 
@@ -53,4 +63,8 @@ def edit(request):
         return redirect('aggregator:edit')
 
     # Return our rendered template with reverse sorting a couch view
-    return render(request, 'aggregator/edit.html', {'response': sorted(response, reverse=True)})
+    return render(request, 'aggregator/edit.html', {'response': sorted(items, reverse=True)})
+
+
+def update(request):
+    return render(request, 'aggregator/update.html', {})
