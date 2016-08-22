@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import AddRssSource
+from .forms import AddRssSource, CommentForm
 from django.shortcuts import redirect
 import django_couch
 import datetime
@@ -36,4 +36,6 @@ def add(request):
 
 
 def edit(request):
-    return render(request, 'aggregator/edit.html', {})
+    form = CommentForm()
+
+    return render(request, 'aggregator/edit.html', {'form': form})
