@@ -8,14 +8,14 @@ class AddRssSource(forms.Form):
     link = forms.CharField(max_length=500, required=True)
 
 
-# BIRTH_YEAR_CHOICES = ('1980', '1981', '1982')
-# FAVORITE_COLORS_CHOICES = (
-#     ('blue', 'Blue'),
-#     ('green', 'Green'),
-#     ('black', 'Black'),
-# )
-#
-# class CommentForm(forms.Form):
-#     birth_year = forms.DateField(widget=SelectDateWidget())
-#     favorite_colors = forms.MultipleChoiceField(required=False,
-#         widget=forms.CheckboxSelectMultiple, choices=FAVORITE_COLORS_CHOICES)
+BIRTH_YEAR_CHOICES = ('1980', '1981', '1982')
+FAVORITE_COLORS_CHOICES = (
+    ('blue', 'Blue'),
+    ('green', 'Green'),
+    ('black', 'Black'),
+)
+
+class CommentForm(forms.Form):
+    birth_year = forms.DateField(widget=SelectDateWidget())
+    favorite_colors = forms.MultipleChoiceField(required=False,
+        widget=forms.CheckboxSelectMultiple, choices=FAVORITE_COLORS_CHOICES)
