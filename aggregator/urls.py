@@ -5,5 +5,6 @@ from . import views
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^add/$', views.add, name='add'),
-    url(r'^edit/$', views.edit, name='edit')
+    url(r'^edit/$', views.edit, name='edit'),
+    # url(r'^delete/(?P<doc_id>\w+)/$', views.delete, name='delete')
 ]

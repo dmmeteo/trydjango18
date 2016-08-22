@@ -3,23 +3,34 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <table class="table table-responsive table-hover">
-                <thead>
-                <th class="lead">#</th>
-                <th class="lead">Title</th>
-                <th class="lead">Link</th>
-                <th class="lead">Action</th>
-                </thead>
-                {% for foo in response %}
-                    <tbody>
-                    <th>{{ forloop.counter }}</th>
-                    {% for item in foo.value %}
-                        <th>{{ item }}</th>
-                        <th><span class="fa fa-remove"></span></th>
+            {% if response %}
+                <table class="table table-responsive table-hover">
+                    <thead>
+                    <th class="lead text-align-center">#</th>
+                    <th class="lead text-align-center">Title</th>
+                    <th class="lead text-align-center">Link</th>
+                    <th class="lead text-align-center">Action</th>
+                    </thead>
+                    {% for foo in response %}
+                        <tbody>
+                        <th>{{ forloop.counter }}</th>
+                        {% for item in foo.value %}
+                            <th>{{ item }}</th>
+                        {% endfor %}
+                        <th class="text-align-center">
+                            <form action="" method="post">
+                                {% csrf_token %}
+                                <button class="btn btn-default" name="delete" value="{{ foo.id }}" type="submit"><span
+                                        class="fa fa-remove" style="color: red;"></span></button>
+                            </form>
+                        </th>
+                        </tbody>
                     {% endfor %}
-                    </tbody>
-                {% endfor %}
-            </table>
+                </table>
+            {% else %}
+                <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
+                    document.</p>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

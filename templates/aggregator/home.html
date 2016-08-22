@@ -8,7 +8,6 @@
                 <th class="lead text-align-center">#</th>
                 <th class="lead text-align-center">Title</th>
                 <th class="lead text-align-center">Link</th>
-                <th class="lead text-align-center">Action</th>
                 </thead>
                 {% for foo in response %}
                     <tbody>
@@ -16,7 +15,6 @@
                     {% for item in foo.value %}
                         <th>{{ item }}</th>
                     {% endfor %}
-                    <th class="text-align-center"><span class="fa fa-remove" style="color: red;"></span></th>
                     </tbody>
                 {% endfor %}
             </table>
