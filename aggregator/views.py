@@ -36,6 +36,8 @@ def add(request):
 
 
 def edit(request):
-    form = CommentForm()
+    # Get our view from couchdb, set it to response variable and represent it likes rows
+    response = db.view('subscriptions/source').rows
 
-    return render(request, 'aggregator/edit.html', {'form': form})
+    # Return our rendered template with reverse sorting a couch view
+    return render(request, 'aggregator/home.html', {'response': sorted(response, reverse=True)})
