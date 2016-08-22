@@ -3,6 +3,11 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-info">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
             {% if response %}
                 <table class="table table-responsive table-hover">
                     <thead>
@@ -27,9 +32,11 @@
                         </tbody>
                     {% endfor %}
                 </table>
-            {% else %}
+            {% elif request.user.is_authenticated %}
                 <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
                     document.</p>
+            {% else %}
+                <p class="lead">Please, <a href="{% url 'account_login' %}">log in</a> to opportunity add documents.</p>
             {% endif %}
         </div>
     </div>

@@ -3,21 +3,33 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <table class="table table-responsive table-hover">
-                <thead>
-                <th class="lead text-align-center">#</th>
-                <th class="lead text-align-center">Title</th>
-                <th class="lead text-align-center">Link</th>
-                </thead>
-                {% for foo in response %}
-                    <tbody>
-                    <th>{{ forloop.counter }}</th>
-                    {% for item in foo.value %}
-                        <th>{{ item }}</th>
-                    {% endfor %}
-                    </tbody>
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-success">{{ message }}</div>
                 {% endfor %}
-            </table>
+            {% endif %}
+            {% if response %}
+                <table class="table table-responsive table-hover">
+                    <thead>
+                    <th class="lead text-align-center">#</th>
+                    <th class="lead text-align-center">Title</th>
+                    <th class="lead text-align-center">Link</th>
+                    </thead>
+                    {% for foo in response %}
+                        <tbody>
+                        <th>{{ forloop.counter }}</th>
+                        {% for item in foo.value %}
+                            <th>{{ item }}</th>
+                        {% endfor %}
+                        </tbody>
+                    {% endfor %}
+                </table>
+            {% elif request.user.is_authenticated %}
+                <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
+                    document.</p>
+            {% else %}
+                <p class="lead">Please, <a href="{% url 'account_login' %}">log in</a> to opportunity add documents.</p>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

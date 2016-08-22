@@ -4,12 +4,19 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1 class="lead text-align-center">Add a new RSS source</h1>
-            <form action="" method="post">
-                {% csrf_token %}
-                {{ form|crispy }}
-                <button class="btn btn-primary btn-block"><span class="fa fa-paper-plane-o"></span> Add</button>
-            </form>
+            {% if request.user.is_authenticated %}
+                <h1 class="lead text-align-center">Add a new RSS source</h1>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button class="btn btn-primary btn-block"><span class="fa fa-paper-plane-o"></span> Add</button>
+                </form>
+            {% else %}
+                <div class="alert alert-danger"><b>Permission denied!</b> You must be authorized. Please, <a
+                        href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">sign
+                    up</a>.
+                </div>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

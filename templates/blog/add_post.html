@@ -11,8 +11,10 @@
                     <button class="btn btn-primary btn-block" type="submit">Add a post</button>
                 </form>
             {% else %}
-                <p class="lead">You must to <a href="{% url 'account_login' %}">sign in</a> or <a href="{% url 'account_signup' %}">sign
-                    up</a> to add posts.</p>
+                <div class="alert alert-danger"><b>Permission denied!</b> You must be authorized. Please, <a
+                        href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">sign
+                    up</a>.
+                </div>
             {% endif %}
         </div>
     </div>
