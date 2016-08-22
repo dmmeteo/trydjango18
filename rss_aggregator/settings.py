@@ -45,8 +45,10 @@ INSTALLED_APPS = (
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
+    'disqus',
     # my apps
-    'aggregator'
+    'aggregator',
+    'blog'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -157,3 +159,7 @@ COUCHDB = {
         'default': True
     }
 }
+
+# Disqus settigns
+DISQUS_API_KEY = 'bLFHResitay5LrFaKFjoHZ45wyWhc9119brXI3lYqrG7rPoncH0UlgURGiycGA17'
+DISQUS_WEBSITE_SHORTNAME = 'localhost-8000-1'

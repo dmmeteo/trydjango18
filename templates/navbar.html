@@ -10,6 +10,15 @@
                     <li><a href="{% url 'admin:index' %}">Admin</a></li>
                     <li><a href="http://127.0.0.1:5984/_utils">CouchDB</a></li>
                 {% endif %}
+                {% if not '/blog/' in request.get_full_path %}
+                    <li><a href="{% url 'blog:home' %}">Blog</a></li>
+                {% else %}
+                    {% if request.user.is_authenticated and not '/blog/add/' in request.get_full_path %}
+                        <li><a href="{% url 'blog:add_post' %}">Add post</a></li>
+                    {% else %}
+                    {% endif %}
+                {% endif %}
+                <li><a href="{% url 'rss' %}">RSS</a></li>
             </ul>
             {% if request.user.is_authenticated %}
                 <ul class="nav navbar-nav navbar-right">
@@ -17,10 +26,14 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>{{ request.user }}</b> <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="{% url 'aggregator:add' %}"><span class="fa fa-plus-circle"></span> Add a source</a></li>
-                            <li><a href="{% url 'aggregator:edit' %}"><span class="fa fa-edit"></span> Edit sources</a></li>
-                            <li><a href="{% url 'aggregator:home' %}"><span class="fa fa-list-ol"></span> Show sources</a></li>
-                            <li><a href="{% url 'account_logout' %}"><span class="fa fa-sign-out"></span> Log out</a></li>
+                            <li><a href="{% url 'aggregator:add' %}"><span class="fa fa-plus-circle"></span> Add a
+                                source</a></li>
+                            <li><a href="{% url 'aggregator:edit' %}"><span class="fa fa-edit"></span> Edit sources</a>
+                            </li>
+                            <li><a href="{% url 'aggregator:home' %}"><span class="fa fa-list-ol"></span> Show
+                                sources</a></li>
+                            <li><a href="{% url 'account_logout' %}"><span class="fa fa-sign-out"></span> Log out</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
