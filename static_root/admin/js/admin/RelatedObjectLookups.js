@@ -105,7 +105,7 @@ function dismissChangeRelatedObjectPopup(win, objId, newRepr, newId) {
     var selects = django.jQuery(selectsSelector);
     selects.find('option').each(function() {
         if (this.value == objId) {
-            this.textContent = newRepr;
+            this.innerHTML = newRepr;
             this.value = newId;
         }
     });
@@ -128,12 +128,3 @@ function dismissDeleteRelatedObjectPopup(win, objId) {
 // Kept for backward compatibility
 showAddAnotherPopup = showRelatedObjectPopup;
 dismissAddAnotherPopup = dismissAddRelatedObjectPopup;
-
-django.jQuery(function($){
-    $(document).ready(function() {
-        $('.related-lookup').click(function(e) {
-            e.preventDefault();
-            showRelatedObjectLookupPopup(this);
-        });
-    });
-});

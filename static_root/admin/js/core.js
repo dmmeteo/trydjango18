@@ -225,10 +225,7 @@ String.prototype.strptime = function(format) {
         }
         ++i;
     };
-    // Create Date object from UTC since the parsed value is supposed to be in
-    // UTC, not local time. Also, the calendar uses UTC functions for date
-    // extraction.
-    return new Date(Date.UTC(year, month, day));
+    return new Date(year, month, day);
 }
 
 // ----------------------------------------------------------------------------
