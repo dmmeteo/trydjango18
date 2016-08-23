@@ -26,7 +26,7 @@
                         {% for foo in response %}
                             <tbody>
                             <th>{{ forloop.counter }}</th>
-                            <th>{{ foo.value.0 }}</th>
+                            <th><a href="{% url 'aggregator:update' foo.id %}">{{ foo.value.0 }}</a></th>
                             <th>{{ foo.value.1 }}</th>
                             <th class="text-align-center">
                                 {% if foo.value.3 %}

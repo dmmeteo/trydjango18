@@ -41,7 +41,7 @@ def add(request):
     return render(request, 'aggregator/add.html', {'form': form})
 
 
-# Edit view deletes unneeded sources and show all available sources for certain user
+# The edit view deletes unneeded sources and show all available sources for certain user
 def edit(request):
     # Get our view from couchdb, set it to response variable and represent it likes rows
     response = db.view('subscriptions/source').rows
@@ -62,7 +62,8 @@ def edit(request):
         for foo in checkboxes:
             db.delete(db[foo])
 
-            # Send an info message.
+        # Send an info message, if post doesn't empy.
+        if 'item' in request.POST:
             messages.success(request, 'You have successfully deleted the source.')
         return redirect('aggregator:edit')
     # In another case we just mark all selected sources as read
@@ -74,7 +75,8 @@ def edit(request):
             result.update(doc)
             result.save()
 
-            # Print out success message
+        # Print out success message, if post doesn't empty
+        if 'item' in request.POST:
             messages.success(request, 'You have successfully marked as read the source.')
         return redirect('aggregator:edit')
 
@@ -82,5 +84,45 @@ def edit(request):
     return render(request, 'aggregator/edit.html', {'response': sorted(items, reverse=True)})
 
 
-def update(request):
-    return render(request, 'aggregator/update.html', {})
+# The update view does a bunch of stuff: accept doc_id (couchdb id of document), check the form,
+# save changed into couchdb.
+def update(request, doc_id):
+    # Get a dict with values by means couchdb view
+    response = db.view('subscriptions/source').rows
+
+    # Save title and link into items list
+    items = []
+
+    print items
+
+    # Looping all values, and if our doc_id in loop, we're adding elements into list
+    for foo in response:
+        if doc_id in foo.id:
+            items.append(foo.value[0])
+            items.append(foo.value[1])
+
+    # Initial data for our form
+    data = {'title': items[0], 'link': items[1]}
+    print data
+
+    # Define the form with initial data
+    form = AddRssSource(request.POST or None, initial=data)
+
+    # Validate our form
+    if form.is_valid():
+        title = form.cleaned_data.get('title')
+        link = form.cleaned_data.get('link')
+
+        # This data will be written into chouchdb document
+        changed_data = {"title": title, "link": link}
+
+        # Here's starting write process the updated document into couchdb
+        result = db[doc_id]
+        result.update(changed_data)
+        result.save()
+
+        # Show success message after all
+        messages.success(request, 'You have successfully changed data of the source.')
+        return redirect('aggregator:edit')
+
+    return render(request, 'aggregator/update.html', {'form': form})
