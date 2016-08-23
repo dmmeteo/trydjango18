@@ -22,6 +22,7 @@ def add_post(request):
         'form': form
     }
 
+    # Check our form
     if form.is_valid():
         form.save()
         return redirect('blog:home')
@@ -45,14 +46,18 @@ class LatesEnteriesFeed(Feed):
     title = 'Django latest posts'
     link = '/'
 
+    # Get all objects from database
     def items(self):
         return Post.objects.all()
 
+    # Get a title of item
     def item_title(self, item):
         return item.title
 
+    # Get a description of item
     def item_description(self, item):
         return item.content
 
+    # Create a direct link onto a blog's post
     def item_link(self, item):
         return reverse('blog:details', args=[item.pk])

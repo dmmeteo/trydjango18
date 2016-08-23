@@ -62,14 +62,21 @@ def edit(request):
         for foo in checkboxes:
             db.delete(db[foo])
 
-        # Send an info message.
-        messages.success(request, 'You have successfully deleted the source.')
+            # Send an info message.
+            messages.success(request, 'You have successfully deleted the source.')
         return redirect('aggregator:edit')
-    # In another case we just mark it as read sources
-    # elif 'as_read' in request.POST:
-    #     for bar in checkboxes:
-    #         db.update(db)
+    # In another case we just mark all selected sources as read
+    elif 'as_read' in request.POST:
+        for bar in checkboxes:
+            # Update our documents in couchdb
+            doc = {"read": True}
+            result = db[bar]
+            result.update(doc)
+            result.save()
 
+            # Print out success message
+            messages.success(request, 'You have successfully marked as read the source.')
+        return redirect('aggregator:edit')
 
     # Return our rendered template with reverse sorting a couch view
     return render(request, 'aggregator/edit.html', {'response': sorted(items, reverse=True)})

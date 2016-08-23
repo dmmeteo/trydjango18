@@ -20,7 +20,6 @@
                         <th class="lead">#</th>
                         <th class="lead">Title</th>
                         <th class="lead">Link</th>
-                        <th class="lead">User</th>
                         <th class="lead text-align-center">Has read?</th>
                         <th class="lead text-align-center">Action</th>
                         </thead>
@@ -29,7 +28,6 @@
                             <th>{{ forloop.counter }}</th>
                             <th>{{ foo.value.0 }}</th>
                             <th>{{ foo.value.1 }}</th>
-                            <th>{{ foo.value.2 }}</th>
                             <th class="text-align-center">
                                 {% if foo.value.3 %}
                                     <span class="fa fa-check-square" style="color: green;"></span>
@@ -50,8 +48,8 @@
                         </button>
                     </div>
                     <div class="col-md-6">
-                        <button class="btn btn-danger btn-block" name="on_delete"><span class="fa fa-remove"></span>
-                            Delete
+                        <button class="btn btn-danger btn-block" name="on_delete"><span
+                                class="fa fa-check-square-o"></span> Delete
                         </button>
                     </div>
                 </form>
