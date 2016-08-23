@@ -5,45 +5,61 @@
         <div class="col-md-8 col-md-offset-2">
             {% if messages %}
                 {% for message in messages %}
-                    <div class="alert alert-info">{{ message }}</div>
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        {{ message }}
+                    </div>
                 {% endfor %}
             {% endif %}
             {% if response %}
-                <table class="table table-responsive table-hover">
-                    <thead>
-                    <th class="lead">#</th>
-                    <th class="lead">Title</th>
-                    <th class="lead">Link</th>
-                    <th class="lead">User</th>
-                    <th class="lead text-align-center">Action</th>
-                    </thead>
-                    {% for foo in response %}
-                        <tbody>
-                        <th>{{ forloop.counter }}</th>
-                        {% for item in foo.value %}
-                            <th>{{ item }}</th>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <table class="table table-responsive table-hover">
+                        <thead>
+                        <th class="lead">#</th>
+                        <th class="lead">Title</th>
+                        <th class="lead">Link</th>
+                        <th class="lead">User</th>
+                        <th class="lead text-align-center">Has read?</th>
+                        <th class="lead text-align-center">Action</th>
+                        </thead>
+                        {% for foo in response %}
+                            <tbody>
+                            <th>{{ forloop.counter }}</th>
+                            <th>{{ foo.value.0 }}</th>
+                            <th>{{ foo.value.1 }}</th>
+                            <th>{{ foo.value.2 }}</th>
+                            <th class="text-align-center">
+                                {% if foo.value.3 %}
+                                    <span class="fa fa-check-square" style="color: green;"></span>
+                                {% else %}
+                                    <span class="fa fa-minus-square" style="color: red;"></span>
+                                {% endif %}
+                            </th>
+                            <th class="text-align-center">
+                                <input type="checkbox" name="item" value="{{ foo.id }}">
+                            </th>
+                            </tbody>
                         {% endfor %}
-                        <th class="text-align-center">
-                            <form action="" method="post">
-                                {% csrf_token %}
-{#                                <button class="btn btn-default" name="delete" value="{{ foo.id }}" type="submit"><span#}
-{#                                        class="fa fa-remove" style="color: red;"></span></button>#}
-                                <input type="checkbox" name="delete" value="{{ foo.id }}"><br>
-
-                        </th>
-                        </tbody>
-                    {% endfor %}
-                                                <input type="submit" value="Okay" class="btn btn-primary text-align-center" name="on_delete">
-                            </form>
-                </table>
+                    </table>
+                    <hr>
+                    <div class="col-md-6">
+                        <button class="btn btn-primary btn-block" name="as_read"><span
+                                class="fa fa-check-square-o"></span> Mark as read
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-danger btn-block" name="on_delete"><span class="fa fa-remove"></span>
+                            Delete
+                        </button>
+                    </div>
+                </form>
             {% elif request.user.is_authenticated %}
                 <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
                     document.</p>
             {% else %}
-                <div class="alert alert-danger"><b>Permission denied!</b> You must be authorized. Please, <a
-                        href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">sign
-                    up</a>.
-                </div>
+                <p class="lead">Please, <a href="{% url 'account_login' %}">log in</a> to opportunity add documents.</p>
             {% endif %}
         </div>
     </div>
