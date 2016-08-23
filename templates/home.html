@@ -3,17 +3,8 @@
 {% block head_title %}Home page{% endblock %}
 {% block style %}
     <link rel="stylesheet" href="{% static 'css/navbar-static-top-home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/carousel.css' %}">
 {% endblock %}
-{% block jumbotron %}
-    <div class="jumbotron">
-    <div class="container">
-        <div class="col-md-6">
-            <h1>RSS' aggregator</h1>
-            <p>Read, add, edit your RSS' sources.</p>
-        </div>
-        <div class="col-md-6">
-            <h1>Try to interact with something.</h1>
-        </div>
-    </div>
-    </div>
+{% block carousel %}
+    {% include 'carousel.html' %}
 {% endblock %}
