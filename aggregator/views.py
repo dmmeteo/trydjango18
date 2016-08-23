@@ -30,7 +30,7 @@ def add(request):
 
         # Data that must to be send by means form in chouchdb
         data = {"date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "title": title, "link": link,
-                "user": str(request.user),
+                "user": str(request.user), "read": False,
                 "type": "source"}
         db.create(data)
 
@@ -52,17 +52,24 @@ def edit(request):
     # Pass all keys though loop
     for key in response:
         if str(request.user) == key.value[2]:
-                items.append(key)
+            items.append(key)
 
-    getval = request.POST.getlist('delete')
+    # Save all selected checkboxes in variable
+    checkboxes = request.POST.getlist('item')
+
+    # All selected values we're deleting from couchdb by means loop
     if 'on_delete' in request.POST:
-        for foo in getval:
+        for foo in checkboxes:
             db.delete(db[foo])
-        return redirect('aggregator:edit')
 
         # Send an info message.
-        # messages.success(request, 'You have successfully deleted the source.')
-        # return redirect('aggregator:edit')
+        messages.success(request, 'You have successfully deleted the source.')
+        return redirect('aggregator:edit')
+    # In another case we just mark it as read sources
+    # elif 'as_read' in request.POST:
+    #     for bar in checkboxes:
+    #         db.update(db)
+
 
     # Return our rendered template with reverse sorting a couch view
     return render(request, 'aggregator/edit.html', {'response': sorted(items, reverse=True)})
