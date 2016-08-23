@@ -2,6 +2,7 @@
 
 {% load i18n %}
 {% load staticfiles %}
+{% load socialaccount %}
 {% load crispy_forms_tags %}
 {% load socialaccount %}
 {% block head_title %}{% trans "Signup" %}{% endblock %}
@@ -11,7 +12,7 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1 class="text-align-center">{% trans "Sign Up" %}</h1>
+            <h1 class="lead text-align-center">{% trans "Sign Up" %}</h1>
 
             <p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>
                 .{% endblocktrans %}</p>
@@ -22,14 +23,17 @@
                 {% if redirect_field_value %}
                     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
                 {% endif %}
-                <button class="btn btn-primary btn-block" type="submit">{% trans "Sign Up" %} &raquo;</button>
+                <button class="btn btn-primary btn-block" type="submit"><span
+                        class="fa fa-sign-in"></span> {% trans "Sign Up" %} &raquo;</button>
             </form>
             <br>
-        <p class="lead text-align-center">or</p>
+            <p class="lead text-align-center">or</p>
             <hr>
-            <p class="text-align-center"><a href="{% provider_login_url 'facebook' method='oauth2' %}" class="btn btn-social-icon btn-facebook"><span
+            <p class="text-align-center"><a href="{% provider_login_url 'facebook' method='oauth2' %}"
+                                            class="btn btn-social-icon btn-facebook"><span
                     class="fa fa-facebook"></span></a> <a
-                    href="{% provider_login_url 'google' method='oauth2' %}" class="btn btn-social-icon btn-google"><span class="fa fa-google"></span></a></p>
+                    href="{% provider_login_url 'google' method='oauth2' %}"
+                    class="btn btn-social-icon btn-google"><span class="fa fa-google"></span></a></p>
         </div>
     </div>
 {% endblock %}
