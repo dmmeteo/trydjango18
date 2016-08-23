@@ -29,7 +29,10 @@
                 <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
                     document.</p>
             {% else %}
-                <p class="lead">Please, <a href="{% url 'account_login' %}">log in</a> to opportunity add documents.</p>
+                <div class="alert alert-danger"><b>Permission denied!</b> You must be authorized. Please, <a
+                        href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">sign
+                    up</a>.
+                </div>
             {% endif %}
         </div>
     </div>

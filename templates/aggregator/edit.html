@@ -26,18 +26,24 @@
                         <th class="text-align-center">
                             <form action="" method="post">
                                 {% csrf_token %}
-                                <button class="btn btn-default" name="delete" value="{{ foo.id }}" type="submit"><span
-                                        class="fa fa-remove" style="color: red;"></span></button>
-                            </form>
+{#                                <button class="btn btn-default" name="delete" value="{{ foo.id }}" type="submit"><span#}
+{#                                        class="fa fa-remove" style="color: red;"></span></button>#}
+                                <input type="checkbox" name="delete" value="{{ foo.id }}"><br>
+
                         </th>
                         </tbody>
                     {% endfor %}
+                                                <input type="submit" value="Okay" class="btn btn-primary text-align-center" name="on_delete">
+                            </form>
                 </table>
             {% elif request.user.is_authenticated %}
                 <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
                     document.</p>
             {% else %}
-                <p class="lead">Please, <a href="{% url 'account_login' %}">log in</a> to opportunity add documents.</p>
+                <div class="alert alert-danger"><b>Permission denied!</b> You must be authorized. Please, <a
+                        href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">sign
+                    up</a>.
+                </div>
             {% endif %}
         </div>
     </div>

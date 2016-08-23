@@ -2,7 +2,7 @@
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="{% url 'home' %}">RSS agregator</a>
+            <a class="navbar-brand" href="{% url 'home' %}">Aggregator</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -40,6 +40,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>{{ request.user }}</b> <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
+                            <li><a href="#"><span class="fa fa-gear"></span> Settings</a></li>
                             <li><a href="{% url 'account_logout' %}"><span class="fa fa-sign-out"></span> Log out</a>
                             </li>
                         </ul>

@@ -54,13 +54,15 @@ def edit(request):
         if str(request.user) == key.value[2]:
                 items.append(key)
 
-    # Check our post data, when everyting is okay, delete checked source
-    if 'delete' in request.POST:
-        db.delete(db[request.POST['delete']])
+    getval = request.POST.getlist('delete')
+    if 'on_delete' in request.POST:
+        for foo in getval:
+            db.delete(db[foo])
+        return redirect('aggregator:edit')
 
         # Send an info message.
-        messages.success(request, 'You have successfully deleted the source.')
-        return redirect('aggregator:edit')
+        # messages.success(request, 'You have successfully deleted the source.')
+        # return redirect('aggregator:edit')
 
     # Return our rendered template with reverse sorting a couch view
     return render(request, 'aggregator/edit.html', {'response': sorted(items, reverse=True)})
