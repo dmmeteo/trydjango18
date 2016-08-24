@@ -6,8 +6,9 @@
             {% if messages %}
                 {% for message in messages %}
                     <div class="alert alert-success alert-dismissible" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    {{ message }}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        {{ message }}
                     </div>
                 {% endfor %}
             {% endif %}
@@ -18,14 +19,14 @@
                     <th class="lead">Title</th>
                     <th class="lead">Link</th>
                     <th class="lead">User</th>
-                    <th class="lead">Has read?</th>
                     </thead>
                     {% for foo in response %}
                         <tbody>
                         <th>{{ forloop.counter }}</th>
-                        {% for item in foo.value %}
-                            <th>{{ item }}</th>
-                        {% endfor %}
+                        <th>{{ foo.value.0 }}</th>
+                        <th>{{ foo.value.1 }}</th>
+                        <th>{{ foo.value.2 }}</th>
+                        <th>{{ foo.value.4 }}</th>
                         </tbody>
                     {% endfor %}
                 </table>

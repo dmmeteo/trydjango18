@@ -14,8 +14,16 @@ def home(request):
     # Get our view from couchdb, set it to response variable and represent it likes rows
     response = db.view('subscriptions/source').rows
 
+    # Save all rows
+    items = []
+
+    # Pass through loop all couchdb rows and append it into items
+    for foo in response:
+        if str(request.user) == foo.value[2]:
+            items.append(foo)
+
     # Return our rendered template with reverse sorting a couch view
-    return render(request, 'aggregator/home.html', {'response': sorted(response, reverse=True)})
+    return render(request, 'aggregator/home.html', {'response': sorted(items, reverse=True)})
 
 
 # The view that check our form and create a new document each time, when we sent post data by means the form
@@ -49,10 +57,11 @@ def edit(request):
     # Define our empty list for values from couchdb
     items = []
 
-    # Pass all keys though loop
-    for key in response:
-        if str(request.user) == key.value[2]:
-            items.append(key)
+    # Pass all keys through loop
+    for foo in response:
+        if str(request.user) == foo.value[2]:
+            items.append(foo)
+
 
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
@@ -123,3 +132,7 @@ def update(request, doc_id):
         return redirect('aggregator:edit')
 
     return render(request, 'aggregator/update.html', {'form': form})
+
+
+def parse(request, doc_title):
+    return render(request, 'aggregator/parse.html', {})
