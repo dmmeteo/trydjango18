@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block head_title %}List of RSS sources{% endblock %}
 {% block content %}
     <div class="row">
@@ -21,7 +22,11 @@
                         <th class="lead">Title</th>
                         <th class="lead">Link</th>
                         <th class="lead text-align-center">Has read?</th>
-                        <th class="lead text-align-center">Action</th>
+                        <th class="lead text-align-center">
+                            <a href="#" title="What is it?" data-toggle="popover"
+                               data-triger="focus" data-placement="left" data-trigger="focus"
+                               data-content="Select elements what you want and press a button for deletion or read.">Actions</a>
+                        </th>
                         </thead>
                         {% for foo in response %}
                             <tbody>
@@ -61,4 +66,7 @@
             {% endif %}
         </div>
     </div>
+{% endblock %}
+{% block js %}
+    <script src="{% static 'js/popover.js' %}"></script>
 {% endblock %}
