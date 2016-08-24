@@ -93,8 +93,6 @@ def update(request, doc_id):
     # Save title and link into items list
     items = []
 
-    print items
-
     # Looping all values, and if our doc_id in loop, we're adding elements into list
     for foo in response:
         if doc_id in foo.id:
@@ -103,7 +101,6 @@ def update(request, doc_id):
 
     # Initial data for our form
     data = {'title': items[0], 'link': items[1]}
-    print data
 
     # Define the form with initial data
     form = AddRssSource(request.POST or None, initial=data)
