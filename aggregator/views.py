@@ -159,6 +159,3 @@ def parse(request, doc_title):
     }
 
     return render(request, 'aggregator/parse.html', context)
-
-def filters(request):
-    return render(request, 'aggregator/filters.html', {})
