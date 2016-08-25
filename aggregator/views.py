@@ -38,9 +38,14 @@ def add(request):
         link = form.cleaned_data.get('link')
 
         # Data that must to be send by means form in chouchdb
-        data = {"date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "title": title, "link": link,
-                "user": str(request.user), "read": False,
-                "type": "source"}
+        data = {
+            "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "title": title,
+            "link": link,
+            "user": str(request.user),
+            "read": False,
+            "type": "source"
+        }
         db.create(data)
 
         # Send a success message.
@@ -109,7 +114,10 @@ def update(request, doc_id):
             items.append(foo.value[1])
 
     # Initial data for our form
-    data = {'title': items[0], 'link': items[1]}
+    data = {
+        'title': items[0],
+        'link': items[1]
+    }
 
     # Define the form with initial data
     form = AddRssSource(request.POST or None, initial=data)
@@ -120,7 +128,10 @@ def update(request, doc_id):
         link = form.cleaned_data.get('link')
 
         # This data will be written into chouchdb document
-        changed_data = {"title": title, "link": link}
+        changed_data = {
+            "title": title,
+            "link": link
+        }
 
         # Here's starting write process the updated document into couchdb
         result = db[doc_id]
