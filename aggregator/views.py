@@ -135,6 +135,7 @@ def update(request, doc_id):
     return render(request, 'aggregator/update.html', {'form': form})
 
 
+# The parse view is retrieving whole bunch of stuff from rss feeds
 def parse(request, doc_title):
     # Get a dict with values by means couchdb view
     response = db.view('subscriptions/source').rows
