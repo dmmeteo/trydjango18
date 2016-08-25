@@ -4,6 +4,7 @@ from .forms import AddRssSource
 from django.shortcuts import redirect
 import django_couch
 import datetime
+import feedparser
 
 # Declare our couch database source
 db = django_couch.db('db')
@@ -135,4 +136,25 @@ def update(request, doc_id):
 
 
 def parse(request, doc_title):
-    return render(request, 'aggregator/parse.html', {})
+    # Get a dict with values by means couchdb view
+    response = db.view('subscriptions/source').rows
+
+    # Save title and link into items list
+    items = []
+
+    # Retrieving title and link of a couchdb document and write it into items list
+    for foo in response:
+        if doc_title in foo.id:
+            items.append(foo.value[0])
+            items.append(foo.value[1])
+
+    # Set a link, that will be parsed
+    source = feedparser.parse(items[1])
+
+    # Define our list and dict in context
+    context = {
+        'items': items,
+        'source': source
+    }
+
+    return render(request, 'aggregator/parse.html', context)

@@ -14,7 +14,7 @@
             {% endif %}
             {% if response %}
                 {% for foo in response %}
-                    <h1 class="lead"><a href="{% url 'aggregator:parse' foo.id %}">{{ foo.value.0 }}</a></h1>
+                    <h1 class="lead">{{ forloop.counter }}. <a href="{% url 'aggregator:parse' foo.id %}">{{ foo.value.0 }}</a></h1>
                 {% endfor %}
                 </table>
             {% elif request.user.is_authenticated %}
