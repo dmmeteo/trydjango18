@@ -71,7 +71,7 @@
                 <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
                     document.</p>
             {% else %}
-                <p class="lead">Please, <a href="{% url 'account_login' %}">log in</a> to opportunity add documents.</p>
+                {% include 'permission.html' %}
             {% endif %}
         </div>
     </div>

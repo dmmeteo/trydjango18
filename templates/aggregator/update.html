@@ -12,10 +12,7 @@
                     <button class="btn btn-primary btn-block"><span class="fa fa-paper-plane-o"></span> Update</button>
                 </form>
             {% else %}
-                <div class="alert alert-danger"><b>Permission denied!</b> You must be authorized. Please, <a
-                        href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">sign
-                    up</a>.
-                </div>
+                {% include 'permission.html' %}
             {% endif %}
         </div>
     </div>
