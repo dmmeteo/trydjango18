@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^accounts/', include('allauth.urls')),
     url(r'^aggregator/', include('aggregator.urls', namespace='aggregator')),
     url(r'^blog/', include('blog.urls', namespace='blog')),
-    url(r'^rss/$', views.LatesEnteriesFeed(), name='rss')
+    url(r'^rss/$', views.LatesEnteriesFeed(), name='rss'),
+    url(r'^filters/', include('filters.urls', namespace='filters'))
 ]
