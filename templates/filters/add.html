@@ -6,8 +6,40 @@
 {% endblock %}
 {% block content %}
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <h1 class="lead text-align-center">Add a new filter</h1>
+        <h1 class="lead text-align-center">Add a new filter</h1>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="panel-title text-align-center">
+                    Here you can create a new filter for search rss feeds.
+                </div>
+            </div>
+            <div class="panel-body">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <div class="col-md-3">
+                        <label for="id_items">If</label>
+                        <select name="items" id="id_items" class="selectpicker">
+                            <option value="1">Title</option>
+                            <option value="1">Description</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="id_items">is</label>
+                        <select name="actions" id="id_actions" class="selectpicker">
+                            <option value="1">Contains</option>
+                            <option value="1">Doesn't contain</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="a word">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-primary btn-block">Create</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 {% endblock %}
