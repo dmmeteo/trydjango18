@@ -63,7 +63,6 @@ def edit(request):
         if str(request.user) == foo.value[2]:
             items.append(foo)
 
-
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
 
