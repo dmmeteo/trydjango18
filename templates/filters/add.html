@@ -1,9 +1,16 @@
 {% extends 'base.html' %}
 {% block head_title %}Add a filter{% endblock %}
+{% block style %}
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+{% endblock %}
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <h1 class="lead text-align-center">Add a new filter</h1>
         </div>
     </div>
+{% endblock %}
+{% block js %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
 {% endblock %}
