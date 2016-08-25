@@ -48,7 +48,8 @@ INSTALLED_APPS = (
     'disqus',
     # my apps
     'aggregator',
-    'blog'
+    'blog',
+    'filters'
 )
 
 MIDDLEWARE_CLASSES = (
