@@ -31,8 +31,18 @@
                                 sources</a></li>
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Filters <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'filters:add' %}"><span class="fa fa-plus-circle"></span> Add a
+                                filter</a></li>
+                            <li><a href="{% url 'filters:conf' %}"><span class="fa fa-edit"></span> Edit filters</a>
+                            </li>
+                        </ul>
+                    </li>
                 {% endif %}
-                    <li><a href="{% url 'rss' %}">RSS</a></li>
+                <li><a href="{% url 'rss' %}">RSS</a></li>
             </ul>
             {% if request.user.is_authenticated %}
                 <ul class="nav navbar-nav navbar-right">
