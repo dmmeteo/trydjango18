@@ -8,7 +8,7 @@ items = (
 
 actions = (
     ('1', 'Contains'),
-    ('2', 'Does not contain')
+    ('2', 'Don\'t contain')
 )
 
 
@@ -20,3 +20,4 @@ class FiltersForm(forms.Form):
     action = forms.ChoiceField(widget=forms.Select(attrs={'class': 'selectpicker'}), required=False, label='is',
                                choices=actions)
     word = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'a word'}), required=True)
+    link = forms.URLField(max_length=255, widget=forms.URLInput(attrs={'value': 'http://'}))
