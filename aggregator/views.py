@@ -78,7 +78,7 @@ def edit(request):
 
         # Send an info message, if post doesn't empy.
         if 'item' in request.POST:
-            messages.success(request, 'You have successfully deleted the source.')
+            messages.success(request, 'You have successfully deleted sources.')
         return redirect('aggregator:edit')
     # In another case we just mark all selected sources as read
     elif 'as_read' in request.POST:
