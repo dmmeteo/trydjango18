@@ -70,4 +70,30 @@ def add(request):
 
 
 def conf(request):
-    return render(request, 'filters/filters_config.html', {})
+    # Retrieving our filter view from couchdb
+    response = db.view('subscriptions/filter').rows
+
+    # Save all users' filters into list
+    items = []
+
+    for foo in response:
+        if foo.key == str(request.user):
+            items.append(foo)
+
+    # Save all selected checkboxes in variable
+    checkboxes = request.POST.getlist('item')
+
+    # All selected values we're deleting from couchdb by means loop
+    if 'button' in request.POST:
+        for foo in checkboxes:
+            db.delete(db[foo])
+
+        # Send an info message, if post doesn't empy.
+        if 'item' in request.POST:
+            messages.info(request, 'You have successfully deleted filters.')
+        return redirect('filters:conf')
+
+    return render(request, 'filters/filters_config.html', {'response': sorted(items)})
+
+def filter_parser(request):
+    return render(request, 'filters/parser.html', {})
