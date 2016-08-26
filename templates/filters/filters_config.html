@@ -1,9 +1,66 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block head_title %}Filters configuration{% endblock %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap-switch.css' %}">
+{% endblock %}
 {% block content %}
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        {% if request.user.is_authenticated and response %}
+            {% for message in messages %}
+                <div class="alert alert-info alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    {{ message }}
+                </div>
+            {% endfor %}
+
             <h1 class="lead text-align-center">Filters config</h1>
-        </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Edition your filters
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <table class="table table-responsive table-hover">
+                            <thead>
+                            <th class="lead">#</th>
+                            <th class="lead">Filter</th>
+                            <th class="lead text-align-center">
+                                <a href="#" title="What is it?" data-toggle="popover" data-placement="left"
+                                   data-content="Select elements what you want and press a button for deletion.">Actions</a>
+                            </th>
+                            </thead>
+                            {% for foo in response %}
+                                <tbody>
+                                <th>{{ forloop.counter }}</th>
+                                <th>{{ foo.value.0 }}</th>
+                                <th class="text-align-center"><input type="checkbox" name="item"
+                                                                     value="{{ foo.id }}"></th>
+                                </tbody>
+                            {% endfor %}
+                        </table>
+                        <hr>
+                        <button class="btn btn-danger btn-block" type="submit" name="button">Delete</button>
+                    </form>
+                </div>
+            </div>
+        {% elif not response %}
+            <p class="lead">There is no documents. You can <a href="{% url 'filters:add' %}">add</a> a
+                new
+                document.</p>
+        {% else %}
+        {% include 'permission.html' %}
+        {% endif %}
     </div>
+</div>
+{% endblock %}
+{% block js %}
+    <script src="{% static 'js/init-bw.js' %}"></script>
+    <script src="{% static 'js/bootstrap-switch.js' %}"></script>
+    <script src="{% static 'js/popover.js' %}"></script>
 {% endblock %}
