@@ -2,24 +2,17 @@ from django.contrib import messages
 from django.shortcuts import render
 from .forms import AddRssSource
 from django.shortcuts import redirect
-import django_couch
 import datetime
 import feedparser
-
-# Declare our couch database source
-db = django_couch.db('db')
-
+from rss_aggregator.connetction import db, response
 
 # Simple view, that list whole specter rss source.
 def home(request):
-    # Get our view from couchdb, set it to response variable and represent it likes rows
-    response = db.view('subscriptions/source').rows
-
     # Save all rows
     items = []
 
     # Pass through loop all couchdb rows and append it into items
-    for foo in response:
+    for foo in response('source'):
         if str(request.user) == foo.value[2]:
             items.append(foo)
 
@@ -57,14 +50,11 @@ def add(request):
 
 # The edit view deletes unneeded sources and show all available sources for certain user
 def edit(request):
-    # Get our view from couchdb, set it to response variable and represent it likes rows
-    response = db.view('subscriptions/source').rows
-
     # Define our empty list for values from couchdb
     items = []
 
     # Pass all keys through loop
-    for foo in response:
+    for foo in response('source'):
         if str(request.user) == foo.value[2]:
             items.append(foo)
 
@@ -101,14 +91,11 @@ def edit(request):
 # The update view does a bunch of stuff: accept doc_id (couchdb id of document), check the form,
 # save changed into couchdb.
 def update(request, doc_id):
-    # Get a dict with values by means couchdb view
-    response = db.view('subscriptions/source').rows
-
     # Save title and link into items list
     items = []
 
     # Looping all values, and if our doc_id in loop, we're adding elements into list
-    for foo in response:
+    for foo in response('source'):
         if doc_id in foo.id:
             items.append(foo.value[0])
             items.append(foo.value[1])
@@ -147,14 +134,11 @@ def update(request, doc_id):
 
 # The parse view is retrieving whole bunch of stuff from rss feeds
 def parse(request, doc_title):
-    # Get a dict with values by means couchdb view
-    response = db.view('subscriptions/source').rows
-
     # Save title and link into items list
     items = []
 
     # Retrieving title and link of a couchdb document and write it into items list
-    for foo in response:
+    for foo in response('source'):
         if doc_title in foo.id:
             items.append(foo.value[0])
             items.append(foo.value[1])
