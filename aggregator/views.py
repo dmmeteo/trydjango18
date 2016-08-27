@@ -6,6 +6,7 @@ import datetime
 import feedparser
 from rss_aggregator.connetction import db, response
 
+
 # Simple view, that list whole specter rss source.
 def home(request):
     # Save all rows
