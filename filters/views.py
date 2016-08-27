@@ -1,23 +1,17 @@
 from django.shortcuts import render
 from django.contrib import messages
 from django.shortcuts import redirect
-import django_couch
 from .forms import FiltersForm
 import feedparser
-
-# Declare our database source
-db = django_couch.db('db')
+from rss_aggregator.connetction import db, response
 
 
 # List all available filters for user, that will be parsed
 def home(request):
-    # Retrieving all filter's documents from couchdb
-    response = db.view('subscriptions/filter').rows
-
     # Save all available filters for certain user into list
     items = []
 
-    for foo in response:
+    for foo in response('filter'):
         if foo.key == str(request.user):
             items.append(foo)
 
@@ -83,14 +77,12 @@ def add(request):
     return render(request, 'filters/add.html', {'form': form})
 
 
+# Simple configuration of filters, that will be parsed
 def conf(request):
-    # Retrieving our filter view from couchdb
-    response = db.view('subscriptions/filter').rows
-
     # Save all users' filters into list
     items = []
 
-    for foo in response:
+    for foo in response('filter'):
         if foo.key == str(request.user):
             items.append(foo)
 
@@ -102,22 +94,20 @@ def conf(request):
         for foo in checkboxes:
             db.delete(db[foo])
 
-        # Send an info message, if post doesn't empy.
+        # Send an info message, if post doesn't empty.
         if 'item' in request.POST:
             messages.info(request, 'You have successfully deleted filters.')
-        return redirect('filters:conf')
+        return redirect('filters:home')
 
     return render(request, 'filters/filters_config.html', {'response': sorted(items)})
 
 
+# The filter parser is a view, that parse a rss feed by certain rules.
 def filter_parser(request, doc_id):
-    # Retrieving filter's view from couchdb
-    response = db.view('subscriptions/filter').rows
-
     # Save all filters into item's list
     items = []
 
-    for foo in response:
+    for foo in response('filter'):
         if doc_id == foo.id:
             items.append(foo.value)
 
