@@ -48,7 +48,7 @@ class LatesEnteriesFeed(Feed):
 
     # Get all objects from database
     def items(self):
-        return Post.objects.all()
+        return Post.objects.all().order_by('-id')
 
     # Get a title of item
     def item_title(self, item):
