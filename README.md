@@ -8,7 +8,7 @@ Here's all what you need for launch this app.
 By means terminal lauch a command: _pip install -r dep.txt_
 
 ### PostgresSQL dump
-Just import exportdb.psql by means a command in termianl (_psql -U `<username>` -d `<dbname>` -1 -f exportdb.pgsql_)
+Just import exportdb.psql by means a command in termianl (_psql base < exportdb.pgsql_), and replace in exportdb.pgsql "vkrylasov" to your user name.
 
 ### CouchDB view
 _source_
