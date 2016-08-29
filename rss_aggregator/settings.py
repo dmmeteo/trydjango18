@@ -90,8 +90,8 @@ WSGI_APPLICATION = 'rss_aggregator.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'rss',
-        'USER': 'vkrylasov',
+        'NAME': 'base',
+        'USER': 'igor',
         'PASSWORD': 'root'
     }
 }
@@ -160,6 +160,8 @@ COUCHDB = {
         'default': True
     }
 }
+
+COUCHDB_VIEWS_DIR = os.path.join(BASE_DIR, 'couchb-design-docs/db_name/')
 
 # Disqus settigns
 DISQUS_API_KEY = 'bLFHResitay5LrFaKFjoHZ45wyWhc9119brXI3lYqrG7rPoncH0UlgURGiycGA17'
