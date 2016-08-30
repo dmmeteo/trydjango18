@@ -119,28 +119,28 @@ def filter_parser(request, doc_id):
 
     # Staring parsing
     for bar in source.entries:
+        # Define our variables
+        title, description, word = bar.title.lower(), bar.description.lower(), items[0][3].lower()
+        val1, val2 = int(items[0][1]), int(items[0][2])
+
         # If word in title and item is title, and action is "contains",
         # we'll write all matched values into parsed list
-        if items[0][3] in bar.title and (int(items[0][1]) is 1 and int(items[0][2]) is 1):
-            if str(items[0][3]).islower() or str(items[0][3]).istitle():
+        if word in title and (val1 is 1 and val2 is 1):
                 parsed.append(bar)
 
         # If word in description and item is title, and action is "contains",
         # we'll write all matched values into parsed list
-        elif items[0][3] in bar.description and (int(items[0][1]) is 2 and int(items[0][2]) is 1):
-            if str(items[0][3]).islower() or str(items[0][3]).istitle():
+        elif word in description and (val1 is 2 and val2 is 1):
                 parsed.append(bar)
 
         # If word in title and item is title, and action is "don't contain",
         # we'll write all matched values into parsed list
-        elif not items[0][3] in bar.title and (int(items[0][1]) is 1 and int(items[0][2]) is 2):
-            if str(items[0][3]).islower() or str(items[0][3]).istitle():
+        elif word not in title and (val1 is 1 and val2 is 2):
                 parsed.append(bar)
 
         # If word in description and item is title, and action is "don't contain",
         # we'll write all matched values into parsed list
-        elif not items[0][3] in bar.description and (int(items[0][1]) is 2 and int(items[0][2]) is 2):
-            if str(items[0][3]).islower() or str(items[0][3]).istitle():
+        elif word not in description and (val1 is 2 and val2 is 2):
                 parsed.append(bar)
 
     return render(request, 'filters/parser.html', {'response': parsed, 'title': items[0][0]})
