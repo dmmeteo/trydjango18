@@ -1,14 +1,15 @@
-from django.shortcuts import render
 from django.contrib import messages
 from django.shortcuts import redirect
 from .forms import FiltersForm
 import feedparser
 from rss_aggregator.connetction import db, response
 from django.contrib.auth.decorators import login_required
+from annoying.decorators import render_to
 
 
 # List all available filters for user, that will be parsed
-@login_required
+@login_required()
+@render_to('filters/home.html')
 def home(request):
     # Save all available filters for certain user into list
     items = []
@@ -17,11 +18,12 @@ def home(request):
         if foo.key == str(request.user):
             items.append(foo)
 
-    return render(request, 'filters/home.html', {'response': sorted(items, reverse=True)})
+    return {'response': sorted(items, reverse=True)}
 
 
 # Add a new filter view
-@login_required
+@login_required()
+@render_to('filters/add.html')
 def add(request):
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
@@ -42,11 +44,12 @@ def add(request):
         messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
         return redirect('filters:home')
 
-    return render(request, 'filters/add.html', {'form': form})
+    return {'form': form}
 
 
 # Simple configuration of filters, that will be parsed
-@login_required
+@login_required()
+@render_to('filters/filters_config.html')
 def conf(request):
     # Save all users' filters into list
     items = []
@@ -68,11 +71,12 @@ def conf(request):
             messages.info(request, 'You have successfully deleted filters.')
         return redirect('filters:home')
 
-    return render(request, 'filters/filters_config.html', {'response': sorted(items)})
+    return {'response': sorted(items)}
 
 
 # The filter parser is a view, that parse a rss feed by certain rules.
-@login_required
+@login_required()
+@render_to('filters/parser.html')
 def filter_parser(request, doc_id):
     # Save all filters into item's list
     items = []
@@ -81,7 +85,7 @@ def filter_parser(request, doc_id):
         if doc_id == foo.id:
             for val in foo.value:
                 items.append(val)
-                
+
     # Parse this source
     source = feedparser.parse(items[4])
 
@@ -114,11 +118,12 @@ def filter_parser(request, doc_id):
         elif word not in description and (val1 is 2 and val2 is 2):
                 parsed.append(bar)
 
-    return render(request, 'filters/parser.html', {'response': parsed, 'title': items[0]})
+    return {'response': parsed, 'title': items[0]}
 
 
 # Update view
-@login_required
+@login_required()
+@render_to('filters/update.html')
 def update(request, doc_id):
 
     # Save title, item, action, word and link in this list.
@@ -155,4 +160,4 @@ def update(request, doc_id):
         messages.info(request, 'Successfully updated.')
         return redirect('filters:conf')
 
-    return render(request, 'filters/update.html', {'form': form})
+    return {'form': form}
