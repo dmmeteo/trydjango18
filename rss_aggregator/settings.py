@@ -93,7 +93,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'rss',
         'USER': 'vkrilasov',
-        'PASSWORD': 'root'
+        'PASSWORD': ''
     }
 }
 
