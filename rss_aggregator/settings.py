@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
     'disqus',
+    'django_couch',
     # my apps
     'aggregator',
     'blog',
@@ -161,7 +162,7 @@ COUCHDB = {
     }
 }
 
-COUCHDB_VIEWS_DIR = os.path.join(BASE_DIR, 'couchb-design-docs/rss_aggregator/')
+COUCHDB_VIEWS_DIR = os.path.join(BASE_DIR, 'couchdb-design-docs')
 
 # Disqus settigns
 DISQUS_API_KEY = 'bLFHResitay5LrFaKFjoHZ45wyWhc9119brXI3lYqrG7rPoncH0UlgURGiycGA17'
