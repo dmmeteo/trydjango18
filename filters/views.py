@@ -30,43 +30,8 @@ def add(request):
     }
 
     if form.is_valid():
-        title = form.cleaned_data.get('title')
-        item = form.cleaned_data.get('item')
-        action = form.cleaned_data.get('action')
-        word = form.cleaned_data.get('word')
-        link = form.cleaned_data.get('link')
-
-        # If select's option has value of output like as item 1 and action 1, write it down into data dict,
-        # and the same for rest
-        if int(item) is 1 and int(action) is 1:
-            data.update({
-                "item": "1",
-                "action": "1"
-            })
-        elif int(item) is 2 and int(action) is 2:
-            data.update({
-                "item": "2",
-                "action": "2"
-            })
-        elif int(item) is 1 and int(action) is 2:
-            data.update({
-                "item": "1",
-                "action": "2"
-            })
-        elif int(item) is 2 and int(action) is 1:
-            data.update({
-                "item": "2",
-                "action": "1"
-            })
-        else:
-            messages.error(request, 'Something went wrong.')
-
         # After successful checking of conditions, write down into data's dict title and word from post request
-        data.update({
-            "title": str(title),
-            "word": str(word),
-            "link": str(link)
-        })
+        data.update(form.cleaned_data)
 
         # Create our document
         db.create(data)
@@ -109,10 +74,11 @@ def filter_parser(request, doc_id):
 
     for foo in response('filter'):
         if doc_id == foo.id:
-            items.append(foo.value)
+            for val in foo:
+                items.append(val)
 
     # Parse this source
-    source = feedparser.parse(items[0][4])
+    source = feedparser.parse(items[4])
 
     # Parsed values (title, description) will be saved here.
     parsed = []
@@ -120,8 +86,8 @@ def filter_parser(request, doc_id):
     # Staring parsing
     for bar in source.entries:
         # Define our variables
-        title, description, word = bar.title.lower(), bar.description.lower(), items[0][3].lower()
-        val1, val2 = int(items[0][1]), int(items[0][2])
+        title, description, word = bar.title.lower(), bar.description.lower(), items[3].lower()
+        val1, val2 = int(items[1]), int(items[2])
 
         # If word in title and item is title, and action is "contains",
         # we'll write all matched values into parsed list
@@ -143,4 +109,4 @@ def filter_parser(request, doc_id):
         elif word not in description and (val1 is 2 and val2 is 2):
                 parsed.append(bar)
 
-    return render(request, 'filters/parser.html', {'response': parsed, 'title': items[0][0]})
+    return render(request, 'filters/parser.html', {'response': parsed, 'title': items[0]})

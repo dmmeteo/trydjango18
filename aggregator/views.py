@@ -28,14 +28,11 @@ def add(request):
 
     # Checking our form
     if form.is_valid():
-        title = form.cleaned_data.get('title')
-        link = form.cleaned_data.get('link')
-
         # Data that must to be send by means form in chouchdb
         data = {
             "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "title": title,
-            "link": link,
+            "title": form.cleaned_data.get('title'),
+            "link": form.cleaned_data.get('link'),
             "user": str(request.user),
             "read": False,
             "type": "source"
@@ -112,14 +109,8 @@ def update(request, doc_id):
 
     # Validate our form
     if form.is_valid():
-        title = form.cleaned_data.get('title')
-        link = form.cleaned_data.get('link')
-
         # This data will be written into chouchdb document
-        changed_data = {
-            "title": title,
-            "link": link
-        }
+        changed_data = form.cleaned_data
 
         # Here's starting write process the updated document into couchdb
         result = db[doc_id]
