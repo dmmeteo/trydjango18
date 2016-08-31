@@ -40,7 +40,6 @@ def add(request):
 
         # Create our document
         db.create(data)
-        print data
 
         messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
         return redirect('filters:home')
@@ -150,8 +149,6 @@ def update(request, doc_id):
     # If everything is alright with our form, we'll write these shit straight into couchdb.
     if form.is_valid():
         changed_data = form.cleaned_data
-
-        # print dict
 
         # Update our doc
         doc_update = db[doc_id]
