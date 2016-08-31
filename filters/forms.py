@@ -2,13 +2,13 @@ from django import forms
 
 # Define our choices for filter's form
 items = (
-    ('1', 'Title'),
-    ('2', 'Description')
+    ('title', 'Title'),
+    ('desc', 'Description')
 )
 
 actions = (
-    ('1', 'Contains'),
-    ('2', 'Don\'t contain')
+    ('contains', 'Contains'),
+    ('dc', 'Don\'t contain')
 )
 
 
