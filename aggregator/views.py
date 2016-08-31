@@ -5,6 +5,7 @@ from django.shortcuts import redirect
 import datetime
 import feedparser
 from django.contrib.auth.decorators import login_required
+from rss_aggregator.connetction import db, response
 
 
 # Simple view, that list whole specter rss source.
@@ -14,7 +15,7 @@ def home(request):
     items = []
 
     # Pass through loop all couchdb rows and append it into items
-    for foo in request.db('db').views('subscriptions/source'):
+    for foo in response('source'):
         if str(request.user) == foo.value[2]:
             items.append(foo)
 
@@ -118,7 +119,6 @@ def update(request, doc_id):
     if form.is_valid():
         title = form.cleaned_data.get('title')
         link = form.cleaned_data.get('link')
-
 
         # This data will be written into chouchdb document
         changed_data = {
