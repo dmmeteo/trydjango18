@@ -13,9 +13,9 @@ def home(request):
     # Save all available filters for certain user into list
     items = []
 
-    for foo in response('filter'):
-        if foo.key == str(request.user):
-            items.append(foo)
+    for item in response('filter'):
+        if item.key == str(request.user):
+            items.append(item)
 
     return render(request, 'filters/home.html', {'response': sorted(items, reverse=True)})
 
@@ -86,17 +86,17 @@ def conf(request):
     # Save all users' filters into list
     items = []
 
-    for foo in response('filter'):
-        if foo.key == str(request.user):
-            items.append(foo)
+    for item in response('filter'):
+        if item.key == str(request.user):
+            items.append(item)
 
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
 
     # All selected values we're deleting from couchdb by means loop
     if 'button' in request.POST:
-        for foo in checkboxes:
-            db.delete(db[foo])
+        for item in checkboxes:
+            db.delete(db[item])
 
         # Send an info message, if post doesn't empty.
         if 'item' in request.POST:
@@ -112,9 +112,9 @@ def filter_parser(request, doc_id):
     # Save all filters into item's list
     items = []
 
-    for foo in response('filter'):
-        if doc_id == foo.id:
-            for val in foo.value:
+    for item in response('filter'):
+        if doc_id == item.id:
+            for val in item.value:
                 items.append(val)
 
     # Parse this source
@@ -159,9 +159,9 @@ def update(request, doc_id):
     # Save title, item, action, word and link in this list.
     items = []
 
-    for foo in response('filter'):
-        if doc_id in foo.id:
-            for val in foo.value:
+    for item in response('filter'):
+        if doc_id in item.id:
+            for val in item.value:
                 items.append(val)
 
     # Initial data for form
@@ -186,12 +186,10 @@ def update(request, doc_id):
             'link': form.cleaned_data.get('link'),
         }
 
-        # print dict
-
         # Update our doc
-        doc_update = db[doc_id]
-        doc_update.update(changed_data)
-        doc_update.save()
+        rss_filter = db[doc_id]
+        rss_filter.update(changed_data)
+        rss_filter.save()
 
         messages.info(request, 'Successfully updated.')
         return redirect('filters:conf')

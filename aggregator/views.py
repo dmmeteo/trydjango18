@@ -79,9 +79,9 @@ def edit(request):
         for bar in checkboxes:
             # Update our documents in couchdb
             doc = {"read": True}
-            result = db[bar]
-            result.update(doc)
-            result.save()
+            rss_source = db[bar]
+            rss_source.update(doc)
+            rss_source.save()
 
         # Print out success message, if post doesn't empty
         if 'item' in request.POST:
@@ -119,6 +119,7 @@ def update(request, doc_id):
         title = form.cleaned_data.get('title')
         link = form.cleaned_data.get('link')
 
+
         # This data will be written into chouchdb document
         changed_data = {
             "title": title,
@@ -126,9 +127,9 @@ def update(request, doc_id):
         }
 
         # Here's starting write process the updated document into couchdb
-        result = db[doc_id]
-        result.update(changed_data)
-        result.save()
+        rss_source = db[doc_id]
+        rss_source.update(changed_data)
+        rss_source.save()
 
         # Show success message after all
         messages.success(request, 'You have successfully changed data of the source.')
