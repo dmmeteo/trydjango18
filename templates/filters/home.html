@@ -15,12 +15,10 @@
                     <h1 class="lead">{{ forloop.counter }}. <a
                             href="{% url 'filters:parsed' foo.id %}">{{ foo.value.0 }}</a></h1>
                 {% endfor %}
-            {% elif request.user.is_authenticated %}
+            {% elif not response %}
                 <p class="lead">There is no filters. You can <a href="{% url 'filters:add' %}">add</a> a
                     new
                     one.</p>
-            {% else %}
-                {% include 'permission.html' %}
             {% endif %}
         </div>
     </div>

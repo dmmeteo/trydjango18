@@ -4,9 +4,11 @@ from django.shortcuts import redirect
 from .forms import FiltersForm
 import feedparser
 from rss_aggregator.connetction import db, response
+from django.contrib.auth.decorators import login_required
 
 
 # List all available filters for user, that will be parsed
+@login_required
 def home(request):
     # Save all available filters for certain user into list
     items = []
@@ -19,6 +21,7 @@ def home(request):
 
 
 # Add a new filter view
+@login_required
 def add(request):
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
@@ -43,6 +46,7 @@ def add(request):
 
 
 # Simple configuration of filters, that will be parsed
+@login_required
 def conf(request):
     # Save all users' filters into list
     items = []
@@ -68,6 +72,7 @@ def conf(request):
 
 
 # The filter parser is a view, that parse a rss feed by certain rules.
+@login_required
 def filter_parser(request, doc_id):
     # Save all filters into item's list
     items = []
@@ -110,3 +115,44 @@ def filter_parser(request, doc_id):
                 parsed.append(bar)
 
     return render(request, 'filters/parser.html', {'response': parsed, 'title': items[0]})
+
+
+# Update view
+@login_required
+def update(request, doc_id):
+
+    # Save title, item, action, word and link in this list.
+    items = []
+
+    for foo in response('filter'):
+        if doc_id in foo.id:
+            for val in foo.value:
+                items.append(val)
+
+    # Initial data for form
+    data = {
+        'title': items[0],
+        'item': items[1],
+        'action': items[2],
+        'word': items[3],
+        'link': items[4]
+    }
+
+    # Declare our form
+    form = FiltersForm(request.POST or None, initial=data)
+
+    # If everything is alright with our form, we'll write these shit straight into couchdb.
+    if form.is_valid():
+        changed_data = form.cleaned_data
+
+        # print dict
+
+        # Update our doc
+        doc_update = db[doc_id]
+        doc_update.update(changed_data)
+        doc_update.save()
+
+        messages.info(request, 'Successfully updated.')
+        return redirect('filters:conf')
+
+    return render(request, 'filters/update.html', {'form': form})

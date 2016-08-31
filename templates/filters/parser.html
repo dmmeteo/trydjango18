@@ -17,10 +17,8 @@
                         </div>
                     </div>
                 {% endfor %}
-            {% elif request.user.is_authenticated %}
+            {% elif not response %}
                 <p class="lead">It's empty now. Please, <a href="{% url 'filters:add' %}">add new one</a>.</p>
-            {% else %}
-                {% include 'permission.html' %}
             {% endif %}
         </div>
     </div>
