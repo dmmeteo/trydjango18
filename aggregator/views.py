@@ -4,16 +4,17 @@ from .forms import AddRssSource
 from django.shortcuts import redirect
 import datetime
 import feedparser
-from rss_aggregator.connetction import db, response
+from django.contrib.auth.decorators import login_required
 
 
 # Simple view, that list whole specter rss source.
+@login_required()
 def home(request):
     # Save all rows
     items = []
 
     # Pass through loop all couchdb rows and append it into items
-    for foo in response('source'):
+    for foo in request.db('db').views('subscriptions/source'):
         if str(request.user) == foo.value[2]:
             items.append(foo)
 
@@ -22,6 +23,7 @@ def home(request):
 
 
 # The view that check our form and create a new document each time, when we sent post data by means the form
+@login_required()
 def add(request):
     # Declare our form for adding new rss sources
     form = AddRssSource(request.POST or None)
@@ -50,6 +52,7 @@ def add(request):
 
 
 # The edit view deletes unneeded sources and show all available sources for certain user
+@login_required()
 def edit(request):
     # Define our empty list for values from couchdb
     items = []
@@ -91,6 +94,7 @@ def edit(request):
 
 # The update view does a bunch of stuff: accept doc_id (couchdb id of document), check the form,
 # save changed into couchdb.
+@login_required()
 def update(request, doc_id):
     # Save title and link into items list
     items = []
@@ -98,8 +102,8 @@ def update(request, doc_id):
     # Looping all values, and if our doc_id in loop, we're adding elements into list
     for foo in response('source'):
         if doc_id in foo.id:
-            items.append(foo.value[0])
-            items.append(foo.value[1])
+            for val in foo.value[0:2]:
+                items.append(val)
 
     # Initial data for our form
     data = {
@@ -134,6 +138,7 @@ def update(request, doc_id):
 
 
 # The parse view is retrieving whole bunch of stuff from rss feeds
+@login_required()
 def parse(request, doc_title):
     # Save title and link into items list
     items = []
