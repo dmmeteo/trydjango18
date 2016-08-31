@@ -40,6 +40,7 @@ def add(request):
 
         # Create our document
         db.create(data)
+        print data
 
         messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
         return redirect('filters:home')
@@ -96,26 +97,26 @@ def filter_parser(request, doc_id):
     for bar in source.entries:
         # Define our variables
         title, description, word = bar.title.lower(), bar.description.lower(), items[3].lower()
-        val1, val2 = int(items[1]), int(items[2])
+        val1, val2 = str(items[1]), str(items[2])
 
         # If word in title and item is title, and action is "contains",
         # we'll write all matched values into parsed list
-        if word in title and (val1 is 1 and val2 is 1):
+        if word in title and ('title' in val1 and 'contains' in val2):
                 parsed.append(bar)
 
         # If word in description and item is title, and action is "contains",
         # we'll write all matched values into parsed list
-        elif word in description and (val1 is 2 and val2 is 1):
+        elif word in description and ('desc' in val1 and 'contains' in val2):
                 parsed.append(bar)
 
         # If word in title and item is title, and action is "don't contain",
         # we'll write all matched values into parsed list
-        elif word not in title and (val1 is 1 and val2 is 2):
+        elif word not in title and ('title' in val1 and 'dc' in val2):
                 parsed.append(bar)
 
         # If word in description and item is title, and action is "don't contain",
         # we'll write all matched values into parsed list
-        elif word not in description and (val1 is 2 and val2 is 2):
+        elif word not in description and ('desc' in val1 and 'dc' in val2):
                 parsed.append(bar)
 
     return {'response': parsed, 'title': items[0]}
