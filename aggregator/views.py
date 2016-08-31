@@ -15,7 +15,7 @@ def home(request):
     items = []
 
     # Pass through loop all couchdb rows and append it into items
-    for foo in request.db('db').views('subscriptions/source'):
+    for foo in response('source'):
         if str(request.user) == foo.value[2]:
             items.append(foo)
 

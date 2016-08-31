@@ -79,9 +79,9 @@ def filter_parser(request, doc_id):
 
     for foo in response('filter'):
         if doc_id == foo.id:
-            for val in foo:
+            for val in foo.value:
                 items.append(val)
-
+                
     # Parse this source
     source = feedparser.parse(items[4])
 
