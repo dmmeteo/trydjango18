@@ -7,7 +7,7 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            {% if request.user.is_authenticated and response %}
+            {% if response %}
                 {% for message in messages %}
                     <div class="alert alert-info alert-dismissible" role="alert">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
@@ -37,7 +37,7 @@
                                 {% for foo in response %}
                                     <tbody>
                                     <th>{{ forloop.counter }}</th>
-                                    <th>{{ foo.value.0 }}</th>
+                                    <th><a href="{% url 'filters:update' foo.id %}">{{ foo.value.0 }}</a></th>
                                     <th class="text-align-center"><input type="checkbox" name="item"
                                                                          value="{{ foo.id }}"></th>
                                     </tbody>
@@ -52,8 +52,6 @@
                 <p class="lead">There is no filters. You can <a href="{% url 'filters:add' %}">add</a> a
                     new
                     one.</p>
-            {% else %}
-                {% include 'permission.html' %}
             {% endif %}
         </div>
     </div>

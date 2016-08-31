@@ -8,25 +8,21 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            {% if request.user.is_authenticated %}
-                <h1 class="lead text-align-center">Create a new filter</h1>
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            Here you can create your own filter for wished rss sources
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <form action="" method="post">
-                            {% csrf_token %}
-                            {{ form|crispy }}
-                            <button class="btn btn-primary btn-block" type="submit">Okay</button>
-                        </form>
+            <h1 class="lead text-align-center">Create a new filter</h1>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Here you can create your own filter for wished rss sources
                     </div>
                 </div>
-            {% else %}
-                {% include 'permission.html' %}
-            {% endif %}
+                <div class="panel-body">
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <button class="btn btn-primary btn-block" type="submit">Okay</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}

@@ -3,24 +3,20 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            {% if request.user.is_authenticated %}
-                <h1 class="lead text-align-center">{{ items.0 }}</h1>
-                <hr>
-                {% for foo in source.entries %}
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <div class="panel-title text-align-center">
-                                <a href="{{ foo.link }}">{{ foo.title }}</a>
-                            </div>
-                        </div>
-                        <div class="panel-body">
-                            <p class="lead">{{ foo.description }}</p>
+            <h1 class="lead text-align-center">{{ items.0 }}</h1>
+            <hr>
+            {% for foo in source.entries %}
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title text-align-center">
+                            <a href="{{ foo.link }}">{{ foo.title }}</a>
                         </div>
                     </div>
-                {% endfor %}
-            {% else %}
-                {% include 'permission.html' %}
-            {% endif %}
+                    <div class="panel-body">
+                        <p class="lead">{{ foo.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}
