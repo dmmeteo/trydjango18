@@ -4,15 +4,15 @@ from django.shortcuts import redirect
 import datetime
 import feedparser
 from django.contrib.auth.decorators import login_required
-import django_couch
 from annoying.decorators import render_to
+
 
 # Simple view, that list whole specter rss source.
 @login_required()
 @render_to('aggregator/home_source.html')
 def home_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.request.db.view('subscriptions/source').rows
+    response = request.db.view('subscriptions/source').rows
 
     # Save all rows
     items = []
@@ -28,26 +28,65 @@ def home_aggregator(request):
 # The view that check our form and create a new document each time, when we sent post data by means the form
 @login_required()
 @render_to('aggregator/add_source.html')
-def add_aggregator(request):
+def aggregator_actions(request, doc_id=None):
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/source').rows
+
     # Declare our form for adding new rss sources
     form = AddRssSource(request.POST or None)
 
-    # Checking our form
-    if form.is_valid():
-        # Data that must to be send by means form in chouchrequest.db
-        data = {
-            "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "title": form.cleaned_data.get('title'),
-            "link": form.cleaned_data.get('link'),
-            "user": str(request.user),
-            "read": False,
-            "type": "source"
-        }
-        request.db.create(data)
+    # If we have got a doc id, we'll proceed.
+    if doc_id:
+        # Save title and link into items list
+        items = []
 
-        # Send a success message.
-        messages.success(request, 'You have successfully added a new source.')
-        return redirect('home_source')
+        # Looping all values, and if our doc_id in loop, we're adding elements into list
+        for item in response:
+            if doc_id in item.id:
+                for val in item.value[0:2]:
+                    items.append(val)
+
+        # Initial data for our form
+        data = {
+            'title': items[0],
+            'link': items[1]
+        }
+
+        # Define the form with initial data
+        form = AddRssSource(request.POST or None, initial=data)
+
+        # Validate our form
+        if form.is_valid():
+            # This data will be written into chouchrequest.db document
+            changed_data = form.cleaned_data
+
+            # Here's starting write process the updated document into couch
+            rss_source = request.db[doc_id]
+            rss_source.update(changed_data)
+            rss_source.save()
+
+            # Show success message after all
+            messages.success(request, 'You have successfully changed data of the source.')
+            return redirect('edit_source')
+
+        return {'form': form}
+    else:
+        # Checking our form
+        if form.is_valid():
+            # Data that must to be send by means form in couch
+            data = {
+                "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "title": form.cleaned_data.get('title'),
+                "link": form.cleaned_data.get('link'),
+                "user": str(request.user),
+                "read": False,
+                "type": "source"
+            }
+            request.db.create(data)
+
+            # Send a success message.
+            messages.success(request, 'You have successfully added a new source.')
+            return redirect('home_source')
 
     return {'form': form}
 
@@ -95,49 +134,6 @@ def edit_aggregator(request):
 
     # Return our rendered template with reverse sorting a couch view
     return {'response': sorted(items, reverse=True)}
-
-
-# The update view does a bunch of stuff: accept doc_id (couch id of document), check the form,
-# save changed into couch.
-@login_required()
-@render_to('aggregator/update_source.html')
-def update_aggregator(request, doc_id):
-    # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/source').rows
-
-    # Save title and link into items list
-    items = []
-
-    # Looping all values, and if our doc_id in loop, we're adding elements into list
-    for item in response:
-        if doc_id in item.id:
-            for val in item.value[0:2]:
-                items.append(val)
-
-    # Initial data for our form
-    data = {
-        'title': items[0],
-        'link': items[1]
-    }
-
-    # Define the form with initial data
-    form = AddRssSource(request.POST or None, initial=data)
-
-    # Validate our form
-    if form.is_valid():
-        # This data will be written into chouchrequest.db document
-        changed_data = form.cleaned_data
-
-        # Here's starting write process the updated document into couch
-        rss_source = request.db[doc_id]
-        rss_source.update(changed_data)
-        rss_source.save()
-
-        # Show success message after all
-        messages.success(request, 'You have successfully changed data of the source.')
-        return redirect('edit_source')
-
-    return {'form': form}
 
 
 # The parse view is retrieving whole bunch of stuff from rss feeds
