@@ -37,7 +37,7 @@
                                 {% for foo in response %}
                                     <tbody>
                                     <th>{{ forloop.counter }}</th>
-                                    <th><a href="{% url 'filters:update' foo.id %}">{{ foo.value.0 }}</a></th>
+                                    <th><a href="{% url 'update_filter' foo.id %}">{{ foo.value.0 }}</a></th>
                                     <th class="text-align-center"><input type="checkbox" name="item"
                                                                          value="{{ foo.id }}"></th>
                                     </tbody>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             {% elif not response %}
-                <p class="lead">There is no filters. You can <a href="{% url 'filters:add' %}">add</a> a
+                <p class="lead">There is no filters. You can <a href="{% url 'add_filter' %}">add</a> a
                     new
                     one.</p>
             {% endif %}

@@ -39,7 +39,7 @@
                             {% for foo in response %}
                                 <tbody>
                                 <th>{{ forloop.counter }}</th>
-                                <th><a href="{% url 'aggregator:update' foo.id %}">{{ foo.value.0 }}</a></th>
+                                <th><a href="{% url 'update_source' foo.id %}">{{ foo.value.0 }}</a></th>
                                 <th>{{ foo.value.1 }}</th>
                                 <th class="text-align-center">
                                     {% if foo.value.3 %}
@@ -68,7 +68,7 @@
                     </div>
                 </form>
             {% elif not response %}
-                <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
+                <p class="lead">There is no documents. You can <a href="{% url 'add_source' %}">add</a> a new
                     document.</p>
             {% endif %}
         </div>

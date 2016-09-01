@@ -18,7 +18,7 @@
                     </div>
                 {% endfor %}
             {% elif not response %}
-                <p class="lead">It's empty now. Please, <a href="{% url 'filters:add' %}">add new one</a>.</p>
+                <p class="lead">It's empty now. Please, <a href="{% url 'add_source' %}">add new one</a>.</p>
             {% endif %}
         </div>
     </div>

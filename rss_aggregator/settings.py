@@ -49,8 +49,7 @@ INSTALLED_APPS = (
     'django_couch',
     # my apps
     'aggregator',
-    'blog',
-    'filters'
+    'blog'
 )
 
 MIDDLEWARE_CLASSES = (

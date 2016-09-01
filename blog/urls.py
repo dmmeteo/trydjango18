@@ -1,8 +1,8 @@
 from django.conf.urls import url
-from . import views
+from .views import *
 
 urlpatterns = [
-    url(r'^$', views.home, name='home'),
-    url(r'^add/$', views.add_post, name='add_post'),
-    url(r'^details/(?P<id>\d+)/$', views.details, name='details'),
+    url(r'^$', home, name='home_blog'),
+    url(r'^add/$', add_post, name='add_post_blog'),
+    url(r'^details/(?P<id>\d+)/$', details, name='details_blog'),
 ]
