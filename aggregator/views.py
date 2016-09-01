@@ -191,7 +191,7 @@ def home_filter(request):
 
 # Add a new filter view
 @login_required()
-@render_to('aggregator/add_filter.html')
+@render_to('aggregator/filter_actions.html')
 def add_filter(request):
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
