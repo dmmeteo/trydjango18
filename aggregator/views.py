@@ -192,25 +192,62 @@ def home_filter(request):
 # Add a new filter view
 @login_required()
 @render_to('aggregator/filter_actions.html')
-def add_filter(request):
+def filter_actions(request, doc_id=None):
+    # Catch up all documents that satisfied our couchdb view
+    response = db.view('subscriptions/filter').rows
+
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
 
-    # Write down a user name and a type of couch document
-    data = {
-        "user": str(request.user),
-        "type": "filter"
-    }
+    # Save title, item, action, word and link in this list.
+    items = []
 
-    if form.is_valid():
-        # After successful checking of conditions, write down into data's dict title and word from post request
-        data.update(form.cleaned_data)
+    # If we have got a doc id, we'll proceed.
+    if doc_id:
+        for item in response:
+            if doc_id in item.id:
+                for val in item.value:
+                    items.append(val)
 
-        # Create our document
-        db.create(data)
+        # Initial data for form
+        data = {
+            'title': items[0],
+            'item': items[1],
+            'action': items[2],
+            'word': items[3],
+            'link': items[4]
+        }
 
-        messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
-        return redirect('home_filter')
+        # Declare our form
+        form = FiltersForm(request.POST or None, initial=data)
+
+        # If everything is alright with our form, we'll write these shit straight into couchdb.
+        if form.is_valid():
+            changed_data = form.cleaned_data
+
+            # Update our doc
+            rss_filter = db[doc_id]
+            rss_filter.update(changed_data)
+            rss_filter.save()
+
+            messages.info(request, 'Successfully updated.')
+            return redirect('conf_filter')
+    else:
+        # Write down a user name and a type of couch document
+        data = {
+            "user": str(request.user),
+            "type": "filter"
+        }
+
+        if form.is_valid():
+            # After successful checking of conditions, write down into data's dict title and word from post request
+            data.update(form.cleaned_data)
+
+            # Create our document
+            db.create(data)
+
+            messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
+            return redirect('home_filter')
 
     return {'form': form}
 
@@ -293,45 +330,3 @@ def parser_filter(request, doc_id):
                 parsed.append(bar)
 
     return {'response': parsed, 'title': items[0]}
-
-
-# Update view
-@login_required()
-@render_to('aggregator/update_filter.html')
-def update_filter(request, doc_id):
-    # Catch up all documents that satisfied our couchdb view
-    response = db.view('subscriptions/filter').rows
-
-    # Save title, item, action, word and link in this list.
-    items = []
-
-    for item in response:
-        if doc_id in item.id:
-            for val in item.value:
-                items.append(val)
-
-    # Initial data for form
-    data = {
-        'title': items[0],
-        'item': items[1],
-        'action': items[2],
-        'word': items[3],
-        'link': items[4]
-    }
-
-    # Declare our form
-    form = FiltersForm(request.POST or None, initial=data)
-
-    # If everything is alright with our form, we'll write these shit straight into couchdb.
-    if form.is_valid():
-        changed_data = form.cleaned_data
-
-        # Update our doc
-        rss_filter = db[doc_id]
-        rss_filter.update(changed_data)
-        rss_filter.save()
-
-        messages.info(request, 'Successfully updated.')
-        return redirect('conf_filter')
-
-    return {'form': form}
