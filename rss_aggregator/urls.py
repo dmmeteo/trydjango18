@@ -15,7 +15,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.views.generic.base import TemplateView
-from blog import views
+from blog.views import *
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -23,5 +23,5 @@ urlpatterns = [
     url(r'^accounts/', include('allauth.urls')),
     url(r'^aggregator/', include('aggregator.urls')),
     url(r'^blog/', include('blog.urls')),
-    url(r'^rss/$', views.LatesEnteriesFeed(), name='rss')
+    url(r'^rss/$', LatesEnteriesFeed(), name='rss'),
 ]
