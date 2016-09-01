@@ -7,20 +7,16 @@ from django.contrib.auth.decorators import login_required
 import django_couch
 from annoying.decorators import render_to
 
-# Define our database source
-db = django_couch.db('db')
-
-
 # Simple view, that list whole specter rss source.
 @login_required()
 @render_to('aggregator/home_source.html')
 def home_aggregator(request):
-    # Get our view from couchdb, set it to response variable and represent it likes rows
-    response = db.view('subscriptions/source').rows
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.request.db.view('subscriptions/source').rows
 
     # Save all rows
     items = []
-    # Pass through loop all couchdb rows and append it into items
+    # Pass through loop all couch rows and append it into items
     for item in response:
         if str(request.user) == item.value[2]:
             items.append(item)
@@ -38,7 +34,7 @@ def add_aggregator(request):
 
     # Checking our form
     if form.is_valid():
-        # Data that must to be send by means form in chouchdb
+        # Data that must to be send by means form in chouchrequest.db
         data = {
             "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "title": form.cleaned_data.get('title'),
@@ -47,7 +43,7 @@ def add_aggregator(request):
             "read": False,
             "type": "source"
         }
-        db.create(data)
+        request.db.create(data)
 
         # Send a success message.
         messages.success(request, 'You have successfully added a new source.')
@@ -60,10 +56,10 @@ def add_aggregator(request):
 @login_required()
 @render_to('aggregator/edit_source.html')
 def edit_aggregator(request):
-    # Get our view from couchdb, set it to response variable and represent it likes rows
-    response = db.view('subscriptions/source').rows
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/source').rows
 
-    # Define our empty list for values from couchdb
+    # Define our empty list for values from couch
     items = []
 
     # Pass all keys through loop
@@ -74,10 +70,10 @@ def edit_aggregator(request):
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
 
-    # All selected values we're deleting from couchdb by means loop
+    # All selected values we're deleting from couch by means loop
     if 'on_delete' in request.POST:
         for item in checkboxes:
-            db.delete(db[item])
+            request.db.delete(request.db[item])
 
         # Send an info message, if post doesn't empy.
         if 'item' in request.POST:
@@ -86,9 +82,9 @@ def edit_aggregator(request):
     # In another case we just mark all selected sources as read
     elif 'as_read' in request.POST:
         for value in checkboxes:
-            # Update our documents in couchdb
+            # Update our documents in couch
             doc = {"read": True}
-            rss_source = db[value]
+            rss_source = request.db[value]
             rss_source.update(doc)
             rss_source.save()
 
@@ -101,13 +97,13 @@ def edit_aggregator(request):
     return {'response': sorted(items, reverse=True)}
 
 
-# The update view does a bunch of stuff: accept doc_id (couchdb id of document), check the form,
-# save changed into couchdb.
+# The update view does a bunch of stuff: accept doc_id (couch id of document), check the form,
+# save changed into couch.
 @login_required()
 @render_to('aggregator/update_source.html')
 def update_aggregator(request, doc_id):
-    # Get our view from couchdb, set it to response variable and represent it likes rows
-    response = db.view('subscriptions/source').rows
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/source').rows
 
     # Save title and link into items list
     items = []
@@ -129,11 +125,11 @@ def update_aggregator(request, doc_id):
 
     # Validate our form
     if form.is_valid():
-        # This data will be written into chouchdb document
+        # This data will be written into chouchrequest.db document
         changed_data = form.cleaned_data
 
-        # Here's starting write process the updated document into couchdb
-        rss_source = db[doc_id]
+        # Here's starting write process the updated document into couch
+        rss_source = request.db[doc_id]
         rss_source.update(changed_data)
         rss_source.save()
 
@@ -148,13 +144,13 @@ def update_aggregator(request, doc_id):
 @login_required()
 @render_to('aggregator/parse_source.html')
 def parse_aggregator(request, doc_title):
-    # Get our view from couchdb, set it to response variable and represent it likes rows
-    response = db.view('subscriptions/source').rows
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/source').rows
 
     # Save title and link into items list
     items = []
 
-    # Retrieving title and link of a couchdb document and write it into items list
+    # Retrieving title and link of a couch document and write it into items list
     for item in response:
         if doc_title in item.id:
             items.append(item.value[0])
@@ -176,8 +172,8 @@ def parse_aggregator(request, doc_title):
 @login_required()
 @render_to('aggregator/home_filter.html')
 def home_filter(request):
-    # Catch up all documents that satisfied our couchdb view
-    response = db.view('subscriptions/filter').rows
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/filter').rows
 
     # Save all available filters for certain user into list
     items = []
@@ -193,8 +189,8 @@ def home_filter(request):
 @login_required()
 @render_to('aggregator/filter_actions.html')
 def filter_actions(request, doc_id=None):
-    # Catch up all documents that satisfied our couchdb view
-    response = db.view('subscriptions/filter').rows
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/filter').rows
 
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
@@ -221,12 +217,12 @@ def filter_actions(request, doc_id=None):
         # Declare our form
         form = FiltersForm(request.POST or None, initial=data)
 
-        # If everything is alright with our form, we'll write these shit straight into couchdb.
+        # If everything is alright with our form, we'll write these shit straight into couch.
         if form.is_valid():
             changed_data = form.cleaned_data
 
             # Update our doc
-            rss_filter = db[doc_id]
+            rss_filter = request.db[doc_id]
             rss_filter.update(changed_data)
             rss_filter.save()
 
@@ -244,7 +240,7 @@ def filter_actions(request, doc_id=None):
             data.update(form.cleaned_data)
 
             # Create our document
-            db.create(data)
+            request.db.create(data)
 
             messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
             return redirect('home_filter')
@@ -256,8 +252,8 @@ def filter_actions(request, doc_id=None):
 @login_required()
 @render_to('aggregator/filters_config.html')
 def conf_filter(request):
-    # Catch up all documents that satisfied our couchdb view
-    response = db.view('subscriptions/filter').rows
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/filter').rows
 
     # Save all users' filters into list
     items = []
@@ -269,10 +265,10 @@ def conf_filter(request):
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
 
-    # All selected values we're deleting from couchdb by means loop
+    # All selected values we're deleting from couch by means loop
     if 'button' in request.POST:
         for item in checkboxes:
-            db.delete(db[item])
+            request.db.delete(request.db[item])
 
         # Send an info message, if post doesn't empty.
         if 'item' in request.POST:
@@ -286,8 +282,8 @@ def conf_filter(request):
 @login_required()
 @render_to('aggregator/parser_filter.html')
 def parser_filter(request, doc_id):
-    # Catch up all documents that satisfied our couchdb view
-    response = db.view('subscriptions/filter').rows
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/filter').rows
 
     # Save all filters into item's list
     items = []
