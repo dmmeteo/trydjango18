@@ -28,7 +28,7 @@ def home_aggregator(request):
 @render_to('aggregator/add_source.html')
 def aggregator_actions(request, doc_id=None):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/sorted_sources', key=doc_id).rows
+    response = request.db.view('subscriptions/sorted_source', key=doc_id).rows
 
     # Declare our form for adding new rss sources
     form = AddRssSource(request.POST or None)
@@ -135,7 +135,7 @@ def edit_aggregator(request):
 @render_to('aggregator/parse_source.html')
 def parse_aggregator(request, doc_id):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/sorted_sources', key=doc_id).rows
+    response = request.db.view('subscriptions/sorted_source', key=doc_id).rows
 
     # Save title and link into items list
     items = []
@@ -178,7 +178,7 @@ def home_filter(request):
 @render_to('aggregator/filter_actions.html')
 def filter_actions(request, doc_id=None):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/sorted_filters', key=doc_id).rows
+    response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
