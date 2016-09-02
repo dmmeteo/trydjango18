@@ -11,7 +11,7 @@ from annoying.decorators import render_to
 @render_to('aggregator/home_source.html')
 def home_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/user', key=str(request.user)).rows
+    response = request.db.view('subscriptions/source', key=str(request.user)).rows
 
     # Save all rows
     items = []
@@ -28,7 +28,7 @@ def home_aggregator(request):
 @render_to('aggregator/add_source.html')
 def aggregator_actions(request, doc_id=None):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/user', id=doc_id).rows
+    response = request.db.view('subscriptions/sorted_sources', key=doc_id).rows
 
     # Declare our form for adding new rss sources
     form = AddRssSource(request.POST or None)
@@ -91,7 +91,7 @@ def aggregator_actions(request, doc_id=None):
 @render_to('aggregator/edit_source.html')
 def edit_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/user', key=str(request.user)).rows
+    response = request.db.view('subscriptions/source', key=str(request.user)).rows
 
     # Define our empty list for values from couch
     items = []
@@ -135,7 +135,7 @@ def edit_aggregator(request):
 @render_to('aggregator/parse_source.html')
 def parse_aggregator(request, doc_id):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/user', id=doc_id).rows
+    response = request.db.view('subscriptions/sorted_sources', key=doc_id).rows
 
     # Save title and link into items list
     items = []
@@ -178,7 +178,7 @@ def home_filter(request):
 @render_to('aggregator/filter_actions.html')
 def filter_actions(request, doc_id=None):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter', id=doc_id).rows
+    response = request.db.view('subscriptions/sorted_filters', key=doc_id).rows
 
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
@@ -269,7 +269,7 @@ def conf_filter(request):
 @render_to('aggregator/parser_filter.html')
 def parser_filter(request, doc_id):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter', id=doc_id).rows
+    response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
     # Save all filters into item's list
     items = []
@@ -283,9 +283,6 @@ def parser_filter(request, doc_id):
 
     # Parsed values (title, description) will be saved here.
     parsed = []
-
-    items[3].split(',')
-    print items
 
     # Staring parsing
     for bar in source.entries:
