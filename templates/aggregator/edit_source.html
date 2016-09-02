@@ -36,20 +36,20 @@
                                    data-content="Select elements what you want and press a button for deletion or read.">Actions</a>
                             </th>
                             </thead>
-                            {% for foo in response %}
+                            {% for item in response %}
                                 <tbody>
                                 <th>{{ forloop.counter }}</th>
-                                <th><a href="{% url 'update_source' foo.id %}">{{ foo.value.0 }}</a></th>
-                                <th>{{ foo.value.1 }}</th>
+                                <th><a href="{% url 'update_source' item.id %}">{{ item.value.0 }}</a></th>
+                                <th>{{ item.value.1 }}</th>
                                 <th class="text-align-center">
-                                    {% if foo.value.3 %}
+                                    {% if item.value.2 %}
                                         <span class="fa fa-check-square" style="color: green;"></span>
                                     {% else %}
                                         <span class="fa fa-minus-square" style="color: red;"></span>
                                     {% endif %}
                                 </th>
                                 <th class="text-align-center">
-                                    <input type="checkbox" name="item" value="{{ foo.id }}">
+                                    <input type="checkbox" name="item" value="{{ item.id }}">
                                 </th>
                                 </tbody>
                             {% endfor %}

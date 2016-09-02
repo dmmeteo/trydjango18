@@ -13,8 +13,8 @@
                 {% endfor %}
             {% endif %}
             {% if response %}
-                {% for foo in response %}
-                    <h1 class="lead">{{ forloop.counter }}. <a href="{% url 'parse_source' foo.id %}">{{ foo.value.0 }}</a></h1>
+                {% for item in response %}
+                    <h1 class="lead">{{ forloop.counter }}. <a href="{% url 'parse_source' item.id %}">{{ item.value.0 }}</a></h1>
                 {% endfor %}
                 </table>
             {% elif not response %}
