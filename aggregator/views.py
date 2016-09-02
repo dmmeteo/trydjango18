@@ -178,7 +178,7 @@ def home_filter(request):
 @render_to('aggregator/filter_actions.html')
 def filter_actions(request, doc_id=None):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter', key=doc_id).rows
+    response = request.db.view('subscriptions/filter', id=doc_id).rows
 
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
@@ -283,6 +283,9 @@ def parser_filter(request, doc_id):
 
     # Parsed values (title, description) will be saved here.
     parsed = []
+
+    items[3].split(',')
+    print items
 
     # Staring parsing
     for bar in source.entries:
