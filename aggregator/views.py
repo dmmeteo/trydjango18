@@ -54,7 +54,7 @@ def aggregator_actions(request, doc_id=None):
 
         # Validate our form
         if form.is_valid():
-            # This data will be written into chouchrequest.db document
+            # This data will be written into couch document
             changed_data = form.cleaned_data
 
             # Here's starting write process the updated document into couch
