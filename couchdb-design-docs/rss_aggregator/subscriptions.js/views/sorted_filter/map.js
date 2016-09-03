@@ -1,5 +1,5 @@
 function (doc) {
     if (doc.type == 'filter') {
-        emit (doc._id, [doc.title, doc.item, doc.action, doc.word, doc.link]);
+        emit(doc._id, {"title": doc.title, "item": doc.item, "action": doc.action, "word": doc.word, "link": doc.link});
     }
 }

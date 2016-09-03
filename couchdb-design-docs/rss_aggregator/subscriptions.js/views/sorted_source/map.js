@@ -1,5 +1,5 @@
 function (doc) {
     if (doc.type == 'source') {
-        emit (doc._id, [doc.title, doc.link, doc.read]);
+        emit (doc._id, {"title": doc.title, "link": doc.link, "read": doc.read});
     }
 }
