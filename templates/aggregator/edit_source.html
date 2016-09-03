@@ -39,10 +39,10 @@
                             {% for item in response %}
                                 <tbody>
                                 <th>{{ forloop.counter }}</th>
-                                <th><a href="{% url 'update_source' item.id %}">{{ item.value.0 }}</a></th>
-                                <th>{{ item.value.1 }}</th>
+                                <th><a href="{% url 'update_source' item.id %}">{{ item.value.title }}</a></th>
+                                <th>{{ item.value.link }}</th>
                                 <th class="text-align-center">
-                                    {% if item.value.2 %}
+                                    {% if item.value.read %}
                                         <span class="fa fa-check-square" style="color: green;"></span>
                                     {% else %}
                                         <span class="fa fa-minus-square" style="color: red;"></span>

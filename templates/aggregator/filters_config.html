@@ -37,7 +37,7 @@
                                 {% for item in response %}
                                     <tbody>
                                     <th>{{ forloop.counter }}</th>
-                                    <th><a href="{% url 'update_filter' item.id %}">{{ item.value.0 }}</a></th>
+                                    <th><a href="{% url 'update_filter' item.id %}">{{ item.value.title }}</a></th>
                                     <th class="text-align-center"><input type="checkbox" name="item"
                                                                          value="{{ item.id }}"></th>
                                     </tbody>

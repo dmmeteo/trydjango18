@@ -13,14 +13,8 @@ def home_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
     response = request.db.view('subscriptions/source', key=str(request.user)).rows
 
-    # Save all rows
-    items = []
-    # Pass through loop all couch rows and append it into items
-    for item in response:
-        items.append(item)
-
     # Return our rendered template with reverse sorting a couch view
-    return {'response': sorted(items, reverse=True)}
+    return {'response': sorted(response, reverse=True)}
 
 
 # The view that check our form and create a new document each time, when we sent post data by means the form
@@ -28,7 +22,7 @@ def home_aggregator(request):
 @render_to('aggregator/add_source.html')
 def aggregator_actions(request, doc_id=None):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/sorted_source', key=doc_id).rows
+    response = request.db.view('subscriptions/form_source', key=doc_id).rows
 
     # Declare our form for adding new rss sources
     form = AddRssSource(request.POST or None)
@@ -36,21 +30,14 @@ def aggregator_actions(request, doc_id=None):
     # If we have got a doc id, we'll proceed.
     if doc_id:
         # Save title and link into items list
-        items = []
+        values = {}
 
         # Looping all values, and if our doc_id in loop, we're adding elements into list
         for item in response:
-            for val in item.value[0:2]:
-                items.append(val)
-
-        # Initial data for our form
-        data = {
-            'title': items[0],
-            'link': items[1]
-        }
+                values.update(item.value)
 
         # Define the form with initial data
-        form = AddRssSource(request.POST or None, initial=data)
+        form = AddRssSource(request.POST or None, initial=values)
 
         # Validate our form
         if form.is_valid():
@@ -93,13 +80,6 @@ def edit_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
     response = request.db.view('subscriptions/source', key=str(request.user)).rows
 
-    # Define our empty list for values from couch
-    items = []
-
-    # Pass all keys through loop
-    for item in response:
-        items.append(item)
-
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
 
@@ -127,7 +107,7 @@ def edit_aggregator(request):
         return redirect('edit_source')
 
     # Return our rendered template with reverse sorting a couch view
-    return {'response': sorted(items, reverse=True)}
+    return {'response': sorted(response, reverse=True)}
 
 
 # The parse view is retrieving whole bunch of stuff from rss feeds
@@ -136,21 +116,20 @@ def edit_aggregator(request):
 def parse_aggregator(request, doc_id):
     # Get our view from couch, set it to response variable and represent it likes rows
     response = request.db.view('subscriptions/sorted_source', key=doc_id).rows
-
+    print response
     # Save title and link into items list
-    items = []
+    values = {}
 
     # Retrieving title and link of a couch document and write it into items list
     for item in response:
-            items.append(item.value[0])
-            items.append(item.value[1])
+        values.update(item.value)
 
     # Set a link, that will be parsed
-    source = feedparser.parse(items[1])
+    source = feedparser.parse(values['link'])
 
     # Define our list and dict in context
     context = {
-        'items': items,
+        'items': values,
         'source': source
     }
 
@@ -162,15 +141,9 @@ def parse_aggregator(request, doc_id):
 @render_to('aggregator/home_filter.html')
 def home_filter(request):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter', key=str(request.user)).rows
+    response = request.db.view('subscriptions/filter_name', key=str(request.user)).rows
 
-    # Save all available filters for certain user into list
-    items = []
-
-    for item in response:
-            items.append(item)
-
-    return {'response': sorted(items, reverse=True)}
+    return {'response': sorted(response, reverse=True)}
 
 
 # Add a new filter view
@@ -183,26 +156,16 @@ def filter_actions(request, doc_id=None):
     # Retrieving a FiltersForm
     form = FiltersForm(request.POST or None)
 
-    # Save title, item, action, word and link in this list.
-    items = []
+    # Save title, item, action, word and link in this dict.
+    values = {}
 
     # If we have got a doc id, we'll proceed.
     if doc_id:
         for item in response:
-            for val in item.value:
-                items.append(val)
-
-        # Initial data for form
-        data = {
-            'title': items[0],
-            'item': items[1],
-            'action': items[2],
-            'word': items[3],
-            'link': items[4]
-        }
+            values.update(item.value)
 
         # Declare our form
-        form = FiltersForm(request.POST or None, initial=data)
+        form = FiltersForm(request.POST or None, initial=values)
 
         # If everything is alright with our form, we'll write these shit straight into couch.
         if form.is_valid():
@@ -240,13 +203,7 @@ def filter_actions(request, doc_id=None):
 @render_to('aggregator/filters_config.html')
 def conf_filter(request):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter', key=str(request.user)).rows
-
-    # Save all users' filters into list
-    items = []
-
-    for item in response:
-        items.append(item)
+    response = request.db.view('subscriptions/filter_name', key=str(request.user)).rows
 
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
@@ -261,7 +218,7 @@ def conf_filter(request):
             messages.info(request, 'You have successfully deleted filters.')
         return redirect('home_filter')
 
-    return {'response': sorted(items, reverse=True)}
+    return {'response': sorted(response, reverse=True)}
 
 
 # The filter parser is a view, that parse a rss feed by certain rules.
@@ -272,14 +229,13 @@ def parser_filter(request, doc_id):
     response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
     # Save all filters into item's list
-    items = []
+    values = {}
 
     for item in response:
-        for value in item.value:
-            items.append(value)
+        values.update(item.value)
 
     # Parse this source
-    source = feedparser.parse(items[4])
+    source = feedparser.parse(values['link'])
 
     # Parsed values (title, description) will be saved here.
     parsed = []
@@ -287,8 +243,8 @@ def parser_filter(request, doc_id):
     # Staring parsing
     for bar in source.entries:
         # Define our variables
-        title, description, word = bar.title.lower(), bar.description.lower(), items[3].lower()
-        val1, val2 = str(items[1]), str(items[2])
+        title, description, word = bar.title.lower(), bar.description.lower(), values['word'].lower()
+        val1, val2 = str(values['item']), str(values['action'])
 
         # If word in title and item is title, and action is "contains",
         # we'll write all matched values into parsed list
@@ -310,4 +266,4 @@ def parser_filter(request, doc_id):
         elif word not in description and ('desc' in val1 and 'dc' in val2):
                 parsed.append(bar)
 
-    return {'response': parsed, 'title': items[0]}
+    return {'response': parsed, 'title': values['title']}
