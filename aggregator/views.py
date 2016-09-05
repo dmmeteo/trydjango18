@@ -11,7 +11,7 @@ from annoying.decorators import render_to
 @render_to('aggregator/home_source.html')
 def home_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/source', key=str(request.user)).rows
+    response = request.db.view('subscriptions/sources', key=str(request.user)).rows
 
     # Return our rendered template with reverse sorting a couch view
     return {'response': sorted(response, reverse=True)}
@@ -78,7 +78,7 @@ def aggregator_actions(request, doc_id=None):
 @render_to('aggregator/edit_source.html')
 def edit_aggregator(request):
     # Get our view from couch, set it to response variable and represent it likes rows
-    response = request.db.view('subscriptions/source', key=str(request.user)).rows
+    response = request.db.view('subscriptions/sources', key=str(request.user)).rows
 
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
@@ -141,7 +141,7 @@ def parse_aggregator(request, doc_id):
 @render_to('aggregator/home_filter.html')
 def home_filter(request):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter_name', key=str(request.user)).rows
+    response = request.db.view('subscriptions/filters', key=str(request.user)).rows
 
     return {'response': sorted(response, reverse=True)}
 
@@ -203,7 +203,7 @@ def filter_actions(request, doc_id=None):
 @render_to('aggregator/filters_config.html')
 def conf_filter(request):
     # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/filter_name', key=str(request.user)).rows
+    response = request.db.view('subscriptions/filters', key=str(request.user)).rows
 
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
