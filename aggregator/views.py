@@ -154,7 +154,7 @@ def filter_actions(request, doc_id=None):
     response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
     # Retrieving a FiltersForm
-    form = FiltersForm(request.POST or None)
+    form = FiltersForm(request.POST or None, db=request.db, user=request.user)
 
     # Save title, item, action, word and link in this dict.
     values = {}
