@@ -4,6 +4,8 @@ from django.shortcuts import redirect
 import feedparser
 from django.contrib.auth.decorators import login_required
 from annoying.decorators import render_to
+from django.http import Http404
+from django_couch import ResourceNotFound
 
 
 # Simple view, that list whole specter rss source.
@@ -86,7 +88,10 @@ def edit_aggregator(request):
     # All selected values we're deleting from couch by means loop
     if 'on_delete' in request.POST:
         for item in checkboxes:
-            request.db.delete(request.db[item])
+            try:
+                request.db.delete(request.db[item])
+            except ResourceNotFound:
+                raise Http404
 
         # Send an info message, if post doesn't empy.
         if 'item' in request.POST:
@@ -97,9 +102,12 @@ def edit_aggregator(request):
         for value in checkboxes:
             # Update our documents in couch
             doc = {"read": True}
-            rss_source = request.db[value]
-            rss_source.update(doc)
-            rss_source.save()
+            try:
+                rss_source = request.db[value]
+                rss_source.update(doc)
+                rss_source.save()
+            except ResourceNotFound:
+                raise Http404
 
         # Print out success message, if post doesn't empty
         if 'item' in request.POST:
@@ -211,7 +219,10 @@ def conf_filter(request):
     # All selected values we're deleting from couch by means loop
     if 'button' in request.POST:
         for item in checkboxes:
-            request.db.delete(request.db[item])
+            try:
+                request.db.delete(request.db[item])
+            except ResourceNotFound:
+                raise Http404
 
         # Send an info message, if post doesn't empty.
         if 'item' in request.POST:
