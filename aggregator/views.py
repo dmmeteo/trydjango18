@@ -173,7 +173,7 @@ def filter_actions(request, doc_id=None):
             values.update(item.value)
 
         # Declare our form
-        form = FiltersForm(request.POST or None, initial=values)
+        form = FiltersForm(request.POST or None, initial=values, db=request.db, user=request.user)
 
         # If everything is alright with our form, we'll write these shit straight into couch.
         if form.is_valid():
