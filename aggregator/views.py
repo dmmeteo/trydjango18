@@ -25,6 +25,7 @@ def home_aggregator(request):
 @render_to('aggregator/add_source.html')
 def aggregator_actions(request, doc_id=None):
     # Get our view from couch, set it to response variable and represent it likes rows
+    # Correct feting of documents from couchdb
     response = request.db.view('subscriptions/form_source', key=doc_id).rows
 
     # Declare our form for adding new rss sources
