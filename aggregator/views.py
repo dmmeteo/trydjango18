@@ -241,40 +241,84 @@ def parser_filter(request, doc_id):
 
     # Save all filters into item's list
     values = {}
-
     for item in response:
         values.update(item.value)
 
-    # Parse this source
-    source = feedparser.parse(values['link'])
+    links = []
+    titles = []
+    for source in values['sources']:
+        if request.db[source].link and request.db[source].title:
+            links.append(request.db[source].link)
+            titles.append(request.db[source].title)
 
-    # Parsed values (title, description) will be saved here.
-    parsed = []
+    sources = []
 
-    # Staring parsing
-    for bar in source.entries:
-        # Define our variables
-        title, description, word = bar.title.lower(), bar.description.lower(), values['word'].lower()
-        val1, val2 = str(values['item']), str(values['action'])
+    for parse in links:
+        sources.append(feedparser.parse(parse))
 
-        # If word in title and item is title, and action is "contains",
-        # we'll write all matched values into parsed list
-        if word in title and ('title' in val1 and 'contains' in val2):
-                parsed.append(bar)
+    result = []
 
-        # If word in description and item is title, and action is "contains",
-        # we'll write all matched values into parsed list
-        elif word in description and ('desc' in val1 and 'contains' in val2):
-                parsed.append(bar)
+    for item in sources:
+        # print item
+        for action in item.entries:
+            title, description, word = action.title.lower(), action.description.lower(), values['word'].lower()
+            val1, val2 = str(values['item']), str(values['action'])
 
-        # If word in title and item is title, and action is "don't contain",
-        # we'll write all matched values into parsed list
-        elif word not in title and ('title' in val1 and 'dc' in val2):
-                parsed.append(bar)
+            # If word in title and item is title, and action is "contains",
+            # we'll write all matched values into parsed list
+            if word in title and ('title' in val1 and 'contains' in val2):
+                result.append(action)
 
-        # If word in description and item is title, and action is "don't contain",
-        # we'll write all matched values into parsed list
-        elif word not in description and ('desc' in val1 and 'dc' in val2):
-                parsed.append(bar)
+            # If word in description and item is title, and action is "contains",
+            # we'll write all matched values into parsed list
+            elif word in description and ('desc' in val1 and 'contains' in val2):
+                result.append(action)
 
-    return {'response': parsed, 'title': values['title']}
+            # If word in title and item is title, and action is "don't contain",
+            # we'll write all matched values into parsed list
+            elif word not in title and ('title' in val1 and 'dc' in val2):
+                result.append(action)
+
+            # If word in description and item is title, and action is "don't contain",
+            # we'll write all matched values into parsed list
+            elif word not in description and ('desc' in val1 and 'dc' in val2):
+                result.append(action)
+    # for ok in result:
+    #     print ok.title
+    #     print ok.description
+    # print sources
+    print result
+
+    # # Parse this source
+    # source = feedparser.parse(values['link'])
+    #
+    # # Parsed values (title, description) will be saved here.
+    # parsed = []
+    #
+    # # Staring parsing
+    # for bar in source.entries:
+    #     # Define our variables
+    #     title, description, word = bar.title.lower(), bar.description.lower(), values['word'].lower()
+    #     val1, val2 = str(values['item']), str(values['action'])
+    #
+    #     # If word in title and item is title, and action is "contains",
+    #     # we'll write all matched values into parsed list
+    #     if word in title and ('title' in val1 and 'contains' in val2):
+    #         parsed.append(bar)
+    #
+    #     # If word in description and item is title, and action is "contains",
+    #     # we'll write all matched values into parsed list
+    #     elif word in description and ('desc' in val1 and 'contains' in val2):
+    #         parsed.append(bar)
+    #
+    #     # If word in title and item is title, and action is "don't contain",
+    #     # we'll write all matched values into parsed list
+    #     elif word not in title and ('title' in val1 and 'dc' in val2):
+    #         parsed.append(bar)
+    #
+    #     # If word in description and item is title, and action is "don't contain",
+    #     # we'll write all matched values into parsed list
+    #     elif word not in description and ('desc' in val1 and 'dc' in val2):
+    #         parsed.append(bar)
+
+    return {'response': result}
