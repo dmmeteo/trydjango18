@@ -3,17 +3,17 @@
 {% block content %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1 class="lead text-align-center">{{ items.0 }}</h1>
+            <h1 class="lead text-align-center">{{ items.title }}</h1>
             <hr>
-            {% for foo in source.entries %}
+            {% for item in source.entries %}
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <div class="panel-title text-align-center">
-                            <a href="{{ foo.link }}">{{ foo.title }}</a>
+                            <a href="{{ item.link }}">{{ item.title }}</a>
                         </div>
                     </div>
                     <div class="panel-body">
-                        <p class="lead">{{ foo.description }}</p>
+                        <p class="lead">{{ item.description }}</p>
                     </div>
                 </div>
             {% endfor %}

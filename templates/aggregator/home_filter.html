@@ -11,12 +11,12 @@
                 </div>
             {% endfor %}
             {% if response %}
-                {% for foo in response %}
+                {% for item in response %}
                     <h1 class="lead">{{ forloop.counter }}. <a
-                            href="{% url 'filters:parsed' foo.id %}">{{ foo.value.0 }}</a></h1>
+                            href="{% url 'parsed_filter' item.id %}">{{ item.value.title }}</a></h1>
                 {% endfor %}
             {% elif not response %}
-                <p class="lead">There is no filters. You can <a href="{% url 'filters:add' %}">add</a> a
+                <p class="lead">There is no filters. You can <a href="{% url 'add_source' %}">add</a> a
                     new
                     one.</p>
             {% endif %}

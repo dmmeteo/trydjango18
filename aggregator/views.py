@@ -1,162 +1,282 @@
 from django.contrib import messages
-from django.shortcuts import render
-from .forms import AddRssSource
+from .forms import AddRssSource, FiltersForm
 from django.shortcuts import redirect
-import datetime
 import feedparser
 from django.contrib.auth.decorators import login_required
-from rss_aggregator.connetction import db, response
+from annoying.decorators import render_to
+from django.http import Http404
+from django_couch import ResourceNotFound
 
 
 # Simple view, that list whole specter rss source.
 @login_required()
-def home(request):
-    # Save all rows
-    items = []
-
-    # Pass through loop all couchdb rows and append it into items
-    for foo in response('source'):
-        if str(request.user) == foo.value[2]:
-            items.append(foo)
+@render_to('aggregator/home_source.html')
+def home_aggregator(request):
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/sources', key=str(request.user)).rows
 
     # Return our rendered template with reverse sorting a couch view
-    return render(request, 'aggregator/home.html', {'response': sorted(items, reverse=True)})
+    return {'response': sorted(response, reverse=True)}
 
 
 # The view that check our form and create a new document each time, when we sent post data by means the form
 @login_required()
-def add(request):
+@render_to('aggregator/add_source.html')
+def aggregator_actions(request, doc_id=None):
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/form_source', key=doc_id).rows
+
     # Declare our form for adding new rss sources
     form = AddRssSource(request.POST or None)
 
-    # Checking our form
-    if form.is_valid():
-        title = form.cleaned_data.get('title')
-        link = form.cleaned_data.get('link')
+    # If we have got a doc id, we'll proceed.
+    if doc_id:
+        # Save title and link into items list
+        values = {}
 
-        # Data that must to be send by means form in chouchdb
+        # Looping all values, and if our doc_id in loop, we're adding elements into list
+        for item in response:
+                values.update(item.value)
+
+        # Define the form with initial data
+        form = AddRssSource(request.POST or None, initial=values)
+
+        # Validate our form
+        if form.is_valid():
+            # This data will be written into couch document
+            changed_data = form.cleaned_data
+
+            # Here's starting write process the updated document into couch
+            rss_source = request.db[doc_id]
+            rss_source.update(changed_data)
+            rss_source.save()
+
+            # Show success message after all
+            messages.success(request, 'You have successfully changed data of the source.')
+            return redirect('edit_source')
+    else:
+        # Data that must to be send by means form in couch
         data = {
-            "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "title": title,
-            "link": link,
             "user": str(request.user),
             "read": False,
             "type": "source"
         }
-        db.create(data)
 
-        # Send a success message.
-        messages.success(request, 'You have successfully added a new source.')
-        return redirect('aggregator:home')
+        # Checking our form
+        if form.is_valid():
+            # Data that must to be send by means form in couch
+            data.update(form.cleaned_data)
+            request.db.create(data)
 
-    return render(request, 'aggregator/add.html', {'form': form})
+            # Send a success message.
+            messages.success(request, 'You have successfully added a new source.')
+            return redirect('home_source')
+
+    return {'form': form}
 
 
 # The edit view deletes unneeded sources and show all available sources for certain user
 @login_required()
-def edit(request):
-    # Define our empty list for values from couchdb
-    items = []
-
-    # Pass all keys through loop
-    for foo in response('source'):
-        if str(request.user) == foo.value[2]:
-            items.append(foo)
+@render_to('aggregator/edit_source.html')
+def edit_aggregator(request):
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/sources', key=str(request.user)).rows
 
     # Save all selected checkboxes in variable
     checkboxes = request.POST.getlist('item')
 
-    # All selected values we're deleting from couchdb by means loop
+    # All selected values we're deleting from couch by means loop
     if 'on_delete' in request.POST:
-        for foo in checkboxes:
-            db.delete(db[foo])
+        for item in checkboxes:
+            try:
+                request.db.delete(request.db[item])
+            except ResourceNotFound:
+                raise Http404
 
         # Send an info message, if post doesn't empy.
         if 'item' in request.POST:
             messages.success(request, 'You have successfully deleted sources.')
-        return redirect('aggregator:edit')
+        return redirect('edit_source')
     # In another case we just mark all selected sources as read
     elif 'as_read' in request.POST:
-        for bar in checkboxes:
-            # Update our documents in couchdb
+        for value in checkboxes:
+            # Update our documents in couch
             doc = {"read": True}
-            rss_source = db[bar]
-            rss_source.update(doc)
-            rss_source.save()
+            try:
+                rss_source = request.db[value]
+                rss_source.update(doc)
+                rss_source.save()
+            except ResourceNotFound:
+                raise Http404
 
         # Print out success message, if post doesn't empty
         if 'item' in request.POST:
             messages.success(request, 'You have successfully marked as read the source.')
-        return redirect('aggregator:edit')
+        return redirect('edit_source')
 
     # Return our rendered template with reverse sorting a couch view
-    return render(request, 'aggregator/edit.html', {'response': sorted(items, reverse=True)})
-
-
-# The update view does a bunch of stuff: accept doc_id (couchdb id of document), check the form,
-# save changed into couchdb.
-@login_required()
-def update(request, doc_id):
-    # Save title and link into items list
-    items = []
-
-    # Looping all values, and if our doc_id in loop, we're adding elements into list
-    for foo in response('source'):
-        if doc_id in foo.id:
-            for val in foo.value[0:2]:
-                items.append(val)
-
-    # Initial data for our form
-    data = {
-        'title': items[0],
-        'link': items[1]
-    }
-
-    # Define the form with initial data
-    form = AddRssSource(request.POST or None, initial=data)
-
-    # Validate our form
-    if form.is_valid():
-        title = form.cleaned_data.get('title')
-        link = form.cleaned_data.get('link')
-
-        # This data will be written into chouchdb document
-        changed_data = {
-            "title": title,
-            "link": link
-        }
-
-        # Here's starting write process the updated document into couchdb
-        rss_source = db[doc_id]
-        rss_source.update(changed_data)
-        rss_source.save()
-
-        # Show success message after all
-        messages.success(request, 'You have successfully changed data of the source.')
-        return redirect('aggregator:edit')
-
-    return render(request, 'aggregator/update.html', {'form': form})
+    return {'response': sorted(response, reverse=True)}
 
 
 # The parse view is retrieving whole bunch of stuff from rss feeds
 @login_required()
-def parse(request, doc_title):
+@render_to('aggregator/parse_source.html')
+def parse_aggregator(request, doc_id):
+    # Get our view from couch, set it to response variable and represent it likes rows
+    response = request.db.view('subscriptions/sorted_source', key=doc_id).rows
+    print response
     # Save title and link into items list
-    items = []
+    values = {}
 
-    # Retrieving title and link of a couchdb document and write it into items list
-    for foo in response('source'):
-        if doc_title in foo.id:
-            items.append(foo.value[0])
-            items.append(foo.value[1])
+    # Retrieving title and link of a couch document and write it into items list
+    for item in response:
+        values.update(item.value)
 
     # Set a link, that will be parsed
-    source = feedparser.parse(items[1])
+    source = feedparser.parse(values['link'])
 
     # Define our list and dict in context
     context = {
-        'items': items,
+        'items': values,
         'source': source
     }
 
-    return render(request, 'aggregator/parse.html', context)
+    return context
+
+
+# List all available filters for user, that will be parsed
+@login_required()
+@render_to('aggregator/home_filter.html')
+def home_filter(request):
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/filters', key=str(request.user)).rows
+
+    return {'response': sorted(response, reverse=True)}
+
+
+# Add a new filter view
+@login_required()
+@render_to('aggregator/filter_actions.html')
+def filter_actions(request, doc_id=None):
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
+
+    # Retrieving a FiltersForm
+    form = FiltersForm(request.POST or None, db=request.db, user=request.user)
+
+    # Save title, item, parsed, word and link in this dict.
+    values = {}
+
+    # If we have got a doc id, we'll proceed.
+    if doc_id:
+        for item in response:
+            values.update(item.value)
+
+        # Declare our form
+        form = FiltersForm(request.POST or None, initial=values, db=request.db, user=request.user)
+
+        # If everything is alright with our form, we'll write these shit straight into couch.
+        if form.is_valid():
+            changed_data = form.cleaned_data
+
+            # Update our doc
+            rss_filter = request.db[doc_id]
+            rss_filter.update(changed_data)
+            rss_filter.save()
+
+            messages.info(request, 'Successfully updated.')
+            return redirect('conf_filter')
+    else:
+        # Write down a user name and a type of couch document
+        data = {
+            "user": str(request.user),
+            "type": "filter"
+        }
+
+        if form.is_valid():
+            # After successful checking of conditions, write down into data's dict title and word from post request
+            data.update(form.cleaned_data)
+
+            # Create our document
+            request.db.create(data)
+
+            messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
+            return redirect('home_filter')
+
+    return {'form': form}
+
+
+# Simple configuration of filters, that will be parsed
+@login_required()
+@render_to('aggregator/filters_config.html')
+def conf_filter(request):
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/filters', key=str(request.user)).rows
+
+    # Save all selected checkboxes in variable
+    checkboxes = request.POST.getlist('item')
+
+    # All selected values we're deleting from couch by means loop
+    if 'button' in request.POST:
+        for item in checkboxes:
+            try:
+                request.db.delete(request.db[item])
+            except ResourceNotFound:
+                raise Http404
+
+        # Send an info message, if post doesn't empty.
+        if 'item' in request.POST:
+            messages.info(request, 'You have successfully deleted filters.')
+        return redirect('home_filter')
+
+    return {'response': sorted(response, reverse=True)}
+
+
+# The filter parser is a view, that parse a rss feed by certain rules.
+@login_required()
+@render_to('aggregator/parser_filter.html')
+def parser_filter(request, doc_id):
+    # Catch up all documents that satisfied our couch view
+    response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
+
+    # Save all filters into item's list
+    values = {}
+    for item in response:
+        values.update(item.value)
+
+    # Here we're saving parsed links of our sources.
+    links = []
+    for source in values['sources']:
+        if request.db[source].link:
+            # We're parsing whole bunch of links that located in filter of user.
+            links.append(feedparser.parse(request.db[source].link))
+
+    # Save filtered sources
+    parsed_result = []
+
+    for link in links:
+        for parsed in link.entries:
+            title, description, word = parsed.title.lower(), parsed.description.lower(), values['word'].lower()
+            val1, val2 = str(values['item']), str(values['action'])
+
+            # If word in title and item is title, and parsed is "contains",
+            # we'll write all matched values into parsed list
+            if word in title and ('title' in val1 and 'contains' in val2):
+                parsed_result.append(parsed)
+
+            # If word in description and item is title, and parsed is "contains",
+            # we'll write all matched values into parsed list
+            elif word in description and ('desc' in val1 and 'contains' in val2):
+                parsed_result.append(parsed)
+
+            # If word in title and item is title, and parsed is "don't contain",
+            # we'll write all matched values into parsed list
+            elif word not in title and ('title' in val1 and 'dc' in val2):
+                parsed_result.append(parsed)
+
+            # If word in description and item is title, and parsed is "don't contain",
+            # we'll write all matched values into parsed list
+            elif word not in description and ('desc' in val1 and 'dc' in val2):
+                parsed_result.append(parsed)
+
+    return {'response': parsed_result, 'title': values['title']}

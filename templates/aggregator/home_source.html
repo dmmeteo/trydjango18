@@ -13,12 +13,12 @@
                 {% endfor %}
             {% endif %}
             {% if response %}
-                {% for foo in response %}
-                    <h1 class="lead">{{ forloop.counter }}. <a href="{% url 'aggregator:parse' foo.id %}">{{ foo.value.0 }}</a></h1>
+                {% for item in response %}
+                    <h1 class="lead">{{ forloop.counter }}. <a href="{% url 'parse_source' item.id %}">{{ item.value.title }}</a></h1>
                 {% endfor %}
                 </table>
             {% elif not response %}
-                <p class="lead">There is no documents. You can <a href="{% url 'aggregator:add' %}">add</a> a new
+                <p class="lead">There is no documents. You can <a href="{% url 'add_source' %}">add</a> a new
                     document.</p>
             {% endif %}
         </div>

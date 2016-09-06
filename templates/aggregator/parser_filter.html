@@ -5,20 +5,20 @@
         <div class="col-md-8 col-md-offset-2">
             <h1 class="lead text-align-center">{{ title }}</h1>
             {% if response %}
-                {% for foo in response %}
+                {% for item in response %}
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <div class="panel-title">
-                                <a href="{{ foo.link }}">{{ foo.title }}</a>
+                                <a href="{{ item.link }}">{{ item.title }}</a>
                             </div>
                         </div>
                         <div class="panel-body">
-                            {{ foo.description }}
+                            {{ item.description }}
                         </div>
                     </div>
                 {% endfor %}
             {% elif not response %}
-                <p class="lead">It's empty now. Please, <a href="{% url 'filters:add' %}">add new one</a>.</p>
+                <p class="lead">It's empty now. Please, <a href="{% url 'add_source' %}">add new one</a>.</p>
             {% endif %}
         </div>
     </div>

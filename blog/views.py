@@ -25,7 +25,7 @@ def add_post(request):
     # Check our form
     if form.is_valid():
         form.save()
-        return redirect('blog:home')
+        return redirect('home_home')
 
     return render(request, 'blog/add_post.html', context)
 
@@ -60,4 +60,4 @@ class LatesEnteriesFeed(Feed):
 
     # Create a direct link onto a blog's post
     def item_link(self, item):
-        return reverse('blog:details', args=[item.pk])
+        return reverse('details_blog', args=[item.pk])

@@ -49,8 +49,7 @@ INSTALLED_APPS = (
     'django_couch',
     # my apps
     'aggregator',
-    'blog',
-    'filters'
+    'blog'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -62,6 +61,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'django_couch.CouchMiddleware'
 )
 
 ROOT_URLCONF = 'rss_aggregator.urls'
@@ -93,7 +93,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'rss',
         'USER': 'vkrilasov',
-        'PASSWORD': 'root'
+        'PASSWORD': ''
     }
 }
 

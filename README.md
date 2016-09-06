@@ -11,19 +11,4 @@ By means terminal lauch a command: _pip install -r dep.txt_
 Just import exportdb.psql by means a command in termianl (_psql base < exportdb.pgsql_), and replace in exportdb.pgsql "vkrylasov" to your user name.
 
 ### CouchDB view
-_source_
-```javascript
-function (doc) {
-    if (doc.type == 'source') {
-        emit (doc.date, [doc.title, doc.link, doc.user, doc.read]);
-    }
-}
-```
-_filter_
-```javascript
-function (doc) {
-	if (doc.type == 'filter') {
-		emit (doc.user, [doc.title, doc.item, doc.action, doc.word, doc.link]);
-	}
-}
-```
+You can import all needed couchdb views by means command: (_./manage.py couch restore -n db -p couchdb-design-docs/rss_aggregator -r -f_)

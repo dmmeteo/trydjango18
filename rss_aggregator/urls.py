@@ -15,14 +15,13 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.views.generic.base import TemplateView
-from blog import views
+from blog.views import *
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^accounts/', include('allauth.urls')),
-    url(r'^aggregator/', include('aggregator.urls', namespace='aggregator')),
-    url(r'^blog/', include('blog.urls', namespace='blog')),
-    url(r'^rss/$', views.LatesEnteriesFeed(), name='rss'),
-    url(r'^filters/', include('filters.urls', namespace='filters'))
+    url(r'^aggregator/', include('aggregator.urls')),
+    url(r'^blog/', include('blog.urls')),
+    url(r'^rss/$', LatesEnteriesFeed(), name='rss'),
 ]
