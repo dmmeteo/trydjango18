@@ -3,6 +3,7 @@ from .forms import AddRssSource, FiltersForm
 from django.shortcuts import redirect
 import feedparser
 from django.contrib.auth.decorators import login_required
+# Using of render_to
 from annoying.decorators import render_to
 from django.http import Http404
 from django_couch import ResourceNotFound
