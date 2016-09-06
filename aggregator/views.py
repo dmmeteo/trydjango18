@@ -144,6 +144,7 @@ def parse_aggregator(request, doc_id):
     return context
 
 
+# Filter's views
 # List all available filters for user, that will be parsed
 @login_required()
 @render_to('aggregator/home_filter.html')
