@@ -156,7 +156,7 @@ def home_filter(request):
     return {'response': sorted(response, reverse=True)}
 
 
-# Add a new filter view
+# Add a new filter view in another case just update it
 @login_required()
 @render_to('aggregator/filter_actions.html')
 def filter_actions(request, doc_id=None):
