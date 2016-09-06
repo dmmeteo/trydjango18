@@ -2,6 +2,7 @@ from django.contrib import messages
 from .forms import AddRssSource, FiltersForm
 from django.shortcuts import redirect
 import feedparser
+# Using of login_required
 from django.contrib.auth.decorators import login_required
 # Using of render_to
 from annoying.decorators import render_to
