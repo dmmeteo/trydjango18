@@ -1,4 +1,5 @@
 from django.conf.urls import url
+# New method of import views
 from .views import *
 
 # Here we're defining our urlconf for our needs.
