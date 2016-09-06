@@ -257,6 +257,7 @@ def parser_filter(request, doc_id):
     # Save filtered sources
     parsed_result = []
 
+    # Deleted magic indexes
     for link in links:
         for parsed in link.entries:
             title, description, word = parsed.title.lower(), parsed.description.lower(), values['word'].lower()
