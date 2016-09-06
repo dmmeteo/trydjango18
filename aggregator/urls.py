@@ -3,6 +3,7 @@ from django.conf.urls import url
 from .views import *
 
 # Here we're defining our urlconf for our needs.
+# Deleted namespaces.
 urlpatterns = [
     url(r'^$', home_aggregator, name='home_source'),
     url(r'^add-source/$', aggregator_actions, name='add_source'),
