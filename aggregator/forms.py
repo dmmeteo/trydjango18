@@ -8,6 +8,7 @@ class AddRssSource(forms.Form):
 
 
 # Define our choices for filter's form
+# Created readable choices
 items = (
     ('title', 'Title'),
     ('desc', 'Description')
