@@ -189,6 +189,7 @@ def filter_actions(request, doc_id=None):
             messages.info(request, 'Successfully updated.')
             return redirect('conf_filter')
     else:
+        # Refactoring of filter_add
         # Write down a user name and a type of couch document
         data = {
             "user": str(request.user),
