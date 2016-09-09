@@ -96,7 +96,7 @@ def edit_aggregator(request):
             except ResourceNotFound:
                 raise Http404
 
-        # Send an info message, if post doesn't empy.
+        # Send an info message, if post doesn't empty.
         if 'item' in request.POST:
             messages.success(request, 'You have successfully deleted sources.')
         return redirect('edit_source')
@@ -252,9 +252,11 @@ def parser_filter(request, doc_id):
     # Here we're saving parsed links of our sources.
     links = []
     for source in values['sources']:
-        if request.db[source].link:
+        try:
             # We're parsing whole bunch of links that located in filter of user.
             links.append(feedparser.parse(request.db[source].link))
+        except ResourceNotFound:
+            pass
 
     # Save filtered sources
     parsed_result = []
