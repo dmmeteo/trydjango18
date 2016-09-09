@@ -27,14 +27,15 @@ class FiltersForm(forms.Form):
         user = kwargs.pop('user', None)
         response = db.view('subscriptions/sources', key=str(user)).rows
         super(FiltersForm, self).__init__(*args, **kwargs)
-        self.fields['sources'] = forms.MultipleChoiceField(widget=forms.SelectMultiple(attrs={'class': 'selectpicker'}),
-                                                           choices=[
-                                                               (item.id, item.value['title']) for item in response
-                                                           ])
+        self.fields['sources'] = forms.MultipleChoiceField(
+            widget=forms.SelectMultiple(attrs={'placeholder': 'Choose something'}),
+            choices=[
+                (item.id, item.value['title']) for item in response
+                ])
 
     title = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'A title'}), label='Title')
-    item = forms.ChoiceField(widget=forms.Select(attrs={'class': 'selectpicker'}), required=False, label='If',
+    item = forms.ChoiceField(widget=forms.Select, required=False, label='If',
                              choices=items)
-    action = forms.ChoiceField(widget=forms.Select(attrs={'class': 'selectpicker'}), required=False, label='is',
+    action = forms.ChoiceField(widget=forms.Select, required=False, label='is',
                                choices=actions)
     word = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'a word'}))
