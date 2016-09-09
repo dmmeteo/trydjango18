@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% load crispy_forms_tags %}
 {% block head_title %}Add a filter{% endblock %}
 {% block style %}
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="{% static 'css/selectize.css' %}">
 {% endblock %}
 {% block content %}
     <div class="row">
@@ -27,5 +27,6 @@
     </div>
 {% endblock %}
 {% block js %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
+    <script src="{% static 'js/selectize.js' %}"></script>
+    <script src="{% static 'js/init-selectize.js' %}"></script>
 {% endblock %}
