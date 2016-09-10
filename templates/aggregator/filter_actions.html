@@ -4,6 +4,7 @@
 {% block head_title %}Add a filter{% endblock %}
 {% block style %}
     <link rel="stylesheet" href="{% static 'css/selectize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-switch.css' %}">
 {% endblock %}
 {% block content %}
     <div class="row">
@@ -28,5 +29,7 @@
 {% endblock %}
 {% block js %}
     <script src="{% static 'js/selectize.js' %}"></script>
+    <script src="{% static 'js/bootstrap-switch.js' %}"></script>
     <script src="{% static 'js/init-selectize.js' %}"></script>
+    <script src="{% static 'js/init-bs.js' %}></script>
 {% endblock %}
