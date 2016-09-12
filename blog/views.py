@@ -25,7 +25,7 @@ def add_post(request):
     # Check our form
     if form.is_valid():
         form.save()
-        return redirect('home_home')
+        return redirect('home_blog')
 
     return render(request, 'blog/add_post.html', context)
 
