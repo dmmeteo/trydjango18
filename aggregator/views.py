@@ -127,7 +127,7 @@ def edit_aggregator(request):
 def parse_aggregator(request, doc_id):
     # Get our view from couch, set it to response variable and represent it likes rows
     response = request.db.view('subscriptions/sorted_source', key=doc_id).rows
-    print response
+
     # Save title and link into items list
     values = {}
 
@@ -165,9 +165,6 @@ def filter_actions(request, doc_id=None):
     # Catch up all documents that satisfied our couch view
     response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
-    # Retrieving a FiltersForm
-    form = FiltersForm(request.POST or None, db=request.db, user=request.user)
-
     # Save title, item, parsed, word and link in this dict.
     values = {}
 
@@ -191,6 +188,9 @@ def filter_actions(request, doc_id=None):
             messages.info(request, 'Successfully updated.')
             return redirect('conf_filter')
     else:
+        # Retrieving a FiltersForm
+        form = FiltersForm(request.POST or None, db=request.db, user=request.user)
+
         # Refactoring of filter_add
         # Write down a user name and a type of couch document
         data = {
@@ -245,9 +245,7 @@ def parser_filter(request, doc_id):
     response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
     # Save all filters into item's list
-    values = {}
-    for item in response:
-        values.update(item.value)
+    values = response[0].value
 
     # Here we're saving parsed links of our sources.
     links = []
