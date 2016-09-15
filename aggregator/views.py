@@ -241,48 +241,7 @@ def conf_filter(request):
 @login_required()
 @render_to('aggregator/parser_filter.html')
 def parser_filter(request, doc_id):
-    # Catch up all documents that satisfied our couch view
-    response = request.db.view('subscriptions/sorted_filter', key=doc_id).rows
 
-    # Save all filters into item's list
-    values = response[0].value
+    view = request.db.view('subscriptions/cron_run', key=doc_id).rows
 
-    # Here we're saving parsed links of our sources.
-    links = []
-    for source in values['sources']:
-        try:
-            # We're parsing whole bunch of links that located in filter of user.
-            links.append(feedparser.parse(request.db[source].link))
-        except ResourceNotFound:
-            pass
-
-    # Save filtered sources
-    parsed_result = []
-
-    # Deleted magic indexes
-    for link in links:
-        for parsed in link.entries:
-            title, description, word = parsed.title.lower(), parsed.description.lower(), values['word'].lower()
-            val1, val2 = str(values['item']), str(values['action'])
-
-            # If word in title and item is title, and parsed is "contains",
-            # we'll write all matched values into parsed list
-            if word in title and ('title' in val1 and 'contains' in val2):
-                parsed_result.append(parsed)
-
-            # If word in description and item is title, and parsed is "contains",
-            # we'll write all matched values into parsed list
-            elif word in description and ('desc' in val1 and 'contains' in val2):
-                parsed_result.append(parsed)
-
-            # If word in title and item is title, and parsed is "don't contain",
-            # we'll write all matched values into parsed list
-            elif word not in title and ('title' in val1 and 'dc' in val2):
-                parsed_result.append(parsed)
-
-            # If word in description and item is title, and parsed is "don't contain",
-            # we'll write all matched values into parsed list
-            elif word not in description and ('desc' in val1 and 'dc' in val2):
-                parsed_result.append(parsed)
-
-    return {'response': parsed_result, 'title': values['title']}
+    return {'response': view}
