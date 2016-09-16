@@ -174,7 +174,7 @@ def filter_actions(request, doc_id=None):
             values.update(item.value)
 
         # Declare our form
-        form = FiltersForm(request.POST or None, initial=values, db=request.db, user=request.user)
+        form = FiltersForm(request.POST or None, initial=values, doc=doc_id, db=request.db, user=request.user)
 
         # If everything is alright with our form, we'll write these shit straight into couch.
         if form.is_valid():
@@ -242,6 +242,6 @@ def conf_filter(request):
 @render_to('aggregator/parser_filter.html')
 def parser_filter(request, doc_id):
 
-    view = request.db.view('subscriptions/cron_run', key=doc_id).rows
+    view = request.db.view('subscriptions/parsed_filters', key=doc_id).rows
 
-    return {'response': view}
+    return {'response': sorted(view, reverse=True)}
