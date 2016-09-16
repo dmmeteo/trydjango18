@@ -6,6 +6,10 @@ base = django_couch.db('db')
 
 # Add a simple form for opportunity creating new rss sources, that must to be parsed.
 class AddRssSource(forms.Form):
+    def __init__(self, *args, **kwargs):
+        self.doc = kwargs.pop('doc', None)
+        super(AddRssSource, self).__init__(*args, **kwargs)
+
     title = forms.CharField(max_length=255)
     link = forms.CharField(max_length=500)
 
@@ -13,7 +17,9 @@ class AddRssSource(forms.Form):
         title = self.cleaned_data.get('title')
         view = base.view('subscriptions/source_exists', key=title).rows
 
-        if view:
+        if self.doc:
+            return title
+        elif view:
             raise forms.ValidationError('This title already exists.')
         else:
             return title

@@ -29,9 +29,6 @@ def aggregator_actions(request, doc_id=None):
     # Correct feting of documents from couchdb
     response = request.db.view('subscriptions/form_source', key=doc_id).rows
 
-    # Declare our form for adding new rss sources
-    form = AddRssSource(request.POST or None)
-
     # If we have got a doc id, we'll proceed.
     if doc_id:
         # Save title and link into items list
@@ -42,7 +39,7 @@ def aggregator_actions(request, doc_id=None):
                 values.update(item.value)
 
         # Define the form with initial data
-        form = AddRssSource(request.POST or None, initial=values)
+        form = AddRssSource(request.POST or None, initial=values, doc=doc_id)
 
         # Validate our form
         if form.is_valid():
@@ -58,6 +55,9 @@ def aggregator_actions(request, doc_id=None):
             messages.success(request, 'You have successfully changed data of the source.')
             return redirect('edit_source')
     else:
+        # Declare our form for adding new rss sources
+        form = AddRssSource(request.POST or None)
+
         # Data that must to be send by means form in couch
         data = {
             "user": str(request.user),
