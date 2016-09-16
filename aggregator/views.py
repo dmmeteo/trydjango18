@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 from annoying.decorators import render_to
 from django.http import Http404
 from django_couch import ResourceNotFound
+from cron import cron_task
 
 
 # Simple view, that list whole specter rss source.
@@ -36,7 +37,7 @@ def aggregator_actions(request, doc_id=None):
 
         # Looping all values, and if our doc_id in loop, we're adding elements into list
         for item in response:
-                values.update(item.value)
+            values.update(item.value)
 
         # Define the form with initial data
         form = AddRssSource(request.POST or None, initial=values, doc=doc_id)
@@ -185,7 +186,7 @@ def filter_actions(request, doc_id=None):
             rss_filter.update(changed_data)
             rss_filter.save()
 
-            messages.info(request, 'Successfully updated.')
+            messages.info(request, cron_task())
             return redirect('conf_filter')
     else:
         # Retrieving a FiltersForm
@@ -205,7 +206,8 @@ def filter_actions(request, doc_id=None):
             # Create our document
             request.db.create(data)
 
-            messages.success(request, 'You have successfully created a new filter, {}'.format(request.user))
+            messages.success(request,
+                             'You have successfully created a new filter, {}. '.format(request.user, cron_task()))
             return redirect('home_filter')
 
     return {'form': form}
@@ -241,7 +243,14 @@ def conf_filter(request):
 @login_required()
 @render_to('aggregator/parser_filter.html')
 def parser_filter(request, doc_id):
-
     view = request.db.view('subscriptions/parsed_filters', key=doc_id).rows
 
     return {'response': sorted(view, reverse=True)}
+
+
+# This simple view can get an opportunity to run cron job by willing of user.
+@login_required()
+def run_cron(request):
+    launch = cron_task()
+    messages.success(request, launch)
+    return redirect('home_filter')

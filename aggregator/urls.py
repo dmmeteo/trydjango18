@@ -15,4 +15,5 @@ urlpatterns = [
     url(r'^conf-filter/$', conf_filter, name='conf_filter'),
     url(r'^parsed-filter/(?P<doc_id>\w+)/$', parser_filter, name='parsed_filter'),
     url(r'^update-filter/(?P<doc_id>\w+)/$', filter_actions, name='update_filter'),
+    url(r'^cron/$', run_cron, name='cron')
 ]

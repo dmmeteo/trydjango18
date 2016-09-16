@@ -34,7 +34,7 @@ def cron_task():
         # Deleted magic indexes
         for link in links:
             for parsed in link.entries:
-                view = db.view('subscriptions/cron_view', key=parsed.published)
+                view = db.view('subscriptions/cron_view2', key=parsed.title)
                 if not view:
                     data = {
                         "type": "parsed",
@@ -48,8 +48,7 @@ def cron_task():
                     # we'll write all matched values into parsed list
                     if word in title and ('title' in val1 and 'contains' in val2):
                         data.update(
-                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link,
-                             "pub": parsed.published}
+                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
                         print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
@@ -58,8 +57,7 @@ def cron_task():
                     # we'll write all matched values into parsed list
                     elif word in description and ('desc' in val1 and 'contains' in val2):
                         data.update(
-                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link,
-                             "pub": parsed.published}
+                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
                         print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
@@ -68,8 +66,7 @@ def cron_task():
                     # we'll write all matched values into parsed list
                     elif word not in title and ('title' in val1 and 'dc' in val2):
                         data.update(
-                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link,
-                             "pub": parsed.published}
+                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
                         print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
@@ -78,10 +75,10 @@ def cron_task():
                     # we'll write all matched values into parsed list
                     elif word not in description and ('desc' in val1 and 'dc' in val2):
                         data.update(
-                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link,
-                             "pub": parsed.published}
+                            {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
                         print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
                 else:
                     print "{} Parsed sources already exists. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
+    return 'You\'ve successully updated your feeds.'
