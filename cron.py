@@ -6,6 +6,7 @@ from django_couch import ResourceNotFound
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rss_aggregator.settings")
 
+
 def cron_task():
     # Define a database source
     db = django_couch.db('db')
@@ -51,7 +52,6 @@ def cron_task():
                             {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
-                        print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
 
                     # If word in description and item is title, and parsed is "contains",
                     # we'll write all matched values into parsed list
@@ -60,7 +60,6 @@ def cron_task():
                             {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
-                        print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
 
                     # If word in title and item is title, and parsed is "don't contain",
                     # we'll write all matched values into parsed list
@@ -69,7 +68,6 @@ def cron_task():
                             {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
-                        print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
 
                     # If word in description and item is title, and parsed is "don't contain",
                     # we'll write all matched values into parsed list
@@ -78,7 +76,6 @@ def cron_task():
                             {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
-                        print "{} Successfully added into database. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
                 else:
                     print "{} Parsed sources already exists. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
-    return 'You\'ve successully updated your feeds.'
+    return 'You\'ve successfully updated your feeds.'
