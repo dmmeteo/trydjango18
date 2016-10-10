@@ -76,6 +76,4 @@ def cron_task():
                             {"title": parsed.title, "desc": parsed.description, "link": parsed.link}
                         )
                         db.create(data)
-                else:
-                    print "{} Parsed sources already exists. \n" .format(time.strftime("%Y/%m/%d, %H:%M:%S"))
     return 'You\'ve successfully updated your feeds.'

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block head_title %}{% endblock %}</title>
     <link rel="shortcut icon" href="{% static 'icons/favicon.png' %}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/navbar-static-top.css' %}">
     <link rel="stylesheet" href="{% static 'css/additional_styles.css' %}">
     {% block style %}
@@ -33,10 +32,8 @@
     <p>&copy; 2016 Aggregator, Inc.</p>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+<script src="{% static 'js/jquery-3.1.1.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
 <script src="https://use.fontawesome.com/6f6bc2565b.js"></script>
 {% block js %}
 {% endblock %}
