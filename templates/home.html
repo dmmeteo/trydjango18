@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block head_title %}Welcome | {{ block.super }}{% endblock %}
+
+{% block jambotron %}
+<!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-6 col-md-8">
+                <h2>Try django 1.8</h2>
+                <p>The MVP Lending project is designed to your project started. The goal is to help you launch as soon as possible with the least amount of investment using time or money. Join Us today.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Join Us &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-6 col-md-4" style="background:#000;height:300px;"></div>
+        </div>
+      </div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-3 pull-right">
+        <p>{{ template_title }}</p>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <input class="btn btn-primary" type="submit" value="Sign Up" />
+        </form>
+    </div>
+    <div class="col-md-3">Buitl with Django & Bootstrap</div>
+    <div class="col-md-3">Created for Starters of all kinds</div>
+    <div class="col-md-3">Always Open Source</div>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+# Temporary folder
+.tmp/
+
+# Node Modules
+node_modules/
+
+# Bower Components
+bower_components/
+
+# JetBrains IDEs
+.idea/
+
+# Log files
+*.log
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# For Django
+bin/
+include/
+lib/
+local/
+.DS_STORE
+.Python
+*.pyc

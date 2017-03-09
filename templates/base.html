@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block head_title %}Newsletter{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% include 'head_css.html' %}
+
+  </head>
+  <body>
+
+    {% include 'navbar.html' %}
+
+    <div class="container">
+
+        {% block jambotron %}
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+
+    </div> <!-- /container -->
+
+    {% include 'javascript.html' %}
+
+  </body>
+</html>
