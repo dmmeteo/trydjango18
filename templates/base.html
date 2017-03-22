@@ -1,41 +1,29 @@
 {% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block head_title %}{% endblock %}</title>
-    <link rel="shortcut icon" href="{% static 'icons/favicon.png' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'css/navbar-static-top.css' %}">
-    <link rel="stylesheet" href="{% static 'css/additional_styles.css' %}">
-    {% block style %}
-    {% endblock %}
-</head>
-<body>
-{% include 'navbar.html' %}
-{% block carousel %}
-{% endblock %}
+  <head>
+    <meta charset="utf-8">
+    <title>{% block head_title %}Newsletter{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% block jumbotron %}
-{% endblock %}
+    {% include 'head_css.html' %}
 
-<div class="container">
-    {% block content %}
-    {% endblock %}
-</div>
+  </head>
+  <body>
 
-<hr class="featurette-divider">
+    {% include 'navbar.html' %}
 
-<footer class="container">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2016 Aggregator, Inc.</p>
-</footer>
+    <div class="container">
 
-<script src="{% static 'js/jquery-3.1.1.js' %}"></script>
-<script src="{% static 'js/bootstrap.js' %}"></script>
-<script src="https://use.fontawesome.com/6f6bc2565b.js"></script>
-{% block js %}
-{% endblock %}
-</body>
+        {% block jambotron %}
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+
+    </div> <!-- /container -->
+
+    {% include 'javascript.html' %}
+
+  </body>
 </html>
