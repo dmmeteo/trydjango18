@@ -1,5 +1,10 @@
 <application>
   <component name="HgGlobalSettings">
     <option name="myHgExecutable" value="/usr/local/bin/hg" />
+    <option name="myRememberedUserNames">
+      <map>
+        <entry key="bulkness.dev.smscoin.com/hg" value="dsichkar" />
+      </map>
+    </option>
   </component>
 </application>
