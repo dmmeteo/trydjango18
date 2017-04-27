@@ -61,3 +61,7 @@ def contact(request):
         'title_center': title_center,
     }
     return render(request, 'forms.html', context)
+
+
+def about(request):
+    return render(request, 'about.html', {})

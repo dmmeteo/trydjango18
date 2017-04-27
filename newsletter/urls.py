@@ -1,4 +1,9 @@
+from django.conf.urls import url
+from views import *
+
+
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'newsletter.urls')
+    url(r'^$', home, name='home'),
+    url(r'^contact/$', contact, name='contact'),
+    url(r'^about/$', about, name='about'),
 ]
