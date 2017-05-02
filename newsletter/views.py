@@ -1,7 +1,8 @@
 from django.conf import settings
 from django.core.mail import send_mail
 from django.shortcuts import render
-from .forms import ContactForm, SignUpForm
+from forms import ContactForm, SignUpForm
+from models import SignUp
 
 
 # Create your views here.
@@ -64,4 +65,8 @@ def contact(request):
 
 
 def about(request):
-    return render(request, 'about.html', {})
+    queryset = None
+    if request.user.is_authenticated and request.user.is_staff:
+        queryset = SignUp.objects.all().order_by('-timestamp')
+
+    return render(request, 'about.html', {'queryset': queryset})
