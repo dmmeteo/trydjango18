@@ -5,5 +5,31 @@
 {% block head_title %}About us | {{ block.super }}{% endblock %}
 
 {% block content %}
-<h1>About us.</h1>
+    {% if queryset %}
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <td>Number</td>
+                    <td>Full name</td>
+                    <td>Email</td>
+                    <td>Timestamp</td>
+                </tr>
+            </thead>
+            <tbody>
+            {% for instance in queryset %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ instance.full_name }}</td>
+                    <td>{{ instance.email }}</td>
+                    <td>{{ instance.timestamp|timesince }} ago</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <h1>About us.</h1>
+        <h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, at aut, corporis cupiditate dolor doloribus eius est hic illum inventore, ipsum iste iure libero non odit officia quas reprehenderit repudiandae?
+        </h3>
+    {% endif %}
 {% endblock %}
