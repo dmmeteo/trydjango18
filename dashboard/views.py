@@ -14,7 +14,7 @@ class LoginRequiredMixin(object):  # class to login_required - best practice
 
     @method_decorator(login_required)
     def dispatch(self, request, *args, **kwargs):
-        return super(LoginRequiredMixin, self).dispatch(*args, **kwargs)
+        return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
 
 
 class DashboardTemplateView(TemplateView):
@@ -39,4 +39,4 @@ class SomeView(LoginRequiredMixin, ContextMixin, TemplateResponseMixin, View):
 
     # @method_decorator(login_required)  # dispatch required for any other method: POST, GET, PUT...(not bed practice)
     # def dispatch(self, request, *args, **kwargs):
-    #     return super(SomeView, self).dispatch(*args, **kwargs)
+    #     return super(SomeView, self).dispatch(request, *args, **kwargs)
