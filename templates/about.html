@@ -27,7 +27,13 @@
             </tbody>
         </table>
     {% else %}
-        <h1>About us.</h1>
+        <h1>
+            {% if title %}
+                {{ title }}
+            {% else %}
+                About us.
+            {% endif %}
+        </h1>
         <h3>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, at aut, corporis cupiditate dolor doloribus eius est hic illum inventore, ipsum iste iure libero non odit officia quas reprehenderit repudiandae?
         </h3>
