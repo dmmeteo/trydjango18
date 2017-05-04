@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 from django.core.mail import send_mail
 from django.shortcuts import render
 from forms import ContactForm, SignUpForm
@@ -31,6 +32,7 @@ def home(request):
     return render(request, 'home.html', context)
 
 
+@login_required
 def contact(request):
     form = ContactForm(request.POST or None)
     title = 'Contact Us'
