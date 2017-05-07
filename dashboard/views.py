@@ -1,9 +1,16 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from django.http import HttpResponse
 from django.views.generic import View
 from django.views.generic.base import TemplateView, TemplateResponseMixin, ContextMixin
+from django.views.generic.detail import DetailView
+
+from models import Book
+
+
+class BookDetail(DetailView):
+    pass
 
 
 class LoginRequiredMixin(object):  # class to login_required - best practice
