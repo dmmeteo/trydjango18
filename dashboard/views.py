@@ -10,7 +10,7 @@ from models import Book
 
 
 class BookDetail(DetailView):
-    pass
+    model = Book
 
 
 class LoginRequiredMixin(object):  # class to login_required - best practice
