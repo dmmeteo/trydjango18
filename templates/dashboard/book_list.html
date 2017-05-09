@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block head_title %}All books | {{ block.super }}{% endblock %}
+
+{% block content %}
+    {% for object in object_list %}
+        <a href="{{ object.get_absolute_url }}">
+            <h3>{{ object.title }}</h3>
+        </a>
+            <p>{{ object.description }}</p>
+            <p>Added {{ object.timestamp|timesince }} ago</p>
+    {% endfor %}
+{% endblock %}
