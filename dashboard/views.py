@@ -5,12 +5,29 @@ from django.utils.decorators import method_decorator
 from django.views.generic import View
 from django.views.generic.base import TemplateView, TemplateResponseMixin, ContextMixin
 from django.views.generic.detail import DetailView
+from django.views.generic.list import ListView
 
 from models import Book
 
 
 class BookDetail(DetailView):
     model = Book
+    # You can do this but not necessary(in template us "object" to get instances of model)
+    # def get_context_data(self, *args, **kwargs):
+    #     context = super(BookDetail, self).get_context_data(*args, **kwargs)
+    #     context['title'] = 'bla'
+    #     print context
+    #     return context
+
+
+class BookList(ListView):
+    model = Book
+    # In tamplate us "object_list" to get instances of model
+
+    # To us query sets
+    def get_queryset(self, *args, **kwargs):
+        qs = super(BookList, self).get_queryset(*args, **kwargs).order_by('-timestamp')
+        return qs
 
 
 class LoginRequiredMixin(object):  # class to login_required - best practice

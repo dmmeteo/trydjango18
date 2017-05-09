@@ -6,7 +6,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'', include('newsletter.urls')),
-    url(r'^dashboard/', include('dashboard.urls')),
+    url(r'^dashboard/', include('dashboard.urls', namespace='dashboard')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'accounts/', include('registration.backends.default.urls')),
 ]
