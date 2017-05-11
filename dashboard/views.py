@@ -1,13 +1,32 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.views.generic import View
 from django.views.generic.base import TemplateView, TemplateResponseMixin, ContextMixin
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 from models import Book
+from forms import BookForm
+
+
+class BookCreate(CreateView):
+    # model = Book
+    # fields = ['title', 'description']
+    # but better to us "form_class" :
+    form_class = BookForm
+    # success_url = '/book/' # it is not very dynamic, better to us "get_success_url" method
+    template_name = 'dashboard/form.html'
+
+    def form_valid(self, form):
+        form.instance.added_by = self.request.user
+        return super(BookCreate, self).form_valid(form)
+
+    def get_success_url(self):
+        return reverse('dashboard:book_list')
 
 
 class BookDetail(DetailView):
