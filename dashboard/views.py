@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
@@ -13,7 +13,21 @@ from models import Book
 from forms import BookForm
 
 
-class BookCreate(CreateView):
+class MultipleObjectMixin(object):
+    def get_object(self, queryset=None, *args, **kwargs):
+        slug = self.kwargs.get('slug')
+        if slug:
+            try:
+                obj = self.model.objects.get(slug=slug)
+            except self.model.MultipleObjectsReturned:
+                obj = self.get_queryset().first()
+            except:
+                raise Http404
+            return obj
+        raise Http404
+
+
+class BookCreateView(CreateView):
     # model = Book
     # fields = ['title', 'description']
     # but better to us "form_class" :
@@ -23,13 +37,20 @@ class BookCreate(CreateView):
 
     def form_valid(self, form):
         form.instance.added_by = self.request.user
-        return super(BookCreate, self).form_valid(form)
+        return super(BookCreateView, self).form_valid(form)
 
     def get_success_url(self):
         return reverse('dashboard:book_list')
 
 
-class BookDetail(DetailView):
+class BookUpdateView(MultipleObjectMixin, UpdateView):
+    model = Book
+    # fields = ['title', 'description']
+    form_class = BookForm
+    template_name = 'dashboard/form.html'
+
+
+class BookDetailView(MultipleObjectMixin, DetailView):
     model = Book
     # You can do this but not necessary(in template us "object" to get instances of model)
     # def get_context_data(self, *args, **kwargs):
@@ -39,13 +60,13 @@ class BookDetail(DetailView):
     #     return context
 
 
-class BookList(ListView):
+class BookListView(ListView):
     model = Book
     # In tamplate us "object_list" to get instances of model
 
     # To us query sets
     def get_queryset(self, *args, **kwargs):
-        qs = super(BookList, self).get_queryset(*args, **kwargs).order_by('-timestamp')
+        qs = super(BookListView, self).get_queryset(*args, **kwargs).order_by('-timestamp')
         return qs
 
 
