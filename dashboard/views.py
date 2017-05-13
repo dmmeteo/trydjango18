@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from django.http import HttpResponse, Http404
+from django.http import Http404
 from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
@@ -48,6 +47,13 @@ class BookUpdateView(MultipleObjectMixin, UpdateView):
     # fields = ['title', 'description']
     form_class = BookForm
     template_name = 'dashboard/form.html'
+
+
+class BookDeleteView(DeleteView):
+    model = Book
+
+    def get_success_url(self):
+        return reverse('dashboard:book_list')
 
 
 class BookDetailView(MultipleObjectMixin, DetailView):

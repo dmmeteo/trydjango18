@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^book/create/$', BookCreateView.as_view(), name='book_create'),
     url(r'^book/(?P<slug>[-\w]*)/$', BookDetailView.as_view(), name='book_detail'),
     url(r'^book/(?P<slug>[-\w]*)/update$', BookUpdateView.as_view(), name='book_update'),
+    url(r'^book/(?P<slug>[-\w]*)/delete$', BookDeleteView.as_view(), name='book_delete'),
 ]
