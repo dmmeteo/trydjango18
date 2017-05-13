@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <form action="" method="post">
+        {% csrf_token %}
+        <p>Are you sure you wont to delete "{{ object.title }}" book?</p>
+        <input class="btn btn-danger" type="submit" value="Confirm" />
+        <a class="btn btn-default" href="{{ object.get_absolute_url }}">Cancel</a>
+    </form>
+
+{% endblock %}
