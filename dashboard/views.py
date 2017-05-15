@@ -1,3 +1,5 @@
+from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 from django.http import Http404
 from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
@@ -26,7 +28,7 @@ class MultipleObjectMixin(object):
         raise Http404
 
 
-class BookCreateView(CreateView):
+class BookCreateView(SuccessMessageMixin, CreateView):
     # model = Book
     # fields = ['title', 'description']
     # but better to us "form_class" :
@@ -34,12 +36,27 @@ class BookCreateView(CreateView):
     # success_url = '/book/' # it is not very dynamic, better to us "get_success_url" method
     template_name = 'dashboard/form.html'
 
+    # best practice to do success message with SuccessMessageMixin
+    success_message = '%(title)s is created at %(created_at)s'
+
     def form_valid(self, form):
         form.instance.added_by = self.request.user
-        return super(BookCreateView, self).form_valid(form)
+        valid_form = super(BookCreateView, self).form_valid(form)
+        # better to do success alert here
+        # messages.success(self.request, 'Book "%s" created!' % self.object.title)
+        return valid_form
 
     def get_success_url(self):
+        # you can do success message here
+        # messages.success(self.request, 'Book created!')
         return reverse('dashboard:book_list')
+
+    # to costomise success_message data us this method:
+    def get_success_message(self, cleaned_data):
+        return self.success_message % dict(
+            cleaned_data,
+            created_at=self.object.timestamp,
+        )
 
 
 class BookUpdateView(MultipleObjectMixin, UpdateView):
