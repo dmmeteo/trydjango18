@@ -1,6 +1,6 @@
 from django.contrib import messages
 from django.contrib.messages.views import SuccessMessageMixin
-from django.http import Http404
+from django.http import Http404, HttpResponse
 from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
@@ -8,7 +8,7 @@ from django.views.generic import View
 from django.views.generic.base import TemplateView, TemplateResponseMixin, ContextMixin
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
-from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView, ModelFormMixin
 
 from models import Book
 from forms import BookForm
@@ -73,8 +73,27 @@ class BookDeleteView(DeleteView):
         return reverse('dashboard:book_list')
 
 
-class BookDetailView(MultipleObjectMixin, DetailView):
+class BookDetailView(SuccessMessageMixin, ModelFormMixin, MultipleObjectMixin, DetailView):
     model = Book
+    # us as comment form for example
+    form_class = BookForm
+    success_message = '%(title)s is updated'
+
+    def get_context_data(self, *args, **kwargs):
+        context = super(BookDetailView, self).get_context_data(*args, **kwargs)
+        context['form'] = self.get_form() # method provided by ModelFormMixin
+        context['btn_title'] = 'Update book'
+        return context
+
+    def post(self, request, *args, **kwargs):
+        if request.user.is_authenticated():
+            self.object = self.get_object()
+            form = self.get_form()
+            if form.is_valid():
+                return self.form_valid(form)
+            else:
+                return self.form_invalid(form)
+
     # You can do this but not necessary(in template us "object" to get instances of model)
     # def get_context_data(self, *args, **kwargs):
     #     context = super(BookDetail, self).get_context_data(*args, **kwargs)

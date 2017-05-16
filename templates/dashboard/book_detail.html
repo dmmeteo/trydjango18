@@ -8,4 +8,7 @@
     <h3>{{ object.title }}</h3>
     <p>{{ object.description }}</p>
     <p>Added {{ object.timestamp|timesince }} ago</p>
+
+    {% include 'single_form.html' with form=form title='update book' btn_title=btn_title %}
+
 {% endblock %}
