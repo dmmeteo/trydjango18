@@ -1,0 +1,27 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504264076416">
+        <mark key="'" line="450" column="8" />
+        <mark key="[" line="407" column="8" />
+        <mark key="]" line="407" column="0" />
+        <mark key="^" line="407" column="0" />
+        <mark key="." line="423" column="71" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="424" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="392" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="451" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+    </jumps>
+    <registers />
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history />
+    <shortcut-conflicts />
+  </component>
+</application>
