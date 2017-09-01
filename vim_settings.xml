@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504271684101">
-        <mark key="'" line="146" column="4" />
-        <mark key="[" line="479" column="44" />
-        <mark key="]" line="485" column="81" />
-        <mark key="^" line="485" column="81" />
-        <mark key="." line="485" column="81" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504272926709">
+        <mark key="'" line="567" column="0" />
+        <mark key="[" line="568" column="11" />
+        <mark key="]" line="567" column="23" />
+        <mark key="^" line="568" column="11" />
+        <mark key="." line="567" column="23" />
       </file>
       <file name="/Dummy.txt" timestamp="1504267177612">
         <mark key="[" line="0" column="0" />
@@ -103,6 +103,20 @@
       <jump line="115" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="134" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="146" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="480" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="546" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="503" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="504" column="63" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="484" column="90" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="501" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="509" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="510" column="63" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="511" column="31" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="118" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="126" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="125" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="568" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="567" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
     </jumps>
     <registers>
       <register name="0" type="4">
@@ -112,7 +126,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>s</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -130,16 +144,16 @@
         <text>w</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>get_mes</text>
+        <text>def get_mes</text>
       </register>
     </registers>
     <search>
-      <last-search>get_mes</last-search>
+      <last-search>def get_mes</last-search>
       <last-offset />
-      <last-pattern>get_mes</last-pattern>
+      <last-pattern>def get_mes</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxkZWZcPg==</last-substitute>
       <last-dir>1</last-dir>
@@ -157,6 +171,8 @@
         <entry>def get_me</entry>
         <entry encoding="base64">XDxkZWZcPg==</entry>
         <entry>get_mes</entry>
+        <entry encoding="base64">XDxmaWx0ZXJzXD4=</entry>
+        <entry>def get_mes</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
