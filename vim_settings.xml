@@ -3,14 +3,14 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504353170567">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504507703508">
         <mark key="'" line="567" column="0" />
         <mark key="[" line="568" column="11" />
         <mark key="]" line="567" column="23" />
         <mark key="^" line="568" column="11" />
         <mark key="." line="567" column="23" />
       </file>
-      <file name="/Dummy.txt" timestamp="1504267177612">
+      <file name="/Dummy.txt" timestamp="1504507706993">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1504269663333">
@@ -22,6 +22,8 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/clients_overview.html" timestamp="1504508397102" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1504508239738" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
         <mark key="]" line="655" column="5" />
