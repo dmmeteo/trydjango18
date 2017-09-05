@@ -25,13 +25,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504621221894">
-        <mark key="s" line="492" column="24" />
-        <mark key="'" line="411" column="29" />
-        <mark key="[" line="485" column="48" />
-        <mark key="]" line="488" column="19" />
-        <mark key="." line="488" column="19" />
-        <mark key="^" line="488" column="19" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504621474301">
+        <mark key="s" line="494" column="24" />
+        <mark key="'" line="413" column="29" />
+        <mark key="[" line="491" column="34" />
+        <mark key="]" line="491" column="34" />
+        <mark key="." line="491" column="34" />
+        <mark key="^" line="490" column="19" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -144,10 +144,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>i</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text>i</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx1c2Vyc1w+</text>
