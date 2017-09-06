@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504694198812">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1504697023696">
         <mark key="[" line="145" column="0" />
         <mark key="]" line="285" column="0" />
         <mark key="^" line="285" column="0" />
@@ -25,10 +25,10 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504696456674">
-        <mark key="[" line="497" column="0" />
-        <mark key="]" line="497" column="0" />
-        <mark key="." line="497" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504697030589">
+        <mark key="[" line="500" column="39" />
+        <mark key="]" line="500" column="39" />
+        <mark key="." line="500" column="39" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/users/models.py" timestamp="1504690652159" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -141,11 +141,11 @@
       <jump line="412" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>50</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHUn0JjQsdC70LA6ICVzJyAlIHVuaWNvZGUo</text>
+        <text>50</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx1c2Vyc1w+</text>
