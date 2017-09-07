@@ -24,11 +24,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504784816080">
-        <mark key="[" line="525" column="94" />
-        <mark key="]" line="518" column="53" />
-        <mark key="." line="518" column="53" />
-        <mark key="^" line="518" column="53" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504787506771">
+        <mark key="'" line="493" column="11" />
+        <mark key="[" line="414" column="28" />
+        <mark key="]" line="414" column="26" />
+        <mark key="^" line="414" column="26" />
+        <mark key="." line="414" column="26" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -38,19 +39,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="392" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="451" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="344" column="18" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="492" column="32" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="98" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="122" column="40" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="213" column="64" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="485" column="13" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="516" column="28" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="255" column="18" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="263" column="25" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="264" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="271" column="94" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="273" column="88" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="277" column="45" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="289" column="10" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
@@ -137,60 +125,73 @@
       <jump line="406" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="464" column="49" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="19" column="5" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="412" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="483" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="428" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="429" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="487" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="488" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="489" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="387" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="412" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="550" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="426" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="413" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="549" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="551" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="493" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>t</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmdyb3Vwcwo=</text>
       </register>
       <register name="-" type="4">
-        <text>t</text>
+        <text>+</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1c2Vyc1w+</text>
+        <text>print sel</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cyddKSA+IDE6CiAgICAgICAgICAgICAgICBmb3IgbQ==</text>
+        <text>\n</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgcGFyYW1zCiAgICAgICAgICAgIHRyZXNob2xkID0gcGFyYW1zLnBvcCgndHJlc2hvbGRfdmFsdWUnKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmdyb3Vwcwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJlc2hvbGQgPSBwYXJhbXMucG9wKCd0cmVzaG9sZF92YWx1ZScpCiAgICAgICAgICAgIHN0YXRzID0gc2VsZi5nZXRfc3RhdHMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IHBhcmFtcwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IG1zZy5lbmNvZGUoJ3V0Zi04JykK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBpZiBwYXJhbWV0ZXJzOg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbXNnID0gdScnCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBmaWx0ZXJzLmdldCgndHJlc2hvbGRfdmFsdWUnKToK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm1zZyA9IHUn0KLQtdGB0YIgXCIlc1wiINC/0YDQvtCy0LDQu9C10L06XG4nICUgc2VsZi5kb2MuZ2V0KCd0aXRsZScpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXRldGltZS5ub3coKS50aW1lKCkuaG91cik6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbXNnID0gdScnCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXRldGltZS5ub3coKS50aW1lKCkuaG91cik6Cg==</text>
+        <text encoding="base64">ICAgICAgICBzdGF0cyA9IHNlbGYuZ2V0X3N0YXRzCgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgICAiZnVuYyI6ICJjaGVja19yZXF1ZXN0cyIsCiAgICAgICAgIm5hbWUiOiB1ItC80L7QvdC40YLQvtGA0LjQvdCzINC+0YfQtdGA0LXQtNC10LkgbnNxIiwKICAgICAgICAiZ3JvdXAiOiAnZGV2JwogICAgfSwK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm1zZyA9IHUn0KLQtdGB0YIgXCIlc1wiINC/0YDQvtCy0LDQu9C10L06XG4nICUgc2VsZi5kb2MuZ2V0KCd0aXRsZScpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2RpY3QnLCBzdGF0cwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcmVmYWN0b3IgdGVzdAogICAgICAgICAgICAgICAgaWYgc3RhdHNbJ3RvdGFsJ10gPiAwIGFuZCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSkgPD0gc2VsZi50cmVzaG9sZDoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1c2Vyc1w+</last-search>
+      <last-search>print sel</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1c2Vyc1w+</last-pattern>
+      <last-pattern>print sel</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxkZWZcPg==</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -207,6 +208,8 @@
         <entry encoding="base64">XDxmaWx0ZXJzXD4=</entry>
         <entry>def get_mes</entry>
         <entry encoding="base64">XDx1c2Vyc1w+</entry>
+        <entry>msg</entry>
+        <entry>print sel</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
