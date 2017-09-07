@@ -15,8 +15,6 @@
       <file name="/Python Console" timestamp="1504269663333">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1504701481954" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/extra_utils/rdb.py" timestamp="1504602306551" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
@@ -26,12 +24,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504712061614">
-        <mark key="[" line="410" column="8" />
-        <mark key="]" line="410" column="8" />
-        <mark key="." line="410" column="8" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504769898076">
+        <mark key="[" line="518" column="54" />
+        <mark key="]" line="518" column="53" />
+        <mark key="." line="518" column="53" />
+        <mark key="^" line="518" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/users/models.py" timestamp="1504690652159" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
         <mark key="]" line="655" column="5" />
