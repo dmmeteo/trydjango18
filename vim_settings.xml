@@ -25,12 +25,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504858460750">
-        <mark key="'" line="486" column="32" />
-        <mark key="[" line="486" column="32" />
-        <mark key="]" line="486" column="32" />
-        <mark key="." line="486" column="32" />
-        <mark key="^" line="486" column="32" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504860760534">
+        <mark key="'" line="154" column="53" />
+        <mark key="[" line="427" column="20" />
+        <mark key="]" line="427" column="20" />
+        <mark key="." line="427" column="20" />
+        <mark key="^" line="427" column="20" />
         <mark key="o" line="407" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -41,10 +41,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="511" column="31" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="118" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="126" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
-      <jump line="125" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="568" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="567" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="269" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
@@ -141,19 +137,23 @@
       <jump line="407" column="13" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="433" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="486" column="32" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="525" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="161" column="17" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="154" column="53" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>(</text>
+        <text>j</text>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>j</text>
       </register>
       <register name="/" type="4">
-        <text>self.get_name</text>
+        <text>self.groups[1]</text>
       </register>
       <register name="0" type="4">
-        <text>self.doc.get('monitoring_args')</text>
+        <text>if self.doc.get('monitoring') == self.types.keys()[0]:</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcGFyYW1zID0gc2VsZi5kb2MuZ2V0KCdtb25pdG9yaW5nX2FyZ3MnKQogICAgICAgICAgICBzdGF0cyA9IHNlbGYuZ2V0X3N0YXRzCg==</text>
@@ -183,22 +183,20 @@
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2RkdGF0cywgJz4nLCBzZWxmLnRyZXNob2xkCg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/self.get_name/name/gc</text>
+        <text>%s/self.groups[1]/group/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>self.get_name</last-search>
+      <last-search>self.groups[1]</last-search>
       <last-offset />
-      <last-pattern>self.get_name</last-pattern>
-      <last-replace>name</last-replace>
-      <last-substitute>self.get_name</last-substitute>
+      <last-pattern>self.groups[1]</last-pattern>
+      <last-replace>group</last-replace>
+      <last-substitute>self.groups[1]</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhcmdzXD4=</entry>
-        <entry>def get_m</entry>
         <entry>def get_</entry>
         <entry>def get_me</entry>
         <entry encoding="base64">XDxkZWZcPg==</entry>
@@ -217,11 +215,14 @@
         <entry>self.stats</entry>
         <entry>params = sel</entry>
         <entry>self.get_name</entry>
+        <entry encoding="base64">bWVzc2FnZTog</entry>
+        <entry>self.groups[1]</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
         <entry>%s/self.stats/self.monitoring_args/gc</entry>
         <entry>%s/self.get_name/name/gc</entry>
+        <entry>%s/self.groups[1]/group/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -229,6 +230,9 @@
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
