@@ -25,12 +25,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504877617406">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504878704939">
         <mark key="'" line="515" column="16" />
-        <mark key="[" line="433" column="8" />
-        <mark key="]" line="433" column="18" />
-        <mark key="." line="433" column="9" />
-        <mark key="^" line="433" column="9" />
+        <mark key="[" line="419" column="82" />
+        <mark key="]" line="420" column="19" />
+        <mark key="." line="420" column="19" />
+        <mark key="^" line="420" column="19" />
         <mark key="o" line="407" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -143,44 +143,44 @@
       <jump line="515" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>__get_stats</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>'msg1'</text>
+        <text>{'message': self.message, 'buttons': self.buttons}</text>
       </register>
       <register name="/" type="4">
         <text>msg_type</text>
       </register>
-      <register name="0" type="4">
-        <text>__get_stats</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEnCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbXNnX3R5cGUgPT0gJ21zZzInOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbXNnX3R5cGUgPT0gJ21zZzEnOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBtc2dfdHlwZSA9IGxmLm1zZ190eXBlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbXNnX3R5cGUgPT0gJ21zZzInOgo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/msg_type/test/gc</text>
