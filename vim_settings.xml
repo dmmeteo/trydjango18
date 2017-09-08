@@ -25,12 +25,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504878704939">
-        <mark key="'" line="515" column="16" />
-        <mark key="[" line="419" column="82" />
-        <mark key="]" line="420" column="19" />
-        <mark key="." line="420" column="19" />
-        <mark key="^" line="420" column="19" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504881924545">
+        <mark key="'" line="287" column="19" />
+        <mark key="[" line="415" column="0" />
+        <mark key="]" line="415" column="0" />
+        <mark key="." line="415" column="0" />
+        <mark key="^" line="415" column="0" />
         <mark key="o" line="407" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -41,11 +41,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="431" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="516" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="142" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="406" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="19" column="5" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="483" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="428" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="429" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -116,7 +111,6 @@
       <jump line="417" column="88" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="422" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="518" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="435" column="7" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="488" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="408" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="432" column="18" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -141,63 +135,68 @@
       <jump line="412" column="14" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="415" column="31" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="515" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="435" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="490" column="26" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="162" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="201" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="244" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="287" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="-" type="4">
-        <text>{'message': self.message, 'buttons': self.buttons}</text>
-      </register>
-      <register name="/" type="4">
-        <text>msg_type</text>
-      </register>
-      <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEnCg==</text>
       </register>
+      <register name="-" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEn</text>
+      </register>
+      <register name="/" type="4">
+        <text>.get_stats</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLm1lc3NhZ2UsICdidXR0b25zJzogc2VsZi5idXR0b25zfQo=</text>
+      </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEnCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgZ3JvdXBbLTFdID09ICdnYXRld2F5X2lkJyBlbHNlIDEwMCAgIyBjb25zdGFudAogICAgICAgICAgICAgICAgICAgIGlmIGRhdGFbJ3RvdGFsJ10gPiBCIGFuZCBkYXRhWydkZWxpdmVyZWQnXSAvIGZsb2F0KGRhdGFbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQ6Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ3JvdXAgPQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbXNnX3R5cGUgPT0gJ21zZzInOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/msg_type/test/gc</text>
+        <text>%s/.get_stats/.__get_stats/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>msg_type</last-search>
+      <last-search>.get_stats</last-search>
       <last-offset />
-      <last-pattern>msg_type</last-pattern>
-      <last-replace>test</last-replace>
-      <last-substitute>msg_type</last-substitute>
+      <last-pattern>.get_stats</last-pattern>
+      <last-replace>.__get_stats</last-replace>
+      <last-substitute>.get_stats</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>def get_mes</entry>
         <entry encoding="base64">XDx1c2Vyc1w+</entry>
         <entry>msg</entry>
         <entry>print sel</entry>
@@ -217,6 +216,7 @@
         <entry>self.doc.get('monitoring')</entry>
         <entry>self.types</entry>
         <entry>msg_type</entry>
+        <entry>.get_stats</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -227,6 +227,7 @@
         <entry>%s/self.doc.get\('monitoring'\)/test_type/gc</entry>
         <entry>%s/self.doc.get('monitoring')/test_type/gc</entry>
         <entry>%s/msg_type/test/gc</entry>
+        <entry>%s/.get_stats/.__get_stats/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
