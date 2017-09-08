@@ -25,12 +25,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504865754837">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1504868406766">
         <mark key="'" line="515" column="16" />
-        <mark key="[" line="486" column="32" />
-        <mark key="]" line="490" column="0" />
-        <mark key="." line="490" column="0" />
-        <mark key="^" line="490" column="11" />
+        <mark key="[" line="517" column="46" />
+        <mark key="]" line="517" column="46" />
+        <mark key="." line="517" column="46" />
+        <mark key="^" line="486" column="19" />
         <mark key="o" line="407" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -143,17 +143,17 @@
       <jump line="515" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>g</text>
       </register>
       <register name="-" type="4">
-        <text>if msg_type == 'msg3':</text>
+        <text>g</text>
       </register>
       <register name="/" type="4">
         <text>msg_type</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGVzdF90eXBlID0gc2VsZi5kb2MuZ2V0KCdtb25pdG9yaW5nJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpdGVtX25hbWUgPSBuYW1lKGl0ZW1faWQsIGdzZWxmLmdyb3Vyb3VwWy0xXSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
