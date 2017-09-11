@@ -3,10 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505123565917">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505142793622">
         <mark key="'" line="182" column="42" />
-        <mark key="[" line="210" column="0" />
-        <mark key="]" line="220" column="120" />
+        <mark key="[" line="223" column="33" />
+        <mark key="]" line="223" column="47" />
         <mark key="^" line="285" column="0" />
         <mark key="." line="285" column="0" />
       </file>
@@ -28,12 +28,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505141598490">
-        <mark key="'" line="380" column="16" />
-        <mark key="[" line="440" column="15" />
-        <mark key="]" line="441" column="17" />
-        <mark key="." line="441" column="17" />
-        <mark key="^" line="441" column="17" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505143213914">
+        <mark key="'" line="411" column="30" />
+        <mark key="[" line="442" column="27" />
+        <mark key="]" line="442" column="27" />
+        <mark key="." line="442" column="27" />
+        <mark key="^" line="442" column="27" />
         <mark key="o" line="272" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -102,7 +102,6 @@
       <jump line="457" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="454" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="420" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="411" column="22" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="409" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="417" column="88" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="422" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -144,19 +143,20 @@
       <jump line="155" column="36" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="40" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="380" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="411" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>message</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>msg += u'За последний час зашло %d смс, нужно проверить' % stats</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">PT0+</text>
       </register>
       <register name="0" type="4">
-        <text>message</text>
+        <text>inline_keyboard</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBodWkuYnV0dG9ucwo=</text>
@@ -194,7 +194,7 @@
       <last-offset />
       <last-pattern encoding="base64">PT0+</last-pattern>
       <last-replace>args</last-replace>
-      <last-substitute>self\.monitoring_args</last-substitute>
+      <last-substitute encoding="base64">PT0+</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
