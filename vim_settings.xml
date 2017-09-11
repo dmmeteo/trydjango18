@@ -28,11 +28,10 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505125514512">
-        <mark key="'" line="230" column="22" />
-        <mark key="[" line="538" column="0" />
-        <mark key="]" line="538" column="0" />
-        <mark key="." line="538" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505127355347">
+        <mark key="[" line="589" column="0" />
+        <mark key="]" line="589" column="0" />
+        <mark key="." line="589" column="0" />
         <mark key="o" line="407" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -43,7 +42,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="428" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="429" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="387" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="550" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -143,63 +141,63 @@
       <jump line="287" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="487" column="4" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="230" column="22" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="582" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzICAK</text>
+        <text encoding="base64">ICAgIGRlZiBfX3VybChzZWxmKToK</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text />
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PT0+</text>
+        <text>self\.monitoring_args</text>
       </register>
-      <register name="0" type="4">
-        <text>self.monitoring_args</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdF90eXBlID09ICdjaGVja19sYXN0X2hvdXJfdG90YWwnOgogICAgICAgICAgICAgICAgbXNnICs9IHUn0JfQsCDQv9C+0YHQu9C10LTQvdC40Lkg0YfQsNGBINC30LDRiNC70L4gJWQg0YHQvNGBLCDQvdGD0LbQvdC+INC/0YDQvtCy0LXRgNC40YLRjCcgJSBzdGF0cwoKICAgICAgICAgICAgZWxpZiB0ZXN0X3R5cGUgPT0gJ2NoZWNrX2xhc3RfaG91cl9kZWxpdmVyeV9yYXRlJzoKICAgICAgICAgICAgICAgIHBhcmFtcyA9IHthcmc6IHBhcmFtc1thcmddIGZvciBhcmcgaW4gcGFyYW1zIGlmIHBhcmFtc1thcmddICE9ICcwJ30KICAgICAgICAgICAgICAgIGlmIHBhcmFtczoKICAgICAgICAgICAgICAgICAgICBwYXJhbWV0ZXJzID0gdScnCiAgICAgICAgICAgICAgICAgICAgaWYgJ3VzZXJfaWQnIGluIHBhcmFtczoKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyArPSB1ItCu0LfQtdGAIC0gJXMgXG4iICUgbmFtZShwYXJhbXNbJ3VzZXJfaWQnXSwgJ3VzZXJfaWQnKQogICAgICAgICAgICAgICAgICAgIGlmICdjb3VudHJ5X2lkJyBpbiBwYXJhbXM6CiAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgKz0gdSLQodGC0YDQsNC90LAgLSAlcyBcbiIgJSBuYW1lKHBhcmFtc1snY291bnRyeV9pZCddLCAnY291bnRyeV9pZCcpCiAgICAgICAgICAgICAgICAgICAgaWYgJ2dhdGV3YXlfaWQnIGluIHBhcmFtczoKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyArPSB1ItCo0LvRjtC3IC0gJXMgXG4iICUgbmFtZShwYXJhbXNbJ2dhdGV3YXlfaWQnXSwgJ2dhdGV3YXlfaWQnKQogICAgICAgICAgICAgICAgICAgIG1zZyArPSB1ItCd0LjQt9C60LjQuSDQv9GA0L7RhtC10L3RgiDQtNC+0YHRgtCw0LLQutC4XG4iICsgcGFyYW1ldGVycyArIHUiIGRlbGl2ZXJlZCAtICVzICglZCUlKVxuIHBlbmRpbmcgLSAlcyAoJWQlJSlcbiB1bmRlbGl2ZXJlZCAtICVzICglZCUlKVxuIHRvdGFsIC0gJXMiCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIG1zZyArPSB1ItCd0LjQt9C60LjQuSDQv9GA0L7RhtC10L3RgiDQtNC+0YHRgtCw0LLQutC4INC/0L4g0YHQuNGB0YLQtdC80LU6XG4gZGVsaXZlcmVkIC0gJXMgKCVkJSUpXG4gcGVuZGluZyAtICVzICglZCUlKVxuIHVuZGVsaXZlcmVkIC0gJXMgKCVkJSUpXG4gdG90YWwgLSAlcyIKICAgICAgICAgICAgICAgIG1zZyA9IG1zZyAlICgKICAgICAgICAgICAgICAgICAgICBzdGF0c1snZGVsaXZlcmVkJ10sIHN0YXRzWydkZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSAqIDEwMCwKICAgICAgICAgICAgICAgICAgICBzdGF0c1sncGVuZGluZyddLCBzdGF0c1sncGVuZGluZyddIC8gZmxvYXQoc3RhdHNbJ3RvdGFsJ10pICogMTAwLAogICAgICAgICAgICAgICAgICAgIHN0YXRzWyd1bmRlbGl2ZXJlZCddLCBzdGF0c1sndW5kZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSAqIDEwMCwKICAgICAgICAgICAgICAgICAgICBzdGF0c1sndG90YWwnXQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIGVsc2U6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzICAK</text>
+        <text encoding="base64">ICAgIGRlZiBfX3VybChzZWxmKToK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhcmdzID0gc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzCg==</text>
+        <text encoding="base64">ICAgICAgICBhcmdzID0gc2VsZi5tb25pdG9yaW5nX2FyZ3MKICAgICAgICBhcmdzID0ge2FyZzogYXJnc1thcmddIGZvciBhcmcgaW4gYXJncyBpZiBhcmdzW2FyZ10gIT0gJzAnfQo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICBhcmdzID0ge2FyZzogc2VsZi5tb25pdG9yaW5nX2FyZ3NbYXJnXSBmb3IgYXJnIGluIHNlbGYubW9uaXRvcmluZ19hcmdzIGlmIHNlbGYubW9uaXRvcmluZ19hcmdzW2FyZ10gIT0gJzAnfQogICAgICAgIGRhdGEgPSB1cmxsaWIudXJsZW5jb2RlKHsKICAgICAgICAgICAgJ2RhdGVfZnJvbSc6IGRhdGV0aW1lLnN0cmZ0aW1lKHNlbGYuZGF0ZV9mcm9tLCAnJVktJW0tJWQgJUg6JU06JVMnKSwKICAgICAgICAgICAgJ2RhdGVfdG8nOiBkYXRldGltZS5zdHJmdGltZShzZWxmLmRhdGVfdG8sICclWS0lbS0lZCAlSDolTTolUycpLAogICAgICAgICAgICAnY2xpZW50JzogYXJncy5nZXQoJ3VzZXJfaWQnLCAnJyksCiAgICAgICAgICAgICdjb3VudHJ5JzogYXJncy5nZXQoJ2NvdW50cnlfaWQnLCAnJyksCiAgICAgICAgICAgICdnYXRld2F5JzogYXJncy5nZXQoJ2dhdGV3YXlfaWQnLCAnJyksCiAgICAgICAgfSkKICAgICAgICB1cmwgPSAnJy5qb2luKFtzZXR0aW5ncy5TSVRFX1JPT1RfVVJMLCByZXZlcnNlKCdkaXJlY3RvcnM6YWxsX21lc3NhZ2VzJyksICc/JywgZGF0YSwgJyZzdGF0dXM9J10p</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBrdW5kZW5pbmZvcG9ydGFsLmR0bXMuZGUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdF90eXBlID09ICdjaGVja19sYXN0X2hvdXJfdG90YWwnOgogICAgICAgICAgICAgICAgbXNnICs9IHUn0JfQsCDQv9C+0YHQu9C10LTQvdC40Lkg0YfQsNGBINC30LDRiNC70L4gJWQg0YHQvNGBLCDQvdGD0LbQvdC+INC/0YDQvtCy0LXRgNC40YLRjCcgJSBzdGF0cwoKICAgICAgICAgICAgZWxpZiB0ZXN0X3R5cGUgPT0gJ2NoZWNrX2xhc3RfaG91cl9kZWxpdmVyeV9yYXRlJzoKICAgICAgICAgICAgICAgIHBhcmFtcyA9IHthcmc6IHBhcmFtc1thcmddIGZvciBhcmcgaW4gcGFyYW1zIGlmIHBhcmFtc1thcmddICE9ICcwJ30KICAgICAgICAgICAgICAgIGlmIHBhcmFtczoKICAgICAgICAgICAgICAgICAgICBwYXJhbWV0ZXJzID0gdScnCiAgICAgICAgICAgICAgICAgICAgaWYgJ3VzZXJfaWQnIGluIHBhcmFtczoKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyArPSB1ItCu0LfQtdGAIC0gJXMgXG4iICUgbmFtZShwYXJhbXNbJ3VzZXJfaWQnXSwgJ3VzZXJfaWQnKQogICAgICAgICAgICAgICAgICAgIGlmICdjb3VudHJ5X2lkJyBpbiBwYXJhbXM6CiAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgKz0gdSLQodGC0YDQsNC90LAgLSAlcyBcbiIgJSBuYW1lKHBhcmFtc1snY291bnRyeV9pZCddLCAnY291bnRyeV9pZCcpCiAgICAgICAgICAgICAgICAgICAgaWYgJ2dhdGV3YXlfaWQnIGluIHBhcmFtczoKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyArPSB1ItCo0LvRjtC3IC0gJXMgXG4iICUgbmFtZShwYXJhbXNbJ2dhdGV3YXlfaWQnXSwgJ2dhdGV3YXlfaWQnKQogICAgICAgICAgICAgICAgICAgIG1zZyArPSB1ItCd0LjQt9C60LjQuSDQv9GA0L7RhtC10L3RgiDQtNC+0YHRgtCw0LLQutC4XG4iICsgcGFyYW1ldGVycyArIHUiIGRlbGl2ZXJlZCAtICVzICglZCUlKVxuIHBlbmRpbmcgLSAlcyAoJWQlJSlcbiB1bmRlbGl2ZXJlZCAtICVzICglZCUlKVxuIHRvdGFsIC0gJXMiCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIG1zZyArPSB1ItCd0LjQt9C60LjQuSDQv9GA0L7RhtC10L3RgiDQtNC+0YHRgtCw0LLQutC4INC/0L4g0YHQuNGB0YLQtdC80LU6XG4gZGVsaXZlcmVkIC0gJXMgKCVkJSUpXG4gcGVuZGluZyAtICVzICglZCUlKVxuIHVuZGVsaXZlcmVkIC0gJXMgKCVkJSUpXG4gdG90YWwgLSAlcyIKICAgICAgICAgICAgICAgIG1zZyA9IG1zZyAlICgKICAgICAgICAgICAgICAgICAgICBzdGF0c1snZGVsaXZlcmVkJ10sIHN0YXRzWydkZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSAqIDEwMCwKICAgICAgICAgICAgICAgICAgICBzdGF0c1sncGVuZGluZyddLCBzdGF0c1sncGVuZGluZyddIC8gZmxvYXQoc3RhdHNbJ3RvdGFsJ10pICogMTAwLAogICAgICAgICAgICAgICAgICAgIHN0YXRzWyd1bmRlbGl2ZXJlZCddLCBzdGF0c1sndW5kZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSAqIDEwMCwKICAgICAgICAgICAgICAgICAgICBzdGF0c1sndG90YWwnXQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIGVsc2U6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGFzcwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmJ0bl9kYXRhOgo=</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEnCg==</text>
+        <text encoding="base64">ICAgICAgICBhcmdzID0gc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/.get_stats/.__get_stats/gc</text>
+        <text>s/self\.monitoring_args/args/g</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PT0+</last-search>
+      <last-search>self\.monitoring_args</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PT0+</last-pattern>
-      <last-replace>.__get_stats</last-replace>
-      <last-substitute>.get_stats</last-substitute>
+      <last-pattern>self\.monitoring_args</last-pattern>
+      <last-replace>args</last-replace>
+      <last-substitute>self\.monitoring_args</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>msg</entry>
         <entry>print sel</entry>
         <entry>def bu</entry>
         <entry>butt</entry>
@@ -219,6 +217,7 @@
         <entry>msg_type</entry>
         <entry>.get_stats</entry>
         <entry encoding="base64">PT0+</entry>
+        <entry>self\.monitoring_args</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -230,6 +229,7 @@
         <entry>%s/self.doc.get('monitoring')/test_type/gc</entry>
         <entry>%s/msg_type/test/gc</entry>
         <entry>%s/.get_stats/.__get_stats/gc</entry>
+        <entry>s/self\.monitoring_args/args/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
