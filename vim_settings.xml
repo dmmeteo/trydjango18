@@ -16,6 +16,9 @@
       <file name="/Python Console" timestamp="1504269663333">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="/Django Console" timestamp="1505118426020">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
@@ -193,7 +196,7 @@
       <last-replace>.__get_stats</last-replace>
       <last-substitute>.get_stats</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
