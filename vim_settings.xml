@@ -28,12 +28,11 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505125213912">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505125514512">
         <mark key="'" line="230" column="22" />
-        <mark key="[" line="548" column="0" />
-        <mark key="]" line="548" column="0" />
-        <mark key="." line="548" column="0" />
-        <mark key="^" line="531" column="12" />
+        <mark key="[" line="538" column="0" />
+        <mark key="]" line="538" column="0" />
+        <mark key="." line="538" column="0" />
         <mark key="o" line="407" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -147,43 +146,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzICAK</text>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">PT0+</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzCg==</text>
+      <register name="0" type="4">
+        <text>self.monitoring_args</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhcmdzID0gc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBrdW5kZW5pbmZvcG9ydGFsLmR0bXMuZGUK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnYnV0dG9uczonLCBhcmdzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGFzcwo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmJ0bl9kYXRhOgo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEnCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBrdW5kZW5pbmZvcG9ydGFsLmR0bXMuZGUK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcGFzcwo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
+        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmJ0bl9kYXRhOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnbXNnMicK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSAnVGVzdCBmYWlsZCEnCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/.get_stats/.__get_stats/gc</text>
