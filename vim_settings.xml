@@ -32,12 +32,12 @@
         <mark key="^" line="74" column="47" />
       </file>
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__init__.py" timestamp="1505203727585" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505209715155">
-        <mark key="'" line="163" column="23" />
-        <mark key="[" line="279" column="16" />
-        <mark key="]" line="279" column="27" />
-        <mark key="." line="279" column="27" />
-        <mark key="^" line="279" column="27" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505212833733">
+        <mark key="'" line="154" column="29" />
+        <mark key="[" line="406" column="14" />
+        <mark key="]" line="154" column="62" />
+        <mark key="^" line="154" column="62" />
+        <mark key="." line="154" column="62" />
         <mark key="o" line="272" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
@@ -116,7 +116,6 @@
       <jump line="525" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="161" column="17" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="14" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="154" column="53" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="425" column="45" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="389" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="413" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -148,63 +147,63 @@
       <jump line="133" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="163" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="513" column="53" filename="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" />
+      <jump line="154" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>e</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>_formatMe</text>
+        <text>\.message</text>
       </register>
       <register name="0" type="4">
         <text>return self.test</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9Cg==</text>
-      </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgIGRlZiBfYXNzZXJ0VHJ1ZShzZWxmLCBleHByKToKICAgICAgICAiIiJDaGVjayB0aGF0IHRoZSBleHByZXNzaW9uIGlzIHRydWUuIiIiCiAgICAgICAgaWYgbm90IGV4cHI6CiAgICAgICAgICAgIHJldHVybiB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuYnV0dG9uc30K</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9CiAgICAgICAgICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgdW5pdHRkZGVzdAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGh1aS5idXR0b25zOgo=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmJ1dHRvbnMK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAjIFJFVFVSTgogICAgICAgIGlmIG5vdCBzZWxmLnRlc3Q6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnRlc3QKICAgICAgICAgICAgIyBzZWxmLm1lc3NhZ2UK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcyA9IE5vbmUK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuYnV0dG9uc30K</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi50ZXN0ID0geydtZXNzYWdlJzogc2VsZi5fZm9ybWF0TWVzc2FnZSwgJ2J1dHRvbnMnOiBzZWxmLmJ1dHRvbnN9Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBidG5bJ3JlcGx5X21hcmt1cCddWydpbmxpbmVfa2V5Ym9hcmQnXToK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9Cg==</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">ICAgIGRlZiBfYXNzZXJ0VHJ1ZShzZWxmLCBleHByKToKICAgICAgICAiIiJDaGVjayB0aGF0IHRoZSBleHByZXNzaW9uIGlzIHRydWUuIiIiCiAgICAgICAgaWYgbm90IGV4cHI6CiAgICAgICAgICAgIHJldHVybiB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9</text>
       </register>
       <register name=":" type="4">
-        <text>s/self\.monitoring_args/args/g</text>
+        <text>s/\.message/['message']/g</text>
       </register>
     </registers>
     <search>
-      <last-search>_formatMe</last-search>
+      <last-search>\.message</last-search>
       <last-offset />
-      <last-pattern>_formatMe</last-pattern>
-      <last-replace>args</last-replace>
-      <last-substitute encoding="base64">PT0+</last-substitute>
+      <last-pattern>\.message</last-pattern>
+      <last-replace>['message']</last-replace>
+      <last-substitute>\.message</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>def bu</entry>
         <entry>butt</entry>
         <entry encoding="base64">XDxzdGF0c1w+</entry>
         <entry>self.treshold</entry>
@@ -224,6 +223,7 @@
         <entry>self\.monitoring_args</entry>
         <entry encoding="base64">PT0+</entry>
         <entry>_formatMe</entry>
+        <entry>\.message</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -236,6 +236,8 @@
         <entry>%s/msg_type/test/gc</entry>
         <entry>%s/.get_stats/.__get_stats/gc</entry>
         <entry>s/self\.monitoring_args/args/g</entry>
+        <entry>s/</entry>
+        <entry>s/\.message/['message']/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
