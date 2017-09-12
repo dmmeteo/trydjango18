@@ -34,10 +34,10 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__init__.py" timestamp="1505203727585" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505206499374">
         <mark key="'" line="163" column="23" />
-        <mark key="[" line="285" column="56" />
-        <mark key="]" line="286" column="15" />
-        <mark key="." line="286" column="15" />
-        <mark key="^" line="286" column="15" />
+        <mark key="[" line="284" column="56" />
+        <mark key="]" line="284" column="15" />
+        <mark key="." line="284" column="15" />
+        <mark key="^" line="284" column="15" />
         <mark key="o" line="272" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
