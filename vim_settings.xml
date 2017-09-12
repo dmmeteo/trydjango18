@@ -10,7 +10,7 @@
         <mark key="^" line="285" column="0" />
         <mark key="." line="285" column="0" />
       </file>
-      <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505209307749">
+      <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
       <file name="/Dummy.txt" timestamp="1504507706993">
@@ -33,13 +33,12 @@
         <mark key="^" line="74" column="47" />
       </file>
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__init__.py" timestamp="1505203727585" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505217652230">
-        <mark key="'" line="154" column="29" />
-        <mark key="[" line="408" column="14" />
-        <mark key="]" line="154" column="62" />
-        <mark key="^" line="154" column="62" />
-        <mark key="." line="154" column="62" />
-        <mark key="o" line="274" column="13" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505221888607">
+        <mark key="u" line="270" column="22" />
+        <mark key="'" line="282" column="127" />
+        <mark key="[" line="286" column="0" />
+        <mark key="]" line="286" column="0" />
+        <mark key="." line="286" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -49,7 +48,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="182" column="42" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="361" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="377" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="358" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -149,46 +147,47 @@
       <jump line="163" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="513" column="53" filename="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" />
       <jump line="154" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="285" column="127" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>.</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gTm9uZQo=</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>\.message</text>
       </register>
-      <register name="0" type="4">
-        <text>return self.test</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEBwcm9wZXJ0eQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gTm9uZQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmJ1dHRvbnMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGVzdF90eXBlID0gc2VsZi5tb25pdG9yaW5nCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIFJFVFVSTgogICAgICAgIGlmIG5vdCBzZWxmLnRlc3Q6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnRlc3QKICAgICAgICAgICAgIyBzZWxmLm1lc3NhZ2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdmFsdWUuZ2VkanQoJ3RyZXNob2xkX3ZhbHVlJyk6CiAgICAgICAgICAgICAgICBzZXRhdHRyKHNlbGYsICd0cmVzaG9sZCcsIHZhbHVlWyd0cmVzaG9sZF92YWx1ZSddKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcyA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnRyZXNob2xkID0gc2VsZi5tb25pdG9yaW5nX2FyZ3MuZ2V0KCd0cmVzaG9sZF92YWx1ZScpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuYnV0dG9uc30K</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl90aW1lc3RhbXAoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi50ZXN0ID0geydtZXNzYWdlJzogc2VsZi5fZm9ybWF0TWVzc2FnZSwgJ2J1dHRvbnMnOiBzZWxmLmJ1dHRvbnN9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBidG5bJ3JlcGx5X21hcmt1cCddWydpbmxpbmVfa2V5Ym9hcmQnXToK</text>
+        <text encoding="base64">ICAgICAgICBzdGF0cyA9IHNlbGYuX3N0Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnRlc3QgPSB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9Cg==</text>
+        <text encoding="base64">CiAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIGRlZiBfYXNzZXJ0VHJ1ZShzZWxmLCBleHByKToKICAgICAgICAiIiJDaGVjayB0aGF0IHRoZSBleHByZXNzaW9uIGlzIHRydWUuIiIiCiAgICAgICAgaWYgbm90IGV4cHI6CiAgICAgICAgICAgIHJldHVybiB7J21lc3NhZ2UnOiBzZWxmLl9mb3JtYXRNZXNzYWdlLCAnYnV0dG9ucyc6IHNlbGYuX2Zvcm1hdEJ1dHRvbnN9</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLm1vbml0b3JpX2FyZ3MgPSBzZWxmLmRvYy5nZXQoJ21vbml0b3JpbmdfYXJncycpCg==</text>
       </register>
       <register name=":" type="4">
         <text>s/\.message/['message']/g</text>
