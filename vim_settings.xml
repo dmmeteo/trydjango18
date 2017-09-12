@@ -28,9 +28,10 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505144642825">
-        <mark key="'" line="133" column="12" />
-        <mark key="[" line="154" column="46" />
+      <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__init__.py" timestamp="1505203727585" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505203652432">
+        <mark key="'" line="163" column="23" />
+        <mark key="[" line="417" column="14" />
         <mark key="]" line="154" column="49" />
         <mark key="." line="154" column="49" />
         <mark key="^" line="154" column="49" />
@@ -44,7 +45,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="453" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="538" column="1" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="182" column="42" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="361" column="11" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -144,6 +144,7 @@
       <jump line="411" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="153" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="133" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="163" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -196,7 +197,7 @@
       <last-replace>args</last-replace>
       <last-substitute encoding="base64">PT0+</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
