@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505395797905">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505398171512">
         <mark key="'" line="182" column="42" />
         <mark key="[" line="223" column="33" />
         <mark key="]" line="223" column="47" />
@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505397898827">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505398195125">
         <mark key="u" line="273" column="22" />
         <mark key="'" line="152" column="48" />
-        <mark key="[" line="152" column="0" />
-        <mark key="]" line="152" column="0" />
+        <mark key="[" line="157" column="37" />
+        <mark key="]" line="157" column="37" />
         <mark key="^" line="157" column="36" />
-        <mark key="." line="152" column="0" />
+        <mark key="." line="157" column="37" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -149,11 +149,11 @@
       <jump line="152" column="48" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vbml0b3JpbmcgPSBNb25pdG9yaW5nVHlwZVRlc3QobW9uaXRvcmluZykK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>hui</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>fail</text>
