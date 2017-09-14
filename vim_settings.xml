@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505142793622">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505395797905">
         <mark key="'" line="182" column="42" />
         <mark key="[" line="223" column="33" />
         <mark key="]" line="223" column="47" />
@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505395530922">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505397898827">
         <mark key="u" line="273" column="22" />
-        <mark key="'" line="373" column="29" />
-        <mark key="[" line="281" column="68" />
-        <mark key="]" line="381" column="39" />
-        <mark key="." line="381" column="39" />
-        <mark key="^" line="381" column="39" />
+        <mark key="'" line="152" column="48" />
+        <mark key="[" line="152" column="0" />
+        <mark key="]" line="152" column="0" />
+        <mark key="^" line="157" column="36" />
+        <mark key="." line="152" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -47,7 +47,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="263" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="261" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="258" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="257" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -147,13 +146,14 @@
       <jump line="295" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="262" column="6" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="370" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="152" column="48" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHN0YXRzWyd0b3RhbCddLCAwIGFuZCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSksIHNlbGYudHJlc2hvbGQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vbml0b3JpbmcgPSBNb25pdG9yaW5nVHlwZVRlc3QobW9uaXRvcmluZykK</text>
       </register>
       <register name="-" type="4">
-        <text>l</text>
+        <text>hui</text>
       </register>
       <register name="/" type="4">
         <text>fail</text>
@@ -162,31 +162,31 @@
         <text>url_parser</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHN0YXRzWyd0b3RhbCddLCAwIGFuZCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSksIHNlbGYudHJlc2hvbGQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vbml0b3JpbmcgPSBNb25pdG9yaW5nVHlwZVRlc3QobW9uaXRvcmluZykK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHNlbHh4Zi5tb25pdG9yaW5nLCBzdGF0cyA+IHNlbGYudHJlc2hvbGQsIHN0YXRzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICdcblxuXG5cblxubWVzc2FnZTogPT09PT09PiBcbiAnLCBodWkubWVzc2FnZS5lbmNvZGUoJ3V0ZjgnKQogICAgICAgICAgICAgICAgICAgICMgcHJpbnQgaHVpLmJ1dHRvbnMK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnYnV0dG9uIGRhdGEgaW5jb21pbmc6JywgZGF0YQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBwcmludCBlWydtZXNzYWdlJ10uZW5jb2RlKCd1dGY4JykKICAgICAgICAgICAgICAgICAgICAgICAgIyBwcmludCBlWydidXR0b25zJ10K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgZSBpbiBodWkuZXJyb3JzOgogICAgICAgICAgICAgICAgICAgICAgICAjIHByaW50IGVbJ21lc3NhZ2UnXS5lbmNvZGUoJ3V0ZjgnKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShkYXRhLCBkaWN0KToKICAgICAgICAgICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBodWkuZXJyb3JzWydidXR0b25zJ10K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIGJ1dHRvbnMgZGljdAogICAgICAgIGJ0biA9IHsncmVwbHlfbWFya3VwJzogewogICAgICAgICAgICAnaW5saW5lX2tleWJvYXJkJzogW10KICAgICAgICB9fQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICdjaGVja19sYXN0X2hvdXJfZGVsaXZlcnlfcmF0ZT09PT09PT4nLCBzdGF0c1sndG90YWwnXSA+IDAgYW5kIHN0YXRzWydkZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSA+PSBzZWxmLnRyZXNob2xkCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5tb25pdG9yaW5nCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
