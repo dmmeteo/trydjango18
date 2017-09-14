@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505381865038">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505385846756">
         <mark key="u" line="273" column="22" />
         <mark key="'" line="262" column="6" />
-        <mark key="[" line="154" column="29" />
-        <mark key="]" line="154" column="35" />
-        <mark key="." line="154" column="35" />
-        <mark key="^" line="154" column="35" />
+        <mark key="[" line="347" column="35" />
+        <mark key="]" line="347" column="35" />
+        <mark key="." line="347" column="35" />
+        <mark key="^" line="347" column="35" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -150,10 +150,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>data =</text>
+        <text>data</text>
       </register>
       <register name="-" type="4">
-        <text>data =</text>
+        <text>data</text>
       </register>
       <register name="/" type="4">
         <text>fail</text>
