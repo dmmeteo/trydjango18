@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505398195125">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505399692346">
         <mark key="u" line="273" column="22" />
         <mark key="'" line="152" column="48" />
-        <mark key="[" line="157" column="37" />
-        <mark key="]" line="157" column="37" />
-        <mark key="^" line="157" column="36" />
-        <mark key="." line="157" column="37" />
+        <mark key="[" line="348" column="119" />
+        <mark key="]" line="349" column="21" />
+        <mark key="^" line="349" column="21" />
+        <mark key="." line="349" column="21" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
