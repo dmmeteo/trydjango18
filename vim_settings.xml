@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505393882790">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505395530922">
         <mark key="u" line="273" column="22" />
         <mark key="'" line="373" column="29" />
-        <mark key="[" line="293" column="97" />
-        <mark key="]" line="293" column="98" />
-        <mark key="^" line="282" column="100" />
-        <mark key="." line="293" column="98" />
+        <mark key="[" line="281" column="68" />
+        <mark key="]" line="381" column="39" />
+        <mark key="." line="381" column="39" />
+        <mark key="^" line="381" column="39" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -150,7 +150,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHNlbHh4Zi5tb25pdG9yaW5nLCBzdGF0cyA+IHNlbGYudHJlc2hvbGQsIHN0YXRzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHN0YXRzWyd0b3RhbCddLCAwIGFuZCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSksIHNlbGYudHJlc2hvbGQpCg==</text>
       </register>
       <register name="-" type="4">
         <text>l</text>
@@ -162,31 +162,31 @@
         <text>url_parser</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHNlbHh4Zi5tb25pdG9yaW5nLCBzdGF0cyA+IHNlbGYudHJlc2hvbGQsIHN0YXRzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHN0YXRzWyd0b3RhbCddLCAwIGFuZCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSksIHNlbGYudHJlc2hvbGQpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnYnV0dG9uIGRhdGEgaW5jb21pbmc6JywgZGF0YQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KHNlbHh4Zi5tb25pdG9yaW5nLCBzdGF0cyA+IHNlbGYudHJlc2hvbGQsIHN0YXRzKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnYnV0dG9uIGRhdGEgaW5jb21pbmc6JywgZGF0YQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShkYXRhLCBkaWN0KToKICAgICAgICAgICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShkYXRhLCBkaWN0KToKICAgICAgICAgICAgICAgIHBhc3MK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGJ1dHRvbnMgZGljdAogICAgICAgIGJ0biA9IHsncmVwbHlfbWFya3VwJzogewogICAgICAgICAgICAnaW5saW5lX2tleWJvYXJkJzogW10KICAgICAgICB9fQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAjIGJ1dHRvbnMgZGljdAogICAgICAgIGJ0biA9IHsncmVwbHlfbWFya3VwJzogewogICAgICAgICAgICAnaW5saW5lX2tleWJvYXJkJzogW10KICAgICAgICB9fQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
