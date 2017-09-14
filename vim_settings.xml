@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505389807467">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505391013353">
         <mark key="u" line="273" column="22" />
-        <mark key="'" line="262" column="6" />
-        <mark key="[" line="359" column="20" />
-        <mark key="]" line="360" column="11" />
-        <mark key="." line="360" column="11" />
-        <mark key="^" line="360" column="11" />
+        <mark key="'" line="370" column="29" />
+        <mark key="[" line="361" column="26" />
+        <mark key="]" line="370" column="35" />
+        <mark key="." line="370" column="35" />
+        <mark key="^" line="370" column="35" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -142,18 +142,18 @@
       <jump line="454" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="279" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="451" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="370" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="327" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="285" column="46" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="295" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="262" column="6" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
+      <jump line="370" column="29" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>'</text>
+        <text>params</text>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>params</text>
       </register>
       <register name="/" type="4">
         <text>fail</text>
