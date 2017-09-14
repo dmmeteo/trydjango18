@@ -31,13 +31,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505388916349">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505389631663">
         <mark key="u" line="273" column="22" />
         <mark key="'" line="262" column="6" />
-        <mark key="[" line="357" column="0" />
-        <mark key="]" line="357" column="0" />
-        <mark key="." line="357" column="0" />
-        <mark key="^" line="357" column="114" />
+        <mark key="[" line="356" column="13" />
+        <mark key="]" line="360" column="12" />
+        <mark key="." line="360" column="12" />
+        <mark key="^" line="360" column="12" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
         <mark key="[" line="655" column="6" />
@@ -149,44 +149,44 @@
       <jump line="262" column="6" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>args.get('user_id', ''),</text>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text>pass</text>
       </register>
       <register name="/" type="4">
         <text>fail</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCID0gNTAgaWYgc2VsZi5fZ3JvdXBzWy0xXSA9PSAnZ2F0ZXdheV9pZCcgZWxzZSAxMDAgICMgY29uc3RhbnQK</text>
+      <register name="0" type="4">
+        <text>args.get('user_id', ''),</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiAK</text>
+        <text encoding="base64">ICAgICAgICAjIGJ1dHRvbnMgZGljdAogICAgICAgIGJ0biA9IHsncmVwbHlfbWFya3VwJzogewogICAgICAgICAgICAnaW5saW5lX2tleWJvYXJkJzogW10KICAgICAgICB9fQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiByZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fYXNzZXJ0UmFpc2VzKHZbJ3RvdGFsJ10gPiBCIGFuZCB2WydkZWxpdmVyZWQnXSAvIGZsb2F0KHZbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQsIHtrOnZ9KQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHJldHVybiByZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgcmVzOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIGssIHYK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiByZXMK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIGssIHYKICAgICAgICAgICAgc2V0YXR0cihzZWxmLCBrLCB2KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fYXNzZXJ0UmFpc2VzKHZbJ3RvdGFsJ10gPiBCIGFuZCB2WydkZWxpdmVyZWQnXSAvIGZsb2F0KHZbJ3RvdGFsJ10pIDw9IHNlbGYudHJlc2hvbGQsIHtrOnZ9KQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHJldHVybiByZXMK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgcmVzOgo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
