@@ -25,8 +25,8 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505464077987">
-        <mark key="'" line="1112" column="23" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505468704750">
+        <mark key="'" line="2183" column="0" />
       </file>
       <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
@@ -47,7 +47,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="175" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="173" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="165" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -133,8 +132,6 @@
       <jump line="5871" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="5515" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="2214" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="2117" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="2021" column="39" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="515" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="5925" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="509" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
@@ -147,6 +144,9 @@
       <jump line="1112" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="34" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" />
       <jump line="87" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" />
+      <jump line="2021" column="39" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
+      <jump line="2117" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
+      <jump line="2183" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
