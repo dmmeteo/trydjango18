@@ -18,8 +18,8 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505469358918">
         <mark key="[" line="26" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505469767461">
-        <mark key="'" line="88" column="8" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505474992827">
+        <mark key="'" line="87" column="8" />
         <mark key="[" line="70" column="44" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring_charts.py" timestamp="1504268566343">
