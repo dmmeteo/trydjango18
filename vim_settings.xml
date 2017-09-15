@@ -6,7 +6,7 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
-      <file name="/Dummy.txt" timestamp="1505475773658">
+      <file name="/Dummy.txt" timestamp="1505477126860">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1504269663333">
@@ -15,7 +15,7 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505469358918">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505476971177">
         <mark key="[" line="26" column="29" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505475771965">
@@ -28,8 +28,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505469567463">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505477708222">
         <mark key="'" line="5515" column="27" />
+        <mark key="[" line="1052" column="53" />
+        <mark key="]" line="1052" column="0" />
+        <mark key="^" line="1052" column="19" />
+        <mark key="." line="1052" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505476189724">
         <mark key="'" line="22" column="36" />
@@ -159,7 +163,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgZG9jLmdldCgnYWx0ZXJuYXRpdmUnKToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>test</text>
@@ -171,32 +175,32 @@
         <text>url_parser</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgZG9jLmdldCgnYWx0ZXJuYXRpdmUnKToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZG9jLmdldCgnYWx0ZXJuYXRpdmUnKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgZG9jLmdldCgnYWx0ZXJuYXRpdmUnKToK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZG9jLmdldCgnYWx0ZXJuYXRpdmUnKQo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHIKICAgICAgICAgICAgICAgIGZvciByb3cgaW4gZG9jWydhbHRlcm5hdGl2ZSddOgo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>int doc.get('alternative')
             if doc.get('alternative'):</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZ2F0ZXdheQo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgYXJncwo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdDoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
