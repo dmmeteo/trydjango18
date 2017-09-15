@@ -22,12 +22,12 @@
         <mark key="^" line="26" column="19" />
         <mark key="." line="26" column="19" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505487888107">
-        <mark key="'" line="92" column="8" />
-        <mark key="[" line="77" column="11" />
-        <mark key="]" line="77" column="55" />
-        <mark key="^" line="77" column="55" />
-        <mark key="." line="77" column="55" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505488148364">
+        <mark key="'" line="94" column="8" />
+        <mark key="[" line="82" column="38" />
+        <mark key="]" line="83" column="11" />
+        <mark key="^" line="83" column="11" />
+        <mark key="." line="83" column="11" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring_charts.py" timestamp="1504268566343">
         <mark key="[" line="74" column="15" />
@@ -51,6 +51,12 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/rdb_messages.html" timestamp="1505482627488" />
       <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505488573914">
+        <mark key="[" line="1465" column="72" />
+        <mark key="]" line="1465" column="73" />
+        <mark key="^" line="1466" column="22" />
+        <mark key="." line="1465" column="73" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505400653845">
         <mark key="u" line="273" column="22" />
@@ -177,10 +183,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.</text>
+        <text>:</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
         <text>includ</text>
