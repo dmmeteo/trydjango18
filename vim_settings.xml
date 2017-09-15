@@ -15,10 +15,10 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505476971177">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505478585979">
         <mark key="[" line="26" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505475771965">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505479156262">
         <mark key="'" line="87" column="8" />
         <mark key="[" line="70" column="44" />
       </file>
@@ -28,7 +28,7 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505477708222">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505479080237">
         <mark key="'" line="5515" column="27" />
         <mark key="[" line="1052" column="53" />
         <mark key="]" line="1052" column="0" />
