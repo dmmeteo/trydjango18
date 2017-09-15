@@ -3,12 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505400988323">
-        <mark key="[" line="344" column="0" />
-        <mark key="]" line="344" column="0" />
-        <mark key="." line="344" column="0" />
-        <mark key="^" line="252" column="22" />
-      </file>
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
@@ -16,6 +10,9 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1504269663333">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
@@ -27,10 +24,6 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="/Django Console" timestamp="1505118426020">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/settings.py" timestamp="1505401345547" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505400653845">
         <mark key="u" line="273" column="22" />
         <mark key="'" line="152" column="48" />
@@ -40,10 +33,10 @@
         <mark key="." line="447" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1504271177229">
-        <mark key="[" line="655" column="6" />
-        <mark key="]" line="655" column="5" />
-        <mark key="." line="655" column="5" />
-        <mark key="^" line="655" column="5" />
+        <mark key="[" line="664" column="6" />
+        <mark key="]" line="664" column="5" />
+        <mark key="." line="664" column="5" />
+        <mark key="^" line="664" column="5" />
       </file>
     </filemarks>
     <jumps>
@@ -199,7 +192,7 @@
       <last-replace>isFail</last-replace>
       <last-substitute>fail</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
