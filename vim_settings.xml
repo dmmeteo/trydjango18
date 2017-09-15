@@ -31,12 +31,11 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505469567463">
         <mark key="'" line="5515" column="27" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505472822797">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505473999044">
         <mark key="'" line="22" column="36" />
-        <mark key="[" line="131" column="56" />
-        <mark key="]" line="132" column="24" />
-        <mark key="^" line="132" column="24" />
-        <mark key="." line="132" column="24" />
+        <mark key="[" line="132" column="41" />
+        <mark key="]" line="132" column="0" />
+        <mark key="." line="132" column="0" />
       </file>
       <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
@@ -160,7 +159,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgYXJncwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZ2F0ZXdheQo=</text>
       </register>
       <register name="-" type="4">
         <text>test</text>
@@ -172,31 +171,31 @@
         <text>url_parser</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgYXJncwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZ2F0ZXdheQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgYXJncwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdDoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdDoK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAjIFRPRE8gbm9ybWFsIHR5cGUgdmFsaWRhdGlvbgo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgICAgICAgICAgZWxpZiBzZWxmLm1vbml0b3JpbmcgaW4gWydjaGVja19sYXN0X2hvdXJfZGVsaXZlcnlfcmF0ZV9ieV9jb3VudHJ5JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdjaGVja19sYXN0X2hvdXJfZGVsaXZlcnlfcmF0ZV9ieV9nYXRld2F5J106</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIG1vbml0b3JpbmcgPSBNb25pdG9yaW5nVHlwZVRlc3QobW9uaXRvcmluZykK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICdcblxuXG5cblxubWVzc2FnZTogPT09PT09PiBcbiAnLCBodWkubWVzc2FnZS5lbmNvZGUoJ3V0ZjgnKQogICAgICAgICAgICAgICAgICAgICMgcHJpbnQgaHVpLmJ1dHRvbnMK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBwcmludCBlWydtZXNzYWdlJ10uZW5jb2RlKCd1dGY4JykKICAgICAgICAgICAgICAgICAgICAgICAgIyBwcmludCBlWydidXR0b25zJ10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICdcblxuXG5cblxubWVzc2FnZTogPT09PT09PiBcbiAnLCBodWkubWVzc2FnZS5lbmNvZGUoJ3V0ZjgnKQogICAgICAgICAgICAgICAgICAgICMgcHJpbnQgaHVpLmJ1dHRvbnMK</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
