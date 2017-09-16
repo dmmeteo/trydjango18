@@ -15,19 +15,19 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505484667722">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505490749024">
         <mark key="'" line="8" column="7" />
         <mark key="[" line="54" column="15" />
         <mark key="]" line="26" column="19" />
         <mark key="^" line="26" column="19" />
         <mark key="." line="26" column="19" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505489732046">
-        <mark key="'" line="91" column="8" />
-        <mark key="[" line="87" column="0" />
-        <mark key="]" line="87" column="0" />
-        <mark key="^" line="114" column="37" />
-        <mark key="." line="87" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505490844059">
+        <mark key="'" line="88" column="8" />
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="76" column="0" />
+        <mark key="^" line="84" column="18" />
+        <mark key="." line="76" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring_charts.py" timestamp="1504268566343">
         <mark key="[" line="74" column="15" />
@@ -35,12 +35,12 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505487305495">
-        <mark key="'" line="5515" column="27" />
-        <mark key="[" line="6598" column="66" />
-        <mark key="]" line="6594" column="0" />
-        <mark key="^" line="6594" column="1" />
-        <mark key="." line="6594" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505490584415">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="6599" column="17" />
+        <mark key="]" line="6599" column="22" />
+        <mark key="^" line="6599" column="22" />
+        <mark key="." line="6599" column="22" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505476189724">
         <mark key="'" line="22" column="36" />
@@ -52,11 +52,12 @@
       <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505488573914">
-        <mark key="[" line="1465" column="72" />
-        <mark key="]" line="1465" column="73" />
-        <mark key="^" line="1466" column="22" />
-        <mark key="." line="1465" column="73" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
+        <mark key="'" line="1472" column="24" />
+        <mark key="[" line="1464" column="23" />
+        <mark key="]" line="1464" column="39" />
+        <mark key="^" line="1464" column="39" />
+        <mark key="." line="1464" column="39" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" timestamp="1505400653845">
         <mark key="u" line="273" column="22" />
@@ -80,9 +81,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="509" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="508" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="492" column="75" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="480" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="479" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="478" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -180,37 +178,40 @@
       <jump line="26" column="19" filename="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" />
       <jump line="9" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" />
       <jump line="8" column="7" filename="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" />
+      <jump line="1472" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" />
+      <jump line="6599" column="17" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgcm93cyA9IHJvd3MuY291bnQoKS5ydW4oY29ubik=</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>includ</text>
       </register>
       <register name="0" type="4">
-        <text>url(r'^journal/', journal, name='journal'),</text>
+        <text>self.cleaned_data['user_id']</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICAjIFRPRE8gYmV0dGVyCiAgICAgICAgaWYgJ3VzZXJfaWQnIGluIGt3YXJncyBhbmQgKG5vdCBrd2FyZ3NbJ3VzZXJfaWQnXSBvciBrd2FyZ3NbJ3VzZXJfaWQnXSA9PSAnMCcpOgogICAgICAgICAgICBrd2FyZ3MucG9wKCd1c2VyX2lkJyk=</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBkZGQgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CiAgICAgICAgIyBUT0RPIGJldHRlcgogICAgICAgIGlmICd1c2VyX2lkJyBpbiBrd2FyZ3MgYW5kIChub3Qga3dhcmdzWyd1c2VyX2lkJ10gb3Iga3dhcmdzWyd1c2VyX2lkJ10gPT0gJzAnKToKICAgICAgICAgICAga3dhcmdzLnBvcCgndXNlcl9pZCcp</text>
+        <text encoding="base64">ICAgICAgICBpZiBub3QgY2xlYW5lZF9kYXRhWyd1c2VyX2lkJ10gb3IgY2xlYW5lZF9kYXRhWyd1c2VyX2lkJ10gPT0gJzAnOgogICAgICAgICAgICByZXR1cm4gTm9uZQ==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICBpZiBza2lwOgogICAgICAgICAgICByb3dzID0gcm93cy5za2lwKHNraXApLmxpbWl0KGxpbWl0KS5ydW4oY29ubikKICAgICAgICBlbHNlOg==</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
@@ -219,7 +220,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
+        <text encoding="base64">ICBkZGQgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
