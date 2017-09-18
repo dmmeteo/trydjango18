@@ -6,8 +6,8 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505733365914">
-        <mark key="[" line="275" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505734613483">
+        <mark key="[" line="108" column="26" />
         <mark key="]" line="275" column="0" />
         <mark key="." line="275" column="0" />
         <mark key="^" line="273" column="28" />
