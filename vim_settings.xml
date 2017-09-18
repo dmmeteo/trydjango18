@@ -6,12 +6,12 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505740162293">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505741763757">
         <mark key="'" line="414" column="54" />
-        <mark key="[" line="415" column="20" />
-        <mark key="]" line="414" column="49" />
-        <mark key="." line="414" column="49" />
-        <mark key="^" line="414" column="49" />
+        <mark key="[" line="108" column="26" />
+        <mark key="]" line="292" column="24" />
+        <mark key="." line="292" column="24" />
+        <mark key="^" line="291" column="42" />
       </file>
       <file name="/Dummy.txt" timestamp="1505737566899">
         <mark key="[" line="0" column="0" />
@@ -50,7 +50,7 @@
         <mark key="]" line="147" column="12" />
         <mark key="." line="147" column="12" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505737503042" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505741507946" />
       <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
       </file>
@@ -181,10 +181,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>start</text>
+        <text>and</text>
       </register>
       <register name="-" type="4">
-        <text>start</text>
+        <text>and</text>
       </register>
       <register name="/" type="4">
         <text>_testCa</text>
