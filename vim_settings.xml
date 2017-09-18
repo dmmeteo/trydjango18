@@ -6,18 +6,20 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505728611349">
-        <mark key="'" line="271" column="3" />
-        <mark key="[" line="154" column="26" />
-        <mark key="]" line="156" column="20" />
-        <mark key="." line="156" column="20" />
-        <mark key="^" line="156" column="20" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505730419136">
+        <mark key="[" line="273" column="17" />
+        <mark key="]" line="276" column="0" />
+        <mark key="." line="276" column="0" />
+        <mark key="^" line="283" column="19" />
       </file>
       <file name="/Dummy.txt" timestamp="1505726476130">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/monitoring.py" timestamp="1505726490976" />
-      <file name="/Python Console" timestamp="1504269663333">
+      <file name="/Python Console" timestamp="1505730340886">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.py" timestamp="1505730155789">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
@@ -39,7 +41,7 @@
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505726910376">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="6617" column="0" />
+        <mark key="[" line="6604" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505476189724">
         <mark key="'" line="22" column="36" />
@@ -47,7 +49,7 @@
         <mark key="]" line="147" column="12" />
         <mark key="." line="147" column="12" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505728576994" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505729377567" />
       <file name="/Django Console" timestamp="1505118426020">
         <mark key="[" line="0" column="0" />
       </file>
@@ -177,10 +179,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICdodWkgMScK</text>
       </register>
       <register name="-" type="4">
-        <text>not</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>_testCa</text>
@@ -189,31 +191,32 @@
         <text encoding="base64">ICAgIG1pbl90aW1lID0gbGFtYmRhIHQ6IGRhdGV0aW1lLmNvbWJpbmUodCwgZGF0ZXRpbWUubWluLnRpbWUoKSkucmVwbGFjZSh0emluZm89cHl0ei5VVEMpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICdodWkgMScK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAibmFtZSI6IHUi0LzQvtC90LjRgtC+0YDQuNC90LMg0L7Rh9C10YDQtdC00LXQuSBuc3EiLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
+      <register name="3" type="4">
+        <text>stats['total'] = 19
+                print 'hui 2'</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdDoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IHN0YXRzWyd0b3RhbCddLCAnID4gMjAnLCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSkgKiAxMDAsICc+PScsIHNlbGYudHJlc2hvbGQKICAgICAgICAgICAgICAgIHByaW50IHN0YXRzWyd0b3RhbCddID4gMjAgYW5kIHN0YXRzWydkZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSAqIDEwMCA+PSBzZWxmLnRyZXNob2xkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAibmFtZSI6IHUi0LzQvtC90LjRgtC+0YDQuNC90LMg0L7Rh9C10YDQtdC00LXQuSBuc3EiLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Cm1vbml0b3JpbmdfdHlwZXMgPSBbKCJjaGVja19sYXN0X2hvdXJfZGVsaXZlcnlfcmF0ZSIsICLQn9GA0L7RhtC10L3RgiDQtNC+0YHRgtCw0LLQutC4INC30LAg0L/QvtGB0LvQtdC00L3QuNC5INGH0LDRgSIpLAogICAgICAgICAgICAgICAgICAgICgiY2hlY2tfbGFzdF9ob3VyX2RlbGl2ZXJ5X3JhdGVfYnlfY291bnRyeSIsICLQn9GA0L7RhtC10L3RgiDQtNC+0YHRgtCw0LLQutC4INC30LAg0L/QvtGB0LvQtdC00L3QuNC5INGH0LDRgSDQv9C+INGB0YLRgNCw0L3QsNC8IiksCiAgICAgICAgICAgICAgICAgICAgKCJjaGVja19sYXN0X2hvdXJfZGVsaXZlcnlfcmF0ZV9ieV9nYXRld2F5IiwgItCf0YDQvtGG0LXQvdGCINC00L7RgdGC0LDQstC60Lgg0LfQsCDQv9C+0YHQu9C10LTQvdC40Lkg0YfQsNGBINC/0L4g0YjQu9GO0LfQsNC8IiksCiAgICAgICAgICAgICAgICAgICAgKCJjaGVja19sYXN0X2hvdXJfdG90YWwiLCAi0J7QsdGJ0LXQtSDQutC+0LvQuNGH0LXRgdGC0LLQviDRgdC80YEg0LfQsCDQv9C+0YHQu9C10LTQvdC40Lkg0YfQsNGBIild</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdGVzdDoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IHN0YXRzWyd0b3RhbCddLCAnID4gMjAnLCBzdGF0c1snZGVsaXZlcmVkJ10gLyBmbG9hdChzdGF0c1sndG90YWwnXSkgKiAxMDAsICc+PScsIHNlbGYudHJlc2hvbGQKICAgICAgICAgICAgICAgIHByaW50IHN0YXRzWyd0b3RhbCddID4gMjAgYW5kIHN0YXRzWydkZWxpdmVyZWQnXSAvIGZsb2F0KHN0YXRzWyd0b3RhbCddKSAqIDEwMCA+PSBzZWxmLnRyZXNob2xkCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
