@@ -6,11 +6,11 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505730419136">
-        <mark key="[" line="273" column="17" />
-        <mark key="]" line="276" column="0" />
-        <mark key="." line="276" column="0" />
-        <mark key="^" line="283" column="19" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505732607395">
+        <mark key="[" line="285" column="43" />
+        <mark key="]" line="285" column="43" />
+        <mark key="." line="285" column="43" />
+        <mark key="^" line="285" column="42" />
       </file>
       <file name="/Dummy.txt" timestamp="1505726476130">
         <mark key="[" line="0" column="0" />
@@ -178,11 +178,11 @@
       <jump line="269" column="3" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICdodWkgMScK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">c3RhdHNbJ2RlbGl2ZXJlZCddIC8gZmxvYXQoc3RhdHNbJ3RvdGFsJ10pICogMTAwID49IHNlbGYudHJlc2hvbGQsIHN0YXRzKQ==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">c3RhdHNbJ2RlbGl2ZXJlZCddIC8gZmxvYXQoc3RhdHNbJ3RvdGFsJ10pICogMTAwID49IHNlbGYudHJlc2hvbGQsIHN0YXRzKQ==</text>
       </register>
       <register name="/" type="4">
         <text>_testCa</text>
