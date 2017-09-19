@@ -6,12 +6,11 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
         <mark key="'" line="513" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505756543017">
-        <mark key="'" line="127" column="8" />
-        <mark key="[" line="293" column="45" />
-        <mark key="]" line="293" column="46" />
-        <mark key="." line="293" column="46" />
-        <mark key="^" line="130" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505803473652">
+        <mark key="[" line="434" column="0" />
+        <mark key="]" line="434" column="0" />
+        <mark key="." line="434" column="0" />
+        <mark key="^" line="433" column="33" />
       </file>
       <file name="/Dummy.txt" timestamp="1505756202530">
         <mark key="[" line="0" column="0" />
@@ -42,7 +41,7 @@
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505726910376">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="6617" column="0" />
+        <mark key="[" line="6604" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505476189724">
         <mark key="'" line="22" column="36" />
@@ -182,10 +181,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVwb3J0ID0ga3dhcmdzLmdldCgncmVwb3J0JykKICAgICAgICAgICAgaWYgcmVwb3J0ID09ICdkYWlseSc6Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>t</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</text>
@@ -194,31 +193,31 @@
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5kYXRlX2Zyb20sIHNlbGYuZGF0ZV90bwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVwb3J0ID0ga3dhcmdzLmdldCgncmVwb3J0JykKICAgICAgICAgICAgaWYgcmVwb3J0ID09ICdkYWlseSc6Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRlc3Q6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vdyA9IG5vdyAtIHRpbWVkZWx0YShob3Vycz0yNCkKICAgICAgICAgICAgZGF0ZV9mcm9tID0gZGF0ZXRpbWUuY29tYmluZShub3cuZGF0ZSgpLCB0aW1lKHN0YXJ0LDAsMCwwKSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxpZiByZXBvcnQgPT0gJ2V2ZW5pbmdzdGFyJzoKICAgICAgICAgICAgICAgIHN0YXJ0LCBlbmQgPSAxMywgMTYK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICBpZiB0ZXN0OgogICAgICAgICAgICAgICAgICAgIGJyZWFr</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0LCBlbmQgPSA1LCA4Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRhdGVfZnJvbSA9IGRhdGV0aW1lLmNvbWJpbmUobm93LmRhdGUoKSwgdGltZShzdGFydCwwLDAsMCkpCiAgICAgICAgICAgICAgICBkYXRlX3RvID0gZGF0ZV9mcm9tICsgdGltZWRlbHRhKGhvdXJzPWVuZCkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIHByaW50IHN0YXJ0LCBlbmQKICAgICAgICAgICAgcHJpbnQgc2VsZi5kYXRlX2Zyb20sIHNlbGYuZGF0ZV90bw==</text>
+      <register name="6" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRlc3Q6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgIAo=</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICBpZiB0ZXN0OgogICAgICAgICAgICAgICAgICAgIGJyZWFr</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
