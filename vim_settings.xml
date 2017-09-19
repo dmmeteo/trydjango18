@@ -11,7 +11,7 @@
         <mark key="]" line="127" column="38" />
         <mark key="." line="127" column="38" />
       </file>
-      <file name="/Dummy.txt" timestamp="1505822311498">
+      <file name="/Dummy.txt" timestamp="1505823607144">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -30,10 +30,10 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505819595176">
         <mark key="'" line="8" column="7" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505821662860">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
-        <mark key="." line="83" column="0" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505823703608">
+        <mark key="[" line="70" column="62" />
+        <mark key="]" line="70" column="63" />
+        <mark key="." line="70" column="63" />
         <mark key="^" line="82" column="40" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring_charts.py" timestamp="1505808142201">
@@ -42,13 +42,13 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505822309067">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505823719230">
         <mark key="a" line="6598" column="16" />
         <mark key="'" line="6603" column="60" />
-        <mark key="[" line="6594" column="5" />
-        <mark key="]" line="6601" column="33" />
-        <mark key="^" line="6601" column="33" />
-        <mark key="." line="6601" column="33" />
+        <mark key="[" line="6588" column="12" />
+        <mark key="]" line="6588" column="13" />
+        <mark key="^" line="6588" column="13" />
+        <mark key="." line="6588" column="13" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505476189724">
         <mark key="'" line="22" column="36" />
@@ -57,6 +57,7 @@
         <mark key="." line="147" column="12" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1505745428497" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/templatetags/tags.py" timestamp="1505823493422" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505809852752">
         <mark key="[" line="16" column="31" />
         <mark key="]" line="16" column="31" />
@@ -79,12 +80,6 @@
         <mark key="]" line="166" column="22" />
         <mark key="." line="166" column="22" />
         <mark key="^" line="166" column="22" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/models.py" timestamp="1505472767855">
-        <mark key="[" line="664" column="6" />
-        <mark key="]" line="664" column="5" />
-        <mark key="." line="664" column="5" />
-        <mark key="^" line="664" column="5" />
       </file>
     </filemarks>
     <jumps>
@@ -190,11 +185,11 @@
       <jump line="6600" column="60" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByb3dzID0gcm93cy5ydW4oY29ubikK</text>
+      <register name="&quot;" type="4">
+        <text>3</text>
       </register>
       <register name="-" type="4">
-        <text>.limit(limit)</text>
+        <text>3</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</text>
