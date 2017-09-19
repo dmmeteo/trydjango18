@@ -27,14 +27,14 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505825733012">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505827555579">
         <mark key="p" line="6621" column="20" />
         <mark key="a" line="6598" column="16" />
         <mark key="'" line="6603" column="60" />
-        <mark key="[" line="6586" column="20" />
-        <mark key="]" line="6586" column="21" />
+        <mark key="[" line="6626" column="15" />
+        <mark key="]" line="6626" column="15" />
         <mark key="^" line="6586" column="24" />
-        <mark key="." line="6586" column="21" />
+        <mark key="." line="6626" column="15" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505809852752">
         <mark key="[" line="16" column="31" />
@@ -183,10 +183,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>_</text>
+        <text encoding="base64">CiAgICAgICAgJ2RhdGVfZnJvbSc6IHdlZWtfYWdvLAogICAgICAgICdkYXRlX3RvJzogdG9kYXkgKyB0aW1lZGVsdGEoZGF5cz0xKSw=</text>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</text>
@@ -194,33 +194,33 @@
       <register name="0" type="4">
         <text>last_page</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByb3dzID0gcm93cy5ydW4oY29ubikK</text>
+      <register name="1" type="4">
+        <text encoding="base64">CiAgICAgICAgJ2RhdGVfZnJvbSc6IHdlZWtfYWdvLAogICAgICAgICdkYXRlX3RvJzogdG9kYXkgKyB0aW1lZGVsdGEoZGF5cz0xKSw=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwcHJpbnQKICAgIHBwcmludC5wcHJpbnQocmVxdWVzdCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICByb3dzID0gcm93cy5ydW4oY29ubikK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>if limit:
             rows = rows</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50IHBhCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIHBhZ2UgPSBpbnQocGFnZSkK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBwYWdlOgogICAgICAgIHBhZ2UgPSAxCiAgICBwcmludCBwYWdlCg==</text>
+        <text encoding="base64">ICAgIHByaW50IHBhCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/fail/isFail/gc</text>
