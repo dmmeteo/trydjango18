@@ -3,24 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
-        <mark key="'" line="513" column="53" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505810028736">
-        <mark key="[" line="127" column="39" />
-        <mark key="]" line="127" column="38" />
-        <mark key="." line="127" column="38" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1505823607144">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="/monitoring.py" timestamp="1505726490976" />
       <file name="/Python Console" timestamp="1505730340886">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/company/refill.html" timestamp="1505819216770" />
       <file name="/fragment.py" timestamp="1505730155789">
         <mark key="[" line="0" column="0" />
       </file>
@@ -30,7 +15,7 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505819595176">
         <mark key="'" line="8" column="7" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505823703608">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505824442777">
         <mark key="[" line="70" column="62" />
         <mark key="]" line="70" column="63" />
         <mark key="." line="70" column="63" />
@@ -42,22 +27,15 @@
         <mark key="." line="74" column="15" />
         <mark key="^" line="74" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505823719230">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505825733012">
+        <mark key="p" line="6621" column="20" />
         <mark key="a" line="6598" column="16" />
         <mark key="'" line="6603" column="60" />
-        <mark key="[" line="6588" column="12" />
-        <mark key="]" line="6588" column="13" />
-        <mark key="^" line="6588" column="13" />
-        <mark key="." line="6588" column="13" />
+        <mark key="[" line="6586" column="20" />
+        <mark key="]" line="6586" column="21" />
+        <mark key="^" line="6586" column="24" />
+        <mark key="." line="6586" column="21" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/hlr/models.py" timestamp="1505476189724">
-        <mark key="'" line="22" column="36" />
-        <mark key="[" line="147" column="0" />
-        <mark key="]" line="147" column="12" />
-        <mark key="." line="147" column="12" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1505745428497" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/templatetags/tags.py" timestamp="1505823493422" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505809852752">
         <mark key="[" line="16" column="31" />
         <mark key="]" line="16" column="31" />
@@ -68,6 +46,25 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-1934786856/datetime.py" timestamp="1505740357134" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/users/contextprocessor.py" timestamp="1505825451896" />
+      <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
+        <mark key="'" line="513" column="53" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505810028736">
+        <mark key="[" line="127" column="39" />
+        <mark key="]" line="127" column="38" />
+        <mark key="." line="127" column="38" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1505825227969">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/monitoring.py" timestamp="1505726490976" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/company/refill.html" timestamp="1505819216770" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505823936813" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1505745428497" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/templatetags/tags.py" timestamp="1505823493422" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
         <mark key="[" line="1464" column="23" />
@@ -75,11 +72,11 @@
         <mark key="^" line="1464" column="39" />
         <mark key="." line="1464" column="39" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/urls.py" timestamp="1505820235827">
-        <mark key="[" line="166" column="20" />
-        <mark key="]" line="166" column="22" />
-        <mark key="." line="166" column="22" />
-        <mark key="^" line="166" column="22" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/urls.py" timestamp="1505825794908">
+        <mark key="[" line="166" column="41" />
+        <mark key="]" line="166" column="41" />
+        <mark key="." line="166" column="41" />
+        <mark key="^" line="166" column="67" />
       </file>
     </filemarks>
     <jumps>
@@ -186,10 +183,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>3</text>
+        <text>_</text>
       </register>
       <register name="-" type="4">
-        <text>3</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</text>
