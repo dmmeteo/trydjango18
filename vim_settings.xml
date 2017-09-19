@@ -12,28 +12,34 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505819595176">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505835096945">
         <mark key="'" line="8" column="7" />
+        <mark key="[" line="55" column="8" />
+        <mark key="]" line="55" column="8" />
+        <mark key="^" line="55" column="51" />
+        <mark key="." line="55" column="8" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505829038580">
-        <mark key="[" line="70" column="62" />
-        <mark key="]" line="70" column="63" />
-        <mark key="." line="70" column="63" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" timestamp="1505834666867">
+        <mark key="[" line="110" column="11" />
+        <mark key="]" line="110" column="25" />
+        <mark key="." line="110" column="25" />
+        <mark key="^" line="110" column="25" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring_charts.py" timestamp="1505830643416">
-        <mark key="[" line="94" column="78" />
-        <mark key="]" line="94" column="75" />
-        <mark key="." line="94" column="75" />
-        <mark key="^" line="94" column="75" />
+        <mark key="[" line="93" column="78" />
+        <mark key="]" line="93" column="75" />
+        <mark key="." line="93" column="75" />
+        <mark key="^" line="93" column="75" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505828988542">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/clients/bulk/groups_list.html" timestamp="1505834271335" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505835542420">
         <mark key="p" line="6621" column="20" />
         <mark key="a" line="6598" column="16" />
         <mark key="'" line="6603" column="60" />
-        <mark key="[" line="6604" column="0" />
-        <mark key="]" line="6604" column="0" />
-        <mark key="^" line="6594" column="32" />
-        <mark key="." line="6604" column="0" />
+        <mark key="[" line="6617" column="70" />
+        <mark key="]" line="6617" column="70" />
+        <mark key="^" line="6610" column="13" />
+        <mark key="." line="6617" column="70" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505809852752">
         <mark key="[" line="16" column="31" />
@@ -46,9 +52,6 @@
       </file>
       <file name="$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-1934786856/datetime.py" timestamp="1505740357134" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/users/contextprocessor.py" timestamp="1505825451896" />
-      <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" timestamp="1505220271960">
-        <mark key="'" line="513" column="53" />
-      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505832236224">
         <mark key="'" line="129" column="52" />
         <mark key="[" line="6" column="31" />
@@ -56,13 +59,16 @@
         <mark key="." line="6" column="29" />
         <mark key="^" line="6" column="29" />
       </file>
-      <file name="/Dummy.txt" timestamp="1505832263121">
+      <file name="/Dummy.txt" timestamp="1505834221882">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="/monitoring.py" timestamp="1505726490976" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/company/refill.html" timestamp="1505819216770" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
+        <mark key="'" line="15" column="54" />
+      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1505745428497" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/templatetags/tags.py" timestamp="1505823493422" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
@@ -72,7 +78,7 @@
         <mark key="^" line="1464" column="39" />
         <mark key="." line="1464" column="39" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/urls.py" timestamp="1505825794908">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/urls.py" timestamp="1505834346107">
         <mark key="[" line="166" column="41" />
         <mark key="]" line="166" column="41" />
         <mark key="." line="166" column="41" />
@@ -80,7 +86,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="466" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="464" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="462" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="461" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -180,16 +185,17 @@
       <jump line="434" column="30" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
       <jump line="6600" column="60" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="125" column="52" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" />
+      <jump line="15" column="54" filename="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>time</text>
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text>time</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</text>
+        <text>journal_page</text>
       </register>
       <register name="0" type="4">
         <text>last_page</text>
@@ -226,21 +232,20 @@
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgaW5pdGlhbAo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/fail/isFail/gc</text>
+        <text>%s/journal_page/journal_pages/gc</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</last-search>
+      <last-search>journal_page</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</last-pattern>
-      <last-replace>isFail</last-replace>
-      <last-substitute>fail</last-substitute>
+      <last-pattern>journal_page</last-pattern>
+      <last-replace>journal_pages</last-replace>
+      <last-substitute>journal_page</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>self.doc.get\(\'monitoring\'\)</entry>
         <entry>self.doc.get\('monitoring'\)</entry>
         <entry>self.doc.get('monitoring')</entry>
         <entry>self.types</entry>
@@ -260,6 +265,7 @@
         <entry>includ</entry>
         <entry>_testCa</entry>
         <entry encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</entry>
+        <entry>journal_page</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -280,6 +286,7 @@
         <entry>s/data/v/g</entry>
         <entry>s/data/errors/g</entry>
         <entry>%s/fail/isFail/gc</entry>
+        <entry>%s/journal_page/journal_pages/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
