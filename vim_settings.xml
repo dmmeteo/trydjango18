@@ -50,14 +50,14 @@
       <file name="/Django Console" timestamp="1505893712054">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1505908432664">
-        <mark key="j" line="121" column="16" />
-        <mark key="[" line="17" column="79" />
-        <mark key="]" line="17" column="79" />
-        <mark key="." line="17" column="79" />
-        <mark key="^" line="120" column="21" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1505911915792">
+        <mark key="j" line="122" column="16" />
+        <mark key="[" line="18" column="79" />
+        <mark key="]" line="127" column="7" />
+        <mark key="." line="127" column="7" />
+        <mark key="^" line="127" column="7" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505909515376">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505909598093">
         <mark key="'" line="110" column="49" />
         <mark key="[" line="105" column="35" />
         <mark key="]" line="105" column="35" />
@@ -69,7 +69,7 @@
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1505906471505">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1505910206478">
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
@@ -88,18 +88,19 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
         <mark key="'" line="15" column="54" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505909267036">
-        <mark key="'" line="483" column="12" />
-        <mark key="[" line="6614" column="0" />
-        <mark key="]" line="6614" column="0" />
-        <mark key="^" line="6614" column="12" />
-        <mark key="." line="6614" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505912512104">
+        <mark key="'" line="6609" column="36" />
+        <mark key="[" line="6613" column="4" />
+        <mark key="]" line="6613" column="5" />
+        <mark key="^" line="6633" column="36" />
+        <mark key="." line="6613" column="4" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505908015836">
-        <mark key="[" line="63" column="50" />
-        <mark key="]" line="63" column="50" />
-        <mark key="." line="63" column="50" />
-        <mark key="^" line="63" column="62" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505911816391">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="55" column="25" />
+        <mark key="]" line="55" column="11" />
+        <mark key="." line="55" column="11" />
+        <mark key="^" line="55" column="11" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
@@ -116,24 +117,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="417" column="88" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="422" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="518" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="488" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="408" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="432" column="18" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="489" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="407" column="13" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="433" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="486" column="32" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="525" column="21" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="161" column="17" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="14" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="425" column="45" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="389" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="413" column="24" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="416" column="26" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="538" column="15" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="390" column="9" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="419" column="46" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="537" column="20" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -213,70 +196,83 @@
       <jump line="108" column="49" filename="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" />
       <jump line="113" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
       <jump line="166" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" />
-      <jump line="6609" column="29" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="481" column="32" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="483" column="12" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="6631" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="5841" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="2225" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="2161" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="2148" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="1821" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="1814" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="1128" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="1123" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="732" column="33" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="726" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="564" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="6611" column="31" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="559" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="2233" column="24" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="5828" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="5835" column="13" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="57" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" />
+      <jump line="6609" column="36" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>event'</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>event'</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>page_journal</text>
+        <text>dict_journal</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFyIHVybCA9IGV2ZW50LmF0dHIoJ2hyZWYnKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByZXF1ZXN0LkdFVC5nZXQoJ2RpY3Rfam91cm5hbCcpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBpbmRleCBpbiBbJ2RkCg==</text>
+        <text encoding="base64">ICAgIGlmIHJlcXVlc3QuR0VULmdldCgnZGljdF9qb3VybmFsJyk6Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAnbW9kZGRlbCc6IGRpY3Rfam91cm5hbCwK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByZXF1ZXN0LkdFVAogICAgICAgIHByaW50IHJlcXVlc3QuR0VULmdldCgnZGljdF9qb3VybmFsJywgTm9uZSkK</text>
       </register>
-      <register name="4" type="4">
-        <text>if kwargs.get('skip'):
-            rows = rows.skip(kwargs.get('skip'))
-        if kwargs.get('limit'):
-            rows = rows.limit(kwargs.get('limit'))</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHByaW50IGluaXRpYWwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGlmIHBhZ2UgPiAxOgogICAgICAgIGluaXRpYWxbJ3NraXAnXSA9IGxpbWl0ICogcGFnZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBtc2dfdHlwZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvZGRsZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgIGlmIHBhZ2UgPiAxOgogICAgICAgIGluaXRpYWxbJ3NraXAnXSA9IGxpbWl0ICogcGFnZQ==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJjbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb24uIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBpbmRleCBpbiBbJ2RkCg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/page_journal/model_journal/gc</text>
+        <text>%s/RdbJournal.get_logs(/dict(model=/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>page_journal</last-search>
+      <last-search>dict_journal</last-search>
       <last-offset />
-      <last-pattern>page_journal</last-pattern>
-      <last-replace>model_journal</last-replace>
-      <last-substitute>page_journal</last-substitute>
+      <last-pattern>dict_journal</last-pattern>
+      <last-replace>dict(model=</last-replace>
+      <last-substitute>RdbJournal.get_logs(</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>self.doc.get('monitoring')</entry>
-        <entry>self.types</entry>
         <entry>msg_type</entry>
         <entry>.get_stats</entry>
         <entry>self\.monitoring_args</entry>
@@ -295,10 +291,10 @@
         <entry encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</entry>
         <entry>journal_page</entry>
         <entry>page_journal</entry>
+        <entry>RdbJournal.get_logs(</entry>
+        <entry>dict_journal</entry>
       </history-search>
       <history-cmd>
-        <entry>w</entry>
-        <entry>%s/self.stats/self.monitoring_args/gc</entry>
         <entry>%s/self.get_name/name/gc</entry>
         <entry>%s/self.groups[1]/group/gc</entry>
         <entry>%s/self.doc.get\(\'monitoring\'\)/test_type/gc</entry>
@@ -317,6 +313,8 @@
         <entry>%s/fail/isFail/gc</entry>
         <entry>%s/journal_page/journal_pages/gc</entry>
         <entry>%s/page_journal/model_journal/gc</entry>
+        <entry>%s/page_journal/dict_journal/gc</entry>
+        <entry>%s/RdbJournal.get_logs(/dict(model=/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
