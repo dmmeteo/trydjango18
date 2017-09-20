@@ -31,7 +31,6 @@
         <mark key="." line="93" column="75" />
         <mark key="^" line="93" column="75" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/clients/bulk/groups_list.html" timestamp="1505834271335" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505835542420">
         <mark key="p" line="6621" column="20" />
         <mark key="a" line="6598" column="16" />
@@ -47,11 +46,9 @@
         <mark key="^" line="16" column="31" />
         <mark key="." line="16" column="31" />
       </file>
-      <file name="/Django Console" timestamp="1505805251850">
+      <file name="/Django Console" timestamp="1505893712054">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-1934786856/datetime.py" timestamp="1505740357134" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/users/contextprocessor.py" timestamp="1505825451896" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505832236224">
         <mark key="'" line="129" column="52" />
         <mark key="[" line="6" column="31" />
@@ -59,18 +56,14 @@
         <mark key="." line="6" column="29" />
         <mark key="^" line="6" column="29" />
       </file>
-      <file name="/Dummy.txt" timestamp="1505834221882">
+      <file name="/Dummy.txt" timestamp="1505893728291">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/monitoring.py" timestamp="1505726490976" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/company/refill.html" timestamp="1505819216770" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
         <mark key="'" line="15" column="54" />
       </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1505745428497" />
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/templatetags/tags.py" timestamp="1505823493422" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
         <mark key="[" line="1464" column="23" />
@@ -242,7 +235,7 @@
       <last-replace>journal_pages</last-replace>
       <last-substitute>journal_page</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
