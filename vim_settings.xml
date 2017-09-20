@@ -57,13 +57,14 @@
         <mark key="." line="17" column="79" />
         <mark key="^" line="120" column="21" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505908826330">
-        <mark key="'" line="108" column="49" />
-        <mark key="[" line="108" column="8" />
-        <mark key="]" line="108" column="8" />
-        <mark key="." line="108" column="8" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505909515376">
+        <mark key="'" line="110" column="49" />
+        <mark key="[" line="105" column="35" />
+        <mark key="]" line="105" column="35" />
+        <mark key="." line="105" column="35" />
+        <mark key="^" line="113" column="7" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/object_logs.html" timestamp="1505900641538">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/object_logs.html" timestamp="1505908879052">
         <mark key="[" line="3" column="0" />
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
@@ -87,12 +88,12 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
         <mark key="'" line="15" column="54" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505908662730">
-        <mark key="'" line="6609" column="29" />
-        <mark key="[" line="6612" column="15" />
-        <mark key="]" line="6613" column="29" />
-        <mark key="^" line="6613" column="29" />
-        <mark key="." line="6613" column="29" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505909267036">
+        <mark key="'" line="483" column="12" />
+        <mark key="[" line="6614" column="0" />
+        <mark key="]" line="6614" column="0" />
+        <mark key="^" line="6614" column="12" />
+        <mark key="." line="6614" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505908015836">
         <mark key="[" line="63" column="50" />
@@ -115,8 +116,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="420" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
-      <jump line="409" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="417" column="88" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="422" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="518" column="89" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -215,69 +214,67 @@
       <jump line="113" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
       <jump line="166" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" />
       <jump line="6609" column="29" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="481" column="32" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="483" column="12" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>if kwargs.get('skip'):
-            rows = rows.skip(kwargs.get('skip'))
-        if kwargs.get('limit'):
-            rows = rows.limit(kwargs.get('limit'))</text>
+        <text>event'</text>
       </register>
       <register name="-" type="4">
-        <text>skip</text>
+        <text>event'</text>
       </register>
       <register name="/" type="4">
-        <text>journal_page</text>
+        <text>page_journal</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFyIHVybCA9IGV2ZW50LmF0dHIoJ2hyZWYnKTsK</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBpbmRleCBpbiBbJ2RkCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAnbW9kZGRlbCc6IGRpY3Rfam91cm5hbCwK</text>
+      </register>
+      <register name="4" type="4">
         <text>if kwargs.get('skip'):
             rows = rows.skip(kwargs.get('skip'))
         if kwargs.get('limit'):
             rows = rows.limit(kwargs.get('limit'))</text>
       </register>
-      <register name="2" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCBtc2dfdHlwZQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvZGRsZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsK</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJjbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb24uIik7Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coZSkK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2codXJsKQo=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICAkLmdldCgieyUgdXJsIGRpcmVjdG9yczpqb3VybmFsX3BhZ2VzIDEgJX0iLCBmdW5jdGlvbiAoZGF0YSkgewogICAgICAgICAgICAkKCJqb3VybmFsIikuaHRtbChkYXRhKTsKICAgICAgICAgICAgY29uc29sZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsKICAgICAgICB9KTs=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIDw+Cg==</text>
-      </register>
       <register name=":" type="4">
-        <text>%s/journal_page/journal_pages/gc</text>
+        <text>%s/page_journal/model_journal/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>journal_page</last-search>
+      <last-search>page_journal</last-search>
       <last-offset />
-      <last-pattern>journal_page</last-pattern>
-      <last-replace>journal_pages</last-replace>
-      <last-substitute>journal_page</last-substitute>
+      <last-pattern>page_journal</last-pattern>
+      <last-replace>model_journal</last-replace>
+      <last-substitute>page_journal</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>self.doc.get\('monitoring'\)</entry>
         <entry>self.doc.get('monitoring')</entry>
         <entry>self.types</entry>
         <entry>msg_type</entry>
@@ -297,6 +294,7 @@
         <entry>_testCa</entry>
         <entry encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</entry>
         <entry>journal_page</entry>
+        <entry>page_journal</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -318,6 +316,7 @@
         <entry>s/data/errors/g</entry>
         <entry>%s/fail/isFail/gc</entry>
         <entry>%s/journal_page/journal_pages/gc</entry>
+        <entry>%s/page_journal/model_journal/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
