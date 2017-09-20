@@ -3,6 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1505896393892" />
       <file name="/Python Console" timestamp="1505730340886">
         <mark key="[" line="0" column="0" />
       </file>
@@ -65,7 +66,12 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
         <mark key="'" line="15" column="54" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505895218196" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505897304418">
+        <mark key="[" line="6585" column="0" />
+        <mark key="]" line="6585" column="0" />
+        <mark key="^" line="6584" column="12" />
+        <mark key="." line="6585" column="0" />
+      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
         <mark key="[" line="1464" column="23" />
@@ -183,8 +189,8 @@
       <jump line="15" column="54" filename="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHByaW50IHJlcXVlc3QK</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -196,35 +202,35 @@
         <text>last_page</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHByaW50IHJlcXVlc3QK</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>print(error['message'].encode('utf8'),
                         #       error['buttons'],
                         #       'daily')</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIFRydWU6Cg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIFRydWU6Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="8" type="4">
         <text>print(error['message'].encode('utf8'),
                                error['buttons'],
                                'daily')</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAnJzogcGFnaW5hdGlvbgo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgaW5pdGlhbAo=</text>
+        <text encoding="base64">ICAgICAgICAnJzogcGFnaW5hdGlvbgo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/journal_page/journal_pages/gc</text>
