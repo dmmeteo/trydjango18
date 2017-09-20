@@ -50,18 +50,18 @@
       <file name="/Django Console" timestamp="1505893712054">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1505906859507">
-        <mark key="j" line="115" column="16" />
-        <mark key="[" line="114" column="18" />
-        <mark key="]" line="114" column="21" />
-        <mark key="." line="114" column="21" />
-        <mark key="^" line="114" column="21" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1505908432664">
+        <mark key="j" line="121" column="16" />
+        <mark key="[" line="17" column="79" />
+        <mark key="]" line="17" column="79" />
+        <mark key="." line="17" column="79" />
+        <mark key="^" line="120" column="21" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505906776358">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505908826330">
         <mark key="'" line="108" column="49" />
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="55" column="0" />
-        <mark key="." line="55" column="0" />
+        <mark key="[" line="108" column="8" />
+        <mark key="]" line="108" column="8" />
+        <mark key="." line="108" column="8" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/object_logs.html" timestamp="1505900641538">
         <mark key="[" line="3" column="0" />
@@ -87,16 +87,17 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
         <mark key="'" line="15" column="54" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505906907189">
-        <mark key="[" line="5828" column="4" />
-        <mark key="]" line="5828" column="4" />
-        <mark key="^" line="6612" column="22" />
-        <mark key="." line="5828" column="4" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505908662730">
+        <mark key="'" line="6609" column="29" />
+        <mark key="[" line="6612" column="15" />
+        <mark key="]" line="6613" column="29" />
+        <mark key="^" line="6613" column="29" />
+        <mark key="." line="6613" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505906866847">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505908015836">
         <mark key="[" line="63" column="50" />
-        <mark key="]" line="63" column="62" />
-        <mark key="." line="63" column="62" />
+        <mark key="]" line="63" column="50" />
+        <mark key="." line="63" column="50" />
         <mark key="^" line="63" column="62" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
@@ -114,7 +115,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="457" column="12" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="420" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="409" column="0" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="417" column="88" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -214,13 +214,17 @@
       <jump line="108" column="49" filename="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" />
       <jump line="113" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
       <jump line="166" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" />
+      <jump line="6609" column="29" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>page</text>
+        <text>if kwargs.get('skip'):
+            rows = rows.skip(kwargs.get('skip'))
+        if kwargs.get('limit'):
+            rows = rows.limit(kwargs.get('limit'))</text>
       </register>
       <register name="-" type="4">
-        <text>page</text>
+        <text>skip</text>
       </register>
       <register name="/" type="4">
         <text>journal_page</text>
@@ -228,32 +232,35 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFyIHVybCA9IGV2ZW50LmF0dHIoJ2hyZWYnKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBtc2dfdHlwZQo=</text>
+      <register name="1" type="4">
+        <text>if kwargs.get('skip'):
+            rows = rows.skip(kwargs.get('skip'))
+        if kwargs.get('limit'):
+            rows = rows.limit(kwargs.get('limit'))</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvZGRsZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJjbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb24uIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBtc2dfdHlwZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvZGRsZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2codXJsKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJjbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb25jbGljayBvbmNsaWNrIG9uY2xpY2sgb24uIik7Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAkLmdldCgieyUgdXJsIGRpcmVjdG9yczpqb3VybmFsX3BhZ2VzIDEgJX0iLCBmdW5jdGlvbiAoZGF0YSkgewogICAgICAgICAgICAkKCJqb3VybmFsIikuaHRtbChkYXRhKTsKICAgICAgICAgICAgY29uc29sZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsKICAgICAgICB9KTs=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coZSkK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2codXJsKQo=</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICAkLmdldCgieyUgdXJsIGRpcmVjdG9yczpqb3VybmFsX3BhZ2VzIDEgJX0iLCBmdW5jdGlvbiAoZGF0YSkgewogICAgICAgICAgICAkKCJqb3VybmFsIikuaHRtbChkYXRhKTsKICAgICAgICAgICAgY29uc29sZS5sb2coIkxvYWQgd2FzIHBlcmZvcm1lZC4iKTsKICAgICAgICB9KTs=</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgIDw+Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICA8c2NyaXB0Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">PgogICAgICAgICAgICAgICAgJC5nZXQoInslIHVybCBkaXJlY3RvcnM6am91cm5hbF9wYWdlcyAxICV9IiwgZnVuY3Rpb24gKGRhdGEpIHsKICAgICAgICAgICAgICAgICAgICAkKCJqb3VybmFsIikuaHRtbChkYXRhKTsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiTG9hZCB3YXMgcGVyZm9ybWVkLiIpOwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgPC9zY3JpcHQ+CiAgICA8L2pvdXJuYWw+</text>
       </register>
       <register name=":" type="4">
         <text>%s/journal_page/journal_pages/gc</text>
