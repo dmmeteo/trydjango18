@@ -15,7 +15,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1506427718382">
+      <file name="/Python Console" timestamp="1506430262906">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1505730155789">
@@ -46,12 +46,11 @@
         <mark key="." line="93" column="75" />
         <mark key="^" line="93" column="75" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506427712451">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506432862072">
         <mark key="'" line="6602" column="9" />
-        <mark key="[" line="6611" column="0" />
-        <mark key="]" line="6611" column="0" />
-        <mark key="^" line="6619" column="3" />
-        <mark key="." line="6611" column="0" />
+        <mark key="[" line="6601" column="0" />
+        <mark key="]" line="6601" column="0" />
+        <mark key="." line="6601" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505835542420">
         <mark key="p" line="6621" column="20" />
@@ -62,8 +61,8 @@
         <mark key="^" line="6610" column="13" />
         <mark key="." line="6617" column="70" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505918742672">
-        <mark key="[" line="57" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1506432910810">
+        <mark key="[" line="61" column="75" />
         <mark key="]" line="57" column="0" />
         <mark key="." line="57" column="0" />
         <mark key="^" line="65" column="14" />
@@ -77,17 +76,16 @@
       <file name="/Django Console" timestamp="1505893712054">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1505918502969">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1506432917490">
         <mark key="j" line="112" column="16" />
         <mark key="[" line="3" column="0" />
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1506426971271">
-        <mark key="[" line="103" column="33" />
-        <mark key="]" line="114" column="7" />
-        <mark key="." line="114" column="7" />
-        <mark key="^" line="114" column="7" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1506431391954">
+        <mark key="[" line="111" column="0" />
+        <mark key="]" line="111" column="0" />
+        <mark key="." line="111" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
@@ -111,7 +109,7 @@
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506425212207">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506430592197">
         <mark key="[" line="1467" column="0" />
         <mark key="]" line="1467" column="0" />
         <mark key="." line="1467" column="0" />
@@ -221,7 +219,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGlmIHJlcXVlc3QuR0VUOgo=</text>
+        <text encoding="base64">ICAgICMgZGljdF9qb3VybmFsID0gdXJsZW5jb2RlKHtrOnYgZm9yIGssdiBpbiBpbml0aWFsLml0ZW1zKCkgaWYgdn0pCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -233,35 +231,31 @@
         <text>kwargs.get('user_id')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGlmIHJlcXVlc3QuR0VUOgo=</text>
+        <text encoding="base64">ICAgICMgZGljdF9qb3VybmFsID0gdXJsZW5jb2RlKHtrOnYgZm9yIGssdiBpbiBpbml0aWFsLml0ZW1zKCkgaWYgdn0pCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGZvcm0gPSBKb3VybmFsU2VhcmNoRm9ybShyZXF1ZXN0LkdFVCkK</text>
+        <text encoding="base64">ICAgICMgZGljdF9qb3VybmFsID0gdXJsZW5jb2RlKGluaXRpYWwpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICMgVE9ETyBmaWx0ZXIgdG8gdGVtcGxhdGUgZm9yICdkaWN0X2pvdXJuYWwnCg==</text>
+        <text encoding="base64">ICAgIHByaW50IHJlcXVlc3QuR0VUCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaW50IHBhZ2Vfam91cm5hZGwK</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIHByaW50ICdkYXRhK2luaXRpYWwnLCBpbml0aWFs</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50IGluaXRpYWwua2V5cygpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>form = JournalSearchForm(request.GET)
-        if form.is_valid():
-            print 'cleaned_data', form.cleaned_data
-            print 'cleaned_initial', initial
-            initial.update(form.cleaned_data)</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHByaW50IGluaXRpYWwua2V5cygpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjICMgaWYgZGF0ZSBpbiBHRVQKICAgICAgICAjIGlmIGt3YXJncy5nZXQoJ2RhdGVfZnJvbScpIGFuZCBrd2FyZ3MuZ2V0KCdkYXRlX3RvJyk6CiAgICAgICAgIyAgICAgcHJpbnQga3dhcmdzCiAgICAgICAgIyAgICAgZGF0ZV9mcm9tID0gZGF0ZXRpbWUuY29tYmluZShrd2FyZ3MucG9wKCdkYXRlX2Zyb20nKSwgZGF0ZXRpbWUubWluLnRpbWUoKSkucmVwbGFjZSh0emluZm89cHl0ei5VVEMpCiAgICAgICAgIyAgICAgZGF0ZV90byA9IGRhdGV0aW1lLmNvbWJpbmUoa3dhcmdzLnBvcCgnZGF0ZV90bycpLCBkYXRldGltZS5taW4udGltZSgpKS5yZXBsYWNlKHR6aW5mbz1weXR6LlVUQykKICAgICAgICAjICAgICByb3dzID0gcm93cy5iZXR3ZWVuKGRhdGVfZnJvbSwgZGF0ZV90bywgaW5kZXg9J2RhdGUnKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZGF0ZV9mcm9tLCBkYXRlX3RvCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnemFzaGVsIGIgY291bnQnCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnemFzaG9sIHYgZ2V0X2xvZ3MnCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/: dict_journal/: urlencode(dict_journal)/gc</text>
