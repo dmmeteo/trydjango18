@@ -3,8 +3,19 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1505896393892" />
-      <file name="/Python Console" timestamp="1505730340886">
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505832236224">
+        <mark key="'" line="129" column="52" />
+        <mark key="[" line="6" column="31" />
+        <mark key="]" line="6" column="29" />
+        <mark key="." line="6" column="29" />
+        <mark key="^" line="6" column="29" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1505895195277">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1506427718382">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1505730155789">
@@ -12,6 +23,9 @@
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
+        <mark key="'" line="15" column="54" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505835096945">
         <mark key="'" line="8" column="7" />
@@ -32,6 +46,13 @@
         <mark key="." line="93" column="75" />
         <mark key="^" line="93" column="75" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506427712451">
+        <mark key="'" line="6602" column="9" />
+        <mark key="[" line="6611" column="0" />
+        <mark key="]" line="6611" column="0" />
+        <mark key="^" line="6619" column="3" />
+        <mark key="." line="6611" column="0" />
+      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" timestamp="1505835542420">
         <mark key="p" line="6621" column="20" />
         <mark key="a" line="6598" column="16" />
@@ -40,6 +61,12 @@
         <mark key="]" line="6617" column="70" />
         <mark key="^" line="6610" column="13" />
         <mark key="." line="6617" column="70" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505918742672">
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="0" />
+        <mark key="." line="57" column="0" />
+        <mark key="^" line="65" column="14" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505809852752">
         <mark key="[" line="16" column="31" />
@@ -56,48 +83,11 @@
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1505921643444">
-        <mark key="[" line="114" column="48" />
-        <mark key="]" line="116" column="79" />
-        <mark key="^" line="116" column="79" />
-        <mark key="." line="116" column="79" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/object_logs.html" timestamp="1505917017318">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1505910206478">
-        <mark key="'" line="166" column="19" />
-        <mark key="[" line="166" column="19" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring.py" timestamp="1505832236224">
-        <mark key="'" line="129" column="52" />
-        <mark key="[" line="6" column="31" />
-        <mark key="]" line="6" column="29" />
-        <mark key="." line="6" column="29" />
-        <mark key="^" line="6" column="29" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1505895195277">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/journal/object_logs.html" timestamp="1505835191495">
-        <mark key="'" line="15" column="54" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1505920561143">
-        <mark key="'" line="6602" column="9" />
-        <mark key="[" line="6619" column="0" />
-        <mark key="]" line="6619" column="0" />
-        <mark key="^" line="6633" column="19" />
-        <mark key="." line="6619" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1505918742672">
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="57" column="0" />
-        <mark key="." line="57" column="0" />
-        <mark key="^" line="65" column="14" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1506426971271">
+        <mark key="[" line="103" column="33" />
+        <mark key="]" line="114" column="7" />
+        <mark key="." line="114" column="7" />
+        <mark key="^" line="114" column="7" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
@@ -111,6 +101,20 @@
         <mark key="]" line="166" column="41" />
         <mark key="." line="166" column="41" />
         <mark key="^" line="166" column="67" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/object_logs.html" timestamp="1505917017318">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1505910206478">
+        <mark key="'" line="166" column="19" />
+        <mark key="[" line="166" column="19" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506425212207">
+        <mark key="[" line="1467" column="0" />
+        <mark key="]" line="1467" column="0" />
+        <mark key="." line="1467" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -217,43 +221,47 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQga3dhcmdzCg==</text>
+        <text encoding="base64">ICAgIGlmIHJlcXVlc3QuR0VUOgo=</text>
       </register>
       <register name="-" type="4">
-        <text>y</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>: dict_journal</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFyIHVybCA9IGV2ZW50LmF0dHIoJ2hyZWYnKTsK</text>
+      <register name="0" type="4">
+        <text>kwargs.get('user_id')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQga3dhcmdzCg==</text>
+        <text encoding="base64">ICAgIGlmIHJlcXVlc3QuR0VUOgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIGZvcm0gPSBKb3VybmFsU2VhcmNoRm9ybShyZXF1ZXN0LkdFVCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIGZvciBrZXksIHZhbHVlIGluIGt3YXJncy5pdGVyaXRlbXMoKToK</text>
+        <text encoding="base64">ICAgICMgVE9ETyBmaWx0ZXIgdG8gdGVtcGxhdGUgZm9yICdkaWN0X2pvdXJuYWwnCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50IGxhc3RfcGFnZQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50IGRpY3Rfam91cm5hbAo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">CiAgICAgICAgICAgIHByaW50ICdkYXRhK2luaXRpYWwnLCBpbml0aWFs</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBpbml0aWFsCg==</text>
+      <register name="6" type="4">
+        <text>form = JournalSearchForm(request.GET)
+        if form.is_valid():
+            print 'cleaned_data', form.cleaned_data
+            print 'cleaned_initial', initial
+            initial.update(form.cleaned_data)</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjICMgaWYgZGF0ZSBpbiBHRVQKICAgICAgICAjIGlmIGt3YXJncy5nZXQoJ2RhdGVfZnJvbScpIGFuZCBrd2FyZ3MuZ2V0KCdkYXRlX3RvJyk6CiAgICAgICAgIyAgICAgcHJpbnQga3dhcmdzCiAgICAgICAgIyAgICAgZGF0ZV9mcm9tID0gZGF0ZXRpbWUuY29tYmluZShrd2FyZ3MucG9wKCdkYXRlX2Zyb20nKSwgZGF0ZXRpbWUubWluLnRpbWUoKSkucmVwbGFjZSh0emluZm89cHl0ei5VVEMpCiAgICAgICAgIyAgICAgZGF0ZV90byA9IGRhdGV0aW1lLmNvbWJpbmUoa3dhcmdzLnBvcCgnZGF0ZV90bycpLCBkYXRldGltZS5taW4udGltZSgpKS5yZXBsYWNlKHR6aW5mbz1weXR6LlVUQykKICAgICAgICAjICAgICByb3dzID0gcm93cy5iZXR3ZWVuKGRhdGVfZnJvbSwgZGF0ZV90bywgaW5kZXg9J2RhdGUnKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZGF0ZV9mcm9tLCBkYXRlX3RvCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/: dict_journal/: urlencode(dict_journal)/gc</text>
