@@ -10,7 +10,7 @@
         <mark key="." line="6" column="29" />
         <mark key="^" line="6" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1506499476382">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1506512201401">
         <mark key="'" line="419" column="16" />
         <mark key="[" line="421" column="32" />
         <mark key="]" line="423" column="0" />
@@ -53,9 +53,9 @@
         <mark key="." line="93" column="75" />
         <mark key="^" line="93" column="75" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506438970445">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506512495513">
         <mark key="'" line="6640" column="35" />
-        <mark key="[" line="6610" column="0" />
+        <mark key="[" line="6601" column="56" />
         <mark key="]" line="6610" column="0" />
         <mark key="." line="6610" column="0" />
       </file>
@@ -68,12 +68,7 @@
         <mark key="^" line="6610" column="13" />
         <mark key="." line="6617" column="70" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1506505967709">
-        <mark key="[" line="61" column="88" />
-        <mark key="]" line="61" column="88" />
-        <mark key="." line="61" column="88" />
-        <mark key="^" line="61" column="83" />
-      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1506517772519" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/utils/telegram.py" timestamp="1505809852752">
         <mark key="[" line="16" column="31" />
         <mark key="]" line="16" column="31" />
@@ -83,13 +78,13 @@
       <file name="/Django Console" timestamp="1505893712054">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1506511150743">
-        <mark key="'" line="71" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1506518839039">
+        <mark key="'" line="85" column="82" />
         <mark key="j" line="111" column="16" />
-        <mark key="[" line="72" column="75" />
-        <mark key="]" line="72" column="94" />
-        <mark key="." line="72" column="94" />
-        <mark key="^" line="72" column="94" />
+        <mark key="[" line="102" column="55" />
+        <mark key="]" line="102" column="51" />
+        <mark key="." line="102" column="51" />
+        <mark key="^" line="102" column="51" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1506499238891">
         <mark key="[" line="111" column="0" />
@@ -125,7 +120,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="415" column="31" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="515" column="16" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="435" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
       <jump line="490" column="26" filename="$USER_HOME$/PCProjects/hg/smppstat/routing/management/commands/monitoring1.py" />
@@ -225,63 +219,63 @@
       <jump line="6641" column="35" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="419" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" />
       <jump line="71" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
+      <jump line="85" column="82" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>else</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>else</text>
       </register>
       <register name="/" type="4">
-        <text>urlencode(dict_journal)</text>
+        <text>url_get_parser</text>
       </register>
       <register name="0" type="4">
-        <text>kwargs.get('user_id')</text>
+        <text>.replace('#page', '');</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7JSBlbmRpZiAlfQo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaGFzaCkgewo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhoYXNoKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFyIHJlID0gL3BhZ2U9KGQrKS9naTsKICAgICAgICAgICAgY29uc29sZS5sb2coJChsb2NhdGlvbikuYXR0cignaGFzaCcsIHVybC5tYXRjaChyZSkpKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coIHVybCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgdXJsKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">PHRhYmxlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRoPm1jY21uYzwvdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0aD5wcmljZTwvdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7JSBmb3IgbWNjbW5jLCBwcmljZSBpbiB2YWx1ZS5pdGVtcyAlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQ+e3sgbWNjbW5jfGRlZmF1bHQ6IioiIH19PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD57eyBwcmljZSB9fTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyUgZW5kZm9yICV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RhYmxlPg==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhoYXNoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/urlencode(dict_journal)/dict_journal/gc</text>
+        <text>%s/url_get_parser/url_parser/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>urlencode(dict_journal)</last-search>
+      <last-search>url_get_parser</last-search>
       <last-offset />
-      <last-pattern>urlencode(dict_journal)</last-pattern>
-      <last-replace>dict_journal</last-replace>
-      <last-substitute>urlencode(dict_journal)</last-substitute>
+      <last-pattern>url_get_parser</last-pattern>
+      <last-replace>url_parser</last-replace>
+      <last-substitute>url_get_parser</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>self\.monitoring_args</entry>
         <entry encoding="base64">PT0+</entry>
         <entry>_formatMe</entry>
         <entry>\.message</entry>
@@ -301,9 +295,9 @@
         <entry>dict_journal</entry>
         <entry>: dict_journal</entry>
         <entry>urlencode(dict_journal)</entry>
+        <entry>url_get_parser</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/self.doc.get\('monitoring'\)/test_type/gc</entry>
         <entry>%s/self.doc.get('monitoring')/test_type/gc</entry>
         <entry>%s/msg_type/test/gc</entry>
         <entry>%s/.get_stats/.__get_stats/gc</entry>
@@ -323,6 +317,7 @@
         <entry>%s/: dict_journal/urlencode(dict_journal)/gc</entry>
         <entry>%s/: dict_journal/: urlencode(dict_journal)/gc</entry>
         <entry>%s/urlencode(dict_journal)/dict_journal/gc</entry>
+        <entry>%s/url_get_parser/url_parser/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
