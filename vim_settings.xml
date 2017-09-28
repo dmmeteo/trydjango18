@@ -95,6 +95,7 @@
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route.html" timestamp="1506591424280" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_gateway_rate.html" timestamp="1506592610124" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506597069968" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
         <mark key="[" line="1464" column="23" />
