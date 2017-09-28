@@ -57,7 +57,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1505910206478">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1506600137586">
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
@@ -75,18 +75,18 @@
         <mark key="." line="423" column="0" />
         <mark key="^" line="423" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1506599042232">
+      <file name="/Dummy.txt" timestamp="1506599706111">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506598270024">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506599702961">
         <mark key="[" line="136" column="62" />
         <mark key="]" line="137" column="53" />
         <mark key="^" line="137" column="53" />
         <mark key="." line="137" column="53" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506598566430">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506599990102">
         <mark key="'" line="5672" column="69" />
         <mark key="[" line="5672" column="68" />
         <mark key="]" line="5673" column="0" />
@@ -94,7 +94,7 @@
         <mark key="^" line="5674" column="40" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route.html" timestamp="1506591424280" />
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_gateway_rate.html" timestamp="1506592610124" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_gateway_rate.html" timestamp="1506599886367" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506597069968" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
