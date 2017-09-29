@@ -70,14 +70,19 @@
         <mark key="^" line="81" column="29" />
         <mark key="." line="81" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506674249372">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506679338323">
         <mark key="'" line="5671" column="27" />
-        <mark key="[" line="5827" column="45" />
-        <mark key="]" line="5828" column="21" />
-        <mark key="." line="5828" column="21" />
+        <mark key="[" line="5828" column="0" />
+        <mark key="]" line="5828" column="0" />
+        <mark key="." line="5828" column="0" />
         <mark key="^" line="5828" column="21" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1506677003272" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1506679308160">
+        <mark key="[" line="50" column="25" />
+        <mark key="]" line="26" column="33" />
+        <mark key="^" line="26" column="33" />
+        <mark key="." line="26" column="33" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route.html" timestamp="1506591424280" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_gateway_rate.html" timestamp="1506599886367" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506597069968" />
@@ -201,44 +206,44 @@
       <jump line="41" column="48" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>truncatechars:3</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHByaW50IGhscl9nYXRld2F5cwo=</text>
       </register>
       <register name="-" type="4">
-        <text>truncatechars:3</text>
+        <text>Coverage</text>
       </register>
       <register name="/" type="4">
         <text>th-form-search</text>
       </register>
       <register name="0" type="4">
-        <text>.replace('#page', '');</text>
+        <text encoding="base64">PHRoPnslIHRyYW5zICdDb3ZlcmFnZScgJX08L3RoPg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgd2l0aCBnYXRlLmhscl9jb3VudHJ5X2xpc3R8am9pbjoiLCAiIGFzIGNvdW50cmVpc19saXN0ICV9Cg==</text>
+        <text encoding="base64">ICAgIHByaW50IGhscl9nYXRld2F5cwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuaW0gcGFyaWF0dXIgY2xpY2hlLi4uCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgd2l0aCBnYXRlLmhscl9jb3VudHJ5X2xpc3R8am9pbjoiLCAiIGFzIGNvdW50cmVpc19saXN0ICV9Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuaW0gcGFyaWF0dXIgY2xpY2hlLi4uCg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhY2NvcmRpb24taGVhZGluZyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJhY2NvcmRpb24tdG9nZ2xlIiBkYXRhLXRvZ2dsZT0iY29sbGFwc2UiIGRhdGEtcGFyZW50PSIjYWNjb3JkaW9uMiIgaHJlZj0iI2NvbGxhcHNlVHdvIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbGxhcHNpYmxlIEdyb3VwIEl0ZW0gIzIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImNvbGxhcHNlVHdvIiBjbGFzcz0iYWNjb3JkaW9uLWJvZHkgY29sbGFwc2UiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhY2NvcmRpb24taW5uZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQW5pbSBwYXJpYXR1ciBjbGljaGUuLi4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImFjY29yZGlvbi1ncm91cCI+Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICMgICAgIHNlbGYuaW5pdGlhbFsnc3RhdHVzJ10gPSAnVU5ERUxJVicKICAgICAgICAK</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICMgZGVmIF9faW5pdF9fKHNlbGYsICphcmdzLCAqKmt3YXJncyk6CiAgICAjICAgICBzdXBlcihGaWx0ZXJITFJOdW1iZXJGb3JtLCBzZWxmKS5fX2luaXRfXygqYXJncywgKiprd2FyZ3MpCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIENIT0lDRVMgPSBbKCdVTkRFTElWJywnaW1wb3J0YW50JyksICgnREVMSVZSRCcsJ3N1Y2Nlc3MnKSwgKCdSRUpFQ1REJywnaW52ZXJzZScpXQogICAgc3RhdHVzID0gZm9ybXMuQ2hvaWNlRmllbGQobGFiZWw9JycsIHdpZGdldD1mb3Jtcy5SYWRpb1NlbGVjdCgpLCBpbml0aWFsPSdVTkRFTElWJywgY2hvaWNlcz1DSE9JQ0VTKQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBjb3VudHJ5Cg==</text>
+        <text encoding="base64">ICAgIENIT0lDRVMgPSBbKCdVTkRFTElWJywnaW1wb3J0YW50JyksICgnREVMSVZSRCcsJ3N1Y2Nlc3MnKSwgKCdSRUpFQ1REJywnaW52ZXJzZScpXQogICAgc3RhdHVzID0gZm9ybXMuQ2hvaWNlRmllbGQobGFiZWw9JycsIHdpZGdldD1mb3Jtcy5SYWRpb1NlbGVjdCgpLCBpbml0aWFsPSdVTkRFTElWJywgY2hvaWNlcz1DSE9JQ0VTKQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/th-form-search/th-filter-form/gc</text>
