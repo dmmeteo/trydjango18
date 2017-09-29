@@ -3,13 +3,22 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="/Python Console" timestamp="1506430262906">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506669934030">
         <mark key="'" line="229" column="25" />
         <mark key="[" line="229" column="67" />
         <mark key="]" line="229" column="67" />
         <mark key="." line="229" column="67" />
       </file>
+      <file name="/fragment.py" timestamp="1505730155789">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/json_utils.py" timestamp="1506590255749" />
+      <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
+        <mark key="[" line="36" column="81" />
+      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505835096945">
         <mark key="'" line="8" column="7" />
         <mark key="[" line="55" column="8" />
@@ -18,13 +27,8 @@
         <mark key="." line="55" column="8" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/urls.py" timestamp="1506599035287" />
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1506518839039">
-        <mark key="'" line="85" column="82" />
-        <mark key="j" line="111" column="16" />
-        <mark key="[" line="102" column="55" />
-        <mark key="]" line="102" column="51" />
-        <mark key="." line="102" column="51" />
-        <mark key="^" line="102" column="51" />
+      <file name="/Django Console" timestamp="1506683186794">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1506499238891">
         <mark key="[" line="111" column="0" />
@@ -85,7 +89,12 @@
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route.html" timestamp="1506591424280" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_gateway_rate.html" timestamp="1506599886367" />
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506597069968" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506684611944">
+        <mark key="[" line="649" column="26" />
+        <mark key="]" line="649" column="28" />
+        <mark key="^" line="649" column="28" />
+        <mark key="." line="649" column="28" />
+      </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/directors/forms.py" timestamp="1505490452386">
         <mark key="'" line="1472" column="24" />
         <mark key="[" line="1464" column="23" />
@@ -206,11 +215,11 @@
       <jump line="41" column="48" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50IGhscl9nYXRld2F5cwo=</text>
+      <register name="&quot;" type="4">
+        <text>print a,</text>
       </register>
       <register name="-" type="4">
-        <text>Coverage</text>
+        <text>print a,</text>
       </register>
       <register name="/" type="4">
         <text>th-form-search</text>
@@ -219,31 +228,31 @@
         <text encoding="base64">PHRoPnslIHRyYW5zICdDb3ZlcmFnZScgJX08L3RoPg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50IGhscl9nYXRld2F5cwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgY292ZXJhZ2UK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgd2l0aCBnYXRlLmhscl9jb3VudHJ5X2xpc3R8am9pbjoiLCAiIGFzIGNvdW50cmVpc19saXN0ICV9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgY292ZXJhZ2UKICAgICAgICByZXR1cm4gZ2F0ZXdheXNfaW5mbwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuaW0gcGFyaWF0dXIgY2xpY2hlLi4uCg==</text>
+        <text encoding="base64">ICAgIHByaW50IGhscl9nYXRld2F5cwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgd2l0aCBnYXRlLmhscl9jb3VudHJ5X2xpc3R8am9pbjoiLCAiIGFzIGNvdW50cmVpc19saXN0ICV9Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhY2NvcmRpb24taGVhZGluZyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJhY2NvcmRpb24tdG9nZ2xlIiBkYXRhLXRvZ2dsZT0iY29sbGFwc2UiIGRhdGEtcGFyZW50PSIjYWNjb3JkaW9uMiIgaHJlZj0iI2NvbGxhcHNlVHdvIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbGxhcHNpYmxlIEdyb3VwIEl0ZW0gIzIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImNvbGxhcHNlVHdvIiBjbGFzcz0iYWNjb3JkaW9uLWJvZHkgY29sbGFwc2UiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhY2NvcmRpb24taW5uZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQW5pbSBwYXJpYXR1ciBjbGljaGUuLi4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuaW0gcGFyaWF0dXIgY2xpY2hlLi4uCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImFjY29yZGlvbi1ncm91cCI+Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICMgICAgIHNlbGYuaW5pdGlhbFsnc3RhdHVzJ10gPSAnVU5ERUxJVicKICAgICAgICAK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhY2NvcmRpb24taGVhZGluZyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJhY2NvcmRpb24tdG9nZ2xlIiBkYXRhLXRvZ2dsZT0iY29sbGFwc2UiIGRhdGEtcGFyZW50PSIjYWNjb3JkaW9uMiIgaHJlZj0iI2NvbGxhcHNlVHdvIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbGxhcHNpYmxlIEdyb3VwIEl0ZW0gIzIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImNvbGxhcHNlVHdvIiBjbGFzcz0iYWNjb3JkaW9uLWJvZHkgY29sbGFwc2UiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhY2NvcmRpb24taW5uZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQW5pbSBwYXJpYXR1ciBjbGljaGUuLi4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICMgZGVmIF9faW5pdF9fKHNlbGYsICphcmdzLCAqKmt3YXJncyk6CiAgICAjICAgICBzdXBlcihGaWx0ZXJITFJOdW1iZXJGb3JtLCBzZWxmKS5fX2luaXRfXygqYXJncywgKiprd2FyZ3MpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImFjY29yZGlvbi1ncm91cCI+Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIENIT0lDRVMgPSBbKCdVTkRFTElWJywnaW1wb3J0YW50JyksICgnREVMSVZSRCcsJ3N1Y2Nlc3MnKSwgKCdSRUpFQ1REJywnaW52ZXJzZScpXQogICAgc3RhdHVzID0gZm9ybXMuQ2hvaWNlRmllbGQobGFiZWw9JycsIHdpZGdldD1mb3Jtcy5SYWRpb1NlbGVjdCgpLCBpbml0aWFsPSdVTkRFTElWJywgY2hvaWNlcz1DSE9JQ0VTKQo=</text>
+        <text encoding="base64">ICAgICMgICAgIHNlbGYuaW5pdGlhbFsnc3RhdHVzJ10gPSAnVU5ERUxJVicKICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>%s/th-form-search/th-filter-form/gc</text>
