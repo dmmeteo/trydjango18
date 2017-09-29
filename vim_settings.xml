@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506669281345">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506669934030">
         <mark key="'" line="229" column="25" />
-        <mark key="[" line="214" column="0" />
-        <mark key="]" line="214" column="0" />
-        <mark key="." line="214" column="0" />
+        <mark key="[" line="229" column="67" />
+        <mark key="]" line="229" column="67" />
+        <mark key="." line="229" column="67" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/json_utils.py" timestamp="1506590255749" />
       <file name="$USER_HOME$/PCProjects/hg/smppstat/templates/directors/journal/list.html" timestamp="1505835096945">
@@ -200,11 +200,11 @@
       <jump line="5671" column="27" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgICAgIHNlbGYuaW5pdGlhbFsnc3RhdHVzJ10gPSAnVU5ERUxJVicKICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>y</text>
       </register>
       <register name="-" type="4">
-        <text>like</text>
+        <text>y</text>
       </register>
       <register name="/" type="4">
         <text>th-form-search</text>
