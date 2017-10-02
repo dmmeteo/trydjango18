@@ -6,12 +6,12 @@
       <file name="/Python Console" timestamp="1506430262906">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506938839612">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506943598937">
         <mark key="'" line="232" column="25" />
-        <mark key="[" line="231" column="16" />
-        <mark key="]" line="232" column="16" />
-        <mark key="." line="232" column="16" />
-        <mark key="^" line="232" column="16" />
+        <mark key="[" line="233" column="80" />
+        <mark key="]" line="233" column="80" />
+        <mark key="." line="233" column="80" />
+        <mark key="^" line="235" column="22" />
       </file>
       <file name="/fragment.py" timestamp="1505730155789">
         <mark key="[" line="0" column="0" />
@@ -20,6 +20,7 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/forms/widgets.py" timestamp="1506943291662" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/urls.py" timestamp="1506599035287" />
       <file name="/models.py" timestamp="1506938586805" />
       <file name="/Django Console" timestamp="1506683186794">
@@ -33,7 +34,7 @@
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
-      <file name="/Dummy.txt" timestamp="1506938558925">
+      <file name="/Dummy.txt" timestamp="1506941797108">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -45,9 +46,9 @@
         <mark key="^" line="81" column="29" />
         <mark key="." line="81" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506931312983">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506943442816">
         <mark key="'" line="5671" column="27" />
-        <mark key="[" line="5830" column="0" />
+        <mark key="[" line="5681" column="52" />
         <mark key="]" line="5830" column="0" />
         <mark key="." line="5830" column="0" />
         <mark key="^" line="5830" column="14" />
@@ -68,20 +69,16 @@
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1506932986404" />
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/forms/fields.py" timestamp="1506667694478" />
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506669096803">
-        <mark key="'" line="427" column="4" />
-        <mark key="[" line="298" column="0" />
-        <mark key="]" line="298" column="0" />
-        <mark key="." line="298" column="0" />
-        <mark key="^" line="297" column="53" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506943742013">
+        <mark key="'" line="298" column="26" />
+        <mark key="[" line="297" column="0" />
+        <mark key="]" line="297" column="16" />
+        <mark key="m" line="296" column="2" />
+        <mark key="." line="297" column="16" />
+        <mark key="^" line="297" column="7" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="516" column="27" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="994" column="40" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="706" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="973" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="1054" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="2014" column="51" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="1112" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="34" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" />
@@ -177,55 +174,60 @@
       <jump line="603" column="46" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
       <jump line="805" column="14" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
       <jump line="393" column="20" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
+      <jump line="296" column="88" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
+      <jump line="342" column="68" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
+      <jump line="297" column="22" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
+      <jump line="1487" column="13" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
+      <jump line="298" column="26" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>\</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>\</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>lambda</text>
+        <text>UNDELIV</text>
       </register>
       <register name="0" type="4">
-        <text>style=&quot;max-width: 900px&quot;</text>
+        <text>DELIVRD</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgcm93cwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoKHJldGhpbmtkYi5yb3dbJ2RhdGEnXVsnc3RhdCddID09ICdVTkRFTElWJykgJiAocmV0aGlua2RiLnJvd1snZGF0YSddWydzdGF0J10gPT0gJ1JFSkVDVEQnKSkgXAo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">OgogICAg</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIocmV0aGlua2RiLnJvd1snZGF0YSddWydzdGF0J10gaW4gWydVTkRFTElWJywgJ1JFSkVDVEQnXSkgXAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgcm93cwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoKHJldGhpbmtkYi5yb3dbJ2RhdGEnXVsnc3RhdCddID09ICdVTkRFTElWJykgJiAocmV0aGlua2RiLnJvd1snZGF0YSddWydzdGF0J10gPT0gJ1JFSkVDVEQnKSkgXAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZnJvbSBwcHJpbnQgaW1wb3J0IHBwcmludAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIocmV0aGlua2RiLnJvd1snZGF0YSddWydzdGF0J10gaW4gWydVTkRFTElWJywgJ1JFSkVDVEQnXSkgXAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGFsdGVyX3JhdGUuY292ZXJhZ2VfbmFtZXN8am9pbjoiLCAiIH19PC90ZD4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50IHJhdGVzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZnJvbSBwcHJpbnQgaW1wb3J0IHBwcmludAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPnt7IHJhdGUuY292ZXJhZ2VfbmFtZXN8am9pbjoiLCAiIH19PC90ZD4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGFsdGVyX3JhdGUuY292ZXJhZ2VfbmFtZXN8am9pbjoiLCAiIH19PC90ZD4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaW50IHJhdGVzCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/th-form-search/th-filter-form/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>lambda</last-search>
+      <last-search>UNDELIV</last-search>
       <last-offset />
-      <last-pattern>lambda</last-pattern>
+      <last-pattern>UNDELIV</last-pattern>
       <last-replace>th-filter-form</last-replace>
       <last-substitute>th-form-search</last-substitute>
       <last-dir>1</last-dir>
@@ -233,8 +235,6 @@
     </search>
     <history>
       <history-search>
-        <entry>self\.groups</entry>
-        <entry>get_name</entry>
         <entry>def _tes</entry>
         <entry>data</entry>
         <entry>fail</entry>
@@ -253,6 +253,8 @@
         <entry encoding="base64">c2VsZWN0LmZvcm0tY29udHJvbCArIA==</entry>
         <entry>th-form-search</entry>
         <entry>lambda</entry>
+        <entry>'UNDELIV':'</entry>
+        <entry>UNDELIV</entry>
       </history-search>
       <history-cmd>
         <entry>%s/.get_stats/.__get_stats/gc</entry>
