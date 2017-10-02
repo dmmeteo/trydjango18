@@ -6,12 +6,11 @@
       <file name="/Python Console" timestamp="1506430262906">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506954047423">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1506957859533">
         <mark key="'" line="232" column="25" />
-        <mark key="[" line="233" column="36" />
-        <mark key="]" line="234" column="21" />
-        <mark key="." line="234" column="21" />
-        <mark key="^" line="234" column="21" />
+        <mark key="[" line="222" column="0" />
+        <mark key="]" line="222" column="0" />
+        <mark key="." line="222" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1505730155789">
         <mark key="[" line="0" column="0" />
@@ -34,24 +33,24 @@
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
-      <file name="/Dummy.txt" timestamp="1506951024947">
+      <file name="/Dummy.txt" timestamp="1506958506719">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506953220162">
-        <mark key="'" line="81" column="30" />
-        <mark key="[" line="85" column="42" />
-        <mark key="]" line="85" column="47" />
-        <mark key="^" line="85" column="47" />
-        <mark key="." line="85" column="47" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506958127587">
+        <mark key="'" line="93" column="20" />
+        <mark key="[" line="52" column="19" />
+        <mark key="]" line="58" column="8" />
+        <mark key="." line="58" column="8" />
+        <mark key="^" line="58" column="8" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506943442816">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1506957937961">
         <mark key="'" line="5671" column="27" />
-        <mark key="[" line="5681" column="52" />
-        <mark key="]" line="5830" column="0" />
-        <mark key="." line="5830" column="0" />
-        <mark key="^" line="5830" column="14" />
+        <mark key="[" line="5681" column="0" />
+        <mark key="]" line="5681" column="0" />
+        <mark key="." line="5681" column="0" />
+        <mark key="^" line="5682" column="32" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1506696292115">
         <mark key="[" line="111" column="58" />
@@ -69,18 +68,16 @@
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/httphandler/management/commands/rdb_aggregator.py" timestamp="1506932986404" />
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/forms/fields.py" timestamp="1506667694478" />
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506953806516">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1506958482199">
         <mark key="'" line="296" column="20" />
-        <mark key="[" line="311" column="36" />
-        <mark key="]" line="311" column="59" />
+        <mark key="[" line="1470" column="0" />
+        <mark key="]" line="1470" column="0" />
         <mark key="m" line="296" column="2" />
-        <mark key="." line="311" column="59" />
-        <mark key="^" line="311" column="59" />
+        <mark key="." line="1470" column="0" />
+        <mark key="^" line="1470" column="26" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="2014" column="51" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
-      <jump line="1112" column="23" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
       <jump line="34" column="37" filename="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" />
       <jump line="87" column="8" filename="$USER_HOME$/PCProjects/hg/smppstat/journal/models.py" />
       <jump line="2021" column="39" filename="$USER_HOME$/PCProjects/hg/smppstat/directors/views.py" />
@@ -179,13 +176,15 @@
       <jump line="1487" column="13" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
       <jump line="298" column="26" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
       <jump line="296" column="20" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" />
+      <jump line="70" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" />
+      <jump line="91" column="20" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICB1c2VyX2lkID0gc2VsZi5jbGRkZWFuZWRfZGF0YVsndXNlcl9pZCddCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
         <text>UNDELIV</text>
@@ -194,34 +193,31 @@
         <text>$(&quot;#id_country&quot;).val() != 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt7IGZpbHRlcl9mb3JtfGFzX2Jvb3RzdHJhcCB9fQo=</text>
+        <text encoding="base64">ICAgICAgICB1c2VyX2lkID0gc2VsZi5jbGRkZWFuZWRfZGF0YVsndXNlcl9pZCddCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWw9eydVTkRFTElWJzogJ3VuZGVsaXYnfSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZmlsdGVyX2Zvcm0uY2xlYW5lZF9kYXRhWydzdGF0dXMnXQogICAgICAgICAgICBwcmludCBmaWx0ZXJfZm9ybS5ja2xsZWFuZWRfZGF0YVsnY291bnRyeSddCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ3F1ZXJ5OicsIHF1ZXJ5Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2NvdW50cnk6JywgY291bnRyeQo=</text>
       </register>
-      <register name="5" type="4">
-        <text>{#            #}
-{#            $(&quot;#id_country&quot;).chosen({search_contains: true}).change(function(){#}
-{#                $(&quot;#filter_form&quot;).submit();#}
-{#            });#}</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB0YWJsZSB0aC50aC1maWx0ZXItZm9ybSBmb3JtLAogICAgICAgIHRhYmxlIHRoLnRoLWZpbHRlci1mb3JtIGZvcm0gcCB7IG1hcmdpbjogMDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0YWJsZSB0aC50aC1maWx0ZXItZm9ybSBmb3JtLAogICAgICAgIHRhYmxlIHRoLnRoLWZpbHRlci1mb3JtIGZvcm0gcCB7IG1hcmdpbjogMDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCQoIiNpZF9jb3VudHJ5IikudmFsKCkpOwoK</text>
+        <text encoding="base64">ICAgICAgICAudGFibGUtaG92ZXIgdGJvZHkgdHI6aG92ZXIgeyBjdXJzb3I6IHBvaW50ZXI7IH0K</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICA8Zm9ybSBhY3Rpb249IiIgbWV0aG9kPSJnZXQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dC1hcHBlbmQiPgogICAgICAgICAgICAgICAge3sgc2VhcmNoX2Zvcm0gfX0KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJzdWJtaXQiIGNsYXNzPSJidG4iIHZhbHVlPSJTZWFyY2giPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Zvcm0+</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">eyMgICAgICAgICAgICAkKCcjaWRfY291bnRyeScpLmNob3NlbigpOyN9Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb3VudHJ5X2lkID0gc2VsZi5jbGVhbmVkX2RhdGFbJ2NvdW50cnknXQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/th-form-search/th-filter-form/gc</text>
