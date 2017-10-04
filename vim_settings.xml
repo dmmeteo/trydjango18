@@ -8,12 +8,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507108196993">
-        <mark key="'" line="50" column="0" />
-        <mark key="[" line="51" column="21" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
-        <mark key="^" line="54" column="24" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507108907386">
+        <mark key="'" line="49" column="0" />
+        <mark key="[" line="52" column="28" />
+        <mark key="]" line="52" column="33" />
+        <mark key="^" line="52" column="33" />
+        <mark key="." line="52" column="33" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506958127587">
         <mark key="'" line="93" column="20" />
@@ -38,6 +38,7 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/core/exceptions.py" timestamp="1507108567914" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
         <mark key="[" line="19" column="47" />
         <mark key="]" line="19" column="47" />
@@ -58,7 +59,7 @@
       <file name="/Django Console" timestamp="1506683186794">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/core/urlresolvers.py" timestamp="1507108108488" />
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/core/urlresolvers.py" timestamp="1507108764161" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506932847630">
         <mark key="'" line="393" column="20" />
         <mark key="[" line="651" column="0" />
@@ -195,11 +196,11 @@
       <jump line="50" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50IHJlcXVlc3QK</text>
+      <register name="&quot;" type="4">
+        <text />
       </register>
       <register name="-" type="4">
-        <text>kwarg</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxkaWN0X2pvdXJuYWxcPg==</text>
