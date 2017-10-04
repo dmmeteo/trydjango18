@@ -8,12 +8,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507108907386">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507109797189">
         <mark key="'" line="49" column="0" />
-        <mark key="[" line="52" column="28" />
-        <mark key="]" line="52" column="33" />
+        <mark key="[" line="52" column="29" />
+        <mark key="]" line="52" column="29" />
         <mark key="^" line="52" column="33" />
-        <mark key="." line="52" column="33" />
+        <mark key="." line="52" column="29" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506958127587">
         <mark key="'" line="93" column="20" />
@@ -44,7 +44,7 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507042483403">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507109591335">
         <mark key="'" line="1129" column="9" />
         <mark key="[" line="1124" column="90" />
         <mark key="]" line="1129" column="8" />
@@ -197,10 +197,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxkaWN0X2pvdXJuYWxcPg==</text>
