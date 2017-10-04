@@ -8,12 +8,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507107418506">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507108196993">
         <mark key="'" line="50" column="0" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="." line="52" column="0" />
-        <mark key="^" line="52" column="24" />
+        <mark key="[" line="51" column="21" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="54" column="0" />
+        <mark key="^" line="54" column="24" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1506958127587">
         <mark key="'" line="93" column="20" />
@@ -58,6 +58,7 @@
       <file name="/Django Console" timestamp="1506683186794">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/core/urlresolvers.py" timestamp="1507108108488" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1506932847630">
         <mark key="'" line="393" column="20" />
         <mark key="[" line="651" column="0" />
@@ -65,6 +66,7 @@
         <mark key="^" line="649" column="57" />
         <mark key="." line="651" column="0" />
       </file>
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/conf/urls/defaults.py" timestamp="1507108144481" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings_dev.py" timestamp="1507042163825">
         <mark key="[" line="172" column="41" />
         <mark key="]" line="173" column="34" />
@@ -77,7 +79,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507038040233">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507108155023">
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
