@@ -3,18 +3,17 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507186099736">
-        <mark key="'" line="96" column="35" />
-        <mark key="[" line="93" column="0" />
-        <mark key="]" line="93" column="0" />
-        <mark key="." line="93" column="0" />
-        <mark key="^" line="93" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507198537601">
+        <mark key="'" line="79" column="16" />
+        <mark key="[" line="87" column="4" />
+        <mark key="]" line="87" column="47" />
+        <mark key="." line="86" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1507186555878">
+      <file name="/Python Console" timestamp="1507197047875">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/middleware/locale.py" timestamp="1507107391281" />
-      <file name="/fragment.py" timestamp="1507188943765">
+      <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
@@ -52,7 +51,7 @@
         <mark key="." line="58" column="8" />
         <mark key="^" line="58" column="8" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507187537470">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507198444099">
         <mark key="'" line="6630" column="10" />
         <mark key="[" line="5894" column="33" />
         <mark key="]" line="5895" column="0" />
@@ -92,9 +91,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
-      <jump line="166" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" />
-      <jump line="481" column="32" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="483" column="12" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="6631" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5841" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -192,66 +188,65 @@
       <jump line="67" column="35" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
       <jump line="41" column="18" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="6641" column="10" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="92" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
+      <jump line="86" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
+      <jump line="84" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4geydkaWN0X2pvdXJuYWwnOiB1cmxzLmdldCh1cmxfbmFtZSl9Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEn</text>
+        <text>views</text>
       </register>
       <register name="/" type="4">
-        <text>dict_journal|url_parser</text>
+        <text>,{.+}\'dict_journal\':</text>
       </register>
-      <register name="0" type="4">
-        <text>j['url'] == url_name</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4geydkaWN0X2pvdXJuYWwnOiB1cmxzLmdldCh1cmxfbmFtZSl9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIGogaW4gam91cm5hbHM6CiAgICAgICAgICAgICAgICBwcmludCBqCiAgICAgICAgICAgICAgICBpZiBqWyd1cmwnXSA9PSB1cmxfbmFtZToK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
+        <text encoding="base64">CiAgICBpbXBvcnQgc3lzCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnemFzaGVsJwo=</text>
+        <text encoding="base64">ICAgIHByaW50IFRydWUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50IGpbJ3VybCddLCAnIT0nLCB1cmxfbmFtZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgVHJ1ZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnbmUgemFzaGVsJwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgalsndXJsJ10sIHVybF9uYW1lCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50IHVybF9hcmdzCg==</text>
+        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGZyb20gZGphbmdvLmNvbmYudXJscy5kZWZhdWx0cyBpbXBvcnQgcGF0dGVybnMK</text>
+        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50IHVybF9wYXRoCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/dict_journal|url_parser/dict_journal/gc</text>
+        <text>%s/,{.+}\'dict_journal\'://g</text>
       </register>
     </registers>
     <search>
-      <last-search>dict_journal|url_parser</last-search>
+      <last-search>,{.+}\'dict_journal\':</last-search>
       <last-offset />
-      <last-pattern>dict_journal|url_parser</last-pattern>
-      <last-replace>dict_journal</last-replace>
-      <last-substitute>dict_journal|url_parser</last-substitute>
+      <last-pattern>,{.+}\'dict_journal\':</last-pattern>
+      <last-replace />
+      <last-substitute>,{.+}\'dict_journal\':</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>includ</entry>
-        <entry>_testCa</entry>
-        <entry encoding="base64">XDx0aW1lX2luX3JhbmdlXD4=</entry>
-        <entry>journal_page</entry>
         <entry>page_journal</entry>
         <entry>RdbJournal.get_logs(</entry>
         <entry>dict_journal</entry>
@@ -268,12 +263,12 @@
         <entry>dict_journal = dict(</entry>
         <entry encoding="base64">XDxkaWN0X2pvdXJuYWxcPg==</entry>
         <entry>dict_journal|url_parser</entry>
+        <entry>{'url':\s</entry>
+        <entry>,\n'dict_journal'</entry>
+        <entry>,{.+}'dict_journal'</entry>
+        <entry>,{.+}\'dict_journal\':</entry>
       </history-search>
       <history-cmd>
-        <entry>s/self\.monitoring_args/args/g</entry>
-        <entry>s/</entry>
-        <entry>s/\.message/['message']/g</entry>
-        <entry>%s/self\.groups/self\._groups/g</entry>
         <entry>%s/get_name/_name/g</entry>
         <entry>nohl</entry>
         <entry>s/data/v/g</entry>
@@ -290,6 +285,10 @@
         <entry>%s/select.form-control + //g</entry>
         <entry>%s/th-form-search/th-filter-form/gc</entry>
         <entry>%s/dict_journal|url_parser/dict_journal/gc</entry>
+        <entry>%s/{'url':\s//g</entry>
+        <entry>%s/,\n'dict_journal'//g</entry>
+        <entry>%s/,{.+}'dict_journal'//g</entry>
+        <entry>%s/,{.+}\'dict_journal\'://g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
