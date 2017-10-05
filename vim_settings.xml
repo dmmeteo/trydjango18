@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507198537601">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507200922972">
         <mark key="'" line="79" column="16" />
-        <mark key="[" line="87" column="4" />
-        <mark key="]" line="87" column="47" />
-        <mark key="." line="86" column="0" />
+        <mark key="[" line="88" column="0" />
+        <mark key="]" line="88" column="0" />
+        <mark key="." line="88" column="0" />
       </file>
       <file name="/Python Console" timestamp="1507197047875">
         <mark key="[" line="0" column="0" />
@@ -194,7 +194,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4geydkaWN0X2pvdXJuYWwnOiB1cmxzLmdldCh1cmxfbmFtZSl9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>views</text>
@@ -206,31 +206,31 @@
         <text encoding="base64">ICAgICAgICByZXR1cm4geydkaWN0X2pvdXJuYWwnOiB1cmxzLmdldCh1cmxfbmFtZSl9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIGogaW4gam91cm5hbHM6CiAgICAgICAgICAgICAgICBwcmludCBqCiAgICAgICAgICAgICAgICBpZiBqWyd1cmwnXSA9PSB1cmxfbmFtZToK</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">CiAgICBpbXBvcnQgc3lzCg==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICMgaWYgdXJsX25hbWUgbm90IGluIFsnZGlyZWN0b3JzOmpvdXJuYWxfcGFnZXMnLCAnZGlyZWN0b3JzOmpvdXJuYWwnXToKICAgICMgICAgIHJldHVybiB7J2RpY3Rfam91cm5hbCc6IHVybHMuZ2V0KHVybF9uYW1lKX0KICAgICMgZWxzZToKICAgICMgICAgIHJldHVybiBOb25lCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIGogaW4gam91cm5hbHM6CiAgICAgICAgICAgICAgICBwcmludCBqCiAgICAgICAgICAgICAgICBpZiBqWyd1cmwnXSA9PSB1cmxfbmFtZToK</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50IFRydWUK</text>
+        <text encoding="base64">CiAgICBpbXBvcnQgc3lzCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgVHJ1ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgalsndXJsJ10sIHVybF9uYW1lCg==</text>
+        <text encoding="base64">ICAgIHByaW50IFRydWUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgVHJ1ZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgalsndXJsJ10sIHVybF9uYW1lCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaW50ICd5YSBkb3NoZWwgZG8gc3VkYSEnCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/,{.+}\'dict_journal\'://g</text>
