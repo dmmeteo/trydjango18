@@ -38,6 +38,13 @@
         <mark key="'" line="165" column="19" />
         <mark key="[" line="165" column="19" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507208902256">
+        <mark key="'" line="426" column="79" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="1" />
+        <mark key="." line="0" column="1" />
+        <mark key="^" line="0" column="1" />
+      </file>
       <file name="/Dummy.txt" timestamp="1507206684802">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -71,7 +78,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="483" column="12" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="6631" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5841" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2225" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -171,6 +177,7 @@
       <jump line="92" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
       <jump line="86" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
       <jump line="84" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
+      <jump line="425" column="79" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
