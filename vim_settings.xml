@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507205421329">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507211737955">
         <mark key="[" line="88" column="32" />
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
@@ -27,14 +27,22 @@
       <file name="/Django Console" timestamp="1506683186794">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507204402788">
-        <mark key="[" line="0" column="28" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507213316239">
+        <mark key="[" line="0" column="13" />
+        <mark key="]" line="0" column="13" />
+        <mark key="." line="0" column="13" />
+        <mark key="^" line="0" column="28" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/journal/models.py" timestamp="1507214081634">
+        <mark key="[" line="66" column="0" />
+        <mark key="]" line="66" column="0" />
+        <mark key="." line="66" column="0" />
       </file>
       <file name="/views.py" timestamp="1507205363660" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507203798905">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507212138813">
         <mark key="'" line="165" column="19" />
         <mark key="[" line="165" column="19" />
       </file>
@@ -45,17 +53,23 @@
         <mark key="." line="0" column="1" />
         <mark key="^" line="0" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1507206684802">
+      <file name="/Dummy.txt" timestamp="1507214457791">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507206011974">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507214382069">
         <mark key="'" line="6624" column="10" />
-        <mark key="[" line="2214" column="0" />
-        <mark key="]" line="2214" column="0" />
-        <mark key="^" line="5889" column="0" />
-        <mark key="." line="2214" column="0" />
+        <mark key="[" line="6597" column="17" />
+        <mark key="]" line="6597" column="26" />
+        <mark key="^" line="6597" column="26" />
+        <mark key="." line="6597" column="26" />
+      </file>
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/pagination/templatetags/pagination_tags.py" timestamp="1507209928863" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="." line="59" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
@@ -67,15 +81,10 @@
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/core/urlresolvers.py" timestamp="1507108764161" />
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/conf/urls/defaults.py" timestamp="1507108144481" />
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings_dev.py" timestamp="1507042163825">
-        <mark key="[" line="172" column="41" />
-        <mark key="]" line="173" column="34" />
-        <mark key="." line="173" column="34" />
-        <mark key="^" line="173" column="34" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/action_info.html" timestamp="1507211470433" />
     </filemarks>
     <jumps>
       <jump line="6631" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -181,10 +190,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSB1cmxsaWIgaW1wb3J0IHVybGVuY29kZQo=</text>
+        <text encoding="base64">ICAgICAgICB7eyBkaWN0X2pvdXJuYWwgfX0K</text>
       </register>
       <register name="-" type="4">
-        <text>{}</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>,{.+}\'dict_journal\':</text>
@@ -196,31 +205,31 @@
                           'sub_object_id': url_args.get('arg1')},</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSB1cmxsaWIgaW1wb3J0IHVybGVuY29kZQo=</text>
+        <text encoding="base64">ICAgICAgICB7eyBkaWN0X2pvdXJuYWwgfX0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRpY3Rfam91cm5hbCA9IGRpY3QobW9kZWw9J1JkYkNsaWVudFJhdGVzJywgb2JqZWN0X2lkPWNsaWVudF9pZCwgc3ViX29iamVjdF9pZD1yb3V0ZV9pZCwgdHlwZT0ncmF0ZV9jaGFuZ2UnKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAnZGljdF9qb3VybmFsJzogZGljdF9qb3VybmFsLAo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAndHlwZScsIG1zZ190eXBlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBqbGpkc2oK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBsYXN0X3BhZ2UgPSBpbnQobWF0aC5jZWlsKCBSZGJKb3VybmFsLmNvdW50X2xvZ3MoKippbml0aWFsKSAvIGZsb2F0KGxpbWl0KSApKQo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBsYXN0X3BhZ2UgPSBpbnQobWF0aC5jZWlsKCBSZGJKb3VybmFsLmNvdW50X2xvZ3MoKippbml0aWFsKSAvIGZsb2F0KGxpbWl0KSApKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICMgZGljdF9qb3VybmFsID0gZGljdChtb2RlbD0nUmRiQ2xpZW50UmF0ZXMnLCBvYmplY3RfaWQ9Y2xpZW50X2lkLCBzdWJfb2JqZWN0X2lkPXJvdXRlX2lkLCB0eXBlPSdyYXRlX2NoYW5nZScpIGlmIHJvdXRlX2lkIGVsc2Uge30K</text>
+        <text encoding="base64">ICAgIGxhc3RfcGFnZSA9IGludChtYXRoLmNlaWwoIFJkYkpvdXJuYWwuY291bnRfbG9ncygqKmluaXRpYWwpIC8gZmxvYXQobGltaXQpICkpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjICJkaWN0X2pvdXJuYWwiOiBkaWN0X2pvdXJuYWwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/,{.+}\'dict_journal\'://g</text>
