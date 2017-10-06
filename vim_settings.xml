@@ -22,15 +22,16 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/routes.html" timestamp="1507291584596" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/routes.html" timestamp="1507294304328" />
       <file name="/Django Console" timestamp="1506683186794">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507213316239">
-        <mark key="[" line="0" column="13" />
-        <mark key="]" line="0" column="13" />
-        <mark key="." line="0" column="13" />
-        <mark key="^" line="0" column="28" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
+        <mark key="'" line="127" column="4" />
+        <mark key="[" line="144" column="8" />
+        <mark key="]" line="144" column="22" />
+        <mark key="." line="144" column="22" />
+        <mark key="^" line="144" column="22" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
@@ -42,10 +43,11 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507289979832">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1507290821006">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1507294111852">
+        <mark key="[" line="0" column="27" />
+        <mark key="]" line="0" column="27" />
+        <mark key="." line="0" column="27" />
+        <mark key="^" line="0" column="29" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings.py" timestamp="1507215964909">
         <mark key="[" line="170" column="41" />
@@ -53,8 +55,12 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507214382069">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507293375672">
         <mark key="'" line="6660" column="10" />
+        <mark key="[" line="2012" column="30" />
+        <mark key="]" line="2012" column="115" />
+        <mark key="^" line="2012" column="115" />
+        <mark key="." line="2012" column="115" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/pagination/templatetags/pagination_tags.py" timestamp="1507292031188" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
@@ -82,8 +88,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6631" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
-      <jump line="5841" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2225" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2161" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2148" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -182,63 +186,64 @@
       <jump line="86" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
       <jump line="84" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" />
       <jump line="425" column="79" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" />
+      <jump line="123" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
+      <jump line="127" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>page</text>
       </register>
       <register name="-" type="4">
-        <text>info</text>
+        <text>page</text>
       </register>
       <register name="/" type="4">
-        <text>,{.+}\'dict_journal\':</text>
+        <text>ajax-pagination</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICd1c2Vycy5jb250ZXh0cHJvY2Vzc29yLmpvdXJuYWwnCg==</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">Zml4ZWQgcGFnaW5hdGlvbiBpbiByb3V0ZXMgcGFnZQo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">PDw8PDw8PCB3b3JraW5nIGNvcHkKPT09PT09PQoKPj4+Pj4+PiBtZXJnZSByZXY=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">VEVNUExBVEVfQ09OVEVYVF9QUk9DRVNTT1JTID0gKAogICAgJ2RqYW5nby5jb250cmliLm1lc3NhZ2VzLmNvbnRleHRfcHJvY2Vzc29ycy5tZXNzYWdlcycsCiAgICAiZGphbmdvLmNvbnRyaWIuYXV0aC5jb250ZXh0X3Byb2Nlc3NvcnMuYXV0aCIsCiAgICAnZGphbmdvLmNvcmUuY29udGV4dF9wcm9jZXNzb3JzLmkxOG4nLAogICAgJ2RqYW5nby5jb3JlLmNvbnRleHRfcHJvY2Vzc29ycy5yZXF1ZXN0JywKICAgICd1c2Vycy5jb250ZXh0cHJvY2Vzc29yLmZldGNoX3VzZXJfYmFsYW5jZScsCiAgICAndXNlcnMuY29udGV4dHByb2Nlc3Nvci5oYXNfdHdvd2F5JywKICAgICd1c2Vycy5jb250ZXh0cHJvY2Vzc29yLmdldF9jdXJyZW5jaWVzJywKICAgICd1c2Vycy5jb250ZXh0cHJvY2Vzc29yLnVzZXJfZ3JvdXBzJywKICAgICd1c2Vycy5jb250ZXh0cHJvY2Vzc29yLmpvdXJuYWwnCikK</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICB7eyBkaWN0X2pvdXJuYWwgfX0K</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCAndHlwZScsIG1zZ190eXBlCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCBqbGpkc2oK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICBsYXN0X3BhZ2UgPSBpbnQobWF0aC5jZWlsKCBSZGJKb3VybmFsLmNvdW50X2xvZ3MoKippbml0aWFsKSAvIGZsb2F0KGxpbWl0KSApKQo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name=":" type="4">
-        <text>%s/,{.+}\'dict_journal\'://g</text>
+        <text>%s/ajax-pagination/pagination ajax-pagination/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>,{.+}\'dict_journal\':</last-search>
+      <last-search>ajax-pagination</last-search>
       <last-offset />
-      <last-pattern>,{.+}\'dict_journal\':</last-pattern>
-      <last-replace />
-      <last-substitute>,{.+}\'dict_journal\':</last-substitute>
+      <last-pattern>ajax-pagination</last-pattern>
+      <last-replace>pagination ajax-pagination</last-replace>
+      <last-substitute>ajax-pagination</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>page_journal</entry>
         <entry>RdbJournal.get_logs(</entry>
         <entry>dict_journal</entry>
         <entry>: dict_journal</entry>
@@ -258,9 +263,9 @@
         <entry>,\n'dict_journal'</entry>
         <entry>,{.+}'dict_journal'</entry>
         <entry>,{.+}\'dict_journal\':</entry>
+        <entry>ajax-pagination</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/get_name/_name/g</entry>
         <entry>nohl</entry>
         <entry>s/data/v/g</entry>
         <entry>s/data/errors/g</entry>
@@ -280,6 +285,7 @@
         <entry>%s/,\n'dict_journal'//g</entry>
         <entry>%s/,{.+}'dict_journal'//g</entry>
         <entry>%s/,{.+}\'dict_journal\'://g</entry>
+        <entry>%s/ajax-pagination/pagination ajax-pagination/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
