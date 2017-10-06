@@ -55,8 +55,12 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507293375672">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507299147180">
         <mark key="'" line="6624" column="10" />
+        <mark key="[" line="6587" column="29" />
+        <mark key="]" line="6587" column="28" />
+        <mark key="^" line="6587" column="28" />
+        <mark key="." line="6587" column="28" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/pagination/templatetags/pagination_tags.py" timestamp="1507292031188" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
