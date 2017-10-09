@@ -11,11 +11,12 @@
       <file name="/Python Console" timestamp="1507197047875">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507546614991">
-        <mark key="[" line="147" column="29" />
-        <mark key="]" line="148" column="22" />
-        <mark key="." line="148" column="22" />
-        <mark key="^" line="148" column="22" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507551892782">
+        <mark key="'" line="151" column="39" />
+        <mark key="[" line="157" column="12" />
+        <mark key="]" line="157" column="15" />
+        <mark key="." line="157" column="15" />
+        <mark key="^" line="157" column="15" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -54,7 +55,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507289979832">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1507544473042">
+      <file name="/Dummy.txt" timestamp="1507550732299">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -66,7 +67,7 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507546911273">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507550730861">
         <mark key="'" line="6624" column="10" />
         <mark key="[" line="5830" column="0" />
         <mark key="]" line="5830" column="0" />
@@ -81,12 +82,14 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507546896870">
-        <mark key="[" line="100" column="0" />
-        <mark key="]" line="100" column="0" />
-        <mark key="." line="100" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507550608565">
+        <mark key="[" line="93" column="34" />
+        <mark key="]" line="93" column="34" />
+        <mark key="." line="93" column="34" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507546913753" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507551810517">
+        <mark key="'" line="643" column="30" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings_dev.py" timestamp="1507215999276">
         <mark key="[" line="163" column="0" />
         <mark key="]" line="164" column="54" />
@@ -105,10 +108,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2225" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
-      <jump line="2161" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
-      <jump line="2148" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
-      <jump line="1821" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="1814" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="1128" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="1123" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -205,66 +204,92 @@
       <jump line="425" column="79" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" />
       <jump line="123" column="16" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
       <jump line="127" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" />
+      <jump line="651" column="31" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
+      <jump line="151" column="30" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
+      <jump line="158" column="39" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
+      <jump line="643" column="30" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7eyByYXRlIH19Cg==</text>
+      <register name="&quot;" type="4">
+        <text>gate</text>
       </register>
       <register name="-" type="4">
-        <text>a</text>
+        <text>gate</text>
       </register>
       <register name="/" type="4">
-        <text>ajax-pagination</text>
+        <text>gateways_diff_countries</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICd1c2Vycy5jb250ZXh0cHJvY2Vzc29yLmpvdXJuYWwnCg==</text>
+      <register name="0" type="4">
+        <text>rate['exclude_country_names']</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7eyByYXRlIH19Cg==</text>
+      <register name="1" type="4">
+        <text>coverage = set(rate['hlr_country_list'])
+            for diff in rate:
+                if diff['id'] != date['id']:
+                    coverage = coverage.difference(diff['hlr_country_list'])
+            gate['hlr_diff_country_list'] = list(coverage)</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50IHcK</text>
+        <text encoding="base64">CiAgIGRkIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHcgPSBbe2s6dn0gZm9yIGssdiBpbiByYXRlc10K</text>
+      <register name="3" type="4">
+        <text>@classmethod
+    def get_hlr_rates(cls):
+        conn = rethinkdb.connect(db='bulkness').repl()
+        rows = rethinkdb.table('gateway_docs').filter({'is_hlr': True}).run(conn)
+        countries_names = RdbCountry.get_dict()
+    
+        gateways_info = []
+        for row in rows:
+            gateways_info.append({
+                'id': row['id'],
+                'name': row['name'],
+                'hlr_gw_price': row.get('hlr_gw_price'),
+                'hlr_country_list': [countries_names[c_id].title() for c_id in row.get('hlr_country_list', [])],
+            })
+        new_gateways_info = []
+        for gate in gateways_info:
+            coverage = set(gate['hlr_country_list'])
+            for diff in gateways_info:
+                if diff['id'] != gate['id']:
+                    coverage = coverage.difference(diff['hlr_country_list'])
+            gate['hlr_diff_country_list'] = list(coverage)
+            new_gateways_info.append(gate)
+        return new_gateways_info</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHJvd1snY2hhbmNlJ106Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7eyByYXRlIH19Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50IHcK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlmIGNsZWFuZWRfZGF0YSA8IDA6Cg==</text>
+        <text encoding="base64">ICAgIHcgPSBbe2s6dn0gZm9yIGssdiBpbiByYXRlc10K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHJvd1snY2hhbmNlJ106Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>else:
-            cleaned_data = 0</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PTAsCg==</text>
+        <text encoding="base64">ICAgICAgICBlbGlmIGNsZWFuZWRfZGF0YSA8IDA6Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>%s/gateways_diff_countries/diff_countries/g</text>
       </register>
     </registers>
     <search>
-      <last-search>ajax-pagination</last-search>
+      <last-search>gateways_diff_countries</last-search>
       <last-offset />
-      <last-pattern>ajax-pagination</last-pattern>
-      <last-replace>pagination ajax-pagination</last-replace>
-      <last-substitute>ajax-pagination</last-substitute>
+      <last-pattern>gateways_diff_countries</last-pattern>
+      <last-replace>diff_countries</last-replace>
+      <last-substitute>gateways_diff_countries</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>RdbJournal.get_logs(</entry>
-        <entry>dict_journal</entry>
-        <entry>: dict_journal</entry>
         <entry>urlencode(dict_journal)</entry>
         <entry>url_get_parser</entry>
         <entry>mccmnc</entry>
@@ -282,12 +307,11 @@
         <entry>,{.+}'dict_journal'</entry>
         <entry>,{.+}\'dict_journal\':</entry>
         <entry>ajax-pagination</entry>
+        <entry>new_gateways_info</entry>
+        <entry>rates_digg_exclude_countries</entry>
+        <entry>gateways_diff_countries</entry>
       </history-search>
       <history-cmd>
-        <entry>s/data/v/g</entry>
-        <entry>s/data/errors/g</entry>
-        <entry>%s/fail/isFail/gc</entry>
-        <entry>%s/journal_page/journal_pages/gc</entry>
         <entry>%s/page_journal/model_journal/gc</entry>
         <entry>%s/page_journal/dict_journal/gc</entry>
         <entry>%s/RdbJournal.get_logs(/dict(model=/gc</entry>
@@ -304,6 +328,10 @@
         <entry>%s/,{.+}\'dict_journal\'://g</entry>
         <entry>%s/ajax-pagination/pagination ajax-pagination/gc</entry>
         <entry>q</entry>
+        <entry>%s/new_gateways_info/gateways_diff_countries/gc</entry>
+        <entry>%s/gateways_diff_countries/rates_digg_exclude_countries/g</entry>
+        <entry>%s/rates_digg_exclude_countries/diff_exclude_countries</entry>
+        <entry>%s/gateways_diff_countries/diff_countries/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
