@@ -8,14 +8,15 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1507555463975">
+      <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507555504062">
-        <mark key="[" line="151" column="26" />
-        <mark key="]" line="152" column="21" />
-        <mark key="^" line="152" column="21" />
-        <mark key="." line="152" column="21" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507558055323">
+        <mark key="'" line="165" column="71" />
+        <mark key="[" line="168" column="24" />
+        <mark key="]" line="168" column="24" />
+        <mark key="." line="168" column="24" />
+        <mark key="^" line="164" column="58" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -81,12 +82,12 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507554960151">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507558289863">
         <mark key="[" line="93" column="34" />
         <mark key="]" line="93" column="34" />
         <mark key="." line="93" column="34" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507554316501">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507555889422">
         <mark key="[" line="649" column="15" />
         <mark key="]" line="649" column="28" />
         <mark key="." line="649" column="15" />
@@ -109,7 +110,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1814" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="1128" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="1123" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="732" column="33" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -209,13 +209,14 @@
       <jump line="151" column="30" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
       <jump line="158" column="39" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
       <jump line="643" column="30" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
+      <jump line="164" column="71" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXRlCg==</text>
+      <register name="&quot;" type="4">
+        <text>rate</text>
       </register>
       <register name="-" type="4">
-        <text>gateways_diff_countries</text>
+        <text>rate</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
@@ -224,31 +225,32 @@
         <text>gateways_info</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXRlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvZGRrbGRkZHRoZXIK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlmZl9yYXRlcyA9IFt7J2dhdGV3YXlfaWQnOiBhWydnYXRld2F5X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVdCg==</text>
+      <register name="2" type="4">
+        <text>print diff['gateway_id']
+                    print other['gateway_id']</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgcmF0ZQo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgIGRpZmZfcmF0ZXMgPSBbeydnYXRld2F5X2lkJzogYVsnZ2F0ZXdheV9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVzXQogICAgICAgIHByaW50IGRpZmZfcmF0ZXM=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCByYXRlCg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAgICAgIGRpZmZfcmF0ZXMgPSBbeydnYXRld2F5X2lkJzogYVsnZ2F0ZXdheV9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVzXQogICAgICAgIHByaW50IGRpZmZfcmF0ZXM=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZGlmZl9yYXRlcyA9IFt7J2dhdGV3YXlfaWQnOiBhWydnYXRld2F5X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgcmF0ZSBpbiByYXRlczoKICAgICAgICAgICAgY292ZXJhZ2UgPSBzZXQocmF0ZVsnY292ZXJhZ2VfbmFtZXMnXSkK</text>
+        <text encoding="base64">IAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgIGRpZmZfcmF0ZXMgPSBbeydnYXRld2F5X2lkJzogYVsnZ2F0ZXdheV9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVzXQogICAgICAgIHByaW50IGRpZmZfcmF0ZXM=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAnY292ZXJhZ2VfbmFtZXMnOiBhWydjb3ZlcmFnZV9uYW1lcyddfSBmb3IgYSBpbiByYXRlc10KICAgICAgICBwcmludCBkaWZmX3JhdGVz</text>
+        <text encoding="base64">ICAgICAgIGRpZmZfcmF0ZXMgPSBbeydnYXRld2F5X2lkJzogYVsnZ2F0ZXdheV9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVzXQogICAgICAgIHByaW50IGRpZmZfcmF0ZXM=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkaWZmX3JhdGVzID0gW3snZ2F0ZXdheV9pZCc6IGFbJ2dhdGV3YXlfaWQnXSwK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgcmF0ZSBpbiByYXRlczoKICAgICAgICAgICAgY292ZXJhZ2UgPSBzZXQocmF0ZVsnY292ZXJhZ2VfbmFtZXMnXSkK</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
