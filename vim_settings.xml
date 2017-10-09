@@ -11,12 +11,11 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507558055323">
-        <mark key="'" line="165" column="71" />
-        <mark key="[" line="168" column="24" />
-        <mark key="]" line="168" column="24" />
-        <mark key="." line="168" column="24" />
-        <mark key="^" line="164" column="58" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507560283116">
+        <mark key="'" line="163" column="71" />
+        <mark key="[" line="160" column="16" />
+        <mark key="]" line="135" column="0" />
+        <mark key="." line="135" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -82,7 +81,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507558289863">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507559465912">
         <mark key="[" line="93" column="34" />
         <mark key="]" line="93" column="34" />
         <mark key="." line="93" column="34" />
@@ -212,11 +211,11 @@
       <jump line="164" column="71" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>rate</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY1snZXhjbHVkZV9jb3VudHJ5X25hbWVzJ10gPSBzb3J0ZWQoW0NPVU5UUllfTkFNRVNbY19pZF0udGl0bGUoKSBmb3IgY19pZCBpbiBkb2NbJ2V4Y2x1ZGVfY291bnRyeV9saXN0J11dKQo=</text>
       </register>
       <register name="-" type="4">
-        <text>rate</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
@@ -225,32 +224,32 @@
         <text>gateways_info</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY1snZXhjbHVkZV9jb3VudHJ5X25hbWVzJ10gPSBzb3J0ZWQoW0NPVU5UUllfTkFNRVNbY19pZF0udGl0bGUoKSBmb3IgY19pZCBpbiBkb2NbJ2V4Y2x1ZGVfY291bnRyeV9saXN0J11dKQo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb3dbJ2V4Y2x1ZGVfY291bnRyeV9uYW1lcyddID0gc29ydGVkKFtDT1VOVFJZX05BTUVTW2NfaWRdLnRpdGxlKCkgZm9yIGNfaWQgaW4gcm93WydleGNsdWRlX2NvdW50cnlfbGlzdCddXSkK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBwcmlkZGRudCBsZW4oZGlmZl9jb3VudHJpZXMpCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpZGRkbnQgbGVuKGRpZmZfY291bnRyaWVzKQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvZGRrbGRkZHRoZXIK</text>
       </register>
-      <register name="2" type="4">
+      <register name="6" type="4">
         <text>print diff['gateway_id']
                     print other['gateway_id']</text>
       </register>
-      <register name="3" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgcmF0ZQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCByYXRlCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlmZl9yYXRlcyA9IFt7J2dhdGV3YXlfaWQnOiBhWydnYXRld2F5X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVdCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">IAo=</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgIGRpZmZfcmF0ZXMgPSBbeydnYXRld2F5X2lkJzogYVsnZ2F0ZXdheV9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVzXQogICAgICAgIHByaW50IGRpZmZfcmF0ZXM=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgIGRpZmZfcmF0ZXMgPSBbeydnYXRld2F5X2lkJzogYVsnZ2F0ZXdheV9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVzXQogICAgICAgIHByaW50IGRpZmZfcmF0ZXM=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgcmF0ZSBpbiByYXRlczoKICAgICAgICAgICAgY292ZXJhZ2UgPSBzZXQocmF0ZVsnY292ZXJhZ2VfbmFtZXMnXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGlmZl9yYXRlcyA9IFt7J2dhdGV3YXlfaWQnOiBhWydnYXRld2F5X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVdCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
