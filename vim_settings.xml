@@ -11,12 +11,11 @@
       <file name="/Python Console" timestamp="1507197047875">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507551892782">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507552518588">
         <mark key="'" line="151" column="39" />
-        <mark key="[" line="157" column="12" />
-        <mark key="]" line="157" column="15" />
-        <mark key="." line="157" column="15" />
-        <mark key="^" line="157" column="15" />
+        <mark key="[" line="156" column="56" />
+        <mark key="]" line="156" column="0" />
+        <mark key="." line="156" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -82,13 +81,15 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507550608565">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507552756745">
         <mark key="[" line="93" column="34" />
         <mark key="]" line="93" column="34" />
         <mark key="." line="93" column="34" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507551810517">
-        <mark key="'" line="643" column="30" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507552927510">
+        <mark key="[" line="649" column="15" />
+        <mark key="]" line="649" column="28" />
+        <mark key="." line="649" column="15" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings_dev.py" timestamp="1507215999276">
         <mark key="[" line="163" column="0" />
@@ -211,28 +212,47 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>gate</text>
+        <text>gateways_diff_countries</text>
       </register>
       <register name="-" type="4">
-        <text>gate</text>
+        <text>gateways_diff_countries</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
       </register>
       <register name="0" type="4">
-        <text>rate['exclude_country_names']</text>
+        <text>gateways_info</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBnYXRld2F5c19kaWZmX2NvdW50cmllcyA9IFtdCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZ2F0ZXdheXNfZGlmZl9jb3VudHJpZXMuYXBwZW5kKGdhdGUpCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="5" type="4">
+        <text>if 
+                if alternative['gateway_id'] != rate['gateway_id']:</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRkCg==</text>
+      </register>
+      <register name="7" type="4">
         <text>coverage = set(rate['hlr_country_list'])
             for diff in rate:
                 if diff['id'] != date['id']:
                     coverage = coverage.difference(diff['hlr_country_list'])
             gate['hlr_diff_country_list'] = list(coverage)</text>
       </register>
-      <register name="2" type="2">
+      <register name="8" type="2">
         <text encoding="base64">CiAgIGRkIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="9" type="4">
         <text>@classmethod
     def get_hlr_rates(cls):
         conn = rethinkdb.connect(db='bulkness').repl()
@@ -256,24 +276,6 @@
             gate['hlr_diff_country_list'] = list(coverage)
             new_gateways_info.append(gate)
         return new_gateways_info</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7eyByYXRlIH19Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50IHcK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHcgPSBbe2s6dn0gZm9yIGssdiBpbiByYXRlc10K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHJvd1snY2hhbmNlJ106Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlmIGNsZWFuZWRfZGF0YSA8IDA6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
