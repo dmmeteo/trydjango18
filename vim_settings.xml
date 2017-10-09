@@ -11,11 +11,12 @@
       <file name="/Python Console" timestamp="1507197047875">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507552518588">
-        <mark key="'" line="151" column="39" />
-        <mark key="[" line="156" column="56" />
-        <mark key="]" line="156" column="0" />
-        <mark key="." line="156" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507553756171">
+        <mark key="'" line="150" column="39" />
+        <mark key="[" line="152" column="77" />
+        <mark key="]" line="153" column="23" />
+        <mark key="." line="153" column="23" />
+        <mark key="^" line="153" column="23" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -211,8 +212,8 @@
       <jump line="643" column="30" filename="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>gateways_diff_countries</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciByYXRlWydhbHRlcm5hdGl2ZSddCg==</text>
       </register>
       <register name="-" type="4">
         <text>gateways_diff_countries</text>
@@ -224,58 +225,36 @@
         <text>gateways_info</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBnYXRld2F5c19kaWZmX2NvdW50cmllcyA9IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciByYXRlWydhbHRlcm5hdGl2ZSddCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ2F0ZXdheXNfZGlmZl9jb3VudHJpZXMuYXBwZW5kKGdhdGUpCg==</text>
+        <text encoding="base64">ICAgICAgICBnYXRld2F5c19kaWZmX2NvdW50cmllcyA9IFtdCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2F0ZXdheXNfZGlmZl9jb3VudHJpZXMuYXBwZW5kKGdhdGUpCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="6" type="4">
         <text>if 
                 if alternative['gateway_id'] != rate['gateway_id']:</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGRkCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>coverage = set(rate['hlr_country_list'])
             for diff in rate:
                 if diff['id'] != date['id']:
                     coverage = coverage.difference(diff['hlr_country_list'])
             gate['hlr_diff_country_list'] = list(coverage)</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">CiAgIGRkIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text>@classmethod
-    def get_hlr_rates(cls):
-        conn = rethinkdb.connect(db='bulkness').repl()
-        rows = rethinkdb.table('gateway_docs').filter({'is_hlr': True}).run(conn)
-        countries_names = RdbCountry.get_dict()
-    
-        gateways_info = []
-        for row in rows:
-            gateways_info.append({
-                'id': row['id'],
-                'name': row['name'],
-                'hlr_gw_price': row.get('hlr_gw_price'),
-                'hlr_country_list': [countries_names[c_id].title() for c_id in row.get('hlr_country_list', [])],
-            })
-        new_gateways_info = []
-        for gate in gateways_info:
-            coverage = set(gate['hlr_country_list'])
-            for diff in gateways_info:
-                if diff['id'] != gate['id']:
-                    coverage = coverage.difference(diff['hlr_country_list'])
-            gate['hlr_diff_country_list'] = list(coverage)
-            new_gateways_info.append(gate)
-        return new_gateways_info</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
