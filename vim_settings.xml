@@ -56,17 +56,11 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1507625256217">
+      <file name="/Dummy.txt" timestamp="1507626961864">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
         <mark key="^" line="0" column="29" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1507622170992">
-        <mark key="[" line="54" column="0" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
-        <mark key="^" line="50" column="50" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings.py" timestamp="1507215964909">
         <mark key="[" line="170" column="41" />
@@ -74,12 +68,12 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507624995947">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507626954269">
         <mark key="'" line="6632" column="10" />
-        <mark key="[" line="5681" column="0" />
-        <mark key="]" line="5681" column="77" />
+        <mark key="[" line="5671" column="49" />
+        <mark key="]" line="5671" column="49" />
         <mark key="^" line="5681" column="48" />
-        <mark key="." line="5681" column="0" />
+        <mark key="." line="5671" column="49" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
@@ -218,11 +212,11 @@
       <jump line="164" column="71" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCB0eXBlKHF1ZXJ5cwo=</text>
+      <register name="&quot;" type="4">
+        <text>e</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
