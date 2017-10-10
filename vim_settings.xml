@@ -3,15 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
-        <mark key="'" line="423" column="79" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1507618840155">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="27" />
-        <mark key="." line="0" column="27" />
-        <mark key="^" line="0" column="29" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507211737955">
         <mark key="[" line="88" column="32" />
         <mark key="]" line="6" column="0" />
@@ -39,16 +30,49 @@
         <mark key="^" line="52" column="45" />
         <mark key="." line="52" column="45" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
+        <mark key="[" line="19" column="47" />
+        <mark key="]" line="19" column="47" />
+        <mark key="." line="19" column="47" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/cbulk/action_info.html" timestamp="1507618891050" />
+      <file name="/Django Console" timestamp="1506683186794">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
+        <mark key="'" line="127" column="4" />
+        <mark key="[" line="144" column="8" />
+        <mark key="]" line="144" column="22" />
+        <mark key="." line="144" column="22" />
+        <mark key="^" line="144" column="22" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
+        <mark key="[" line="11" column="32" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507212138813">
+        <mark key="'" line="165" column="19" />
+        <mark key="[" line="165" column="19" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
+        <mark key="'" line="423" column="79" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1507620734665">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="27" />
+        <mark key="." line="0" column="27" />
+        <mark key="^" line="0" column="29" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1507621062921">
+        <mark key="[" line="50" column="50" />
+        <mark key="]" line="50" column="50" />
+        <mark key="." line="50" column="50" />
+        <mark key="^" line="50" column="50" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings.py" timestamp="1507215964909">
         <mark key="[" line="170" column="41" />
         <mark key="]" line="169" column="3" />
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
-        <mark key="[" line="19" column="47" />
-        <mark key="]" line="19" column="47" />
-        <mark key="." line="19" column="47" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507550730861">
         <mark key="'" line="6632" column="10" />
@@ -57,7 +81,6 @@
         <mark key="^" line="5838" column="12" />
         <mark key="." line="5838" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/cbulk/action_info.html" timestamp="1507618891050" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
@@ -71,16 +94,6 @@
         <mark key="]" line="93" column="34" />
         <mark key="." line="93" column="34" />
       </file>
-      <file name="/Django Console" timestamp="1506683186794">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
-        <mark key="'" line="127" column="4" />
-        <mark key="[" line="144" column="8" />
-        <mark key="]" line="144" column="22" />
-        <mark key="." line="144" column="22" />
-        <mark key="^" line="144" column="22" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507555889422">
         <mark key="[" line="649" column="15" />
         <mark key="]" line="649" column="28" />
@@ -92,21 +105,14 @@
         <mark key="." line="164" column="54" />
         <mark key="^" line="164" column="54" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
-        <mark key="[" line="11" column="32" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507212138813">
-        <mark key="'" line="165" column="19" />
-        <mark key="[" line="165" column="19" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1507541960803">
-        <mark key="[" line="1378" column="0" />
-        <mark key="]" line="1378" column="0" />
-        <mark key="^" line="1360" column="44" />
-        <mark key="." line="1378" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1507620872015">
+        <mark key="[" line="300" column="41" />
+        <mark key="]" line="300" column="41" />
+        <mark key="^" line="300" column="41" />
+        <mark key="." line="300" column="41" />
       </file>
     </filemarks>
     <jumps>
@@ -212,45 +218,44 @@
       <jump line="164" column="71" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>$(&quot;#filter_form&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>diff_countries = diff_countries</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIE5vbmU=</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
       </register>
       <register name="0" type="4">
-        <text>gateways_info</text>
+        <text>$(&quot;#filter_form&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY1snZXhjbHVkZV9jb3VudHJ5X25hbWVzJ10gPSBzb3J0ZWQoW0NPVU5UUllfTkFNRVNbY19pZF0udGl0bGUoKSBmb3IgY19pZCBpbiBkb2NbJ2V4Y2x1ZGVfY291bnRyeV9saXN0J11dKQo=</text>
+        <text encoding="base64">eyMgICAgICAgIDwvZGl2PiN9CnsjICAgIDwvZGl2PiN9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb3dbJ2V4Y2x1ZGVfY291bnRyeV9uYW1lcyddID0gc29ydGVkKFtDT1VOVFJZX05BTUVTW2NfaWRdLnRpdGxlKCkgZm9yIGNfaWQgaW4gcm93WydleGNsdWRlX2NvdW50cnlfbGlzdCddXSkK</text>
+        <text encoding="base64">eyMgICAgICAgIDwvZGl2PiN9CnsjICAgICAgICA8ZGl2IGNsYXNzPSJzcGFuNCI+I30K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmlkZGRudCBsZW4oZGlmZl9jb3VudHJpZXMpCg==</text>
+        <text encoding="base64">eyMgICAgPGRpdiBjbGFzcz0icm93Ij4jfQp7IyAgICAgICAgPGRpdiBjbGFzcz0ic3BhbjQiPiN9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpZGRkbnQgbGVuKGRpZmZfY291bnRyaWVzKQo=</text>
+        <text encoding="base64">eyMgICAgICAgICAgICAkKCIjaWRfc3RhdHVzLCAjaWRfY291bnRyeSIpLmNob3Nlbih7c2VhcmNoX2NvbnRhaW5zOiB0cnVlfSkuY2hhbmdlKGZ1bmN0aW9uKGUpeyN9CnsjICAgICAgICAgICAgICAgIGlmIChlLnRhcmdldC5pZCA9PSAnaWRfc3RhdHVzJyAmJiAkKCIjaWRfY291bnRyeSIpLnZhbCgpID09IDApIHsjfQp7IyAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOyN9CnsjICAgICAgICAgICAgICAgIH0gZWxzZSB7I30KeyMgICAgICAgICAgICAgICAgICAgICQoIiNmaWx0ZXJfZm9ybSIpLnN1Ym1pdCgpOyN9CnsjICAgICAgICAgICAgICAgIH0jfQp7IyAgICAgICAgICAgIH0pOyN9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvZGRrbGRkZHRoZXIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>print diff['gateway_id']
-                    print other['gateway_id']</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
