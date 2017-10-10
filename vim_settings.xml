@@ -3,6 +3,15 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
+        <mark key="'" line="423" column="79" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1507618840155">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="27" />
+        <mark key="." line="0" column="27" />
+        <mark key="^" line="0" column="29" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507211737955">
         <mark key="[" line="88" column="32" />
         <mark key="]" line="6" column="0" />
@@ -11,11 +20,12 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507560283116">
-        <mark key="'" line="163" column="71" />
-        <mark key="[" line="160" column="16" />
-        <mark key="]" line="135" column="0" />
-        <mark key="." line="135" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507618165684">
+        <mark key="'" line="166" column="71" />
+        <mark key="[" line="163" column="0" />
+        <mark key="]" line="163" column="38" />
+        <mark key="." line="163" column="38" />
+        <mark key="^" line="163" column="38" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -29,50 +39,25 @@
         <mark key="^" line="52" column="45" />
         <mark key="." line="52" column="45" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
-        <mark key="[" line="19" column="47" />
-        <mark key="]" line="19" column="47" />
-        <mark key="." line="19" column="47" />
-      </file>
-      <file name="/Django Console" timestamp="1506683186794">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
-        <mark key="'" line="127" column="4" />
-        <mark key="[" line="144" column="8" />
-        <mark key="]" line="144" column="22" />
-        <mark key="." line="144" column="22" />
-        <mark key="^" line="144" column="22" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
-        <mark key="[" line="11" column="32" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507212138813">
-        <mark key="'" line="165" column="19" />
-        <mark key="[" line="165" column="19" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507289979832">
-        <mark key="'" line="423" column="79" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1507550732299">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="27" />
-        <mark key="." line="0" column="27" />
-        <mark key="^" line="0" column="29" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings.py" timestamp="1507215964909">
         <mark key="[" line="170" column="41" />
         <mark key="]" line="169" column="3" />
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507550730861">
-        <mark key="'" line="6624" column="10" />
-        <mark key="[" line="5830" column="0" />
-        <mark key="]" line="5830" column="0" />
-        <mark key="^" line="5830" column="12" />
-        <mark key="." line="5830" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
+        <mark key="[" line="19" column="47" />
+        <mark key="]" line="19" column="47" />
+        <mark key="." line="19" column="47" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507550730861">
+        <mark key="'" line="6632" column="10" />
+        <mark key="[" line="5838" column="0" />
+        <mark key="]" line="5838" column="0" />
+        <mark key="^" line="5838" column="12" />
+        <mark key="." line="5838" column="0" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/cbulk/action_info.html" timestamp="1507618891050" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
@@ -86,6 +71,16 @@
         <mark key="]" line="93" column="34" />
         <mark key="." line="93" column="34" />
       </file>
+      <file name="/Django Console" timestamp="1506683186794">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
+        <mark key="'" line="127" column="4" />
+        <mark key="[" line="144" column="8" />
+        <mark key="]" line="144" column="22" />
+        <mark key="." line="144" column="22" />
+        <mark key="^" line="144" column="22" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507555889422">
         <mark key="[" line="649" column="15" />
         <mark key="]" line="649" column="28" />
@@ -97,10 +92,16 @@
         <mark key="." line="164" column="54" />
         <mark key="^" line="164" column="54" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
+        <mark key="[" line="11" column="32" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
-      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/forms/fields.py" timestamp="1507541458947" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507212138813">
+        <mark key="'" line="165" column="19" />
+        <mark key="[" line="165" column="19" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1507541960803">
         <mark key="[" line="1378" column="0" />
         <mark key="]" line="1378" column="0" />
@@ -212,10 +213,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY1snZXhjbHVkZV9jb3VudHJ5X25hbWVzJ10gPSBzb3J0ZWQoW0NPVU5UUllfTkFNRVNbY19pZF0udGl0bGUoKSBmb3IgY19pZCBpbiBkb2NbJ2V4Y2x1ZGVfY291bnRyeV9saXN0J11dKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>diff_countries = diff_countries</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
@@ -224,32 +225,32 @@
         <text>gateways_info</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY1snZXhjbHVkZV9jb3VudHJ5X25hbWVzJ10gPSBzb3J0ZWQoW0NPVU5UUllfTkFNRVNbY19pZF0udGl0bGUoKSBmb3IgY19pZCBpbiBkb2NbJ2V4Y2x1ZGVfY291bnRyeV9saXN0J11dKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb3dbJ2V4Y2x1ZGVfY291bnRyeV9uYW1lcyddID0gc29ydGVkKFtDT1VOVFJZX05BTUVTW2NfaWRdLnRpdGxlKCkgZm9yIGNfaWQgaW4gcm93WydleGNsdWRlX2NvdW50cnlfbGlzdCddXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmlkZGRudCBsZW4oZGlmZl9jb3VudHJpZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpZGRkbnQgbGVuKGRpZmZfY291bnRyaWVzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY1snZXhjbHVkZV9jb3VudHJ5X25hbWVzJ10gPSBzb3J0ZWQoW0NPVU5UUllfTkFNRVNbY19pZF0udGl0bGUoKSBmb3IgY19pZCBpbiBkb2NbJ2V4Y2x1ZGVfY291bnRyeV9saXN0J11dKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvZGRrbGRkZHRoZXIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb3dbJ2V4Y2x1ZGVfY291bnRyeV9uYW1lcyddID0gc29ydGVkKFtDT1VOVFJZX05BTUVTW2NfaWRdLnRpdGxlKCkgZm9yIGNfaWQgaW4gcm93WydleGNsdWRlX2NvdW50cnlfbGlzdCddXSkK</text>
       </register>
-      <register name="6" type="4">
-        <text>print diff['gateway_id']
-                    print other['gateway_id']</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBwcmlkZGRudCBsZW4oZGlmZl9jb3VudHJpZXMpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgcmF0ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpZGRkbnQgbGVuKGRpZmZfY291bnRyaWVzKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXRlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvZGRrbGRkZHRoZXIK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlmZl9yYXRlcyA9IFt7J2dhdGV3YXlfaWQnOiBhWydnYXRld2F5X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICdjb3ZlcmFnZV9uYW1lcyc6IGFbJ2NvdmVyYWdlX25hbWVzJ119IGZvciBhIGluIHJhdGVdCg==</text>
+      <register name="9" type="4">
+        <text>print diff['gateway_id']
+                    print other['gateway_id']</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
@@ -262,7 +263,7 @@
       <last-replace>diff_countries</last-replace>
       <last-substitute>gateways_diff_countries</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
