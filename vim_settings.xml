@@ -102,11 +102,11 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1507620872015">
-        <mark key="[" line="300" column="41" />
-        <mark key="]" line="300" column="41" />
-        <mark key="^" line="300" column="41" />
-        <mark key="." line="300" column="41" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1507725369070">
+        <mark key="[" line="321" column="63" />
+        <mark key="]" line="323" column="56" />
+        <mark key="^" line="323" column="56" />
+        <mark key="." line="323" column="56" />
       </file>
     </filemarks>
     <jumps>
@@ -288,7 +288,6 @@
         <entry>gateways_diff_countries</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/page_journal/model_journal/gc</entry>
         <entry>%s/page_journal/dict_journal/gc</entry>
         <entry>%s/RdbJournal.get_logs(/dict(model=/gc</entry>
         <entry>%s/: dict_journal/urlencode(dict_journal)/gc</entry>
@@ -308,6 +307,7 @@
         <entry>%s/gateways_diff_countries/rates_digg_exclude_countries/g</entry>
         <entry>%s/rates_digg_exclude_countries/diff_exclude_countries</entry>
         <entry>%s/gateways_diff_countries/diff_countries/g</entry>
+        <entry>undolist</entry>
       </history-cmd>
       <history-expr />
       <history-input />
