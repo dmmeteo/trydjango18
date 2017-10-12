@@ -70,12 +70,12 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507819666647">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507821957955">
         <mark key="'" line="5836" column="25" />
-        <mark key="[" line="5847" column="82" />
-        <mark key="]" line="5847" column="82" />
+        <mark key="[" line="5846" column="0" />
+        <mark key="]" line="5846" column="0" />
         <mark key="^" line="5847" column="82" />
-        <mark key="." line="5847" column="82" />
+        <mark key="." line="5846" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
@@ -218,8 +218,8 @@
       <jump line="5836" column="25" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>f</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByYXRlID0gCg==</text>
       </register>
       <register name="-" type="4">
         <text>f</text>
@@ -231,31 +231,32 @@
         <text>nbsp;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">amwgICAgICAgIHBhcnNlZF9jb2x1bW5zID0gWydjb3VudHJ5JywgJ01DQycsICdQcmljZSddCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByYXRlID0gCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">CiAgICBpZiByZXF1ZXN0LlBPU1RbJ3N1Ym1pdCddLnN0YXJ0c3dpdGgoJ2Nzdl8nKToKICAgICAgICByYXRlX2lkID0gcmVxdWVzdC5QT1NUWydzdWJtaXQnXS5zcGxpdCgnXycpWzFdCiAgICAgICAgcmVzcG9uc2UgPSBIdHRwUmVzcG9uc2UobWltZXR5cGU9J3RleHQvY3N2JykKICAgICAgICByZXNwb25zZVsnQ29udGVudC1EaXNwb3NpdGlvbiddID0gJ2F0dGFjaG1lbnQ7IGZpbGVuYW1lPXJhdGUuY3N2JwoKICAgICAgICB3cml0ZXIgPSBjc3Yud3JpdGVyKHJlc3BvbnNlLCBkaWFsZWN0PSdleGNlbCcsIGRlbGltaXRlcj0nLCcsIHF1b3RlY2hhcj0nIicsIHF1b3Rpbmc9Y3N2LlFVT1RFX01JTklNQUwpCiAgICAgICAgcGFyc2VkX2NvbHVtbnMgPSBbJ2NvdW50cnknLCAnbWNjJywgJ1ByaWNlJ10K</text>
+      <register name="2" type="4">
+        <text>dict((key, value) for key, value in rate.__dict__.iteritems()
+                                if not callable(value) and not key.startswith('__'))</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">amwgICAgICAgIHBhcnNlZF9jb2x1bW5zID0gWydjb3VudHJ5JywgJ01DQycsICdQcmljZSddCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGQK</text>
+        <text encoding="base64">CiAgICBpZiByZXF1ZXN0LlBPU1RbJ3N1Ym1pdCddLnN0YXJ0c3dpdGgoJ2Nzdl8nKToKICAgICAgICByYXRlX2lkID0gcmVxdWVzdC5QT1NUWydzdWJtaXQnXS5zcGxpdCgnXycpWzFdCiAgICAgICAgcmVzcG9uc2UgPSBIdHRwUmVzcG9uc2UobWltZXR5cGU9J3RleHQvY3N2JykKICAgICAgICByZXNwb25zZVsnQ29udGVudC1EaXNwb3NpdGlvbiddID0gJ2F0dGFjaG1lbnQ7IGZpbGVuYW1lPXJhdGUuY3N2JwoKICAgICAgICB3cml0ZXIgPSBjc3Yud3JpdGVyKHJlc3BvbnNlLCBkaWFsZWN0PSdleGNlbCcsIGRlbGltaXRlcj0nLCcsIHF1b3RlY2hhcj0nIicsIHF1b3Rpbmc9Y3N2LlFVT1RFX01JTklNQUwpCiAgICAgICAgcGFyc2VkX2NvbHVtbnMgPSBbJ2NvdW50cnknLCAnbWNjJywgJ1ByaWNlJ10K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxiciAvPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWFjdGlvbnMiPjwvZGkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxiciAvPgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9Imljb24tZmlsZSI+PC9pPiZuYnNwO3slIHRyYW5zICJEb3dubG9hZCBhamprcyBDU1YiICV9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJjaGVja2JveCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbGFiZWw+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWFjdGlvbnMiPjwvZGkK</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
