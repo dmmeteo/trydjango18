@@ -11,12 +11,12 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507793302653">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507800235701">
         <mark key="'" line="166" column="71" />
-        <mark key="[" line="164" column="42" />
-        <mark key="]" line="164" column="58" />
-        <mark key="." line="164" column="58" />
-        <mark key="^" line="164" column="58" />
+        <mark key="[" line="155" column="12" />
+        <mark key="]" line="155" column="16" />
+        <mark key="." line="155" column="16" />
+        <mark key="^" line="155" column="16" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -214,10 +214,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>(</text>
+        <text>general_coverage</text>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>general_coverage</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
