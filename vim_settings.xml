@@ -83,8 +83,8 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507806229796">
-        <mark key="[" line="109" column="27" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507808393608">
+        <mark key="[" line="93" column="23" />
         <mark key="]" line="109" column="72" />
         <mark key="." line="109" column="72" />
         <mark key="^" line="109" column="72" />
