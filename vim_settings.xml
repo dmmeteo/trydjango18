@@ -11,12 +11,12 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507649070457">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507792658556">
         <mark key="'" line="166" column="71" />
-        <mark key="[" line="266" column="0" />
-        <mark key="]" line="266" column="0" />
-        <mark key="." line="266" column="0" />
-        <mark key="^" line="242" column="19" />
+        <mark key="[" line="159" column="69" />
+        <mark key="]" line="159" column="42" />
+        <mark key="." line="159" column="42" />
+        <mark key="^" line="159" column="42" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -83,10 +83,11 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507559465912">
-        <mark key="[" line="93" column="34" />
-        <mark key="]" line="93" column="34" />
-        <mark key="." line="93" column="34" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507791726814">
+        <mark key="[" line="109" column="27" />
+        <mark key="]" line="109" column="72" />
+        <mark key="." line="109" column="72" />
+        <mark key="^" line="109" column="72" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507555889422">
         <mark key="[" line="649" column="15" />
@@ -212,44 +213,44 @@
       <jump line="164" column="71" filename="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9sPVRydWUsCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>p</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
       </register>
       <register name="0" type="4">
-        <text>$(&quot;#filter_form&quot;)</text>
+        <text>general_coverage</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9sPVRydWUsCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByYXRlcwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2Vsc2UnCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2lmJwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGhscl9kb2NzID0gUmRiSExSLmdldF9sYXN0X2J5X251bWJlcigpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt7ICB9fQogICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9sPVRydWUsCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG4gPSAxMDAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2Vsc2UnCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2lmJwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBUT0RPIHNlYXJjaCBieSBjb3VudHJ5X2lkIG9yIHN0YXTQvtC70LLQstC+0LvQvnVzCg==</text>
+        <text encoding="base64">ICAgIGhscl9kb2NzID0gUmRiSExSLmdldF9sYXN0X2J5X251bWJlcigpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCB0eXBlKHF1ZXJ5cwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
