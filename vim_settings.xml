@@ -11,12 +11,11 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507885293478">
-        <mark key="'" line="166" column="71" />
-        <mark key="[" line="155" column="12" />
-        <mark key="]" line="155" column="16" />
-        <mark key="." line="155" column="16" />
-        <mark key="^" line="155" column="16" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507887699398">
+        <mark key="'" line="167" column="71" />
+        <mark key="[" line="163" column="0" />
+        <mark key="]" line="163" column="0" />
+        <mark key="." line="163" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -67,12 +66,13 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507884901970">
-        <mark key="'" line="5836" column="25" />
-        <mark key="[" line="5845" column="38" />
-        <mark key="]" line="5847" column="0" />
-        <mark key="^" line="5848" column="82" />
-        <mark key="." line="5847" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507889743982">
+        <mark key="s" line="5847" column="57" />
+        <mark key="'" line="5838" column="25" />
+        <mark key="[" line="5826" column="31" />
+        <mark key="]" line="5826" column="29" />
+        <mark key="." line="5826" column="29" />
+        <mark key="^" line="5826" column="29" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
@@ -82,7 +82,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507818278783">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507887510927">
         <mark key="'" line="118" column="31" />
         <mark key="i" line="87" column="41" />
         <mark key="[" line="119" column="101" />
@@ -91,7 +91,7 @@
         <mark key="." line="120" column="0" />
         <mark key="^" line="121" column="37" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507885012682">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507888114627">
         <mark key="[" line="649" column="15" />
         <mark key="]" line="649" column="28" />
         <mark key="." line="649" column="15" />
@@ -215,45 +215,45 @@
       <jump line="5836" column="25" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByYXRlID0gCg==</text>
+      <register name="&quot;" type="4">
+        <text>country</text>
       </register>
       <register name="-" type="4">
-        <text>f</text>
+        <text>country</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
       </register>
       <register name="0" type="4">
-        <text>nbsp;</text>
+        <text>countries_name_dict[country]</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHJvdyBkZD0gW3JhdGUuZ2V0KGNvbCkuZW5jb2RlKCd1dGYtOCcpIGlmIGlzaW5zdGFuY2UocmF0ZS5nZXQoY29sKSwgKHN0ciwgdW5pY29kZSkpIGVsc2UgcmF0ZS5nZXQoY29sKSBmb3IgY29sIGluIGNvbHVtbnNdCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZGlmZlsndW5pcXVlX2NvdW50cnlfbGlzdCddID0gbGlzdChjb3ZlcmFnZSkK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByYXRlID0gCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>dict((key, value) for key, value in rate.__dict__.iteritems()
                                 if not callable(value) and not key.startswith('__'))</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">amwgICAgICAgIHBhcnNlZF9jb2x1bW5zID0gWydjb3VudHJ5JywgJ01DQycsICdQcmljZSddCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">CiAgICBpZiByZXF1ZXN0LlBPU1RbJ3N1Ym1pdCddLnN0YXJ0c3dpdGgoJ2Nzdl8nKToKICAgICAgICByYXRlX2lkID0gcmVxdWVzdC5QT1NUWydzdWJtaXQnXS5zcGxpdCgnXycpWzFdCiAgICAgICAgcmVzcG9uc2UgPSBIdHRwUmVzcG9uc2UobWltZXR5cGU9J3RleHQvY3N2JykKICAgICAgICByZXNwb25zZVsnQ29udGVudC1EaXNwb3NpdGlvbiddID0gJ2F0dGFjaG1lbnQ7IGZpbGVuYW1lPXJhdGUuY3N2JwoKICAgICAgICB3cml0ZXIgPSBjc3Yud3JpdGVyKHJlc3BvbnNlLCBkaWFsZWN0PSdleGNlbCcsIGRlbGltaXRlcj0nLCcsIHF1b3RlY2hhcj0nIicsIHF1b3Rpbmc9Y3N2LlFVT1RFX01JTklNQUwpCiAgICAgICAgcGFyc2VkX2NvbHVtbnMgPSBbJ2NvdW50cnknLCAnbWNjJywgJ1ByaWNlJ10K</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGQK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxiciAvPgo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWFjdGlvbnMiPjwvZGkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxiciAvPgo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
