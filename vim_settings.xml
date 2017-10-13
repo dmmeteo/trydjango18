@@ -82,14 +82,13 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507895205869">
-        <mark key="'" line="119" column="31" />
-        <mark key="i" line="87" column="41" />
-        <mark key="[" line="139" column="65" />
-        <mark key="]" line="139" column="65" />
-        <mark key="m" line="87" column="41" />
-        <mark key="." line="139" column="65" />
-        <mark key="^" line="123" column="58" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1507897515530">
+        <mark key="i" line="88" column="41" />
+        <mark key="[" line="129" column="28" />
+        <mark key="m" line="88" column="41" />
+        <mark key="]" line="166" column="0" />
+        <mark key="." line="166" column="0" />
+        <mark key="^" line="163" column="74" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507888114627">
         <mark key="[" line="649" column="15" />
@@ -215,8 +214,8 @@
       <jump line="5836" column="25" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>countrie</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGFsdGVyX3JhdGUuY2hhbmNlIH19JTwvdGQ+Cg==</text>
       </register>
       <register name="-" type="4">
         <text>countrie</text>
@@ -225,34 +224,34 @@
         <text>gateways_diff_countries</text>
       </register>
       <register name="0" type="4">
-        <text>.encode('utf-8')</text>
+        <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgamprZGQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGFsdGVyX3JhdGUuY2hhbmNlIH19JTwvdGQ+Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPiU8L3RkPgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGg+eyUgdHJhbnMgJ0NoYW5jZGRlJyAlfTwvdGg+Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHJvdyA9IFtyYXRlLmdldChjb2wpLmVuY29kZSgndXRmLTgnKSBpZiBpc2luc3RhbmNlKHJhdGUuZ2V0KGNvbCksIChzdHIsIHVuaWNvZGUpKSBlbHNlIHJhdGUuZ2V0KGNvbCkgZm9yIGNvbCBpbiBjb2x1bW5zXQo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt7IGFsdGVyX3JhdGUudW5pcXVlX2NvdW50cnlfbGlzdHxqb2luOiIsICIgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyAK</text>
+      <register name="6" type="4">
+        <text encoding="base64">PHRkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3sgcmF0ZS51bmlxdWVfY291bnRyeV9saXN0fGpvaW46IiwgIiB9fQogICAgICAgICAgICAgICAgICAgICAgICA8L3RkPg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgY291bnRyeQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgamprZGQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHJvdyBkZD0gW3JhdGUuZ2V0KGNvbCkuZW5jb2RlKCd1dGYtOCcpIGlmIGlzaW5zdGFuY2UocmF0ZS5nZXQoY29sKSwgKHN0ciwgdW5pY29kZSkpIGVsc2UgcmF0ZS5nZXQoY29sKSBmb3IgY29sIGluIGNvbHVtbnNdCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZGlmZlsndW5pcXVlX2NvdW50cnlfbGlzdCddID0gbGlzdChjb3ZlcmFnZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
