@@ -12,7 +12,7 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508153645080">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508167786411">
         <mark key="'" line="165" column="71" />
         <mark key="[" line="167" column="0" />
         <mark key="]" line="167" column="0" />
@@ -55,7 +55,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508141452021">
+      <file name="/Dummy.txt" timestamp="1508167503989">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -69,11 +69,12 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508149997502">
-        <mark key="[" line="482" column="31" />
-        <mark key="]" line="482" column="31" />
-        <mark key="." line="482" column="31" />
-        <mark key="^" line="483" column="31" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508167823795">
+        <mark key="'" line="5871" column="76" />
+        <mark key="[" line="5871" column="76" />
+        <mark key="]" line="5871" column="76" />
+        <mark key="." line="5871" column="76" />
+        <mark key="^" line="5871" column="76" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
@@ -83,13 +84,13 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508165153418">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508167259381">
         <mark key="i" line="88" column="41" />
-        <mark key="[" line="120" column="56" />
+        <mark key="[" line="172" column="0" />
         <mark key="m" line="88" column="41" />
-        <mark key="]" line="16" column="39" />
-        <mark key="." line="16" column="39" />
-        <mark key="^" line="16" column="39" />
+        <mark key="]" line="194" column="0" />
+        <mark key="." line="194" column="0" />
+        <mark key="^" line="100" column="30" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507888114627">
         <mark key="[" line="649" column="15" />
@@ -113,7 +114,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6611" column="31" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="559" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2233" column="24" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5828" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -213,13 +213,14 @@
       <jump line="118" column="31" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
       <jump line="5839" column="40" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5836" column="25" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="5871" column="76" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
@@ -228,31 +229,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICAgICAgPGhyPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGg+PC90aD4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJjaGVja2JveCBjb3ZlcmFnZS10b29sdGlwIiBkYXRhLW9yaWdpbmFsLXRpdGxlPSJUb2dnbGUgY291bnRyaWVzIG9mIHJhdGUuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgaWQ9InRvZ2dsZS1jb3ZlcmFnZS1jaGFja2JveCI+Q292ZXJhZ2UgY29sdW1uCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGg+PC90aD4KICAgICAgICAgICAgICAgICAgICA8dGg+PC90aD4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGhyPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGg+PC90aD7QvtC7CiAgICAgICAgICAgICAgICAgICAgPHRoPjwvdGg+Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgdHJhbnMgJ1VkZG5pcXVlIGNvdmVyYWdlJyAlfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGg+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICAgICAgPGhyPgo=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJjaGVja2JveCBjb3ZlcmFnZS10b29sdGlwIiBkYXRhLW9yaWdpbmFsLXRpdGxlPSJUb2dnbGUgY291bnRyaWVzIG9mIHJhdGUuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iY2hlY2tib3giIGlkPSJ0b2dnbGUtY292ZXJhZ2UtY2hhY2tib3giPkNvdmVyYWdlIGNvbHVtbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KCgogICAgICAgICAgICAgICAgICAgICAgICA8dGg+eyUgdHJhbnMgJ1VuaXF1ZSBjb3ZlcmFnZScgJX08L3RoPgogICAgICAgICAgICAgICAgICAgICAgICA8dGggY2xhc3M9InRvZ2dsZS1jb3ZlcmFnZSBoaWRkZW4iIGNsYXNzPSJjb3ZlcmFnZS10b29sdGlwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGF0YS1vcmlnaW5hbC10aXRsZT0iQWxsIGNvdW50cmllcyBvZiByYXRlLiI+eyUgdHJhbnMgJ0NvdmVyYWdlJyAlfTwvdGg+CgogICAgICAgICAgICAgICAgICAgICAgICA8L3RoPgogICAgICAgICAgICAgICAgICAgIDx0aD48L3RoPg==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJjaGVja2JveCBjb3ZlcmFnZS10b29sdGlwIiBkYXRhLW9yaWdpbmFsLXRpdGxlPSJUb2dnbGUgY291bnRyaWVzIG9mIHJhdGUuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgaWQ9InRvZ2dsZS1jb3ZlcmFnZS1jaGFja2JveCI+Q292ZXJhZ2UgY29sdW1uCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGhyPgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPC90aD4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgdHJhbnMgJ1VkZG5pcXVlIGNvdmVyYWdlJyAlfQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
