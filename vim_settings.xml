@@ -12,11 +12,12 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1507887699398">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508141730896">
         <mark key="'" line="167" column="71" />
-        <mark key="[" line="163" column="0" />
-        <mark key="]" line="163" column="0" />
-        <mark key="." line="163" column="0" />
+        <mark key="[" line="154" column="12" />
+        <mark key="]" line="154" column="12" />
+        <mark key="." line="154" column="12" />
+        <mark key="^" line="154" column="30" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -48,14 +49,14 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1507906194959">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1508141429666">
         <mark key="'" line="165" column="19" />
         <mark key="[" line="165" column="19" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1507906500909">
+      <file name="/Dummy.txt" timestamp="1508141452021">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -67,7 +68,7 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1507907833369">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508141322068">
         <mark key="[" line="482" column="31" />
         <mark key="]" line="482" column="31" />
         <mark key="." line="482" column="31" />
@@ -214,11 +215,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>,
-            &quot;model_journal&quot;: model_journal</text>
+        <text>diff_countries</text>
       </register>
       <register name="-" type="4">
-        <text>code</text>
+        <text>diff_countries</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
