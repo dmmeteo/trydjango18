@@ -12,11 +12,11 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508149938069">
-        <mark key="'" line="166" column="71" />
-        <mark key="[" line="157" column="0" />
-        <mark key="]" line="157" column="0" />
-        <mark key="." line="157" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508153645080">
+        <mark key="'" line="165" column="71" />
+        <mark key="[" line="167" column="0" />
+        <mark key="]" line="167" column="0" />
+        <mark key="." line="167" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -83,13 +83,13 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508150647053">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508155370655">
         <mark key="i" line="88" column="41" />
-        <mark key="[" line="217" column="24" />
+        <mark key="[" line="116" column="54" />
         <mark key="m" line="88" column="41" />
-        <mark key="]" line="217" column="24" />
-        <mark key="." line="217" column="24" />
-        <mark key="^" line="216" column="32" />
+        <mark key="]" line="120" column="23" />
+        <mark key="." line="120" column="23" />
+        <mark key="^" line="120" column="23" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507888114627">
         <mark key="[" line="649" column="15" />
@@ -216,10 +216,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>right</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>right</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
@@ -228,33 +228,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">0L7Qu9Cy0LJkZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="2" type="4">
-        <text>,
-            &quot;model_journal&quot;: model_journal</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICAgICAgPGhyPgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIG1vZGVsX2pvdXJuYWwgPSBkaWN0KG1vZGVsPSdSZGJHYXRld2F5JykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJjaGVja2JveCBjb3ZlcmFnZS10b29sdGlwIiBkYXRhLW9yaWdpbmFsLXRpdGxlPSJUb2dnbGUgY291bnRyaWVzIG9mIHJhdGUuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgaWQ9InRvZ2dsZS1jb3ZlcmFnZS1jaGFja2JveCI+Q292ZXJhZ2UgY29sdW1uCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG1vZGVsX2pvdXJuYWwgPSBkaWN0KG1vZGVsPSdSZGJHYXRld2F5JykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGhyPgo=</text>
       </register>
-      <register name="5" type="4">
-        <text>,
-            &quot;model_journal&quot;: model_journal</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeyUgdHJhbnMgJ1VkZG5pcXVlIGNvdmVyYWdlJyAlfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHBhZ2Vfam91cm5hbCA9IFJkYkpvdXJuYWwuZ2V0X2xvZ3MoJ1JkYlJhdGVzJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGg+Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHBhZ2Vfam91cm5hbCA9IFJkYkpvdXJuYWwuZ2V0X2xvZ3MoJ1JkYkdhdGV3YXknKQo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJjaGVja2JveCBjb3ZlcmFnZS10b29sdGlwIiBkYXRhLW9yaWdpbmFsLXRpdGxlPSJUb2dnbGUgY291bnRyaWVzIG9mIHJhdGUuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iY2hlY2tib3giIGlkPSJ0b2dnbGUtY292ZXJhZ2UtY2hhY2tib3giPkNvdmVyYWdlIGNvbHVtbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KCgogICAgICAgICAgICAgICAgICAgICAgICA8dGg+eyUgdHJhbnMgJ1VuaXF1ZSBjb3ZlcmFnZScgJX08L3RoPgogICAgICAgICAgICAgICAgICAgICAgICA8dGggY2xhc3M9InRvZ2dsZS1jb3ZlcmFnZSBoaWRkZW4iIGNsYXNzPSJjb3ZlcmFnZS10b29sdGlwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGF0YS1vcmlnaW5hbC10aXRsZT0iQWxsIGNvdW50cmllcyBvZiByYXRlLiI+eyUgdHJhbnMgJ0NvdmVyYWdlJyAlfTwvdGg+CgogICAgICAgICAgICAgICAgICAgICAgICA8L3RoPgogICAgICAgICAgICAgICAgICAgIDx0aD48L3RoPg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoPgo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICAgICMgZm9yIHJhdGUgaW4gcmF0ZXM6CiAgICAgICAgICAgICAgICAjICAgICBpZiByYXRlLmlkID09IHJhdGVfaWQ6CiAgICAgICAgICAgICAgICAjICAgICAgICAgZm9yIGNvdW50cnkgaW4gcmF0ZS5nZW5lcmFsX2NvdmVyYWdlOgogICAgICAgICAgICAgICAgIyAgICAgICAgICAgICByb3cgPSBbY291bnRyaWVzX25hbWVfZGljdFtjb3VudHJ5XS5lbmNvZGUoJ3V0Zi04JyksCiAgICAgICAgICAgICAgICAjICAgICAgICAgICAgICAgICAgICBjb3VudHJpZXNfbWNjX2RpY3RbY291bnRyeV0sCiAgICAgICAgICAgICAgICAjICAgICAgICAgICAgICAgICAgICByYXRlLnByaWNlXQogICAgICAgICAgICAgICAgIyAgICAgICAgICAgICB3cml0ZXIud3JpdGVyb3cocm93KQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPC90aD4K</text>
       </register>
       <register name=":" type="4">
         <text>%s/gateways_diff_countries/diff_countries/g</text>
