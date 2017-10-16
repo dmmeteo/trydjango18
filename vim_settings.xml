@@ -83,13 +83,13 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508155370655">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508165153418">
         <mark key="i" line="88" column="41" />
-        <mark key="[" line="116" column="54" />
+        <mark key="[" line="120" column="56" />
         <mark key="m" line="88" column="41" />
-        <mark key="]" line="120" column="23" />
-        <mark key="." line="120" column="23" />
-        <mark key="^" line="120" column="23" />
+        <mark key="]" line="16" column="39" />
+        <mark key="." line="16" column="39" />
+        <mark key="^" line="16" column="39" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507888114627">
         <mark key="[" line="649" column="15" />
