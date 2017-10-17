@@ -6,7 +6,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508245463207">
+      <file name="/Dummy.txt" timestamp="1508250664381">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -21,10 +21,10 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508244203604">
-        <mark key="[" line="232" column="60" />
-        <mark key="]" line="232" column="61" />
-        <mark key="." line="232" column="61" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508250639124">
+        <mark key="[" line="232" column="28" />
+        <mark key="]" line="232" column="28" />
+        <mark key="." line="232" column="28" />
         <mark key="^" line="232" column="61" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
@@ -214,10 +214,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>'</text>
+        <text>get_all</text>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>get_all</text>
       </register>
       <register name="/" type="4">
         <text>gateways_diff_countries</text>
