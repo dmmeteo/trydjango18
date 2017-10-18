@@ -6,7 +6,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508250664381">
+      <file name="/Dummy.txt" timestamp="1508320289327">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -64,16 +64,16 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508317759939">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508320149373">
         <mark key="'" line="256" column="46" />
         <mark key="i" line="88" column="41" />
-        <mark key="[" line="257" column="50" />
+        <mark key="[" line="255" column="73" />
         <mark key="m" line="88" column="41" />
-        <mark key="]" line="257" column="51" />
-        <mark key="." line="257" column="51" />
-        <mark key="^" line="257" column="49" />
+        <mark key="]" line="255" column="73" />
+        <mark key="." line="255" column="73" />
+        <mark key="^" line="120" column="38" />
       </file>
-      <file name="/Django Console" timestamp="1506683186794">
+      <file name="/Django Console" timestamp="1508320326735">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
@@ -215,10 +215,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>e</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
@@ -226,32 +226,32 @@
       <register name="0" type="4">
         <text>{{ alter_rate.chance }}</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJ0b2dnbGUtY29sIGhpZGRlbiI+PC90aD4K</text>
+      </register>
+      <register name="2" type="4">
         <text encoding="base64">CiAgICAgICAgLnNob3cgewogICAgICAgIH0=</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICA7Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFyIHVuaXF1ZUNvdmVyYWdlQ29sID0gKCcuJykK</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW2NvdW50cnlfaWQsICdVTkRFTElWJ10sCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGhscl9kb2NzID0gTm9uZQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeV9pZD1maWx0ZXJfZm9ybS5jbGVhbmVkX2RhdGFbJ2NvdW50cnknXSkKICAgIGVsc2U6Cg==</text>
+        <text encoding="base64">ICAgIGhscl9kb2NzID0gTm9uZQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
