@@ -50,7 +50,7 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508244021684">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508334708100">
         <mark key="[" line="5670" column="0" />
         <mark key="]" line="5670" column="0" />
         <mark key="." line="5670" column="0" />
@@ -264,7 +264,7 @@
       <last-replace>toggle-col</last-replace>
       <last-substitute>toggle-coverage</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
