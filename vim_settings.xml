@@ -64,13 +64,14 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508312973822">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508316666266">
+        <mark key="'" line="256" column="46" />
         <mark key="i" line="88" column="41" />
-        <mark key="[" line="257" column="16" />
+        <mark key="[" line="135" column="52" />
         <mark key="m" line="88" column="41" />
-        <mark key="]" line="257" column="17" />
-        <mark key="." line="257" column="17" />
-        <mark key="^" line="100" column="30" />
+        <mark key="]" line="135" column="74" />
+        <mark key="." line="135" column="74" />
+        <mark key="^" line="135" column="74" />
       </file>
       <file name="/Django Console" timestamp="1506683186794">
         <mark key="[" line="0" column="0" />
@@ -111,8 +112,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="559" column="19" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
-      <jump line="2233" column="24" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5828" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5835" column="13" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="57" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" />
@@ -211,65 +210,64 @@
       <jump line="5839" column="40" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5836" column="25" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="5871" column="76" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="260" column="20" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
+      <jump line="256" column="46" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>get_all</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>get_all</text>
+        <text>k</text>
       </register>
       <register name="/" type="4">
-        <text>gateways_diff_countries</text>
+        <text>toggle-coverage</text>
       </register>
       <register name="0" type="4">
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW2NvdW50cnlfaWQsICdVTkRFTElWJ10sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGhscl9kb2NzID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeV9pZD1maWx0ZXJfZm9ybS5jbGVhbmVkX2RhdGFbJ2NvdW50cnknXSkKICAgIGVsc2U6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFyIHVuaXF1ZUNvdmVyYWdlQ29sID0gKCcuJykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnbm90IG5vbmUnCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW2NvdW50cnlfaWQsICdVTkRFTElWJ10sCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBpZiBub3Qgc2VhcmNoX2Zvcm0uaXNfdmFsaWQoKSBhbmQgbm90IGZpbHRlcl9mb3JtLmlzX3ZhbGlkKCk6Cg==</text>
+        <text encoding="base64">ICAgIGhscl9kb2NzID0gTm9uZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgaGxyX2RvY3MgPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeV9pZD1maWx0ZXJfZm9ybS5jbGVhbmVkX2RhdGFbJ2NvdW50cnknXSkKICAgIGVsc2U6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICMgaGxyX2RvY3MgPSBOb25lCiAgICBobHJfZG9jcyA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnbm90IG5vbmUnCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICBpZiBub3Qgc2VhcmNoX2Zvcm0uaXNfdmFsaWQoKSBhbmQgbm90IGZpbHRlcl9mb3JtLmlzX3ZhbGlkKCk6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICMgaGxyX2RvY3MgPSBOb25lCg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/gateways_diff_countries/diff_countries/g</text>
+        <text>%s/toggle-coverage/toggle-col/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>gateways_diff_countries</last-search>
+      <last-search>toggle-coverage</last-search>
       <last-offset />
-      <last-pattern>gateways_diff_countries</last-pattern>
-      <last-replace>diff_countries</last-replace>
-      <last-substitute>gateways_diff_countries</last-substitute>
+      <last-pattern>toggle-coverage</last-pattern>
+      <last-replace>toggle-col</last-replace>
+      <last-substitute>toggle-coverage</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>urlencode(dict_journal)</entry>
-        <entry>url_get_parser</entry>
-        <entry>mccmnc</entry>
         <entry encoding="base64">c2VsZWN0LmZvcm0tY29udHJvbCArIA==</entry>
         <entry>th-form-search</entry>
         <entry>lambda</entry>
@@ -287,11 +285,11 @@
         <entry>new_gateways_info</entry>
         <entry>rates_digg_exclude_countries</entry>
         <entry>gateways_diff_countries</entry>
+        <entry>coverageCol</entry>
+        <entry>toggle-col</entry>
+        <entry>toggle-coverage</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/page_journal/dict_journal/gc</entry>
-        <entry>%s/RdbJournal.get_logs(/dict(model=/gc</entry>
-        <entry>%s/: dict_journal/urlencode(dict_journal)/gc</entry>
         <entry>%s/: dict_journal/: urlencode(dict_journal)/gc</entry>
         <entry>%s/urlencode(dict_journal)/dict_journal/gc</entry>
         <entry>%s/url_get_parser/url_parser/gc</entry>
@@ -309,6 +307,9 @@
         <entry>%s/rates_digg_exclude_countries/diff_exclude_countries</entry>
         <entry>%s/gateways_diff_countries/diff_countries/g</entry>
         <entry>undolist</entry>
+        <entry>%s/coverageCol/toggle-col/g</entry>
+        <entry>%s/toggle-col/toggleCol/g</entry>
+        <entry>%s/toggle-coverage/toggle-col/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
