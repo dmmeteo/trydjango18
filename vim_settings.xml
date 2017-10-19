@@ -6,7 +6,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508323896175">
+      <file name="/Dummy.txt" timestamp="1508405908459">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -21,11 +21,11 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508403216898">
-        <mark key="[" line="264" column="0" />
-        <mark key="]" line="264" column="8" />
-        <mark key="." line="264" column="8" />
-        <mark key="^" line="264" column="22" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508407477976">
+        <mark key="[" line="263" column="76" />
+        <mark key="]" line="263" column="76" />
+        <mark key="." line="263" column="76" />
+        <mark key="^" line="263" column="78" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -50,7 +50,7 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508394518684">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508405936650">
         <mark key="[" line="5670" column="0" />
         <mark key="]" line="5670" column="0" />
         <mark key="." line="5670" column="0" />
@@ -215,10 +215,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.</text>
+        <text>desc</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>desc</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
