@@ -18,14 +18,19 @@
         <mark key="." line="63" column="53" />
         <mark key="^" line="63" column="53" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1508417809357">
+        <mark key="[" line="47" column="76" />
+        <mark key="]" line="47" column="76" />
+        <mark key="." line="47" column="76" />
+      </file>
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508416232430">
-        <mark key="[" line="255" column="85" />
-        <mark key="]" line="255" column="65" />
-        <mark key="." line="255" column="65" />
-        <mark key="^" line="255" column="65" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508417770005">
+        <mark key="[" line="265" column="64" />
+        <mark key="]" line="266" column="17" />
+        <mark key="." line="266" column="17" />
+        <mark key="^" line="266" column="17" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -215,10 +220,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>maxval</text>
+        <text>0</text>
       </register>
       <register name="-" type="4">
-        <text>maxval</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
