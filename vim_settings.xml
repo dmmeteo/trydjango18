@@ -21,11 +21,11 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508401743858">
-        <mark key="[" line="261" column="11" />
-        <mark key="]" line="261" column="11" />
-        <mark key="." line="261" column="11" />
-        <mark key="^" line="261" column="21" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508403216898">
+        <mark key="[" line="264" column="0" />
+        <mark key="]" line="264" column="8" />
+        <mark key="." line="264" column="8" />
+        <mark key="^" line="264" column="22" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -215,7 +215,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHJvd3MgPSByb3dzLm9yZGVyX2J5KHJldGhpbmtkYi5kZXNjKCdkYXRlJykpIFwKICAgICAgICAgICAgICAgIC5saW1pdChsaW1pdCkgXAogICAgICAgICAgICAgICAgLnJ1bihjb25uKQ==</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
         <text>.</text>
