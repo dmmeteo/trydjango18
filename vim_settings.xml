@@ -6,7 +6,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508405908459">
+      <file name="/Dummy.txt" timestamp="1508418638246">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -26,10 +26,10 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508417770005">
-        <mark key="[" line="265" column="64" />
-        <mark key="]" line="266" column="17" />
-        <mark key="." line="266" column="17" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508419149439">
+        <mark key="[" line="266" column="0" />
+        <mark key="]" line="266" column="0" />
+        <mark key="." line="266" column="0" />
         <mark key="^" line="266" column="17" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
@@ -219,8 +219,8 @@
       <jump line="256" column="46" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>0</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
@@ -231,32 +231,32 @@
       <register name="0" type="4">
         <text>{{ alter_rate.chance }}</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
+      </register>
+      <register name="2" type="4">
         <text encoding="base64">IHJvd3MgPSByb3dzLm9yZGVyX2J5KHJldGhpbmtkYi5kZXNjKCdkYXRlJykpIFwKICAgICAgICAgICAgICAgIC5saW1pdChsaW1pdCkgXAogICAgICAgICAgICAgICAgLnJ1bihjb25uKQ==</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJ0b2dnbGUtY29sIGhpZGRlbiI+PC90aD4K</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CiAgICAgICAgLnNob3cgewogICAgICAgIH0=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICA7Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFyIHVuaXF1ZUNvdmVyYWdlQ29sID0gKCcuJykK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW2NvdW50cnlfaWQsICdVTkRFTElWJ10sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFyIHVuaXF1ZUNvdmVyYWdlQ29sID0gKCcuJykK</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
