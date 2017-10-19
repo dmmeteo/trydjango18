@@ -21,11 +21,11 @@
       <file name="/Python Console" timestamp="1507556218107">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508250639124">
-        <mark key="[" line="232" column="28" />
-        <mark key="]" line="232" column="28" />
-        <mark key="." line="232" column="28" />
-        <mark key="^" line="232" column="61" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508398953122">
+        <mark key="[" line="257" column="37" />
+        <mark key="]" line="257" column="54" />
+        <mark key="." line="257" column="54" />
+        <mark key="^" line="257" column="54" />
       </file>
       <file name="/fragment.py" timestamp="1507196588466">
         <mark key="[" line="0" column="0" />
@@ -215,10 +215,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>e</text>
+        <text>rethinkdb.maxval</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>rethinkdb.maxval</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
