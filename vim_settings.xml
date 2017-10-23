@@ -55,7 +55,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508761576450">
+      <file name="/Dummy.txt" timestamp="1508764469641">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -65,6 +65,9 @@
         <mark key="[" line="47" column="76" />
         <mark key="]" line="47" column="76" />
         <mark key="." line="47" column="76" />
+      </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/supervisor.conf.d/nadmozgi/03_balance_update.conf" timestamp="1508764445023">
+        <mark key="[" line="6" column="21" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/models.py" timestamp="1508761566076" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/common_tasks/__init__.py" timestamp="1508761866671" />
@@ -88,7 +91,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1507206665302">
         <mark key="[" line="158" column="79" />
       </file>
-      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508761962493" />
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508763121665" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508394519435">
         <mark key="'" line="256" column="46" />
         <mark key="i" line="88" column="41" />
