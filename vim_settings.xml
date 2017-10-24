@@ -24,11 +24,11 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/telegram.py" timestamp="1508834871141">
-        <mark key="[" line="51" column="46" />
-        <mark key="]" line="52" column="45" />
-        <mark key="^" line="52" column="45" />
-        <mark key="." line="52" column="45" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/telegram.py" timestamp="1508845545587">
+        <mark key="[" line="52" column="46" />
+        <mark key="]" line="20" column="15" />
+        <mark key="^" line="20" column="15" />
+        <mark key="." line="20" column="15" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
         <mark key="[" line="19" column="47" />
@@ -55,7 +55,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508826266304">
+      <file name="/Dummy.txt" timestamp="1508845621691">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -90,10 +90,11 @@
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508843487113">
-        <mark key="[" line="504" column="0" />
-        <mark key="]" line="504" column="0" />
-        <mark key="." line="504" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508846178850">
+        <mark key="[" line="300" column="42" />
+        <mark key="]" line="300" column="22" />
+        <mark key="." line="300" column="22" />
+        <mark key="^" line="300" column="22" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508763121665" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508394519435">
@@ -229,11 +230,11 @@
       <jump line="256" column="46" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+      <register name="&quot;" type="4">
+        <text>s</text>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
@@ -242,31 +243,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2luc3RhbmNlOiAnLCBzdGF0cwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cywgc3RhdHMgPT0gRmFsc2UK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">IHJvd3MgPSByb3dzLm9yZGVyX2J5KHJldGhpbmtkYi5kZXNjKCdkYXRlJykpIFwKICAgICAgICAgICAgICAgIC5saW1pdChsaW1pdCkgXAogICAgICAgICAgICAgICAgLnJ1bihjb25uKQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJ0b2dnbGUtY29sIGhpZGRlbiI+PC90aD4K</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">CiAgICAgICAgLnNob3cgewogICAgICAgIH0=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICA7Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">IHJvd3MgPSByb3dzLm9yZGVyX2J5KHJldGhpbmtkYi5kZXNjKCdkYXRlJykpIFwKICAgICAgICAgICAgICAgIC5saW1pdChsaW1pdCkgXAogICAgICAgICAgICAgICAgLnJ1bihjb25uKQ==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJ0b2dnbGUtY29sIGhpZGRlbiI+PC90aD4K</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
