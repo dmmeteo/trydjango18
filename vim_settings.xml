@@ -24,7 +24,7 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/telegram.py" timestamp="1507536587775">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/telegram.py" timestamp="1508834871141">
         <mark key="[" line="51" column="46" />
         <mark key="]" line="52" column="45" />
         <mark key="^" line="52" column="45" />
@@ -72,7 +72,6 @@
         <mark key="^" line="13" column="15" />
         <mark key="." line="13" column="15" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/models.py" timestamp="1508761566076" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/common_tasks/__init__.py" timestamp="1508761866671" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings.py" timestamp="1507215964909">
         <mark key="[" line="170" column="41" />
@@ -91,7 +90,7 @@
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508828637236">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508834758113">
         <mark key="[" line="158" column="79" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508763121665" />
