@@ -90,11 +90,10 @@
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508841035582">
-        <mark key="[" line="504" column="34" />
-        <mark key="]" line="504" column="34" />
-        <mark key="^" line="504" column="38" />
-        <mark key="." line="504" column="34" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508841555187">
+        <mark key="[" line="504" column="0" />
+        <mark key="]" line="504" column="0" />
+        <mark key="." line="504" column="0" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508763121665" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508394519435">
@@ -230,8 +229,8 @@
       <jump line="256" column="46" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
       </register>
       <register name="-" type="4">
         <text>]</text>
@@ -243,31 +242,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">IHJvd3MgPSByb3dzLm9yZGVyX2J5KHJldGhpbmtkYi5kZXNjKCdkYXRlJykpIFwKICAgICAgICAgICAgICAgIC5saW1pdChsaW1pdCkgXAogICAgICAgICAgICAgICAgLnJ1bihjb25uKQ==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJ0b2dnbGUtY29sIGhpZGRlbiI+PC90aD4K</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CiAgICAgICAgLnNob3cgewogICAgICAgIH0=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICA7Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFyIHVuaXF1ZUNvdmVyYWdlQ29sID0gKCcuJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
