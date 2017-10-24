@@ -79,7 +79,7 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508405936650">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508838862974">
         <mark key="[" line="5670" column="0" />
         <mark key="]" line="5670" column="0" />
         <mark key="." line="5670" column="0" />
@@ -90,8 +90,11 @@
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508834758113">
-        <mark key="[" line="158" column="79" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508839388477">
+        <mark key="[" line="503" column="45" />
+        <mark key="]" line="504" column="18" />
+        <mark key="^" line="504" column="18" />
+        <mark key="." line="504" column="18" />
       </file>
       <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508763121665" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" timestamp="1508394519435">
