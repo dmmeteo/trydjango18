@@ -24,16 +24,12 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/update_negative_routes.py" timestamp="1508938655793" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/telegram.py" timestamp="1508845545587">
         <mark key="[" line="52" column="46" />
         <mark key="]" line="20" column="15" />
         <mark key="^" line="20" column="15" />
         <mark key="." line="20" column="15" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/navigation.html" timestamp="1507041293700">
-        <mark key="[" line="19" column="47" />
-        <mark key="]" line="19" column="47" />
-        <mark key="." line="19" column="47" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/routes.html" timestamp="1508936474597">
         <mark key="[" line="25" column="0" />
@@ -43,13 +39,6 @@
       </file>
       <file name="/Django Console" timestamp="1508760833809">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/journal/ajax_object_logs.html" timestamp="1507294004494">
-        <mark key="'" line="127" column="4" />
-        <mark key="[" line="144" column="8" />
-        <mark key="]" line="144" column="22" />
-        <mark key="." line="144" column="22" />
-        <mark key="^" line="144" column="22" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
@@ -61,7 +50,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508936760925">
+      <file name="/Dummy.txt" timestamp="1508938569503">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -91,11 +80,6 @@
         <mark key="." line="5670" column="0" />
         <mark key="^" line="5685" column="26" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="59" column="0" />
-        <mark key="." line="59" column="0" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508852174859">
         <mark key="[" line="300" column="42" />
         <mark key="]" line="300" column="22" />
@@ -112,7 +96,7 @@
         <mark key="." line="255" column="73" />
         <mark key="^" line="120" column="38" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1507888114627">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1508938652309">
         <mark key="[" line="649" column="15" />
         <mark key="]" line="649" column="28" />
         <mark key="." line="649" column="15" />
