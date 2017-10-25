@@ -35,7 +35,12 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/routes.html" timestamp="1508852945990" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/routes.html" timestamp="1508936474597">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
+        <mark key="^" line="125" column="22" />
+      </file>
       <file name="/Django Console" timestamp="1508760833809">
         <mark key="[" line="0" column="0" />
       </file>
@@ -56,7 +61,7 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
         <mark key="'" line="423" column="79" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508852710204">
+      <file name="/Dummy.txt" timestamp="1508936760925">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -231,11 +236,11 @@
       <jump line="256" column="46" filename="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/rates_list.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>s</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>hui</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
@@ -244,31 +249,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2luc3RhbmNlOiAnLCBzdGF0cwo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cywgc3RhdHMgPT0gRmFsc2UK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dHI+Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICQod2luZG93KS5vbignYmVmb3JldW5sb2FkJywgZnVuY3Rpb24oZSkgewogICAgICAgICAgICAgICAgaWYgKGNoZWNrX2Nsb3NlKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coZSk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICfQoyDQktCw0YEg0LXRgdGC0Ywg0LjQt9C80LXQvdC10L3QvdGL0LUg0YLQsNGA0LjRhNGLINC90LAg0L7RgtC/0YDQsNCy0LrRgyDQutC70LjQtdC90YLRgyEnOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2hlY2tfY2xvc2UgPSB0cnVlOwogICAgICAgICAgICB9KTs=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2luc3RhbmNlOiAnLCBzdGF0cwo=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cwo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cywgc3RhdHMgPT0gRmFsc2UK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByb3dzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IHJvd3MgPSByb3dzLm9yZGVyX2J5KHJldGhpbmtkYi5kZXNjKCdkYXRlJykpIFwKICAgICAgICAgICAgICAgIC5saW1pdChsaW1pdCkgXAogICAgICAgICAgICAgICAgLnJ1bihjb25uKQ==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzPSJ0b2dnbGUtY29sIGhpZGRlbiI+PC90aD4K</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
