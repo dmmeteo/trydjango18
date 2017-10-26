@@ -9,7 +9,7 @@
         <mark key="." line="63" column="53" />
         <mark key="^" line="63" column="53" />
       </file>
-      <file name="/Python Console" timestamp="1507556218107">
+      <file name="/Python Console" timestamp="1509011657165">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/hlr/models.py" timestamp="1508419149439">
@@ -18,7 +18,7 @@
         <mark key="." line="266" column="0" />
         <mark key="^" line="266" column="17" />
       </file>
-      <file name="/fragment.py" timestamp="1507196588466">
+      <file name="/fragment.py" timestamp="1509011120483">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
@@ -40,17 +40,15 @@
       <file name="/Django Console" timestamp="1508760833809">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route_alternative.html" timestamp="1509010687051" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1508141429666">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/urls.py" timestamp="1509010388637">
         <mark key="'" line="166" column="19" />
         <mark key="[" line="166" column="19" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/templatetags/filters.py" timestamp="1507618923349">
-        <mark key="'" line="423" column="79" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1508938569503">
+      <file name="/Dummy.txt" timestamp="1509010356448">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
@@ -74,11 +72,11 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1508852664212">
-        <mark key="[" line="5670" column="0" />
-        <mark key="]" line="5670" column="0" />
-        <mark key="." line="5670" column="0" />
-        <mark key="^" line="5685" column="26" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1509011760047">
+        <mark key="[" line="2172" column="0" />
+        <mark key="]" line="2172" column="0" />
+        <mark key="." line="2172" column="0" />
+        <mark key="^" line="2172" column="20" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/monitoring.py" timestamp="1508852174859">
         <mark key="[" line="300" column="42" />
@@ -110,11 +108,11 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1508243331551">
-        <mark key="[" line="267" column="38" />
-        <mark key="]" line="267" column="38" />
-        <mark key="^" line="323" column="56" />
-        <mark key="." line="267" column="38" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1509011631715">
+        <mark key="[" line="518" column="70" />
+        <mark key="]" line="519" column="19" />
+        <mark key="^" line="519" column="19" />
+        <mark key="." line="519" column="19" />
       </file>
     </filemarks>
     <jumps>
@@ -221,7 +219,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGdhdGV3YXlzX2xpc3QgPSBbXQogICAgIyBnYXRld2F5c19saXN0ID0gUmRiR2F0ZXdheS5nZXRfbGlzdCgpCg==</text>
       </register>
       <register name="-" type="4">
         <text>hui</text>
@@ -233,31 +231,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGdhdGV3YXlzX2xpc3QgPSBbXQogICAgIyBnYXRld2F5c19saXN0ID0gUmRiR2F0ZXdheS5nZXRfbGlzdCgpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dHI+Cg==</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICQod2luZG93KS5vbignYmVmb3JldW5sb2FkJywgZnVuY3Rpb24oZSkgewogICAgICAgICAgICAgICAgaWYgKGNoZWNrX2Nsb3NlKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coZSk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICfQoyDQktCw0YEg0LXRgdGC0Ywg0LjQt9C80LXQvdC10L3QvdGL0LUg0YLQsNGA0LjRhNGLINC90LAg0L7RgtC/0YDQsNCy0LrRgyDQutC70LjQtdC90YLRgyEnOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2hlY2tfY2xvc2UgPSB0cnVlOwogICAgICAgICAgICB9KTs=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2luc3RhbmNlOiAnLCBzdGF0cwo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cywgc3RhdHMgPT0gRmFsc2UK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dHI+Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICQod2luZG93KS5vbignYmVmb3JldW5sb2FkJywgZnVuY3Rpb24oZSkgewogICAgICAgICAgICAgICAgaWYgKGNoZWNrX2Nsb3NlKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coZSk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICfQoyDQktCw0YEg0LXRgdGC0Ywg0LjQt9C80LXQvdC10L3QvdGL0LUg0YLQsNGA0LjRhNGLINC90LAg0L7RgtC/0YDQsNCy0LrRgyDQutC70LjQtdC90YLRgyEnOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2hlY2tfY2xvc2UgPSB0cnVlOwogICAgICAgICAgICB9KTs=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ2luc3RhbmNlOiAnLCBzdGF0cwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cywgc3RhdHMgPT0gRmFsc2UK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgc2VsZi5tb25pdG9yaW5nX2FyZ3MK</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLm1vbml0b3JpbmdfYXJncwo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzdGF0cwo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
