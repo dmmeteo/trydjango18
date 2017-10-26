@@ -109,11 +109,11 @@
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/middleware.py" timestamp="1507107399909">
         <mark key="[" line="8" column="37" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1509028420927">
-        <mark key="[" line="519" column="0" />
-        <mark key="]" line="519" column="0" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/forms.py" timestamp="1509029506300">
+        <mark key="[" line="509" column="53" />
+        <mark key="]" line="509" column="53" />
         <mark key="^" line="509" column="54" />
-        <mark key="." line="519" column="0" />
+        <mark key="." line="509" column="53" />
       </file>
     </filemarks>
     <jumps>
@@ -220,10 +220,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>]</text>
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
