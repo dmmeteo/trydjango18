@@ -78,11 +78,11 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1509104343679">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1509105619059">
         <mark key="'" line="2173" column="69" />
-        <mark key="[" line="2216" column="4" />
-        <mark key="]" line="2216" column="26" />
-        <mark key="." line="2216" column="26" />
+        <mark key="[" line="2216" column="15" />
+        <mark key="]" line="2216" column="15" />
+        <mark key="." line="2216" column="15" />
         <mark key="^" line="2216" column="26" />
       </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
@@ -222,10 +222,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ro</text>
+        <text>]</text>
       </register>
       <register name="-" type="4">
-        <text>ro</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
