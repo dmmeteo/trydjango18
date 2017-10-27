@@ -60,11 +60,6 @@
         <mark key="." line="0" column="27" />
         <mark key="^" line="0" column="29" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/hlr/last_requests.html" timestamp="1508417809357">
-        <mark key="[" line="47" column="76" />
-        <mark key="]" line="47" column="76" />
-        <mark key="." line="47" column="76" />
-      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/supervisor.conf.d/nadmozgi/03_balance_update.conf" timestamp="1508789003313">
         <mark key="[" line="13" column="16" />
         <mark key="]" line="13" column="15" />
@@ -78,13 +73,14 @@
         <mark key="^" line="169" column="3" />
         <mark key="." line="169" column="3" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1509109851055">
-        <mark key="'" line="2173" column="69" />
-        <mark key="[" line="2186" column="22" />
-        <mark key="]" line="2186" column="55" />
-        <mark key="." line="2186" column="55" />
-        <mark key="^" line="2186" column="55" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" timestamp="1509112893235">
+        <mark key="'" line="2207" column="0" />
+        <mark key="[" line="2183" column="0" />
+        <mark key="]" line="2183" column="0" />
+        <mark key="." line="2183" column="0" />
+        <mark key="^" line="2216" column="0" />
       </file>
+      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/contrib/messages/api.py" timestamp="1509111846255" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
@@ -119,7 +115,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6609" column="36" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="564" column="35" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="6610" column="13" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="6602" column="9" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
@@ -219,13 +214,14 @@
       <jump line="2176" column="69" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2170" column="4" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
       <jump line="2173" column="69" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
+      <jump line="2207" column="0" filename="$USER_HOME$/PCProjects/bulkness/smppstat/directors/views.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>res</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBmb3Jtc2V0LmlzX3ZhbGlkKCkK</text>
       </register>
       <register name="-" type="4">
-        <text>res</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
@@ -234,31 +230,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IHJlcwo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmb3Jtc2V0LmlzX3ZhbGlkKCkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50IHJvdXRlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICd5YSB6YXNoZWwnCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IGZvcm0uaXNfdmFsaWQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxpZiBlcnJvcnM6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGdhdGV3YXlzX2xpc3QgPSBSZGJHYXRld2F5LmdldF9saXN0KGV4Y2x1ZGU9W3JvdXRlWydnYXRld2F5X2lkJ11kXSkgICMgVE9ETyBtZXRob2Qgd2hpY2ggY2hlY2sgZ2F0ZXdheSBhbmQgY291bnRyeSBmcm9tIHJlcXVlc3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBlcnJvciBpbiBlcnJvcnM6CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZXMuYWRkX21lc3NhZ2UocmVxdWVzdCwgbWVzc2FnZXMuRVJST1IsIGVycm9yKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1lc3NhZ2VzLmVycm9yKHJlcXVlc3QsICkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGdhdGV3YXlzID0gUmRiR2F0ZXdheS5nZXRfbGlzdCgpCiAgICAgICAgIyBzZWxmLmZpZWxkc1snZ2F0ZXdheV9pZCddLmNob2ljZXMgPSBbKCcnLCAnLS0tJyldICsgZ2F0ZXdheXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZXJWcm9ycwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgbmV3X2FsdGVybmF0aXZlX3JvdXRlcyAhPSByb3V0ZS5nZXQoJ2FsdGVybmF0aXZlJykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmb3JtLmZpZWxkc1snZ2F0ZXdheV9pZCddLmNob2ljZXMgPSBbKCcnLCAnLS0tJyldICsgZ2F0ZXdheXNfbGlzdAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IGZvcm0uaXNfdmFsaWQoKSwgZm9ybS5jbGVhbmVkX2RhdGEK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGZvciBmb3JtIGluIGZvcm1zZXQuZm9ybXM6Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
