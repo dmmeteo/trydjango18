@@ -46,7 +46,12 @@
       <file name="/Django Console" timestamp="1508760833809">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route_alternative.html" timestamp="1509114979553" />
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route_alternative.html" timestamp="1509117429699">
+        <mark key="[" line="19" column="45" />
+        <mark key="]" line="18" column="41" />
+        <mark key="." line="18" column="41" />
+        <mark key="^" line="18" column="41" />
+      </file>
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/media/javascripts/gwrate_helper.js" timestamp="1506592653693">
         <mark key="[" line="11" column="32" />
       </file>
@@ -218,10 +223,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBmb3Jtc2V0LmlzX3ZhbGlkKCkK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhNYXRoLmZsb29yKChNYXRoLnJhbmRvbSgpICogMTApICsgMSkpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text>toggle-coverage</text>
@@ -230,31 +235,31 @@
         <text>{{ alter_rate.chance }}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBmb3Jtc2V0LmlzX3ZhbGlkKCkK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhNYXRoLmZsb29yKChNYXRoLnJhbmRvbSgpICogMTApICsgMSkpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICd5YSB6YXNoZWwnCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxpZiBlcnJvcnM6Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmb3Jtc2V0LmlzX3ZhbGlkKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBlcnJvciBpbiBlcnJvcnM6CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZXMuYWRkX21lc3NhZ2UocmVxdWVzdCwgbWVzc2FnZXMuRVJST1IsIGVycm9yKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICd5YSB6YXNoZWwnCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG1lc3NhZ2VzLmVycm9yKHJlcXVlc3QsICkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxpZiBlcnJvcnM6Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZXJWcm9ycwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBlcnJvciBpbiBlcnJvcnM6CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZXMuYWRkX21lc3NhZ2UocmVxdWVzdCwgbWVzc2FnZXMuRVJST1IsIGVycm9yKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgbmV3X2FsdGVybmF0aXZlX3JvdXRlcyAhPSByb3V0ZS5nZXQoJ2FsdGVybmF0aXZlJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1lc3NhZ2VzLmVycm9yKHJlcXVlc3QsICkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IGZvcm0uaXNfdmFsaWQoKSwgZm9ybS5jbGVhbmVkX2RhdGEK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgZXJWcm9ycwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgbmV3X2FsdGVybmF0aXZlX3JvdXRlcyAhPSByb3V0ZS5nZXQoJ2FsdGVybmF0aXZlJykK</text>
       </register>
       <register name=":" type="4">
         <text>%s/toggle-coverage/toggle-col/gc</text>
