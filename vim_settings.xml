@@ -3,7 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/forms/formsets.py" timestamp="1509094591233" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/users/contextprocessor.py" timestamp="1507906176787">
         <mark key="[" line="61" column="58" />
         <mark key="]" line="63" column="53" />
@@ -25,7 +24,6 @@
       <file name="$USER_HOME$/PCProjects/hg/smppstat/settings_dev.py" timestamp="1504602705955">
         <mark key="[" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/management/commands/update_negative_routes.py" timestamp="1508938655793" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/utils/telegram.py" timestamp="1508845545587">
         <mark key="[" line="52" column="46" />
         <mark key="]" line="20" column="15" />
@@ -46,7 +44,7 @@
       <file name="/Django Console" timestamp="1508760833809">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route_alternative.html" timestamp="1509117429699">
+      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/directors/edit_route_alternative.html" timestamp="1509365752253">
         <mark key="[" line="19" column="45" />
         <mark key="]" line="18" column="41" />
         <mark key="." line="18" column="41" />
@@ -71,7 +69,6 @@
         <mark key="^" line="13" column="15" />
         <mark key="." line="13" column="15" />
       </file>
-      <file name="$USER_HOME$/PCProjects/bulkness/smppstat/common_tasks/__init__.py" timestamp="1508761866671" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/settings.py" timestamp="1507215964909">
         <mark key="[" line="170" column="41" />
         <mark key="]" line="169" column="3" />
@@ -85,7 +82,6 @@
         <mark key="." line="2183" column="0" />
         <mark key="^" line="2216" column="0" />
       </file>
-      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/django/contrib/messages/api.py" timestamp="1509111846255" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/templates/root.html" timestamp="1507214111306">
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
@@ -97,7 +93,6 @@
         <mark key="." line="300" column="22" />
         <mark key="^" line="300" column="22" />
       </file>
-      <file name="$USER_HOME$/.virtualenvs/bulkness/lib/python2.7/site-packages/celery/task/__init__.py" timestamp="1508763121665" />
       <file name="$USER_HOME$/PCProjects/bulkness/smppstat/routing/models.py" timestamp="1509103754329">
         <mark key="[" line="419" column="76" />
         <mark key="]" line="419" column="74" />
@@ -272,7 +267,7 @@
       <last-replace>toggle-col</last-replace>
       <last-substitute>toggle-coverage</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
