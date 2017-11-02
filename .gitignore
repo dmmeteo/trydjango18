@@ -9,7 +9,6 @@ bower_components/
 
 # JetBrains IDEs
 .idea/
-*.xml
 
 # Log files
 *.log
